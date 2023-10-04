@@ -1563,7 +1563,7 @@
           <ul>
             <li>
               <a
-                href="#"
+                href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
                 target="_blank"
                 ><img
                   src="<?php echo base_url().'theme/depan/assets/img/floatmenu/lapor-float.png'?>"
@@ -1574,24 +1574,24 @@
             <li>
               <a href="tel:119" rel="nofollow" target="_blank"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/2.png'?>" alt="img" /><span
-                  >119</span
+                  >PSC 119</span
                 ></a
               >
             </li>
             <li>
-              <a href="#"
+              <a href="https://cctv.pematangsiantar.go.id/"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/3.png'?>" alt="img" /><span
                   >CCTV</span
                 ></a
               >
             </li>
-            <li>
+            <!-- <li>
               <a href="#" target="_blank"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/4.png'?>" alt="img" /><span
                   >CHAT</span
                 ></a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -1642,9 +1642,9 @@
                               >Dokumen Perencanaan</a
                             >
                           </li>
-                          <li><a href="#">Foto Wali Kota dan Forkopimda</a></li>
+                          <li><a href="<?php echo site_url('foto');?>">Foto Wali Kota dan Forkopimda</a></li>
                           <li>
-                            <a href="#">Surat Edaran</a>
+                            <a href="<?php echo site_url('surat');?>">Surat Edaran</a>
                           </li>
                         </ul>
                       </li>
@@ -2107,6 +2107,32 @@
         <!-- mainwrap-->
       </div>
       <!-- wrapper -->
+
+      <!-- Video -->
+      <div class="bg-yellow bg-color" id="pesanpemerintah">
+  <div class="wrapper">
+    <div class="mainwrap">
+      <div class="sectionrow">
+        <div class="govideo">
+          <div class="xsection__header">
+            <h1 class="xsection__title">Kegiatan Wali Kota Pematang Siantar</h1>
+          </div>
+          <div class="govideo-body">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/uAK0PdX1GaE"
+              title="Kegiatan Wali Kota Pematang Siantar"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
       <footer class="bg-blue">
         <div class="wrapper">

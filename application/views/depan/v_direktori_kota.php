@@ -1519,10 +1519,10 @@
     <div class="bdgcontent">
       <div class="floatmenu">
         <div class="floatmenu__wrap">
-          <ul>
+        <ul>
             <li>
               <a
-                href="#"
+                href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
                 target="_blank"
                 ><img
                   src="<?php echo base_url().'theme/depan/assets/img/floatmenu/lapor-float.png'?>"
@@ -1533,24 +1533,24 @@
             <li>
               <a href="tel:119" rel="nofollow" target="_blank"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/2.png'?>" alt="img" /><span
-                  >119</span
+                  >PSC 119</span
                 ></a
               >
             </li>
             <li>
-              <a href="#"
+              <a href="https://cctv.pematangsiantar.go.id/"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/3.png'?>" alt="img" /><span
                   >CCTV</span
                 ></a
               >
             </li>
-            <li>
+            <!-- <li>
               <a href="#" target="_blank"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/4.png'?>" alt="img" /><span
                   >CHAT</span
                 ></a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -1601,9 +1601,9 @@
                               >Dokumen Perencanaan</a
                             >
                           </li>
-                          <li><a href="#">Foto Wali Kota dan Forkopimda</a></li>
+                          <li><a href="<?php echo site_url('foto');?>">Foto Wali Kota dan Forkopimda</a></li>
                           <li>
-                            <a href="#">Surat Edaran</a>
+                            <a href="<?php echo site_url('surat');?>">Surat Edaran</a>
                           </li>
                         </ul>
                       </li>
@@ -1669,7 +1669,7 @@
                         <td>Instansi</td>
                         <td>Alamat</td>
                         <td>Telepon</td>
-                        <td>Email & Website</td>
+                        <td>Website & Aplikasi</td>
                         <td>Sosial Media</td>
                         <td>Info</td>
                       </tr>
@@ -1678,22 +1678,133 @@
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/210/badan-kepegawaian-dan-pengembangan-sumber-daya-manusia.html"
-                            >Badan Kepegawaian dan Pengembangan Sumber Daya
-                            Manusia</a
+                            href="https://bappeda.pematangsiantar.go.id/"
+                            >Badan Perencanaan, Penelitian Dan Pengembangan Daerah</a
                           >
                         </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
+                        <td><span>
+                        Jln. Merdeka No.6   
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4206190</span
+                            ><i class="fas fa-phone"></i> </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            bkpsdm@pematangsiantar.go.id</span
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://bappeda.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://bappeda.pematangsiantar.go.id/</span
+                            ></a
                           >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://bpkd.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Badan Pengelolaan Keuangan dan Pendapatan Daerah</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://bpkd.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://bpkd.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="http://bkpsdm.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Badan Kepegawaian dan Pengembangan Sumber Daya Manusia</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
                           <a href="http://bkpsdm.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
@@ -1703,672 +1814,713 @@
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/bkpsdmbdg"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/bkpsdm_bdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/bkpsdm.bdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/210/badan-kepegawaian-dan-pengembangan-sumber-daya-manusia.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/214/badan-kesatuan-bangsa-dan-politik.html"
-                            >Badan Kesatuan Bangsa dan Politik</a
+                            href="https://kesbangpol.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Badan Kesatuan Bangsa Dan Politik</a
                           >
                         </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4230393</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            bkbp@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="https://portal.kesbangpol.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://kesbangpol.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              https://portal.kesbangpol.pematangsiantar.go.id/</span
+                              https://kesbangpol.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/KESBANGPOLKOTApematangsiantar"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/KesbangpolBdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/bakesbangpolkotapematangsiantar/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/214/badan-kesatuan-bangsa-dan-politik.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/248/badan-keuangan-dan-aset-daerah.html"
-                            >Badan Keuangan dan Aset Daerah</a
+                            href="https://disdik.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Pendidikan</a
                           >
                         </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4204445</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            dpkadpematangsiantar@gmail.com</span
-                          >
-                          <a href="http://bpka.pematangsiantar.go.id/" target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://disdik.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://bpka.pematangsiantar.go.id</span
+                              https://disdik.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/bpkakotapematangsiantar"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/InfoDPKAD"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
+                          ></a> -->
                           <a
-                            href="city-directory/info/248/badan-keuangan-dan-aset-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/215/badan-pendapatan-daerah.html"
-                            >Badan Pendapatan Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4235052</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            bppd@pematangsiantar.go.id</span
-                          >
-                          <a href="http://bppd.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              bppd.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://twitter.com/bppdkotabdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/bapendakotabdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/215/badan-pendapatan-daerah.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/232/badan-perencanaan-pembangunan-penelitian-dan-pengembangan.html"
-                            >Badan Perencanaan Pembangunan, Penelitian dan
-                            Pengembangan</a
+                            href="https://dinkes.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Kesehatan</a
                           >
                         </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4222316</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            bappeda@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://bappeda.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://dinkes.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              bappeda.pematangsiantar.go.id</span
+                              https://dinkes.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/BappedaKotaBdg"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/BappedaKotaBdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/bappelitbangkotapematangsiantar/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/232/badan-perencanaan-pembangunan-penelitian-dan-pengembangan.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/241/dinas-arsip-dan-perpustakaan.html"
-                            >Dinas Arsip dan Perpustakaan</a
+                            href="https://pupr.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Pekerjaan Umum dan Tata Ruang</a
                           >
                         </td>
-                        <td><span>Jl. Seram No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 0224231921</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            dispusip@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://dispusip.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://pupr.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://dispusip.pematangsiantar.go.id</span
+                              https://pupr.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/DisarpusKotaBdg"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/disarpuskotabdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/disarpuskotabdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/241/dinas-arsip-dan-perpustakaan.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/227/dinas-cipta-karya-bina-konstruksi-dan-tata-ruang.html"
-                            >Dinas Cipta Karya, Bina Konstruksi dan Tata
-                            Ruang</a
+                            href="https://prkp.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Perumahan dan Kawasan Permukiman</a
                           >
                         </td>
-                        <td><span>Jl. Cianjur No. 34</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7217451</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            distarubdg@gmail.com</span
-                          >
-                          <a
-                            href="http://www.distaru.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://prkp.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              www.distaru.pematangsiantar.go.id</span
+                              https://prkp.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/pages/Distarcip-Kota-pematangsiantar/225187900935462"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/distaruBDG"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/distaru.bdg/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCrAhnGwiYtQ-TZJFnxUavwQ"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/227/dinas-cipta-karya-bina-konstruksi-dan-tata-ruang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/216/dinas-kebakaran-dan-penanggulangan-bencana.html"
-                            >Dinas Kebakaran dan Penanggulangan Bencana</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukabumi No.17</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7207113 dan
-                            113</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            diskar@pematangsiantar.go.id</span
-                          >
-                          <a href="http://dppk.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://dppk.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/diskarpbbdg/"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/diskarpbbdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/diskarpbbdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/216/dinas-kebakaran-dan-penanggulangan-bencana.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/240/dinas-kebudayaan-dan-pariwisata.html"
-                            >Dinas Kebudayaan dan Pariwisata</a
+                            href="https://dinsos.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Sosial, Pemberdayaan Perempuan dan Perlindungan Anak</a
                           >
                         </td>
-                        <td><span>JL. Ahmad Yani No. 227</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022)7271724  </span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            disbudpar@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://www.pematangsiantartourism.com/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://dinsos.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://www.pematangsiantartourism.com/</span
+                              https://dinsos.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/disbudparkotapematangsiantar"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/DisbudparBdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/disbudpar.bdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/c/Thisispematangsiantar/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/240/dinas-kebudayaan-dan-pariwisata.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/234/dinas-kependudukan-dan-pencatatan-sipil.html"
-                            >Dinas Kependudukan dan Pencatatan Sipil</a
+                            href="https://disnaker.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Ketenagakerjaan</a
                           >
                         </td>
-                        <td><span>Jl. Ambon No.1</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4209891</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            disdukcapil@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://disdukcapil.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://disnaker.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              disdukcapil.pematangsiantar.go.id</span
+                              https://disnaker.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/disdukcapilbdg"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/disdukcapilbdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/disdukcapilbdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCJcpnSkamhfouom8Dq1ReqA"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/234/dinas-kependudukan-dan-pencatatan-sipil.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
-                          <a href="city-directory/info/222/dinas-kesehatan.html"
-                            >Dinas Kesehatan</a
+                          <a
+                            href="https://dkpp.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Ketahanan Pangan dan Pertanian</a
                           >
                         </td>
-                        <td><span>Jl. Supratman No. 23</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022 - 87244572</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            dinaskesehatankotabdg@gmail.com</span
-                          >
-                          <a href="http://dinkes.pematangsiantar.go.id/" target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://dkpp.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://dinkes.pematangsiantar.go.id/</span
+                              https://dkpp.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/pages/Dinas-Kesehatan-Kota-pematangsiantar/211697378979990"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/pematangsiantar_Dinkes"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/dinkeskotabdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCJDOoOQe0riISv2GsRddNyQ/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
                         </td>
                         <td class="cityd-info">
-                          <a href="city-directory/info/222/dinas-kesehatan.html"
+                          <a
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/218/dinas-ketahanan-pangan-dan-pertanian.html"
-                            >Dinas Ketahanan Pangan dan Pertanian</a
+                            href="https://dlh.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Lingkungan Hidup</a
                           >
                         </td>
-                        <td><span>Jl. Arjuna No.45</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 6015102</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            distan@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://dispangtan.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://dlh.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://dispangtan.pematangsiantar.go.id/</span
+                              https://dlh.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/profile.php?id=100014889069270"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a href="https://twitter.com/dkpp_bdg" target="_blank"
+                          <!-- <a
+                            href="#"
+                            target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/dkpp.pematangsiantar/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCgSYSZigDh3KL6NyXY3Jakw/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/218/dinas-ketahanan-pangan-dan-pertanian.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/230/dinas-ketenagakerjaan.html"
-                            >Dinas Ketenagakerjaan</a
+                            href="https://disdukcapil.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Kependudukan dan Pencatatan Sipil</a
                           >
                         </td>
-                        <td><span>Jl. RE. Martanegara No. 4</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7311330</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            disnaker@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://disnaker.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://disdukcapil.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              disnaker.pematangsiantar.go.id</span
+                              https://disdukcapil.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/pages/Disnaker Pematang Siantar/140128582852449/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/Disnakerkotabdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/disnakerpematangsiantar/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCzvyH4-WhRkom4PBtWtTWuw/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/230/dinas-ketenagakerjaan.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/204/dinas-komunikasi-dan-informatika.html"
-                            >Dinas Komunikasi dan Informatika</a
+                            href="https://dppkb.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Pengendalian Penduduk dan Keluarga Berencana</a
                           >
                         </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4222398</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            diskominfo@pematangsiantar.go.id</span
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://dppkb.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://dppkb.pematangsiantar.go.id/</span
+                            ></a
                           >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr> 
+                      <tr>
+                        <td>
+                          <a
+                            href="https://dishub.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Perhubungan</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://dishub.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://dishub.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr> 
+                      <tr>
+                        <td>
                           <a
                             href="https://diskominfo.pematangsiantar.go.id/"
-                            target="_blank"
+                            >
+                            <!-- Instansi -->
+                            Dinas Komunikasi dan Informatika</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://diskominfo.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
                               https://diskominfo.pematangsiantar.go.id/</span
@@ -2377,6329 +2529,1074 @@
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/Diskominfopematangsiantar/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/diskominfobdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/diskominfobdg/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCh0SF-m9gHK-LOfxvNLkT2A/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/204/dinas-komunikasi-dan-informatika.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/246/dinas-koperasi-dan-usaha-kecil-dan-menengah.html"
-                            >Dinas Koperasi dan Usaha Kecil dan Menengah</a
-                          >
-                        </td>
-                        <td><span>Jl. Kawaluyaan No 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7308358</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            dinaskumkm.bdg@gmail.com</span
-                          >
-                          <a
-                            href="http://diskopumkm.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://diskopumkm.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/dinas.kumkm.31"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dinaskumkm.bdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/246/dinas-koperasi-dan-usaha-kecil-dan-menengah.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/256/dinas-lingkungan-hidup-dan-kebersihan.html"
-                            >Dinas Lingkungan Hidup dan Kebersihan</a
+                            href="https://diskukm.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Koperasi, Usaha Kecil Menengah dan Perdagangan</a
                           >
                         </td>
-                        <td>
-                          <span
-                            >Jl. Sadang Tengah No.4-6, Sekeloa, Coblong,</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022)-2514327</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            dlhkkota@pematangsiantar.go.id</span
-                          >
-                          <a href="https://dlhk.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              https://dlhk.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://twitter.com/dlhk_kotabdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dlhk_kotapematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCznM4MpsuDKIJcSTOvjonkw/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/256/dinas-lingkungan-hidup-dan-kebersihan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/231/dinas-pemberdayaan-perempuan-dan-perlindungan-anak.html"
-                            >Dinas Pemberdayaan Perempuan dan Perlindungan
-                            Anak</a
-                          >
-                        </td>
-                        <td><span>Jl. Maskumambang No. 4</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7305023</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/231/dinas-pemberdayaan-perempuan-dan-perlindungan-anak.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/257/dinas-pemuda-dan-olahraga.html"
-                            >Dinas Pemuda dan Olahraga</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
                             ><i class="fas fa-phone"></i>
-                          </span>
+                            <!-- Telepon -->
+                             </span
+                          >
                         </td>
-                        <td class="cityd-emailweb"></td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://diskukm.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://diskukm.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/disporakotapematangsiantar"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/disporapematangsiantar"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/dispora_bdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/257/dinas-pemuda-dan-olahraga.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/238/dinas-penanaman-modal-dan-pelayanan-terpadu-satu-pintu.html"
-                            >Dinas Penanaman Modal dan Pelayanan Terpadu Satu
-                            Pintu</a
-                          >
-                        </td>
-                        <td><span>Jl.Cianjur No. 34</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7217663</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <a
-                            href="http://dpmptsp.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              dpmptsp.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/Dpmptsp-KOTA-pematangsiantar-1811281742437623/"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/dpmptsp_bdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dpmptsp.bdg/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dpmptsp.bdg/"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/238/dinas-penanaman-modal-dan-pelayanan-terpadu-satu-pintu.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/213/dinas-pendidikan.html"
-                            >Dinas Pendidikan</a
-                          >
-                        </td>
-                        <td><span>Jl. A.Yani No. 239</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7106568</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            Info@disdik.pematangsiantar.go.id</span
-                          >
-                          <a href="http://disdik.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              disdik.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/disdik.pematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/disdik_pematangsiantar"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/disdikbdg/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/c/DinasPendidikanKotapematangsiantar/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/213/dinas-pendidikan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/233/dinas-pengendalian-penduduk-dan-keluarga-berencana.html"
-                            >Dinas Pengendalian Penduduk dan Keluarga
-                            Berencana</a
-                          >
-                        </td>
-                        <td><span>Jl. Maskumambang No 4</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022)7305023</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            dppkbkotapematangsiantar@gmail.com</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/dppkb.pematangsiantar"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/dppkb_kotabdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dppkb.pematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/233/dinas-pengendalian-penduduk-dan-keluarga-berencana.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/247/dinas-perdagangan-dan-perindustrian.html"
-                            >Dinas Perdagangan dan Perindustrian</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Kawaluyaan No. 2 pematangsiantar, Jawa Barat
-                            Indonesia</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022)7308358</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            disperdagin_bdg@yahoo.com</span
-                          >
-                          <a
-                            href="http://disdagin.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://disdagin.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/disdagin"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/disdagin_bdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/disdagin_bdg/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/247/dinas-perdagangan-dan-perindustrian.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/235/dinas-perhubungan-2022.html"
-                            >Dinas Perhubungan 2022</a
-                          >
-                        </td>
-                        <td><span>Jl. Soekarno Hatta No 205</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022 5220768</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            dishub@pematangsiantar.go.id</span
-                          >
-                          <a href="http://dishub.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://dishub.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/dishubkotapematangsiantar"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/dishub_kotabdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dishubkotapematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCetM5N6-ofW5YtDzgaA5VaA/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/235/dinas-perhubungan-2022.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/228/dinas-perumahan-dan-kawasan-permukiman.html"
-                            >Dinas Perumahan dan Kawasan Permukiman</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Caringin No.103, Babakan Ciparay, Kec. Babakan
-                            Ciparay, Pematang Siantar, Jawa Barat 40223</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4231921</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            dpkp3pematangsiantar@gmail.com</span
-                          >
-                          <a href="http://dpkp3.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://dpkp3.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/dpkp3pematangsiantar"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a href="https://twitter.com/dpkp3bdg" target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dpkp3pematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/228/dinas-perumahan-dan-kawasan-permukiman.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/229/dinas-sosial.html"
-                            >Dinas Sosial</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Cipamokolan No. 109 Rancacili Kota
-                            pematangsiantar</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 2013139</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            dinsos@pematangsiantar.go.id, dinsos.bdg@gmail.com</span
-                          >
-                          <a
-                            href="http://dinsosnangkis.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://dinsosnangkis.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/dinsosbdg"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/dinsosbdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dinsosbdg/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCTqpmjAWZfJzR5cIVriW3KQ/videos"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/229/dinas-sosial.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/254/dinas-sumber-daya-air-dan-bina-marga.html"
-                            >Dinas Sumber Daya Air dan Bina Marga</a
-                          >
-                        </td>
-                        <td><span>Jl. Cianjur No 34 Pematang Siantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7278853</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            dpukotapematangsiantar@gmail.com</span
-                          >
-                          <a href="https://dpu.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              https://dpu.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/dpukotapematangsiantar"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/DPUKotapematangsiantar"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/dpukotapematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCN34AgBJC1ZzrdHjTvNjlXQ/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/254/dinas-sumber-daya-air-dan-bina-marga.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/209/inspektorat-daerah.html"
-                            >Inspektorat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Tera No. 20</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4241862</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            info@inspektorat.pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://inspektorat.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://inspektorat.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/pages/Inspektorat-Kota-pematangsiantar/106943887720660"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/Inspektorat_Bdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/inspektoratkotapematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/209/inspektorat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/58/kecamatan-andir.html"
-                            >Kecamatan Andir</a
-                          >
-                        </td>
-                        <td><span>JL. Srigunting Raya No.1 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6011304</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            andir@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="https://multisite.pematangsiantar.go.id/kecamatan-andir/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              https://multisite.pematangsiantar.go.id/kecamatan-andir/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/kec.andir"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/kecamatan_andir"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/kecamatanandir/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/58/kecamatan-andir.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/72/kecamatan-antapani.html"
-                            >Kecamatan Antapani</a
-                          >
-                        </td>
-                        <td><span>JL. A H Nasution No. 14 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 7271129</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            antapani@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://antapani.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://antapani.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/Kecamatan-Antapani-105088891974076"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/Kec_Antapani1"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/kecamatan.antapani/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCF67AWt4lw3xwDM90FllABQ"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/72/kecamatan-antapani.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/77/kecamatan-arcamanik.html"
-                            >Kecamatan Arcamanik</a
-                          >
-                        </td>
-                        <td><span>JL. Cisaranten Kulon pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7801583</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            arcamanik@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://arcamanik.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://arcamanik.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/kecamatan.arcamanik"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/camat_arcamanik"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/kecamatan_arcamanik/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCGC-_pNmUgjj9zZ9k0C5ewQ"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/77/kecamatan-arcamanik.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/61/kecamatan-astana-anyar.html"
-                            >Kecamatan Astana Anyar</a
-                          >
-                        </td>
-                        <td><span>JL. Bojongloa No.69 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5200419</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            astanaanyarkecamatan@gmail.com</span
-                          >
-                          <a
-                            href="http://astanaanyar.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              astanaanyar.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/kecamatan.astar/"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/kec_astanaanyar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/61/kecamatan-astana-anyar.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/60/kecamatan-babakan-ciparay.html"
-                            >Kecamatan Babakan Ciparay</a
-                          >
-                        </td>
-                        <td>
-                          <span>JL. Babakan Ciparay No. 212 pematangsiantar</span>
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 6015723</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            babakanciparay@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="https://babakanciparay.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              https://babakanciparay.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/people/Kec-Bacip/100022115117622"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/kecamatan_bacip"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/kec_babakanciparay/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/60/kecamatan-babakan-ciparay.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/64/kecamatan-pematangsiantar-kidul.html"
-                            >Kecamatan pematangsiantar Kidul</a
-                          >
-                        </td>
-                        <td><span>JL. Batununggal No.3 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7531377</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            kec.pematangsiantarkidul@gmail.com</span
-                          >
-                          <a
-                            href="http://pematangsiantarkidul.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://pematangsiantarkidul.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/pematangsiantarkidull"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a href="https://twitter.com/bdgkidul" target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/bdgkidul/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/64/kecamatan-pematangsiantar-kidul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/59/kecamatan-pematangsiantar-kulon.html"
-                            >Kecamatan pematangsiantar Kulon</a
-                          >
-                        </td>
-                        <td><span>JL. Holis No.210/191 A pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 6015113</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            pematangsiantarkulon@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://kecamatanpematangsiantarkulon.org/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://kecamatanpematangsiantarkulon.org/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://twitter.com/KecBankul"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/kec_pematangsiantarkulon/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/59/kecamatan-pematangsiantar-kulon.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/69/kecamatan-pematangsiantar-wetan.html"
-                            >Kecamatan pematangsiantar Wetan</a
-                          >
-                        </td>
-                        <td><span>JL. Taman Sari No.49 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2507166</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            pematangsiantarwetan@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/69/kecamatan-pematangsiantar-wetan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/71/kecamatan-batununggal.html"
-                            >Kecamatan Batununggal</a
-                          >
-                        </td>
-                        <td><span>JL. Venus No. 6 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7316330</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            batununggal@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://batununggal.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://batununggal.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/71/kecamatan-batununggal.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/62/kecamatan-bojongloa-kaler.html"
-                            >Kecamatan Bojongloa Kaler</a
-                          >
-                        </td>
-                        <td>
-                          <span>Jl. KH. Wahid Hasyim No. 258 pematangsiantar</span>
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 6011418</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            bojongloakaler@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/62/kecamatan-bojongloa-kaler.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/63/kecamatan-bojongloa-kidul.html"
-                            >Kecamatan Bojongloa Kidul</a
-                          >
-                        </td>
-                        <td>
-                          <span>JL. Leuwi Panjang / Kebon Lega pematangsiantar</span>
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 5206478</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            bojongloakidul2017@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/63/kecamatan-bojongloa-kidul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/73/kecamatan-buahbatu.html"
-                            >Kecamatan Buahbatu</a
-                          >
-                        </td>
-                        <td><span>Jl Ciwastra No. 291</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7561945</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            buahbatu@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/73/kecamatan-buahbatu.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/53/kecamatan-cibeunying-kaler.html"
-                            >Kecamatan Cibeunying Kaler</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jalan Raya Cigadung Selatan Nomor 100 C
-                            pematangsiantar</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 2500961</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            cibeunyingkaler@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://cibeunyingkaler.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://cibeunyingkaler.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/53/kecamatan-cibeunying-kaler.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/54/kecamatan-cibeunying-kidul.html"
-                            >Kecamatan Cibeunying Kidul</a
-                          >
-                        </td>
-                        <td><span>JL. Sukasenang No.11 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7271665</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            cibeunyingkidul@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://cibeunyingkidul.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              cibeunyingkidul.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/54/kecamatan-cibeunying-kidul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/79/kecamatan-cibiru.html"
-                            >Kecamatan Cibiru</a
-                          >
-                        </td>
-                        <td><span>JL. Manisi No.13 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 7801582</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            cibiru@pematangsiantar.go.id</span
-                          >
-                          <a href="http://cibiru.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://cibiru.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/79/kecamatan-cibiru.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/56/kecamatan-cicendo.html"
-                            >Kecamatan Cicendo</a
-                          >
-                        </td>
-                        <td><span>JL. Purabaya No.1 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 6015411</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            kcicendo@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://kec.cicendo.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              kec.cicendo.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/56/kecamatan-cicendo.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/51/kecamatan-cidadap.html"
-                            >Kecamatan Cidadap</a
-                          >
-                        </td>
-                        <td><span>JL. Hegarmanah Tengah No.1 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022)2032291</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            cidadap@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/51/kecamatan-cidadap.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/75/kecamatan-cinambo.html"
-                            >Kecamatan Cinambo</a
-                          >
-                        </td>
-                        <td><span>JL.Cinambo No.56 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7815274</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            cinambo.kecamatan@yahoo.com</span
-                          >
-                          <a
-                            href="http://www.cinambo.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://www.cinambo.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/75/kecamatan-cinambo.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/52/kecamatan-coblong.html"
-                            >Kecamatan Coblong</a
-                          >
-                        </td>
-                        <td><span>JL. Sangkuriang No. 10a pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 2504467</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            coblong@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://www.e-pemerintahan.com/portal/kecamatancoblong"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              www.e-pemerintahan.com/portal/kecamatancoblong</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/52/kecamatan-coblong.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/57/kecamatan-gedebage.html"
-                            >Kecamatan Gedebage</a
-                          >
-                        </td>
-                        <td><span>Kecamatan Gedebage pematangsiantar</span></td>
+                            href="https://dpmptsp.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
                             ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            gedebage@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/57/kecamatan-gedebage.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/70/kecamatan-kiaracondong.html"
-                            >Kecamatan Kiaracondong</a
-                          >
-                        </td>
-                        <td><span>JL. Babakan Sari No. 117 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022)-7271101</span
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            kiaracondong@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://kiaracondong.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://dpmptsp.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              kiaracondong.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/70/kecamatan-kiaracondong.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/67/kecamatan-lengkong.html"
-                            >Kecamatan Lengkong</a
-                          >
-                        </td>
-                        <td><span>JL. Talaga Bodas No.35 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7310219</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            lengkong@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/67/kecamatan-lengkong.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/65/kecamatan-mandalajati.html"
-                            >Kecamatan Mandalajati</a
-                          >
-                        </td>
-                        <td><span>Kecamatan Mandalajati pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            mandalajati@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/65/kecamatan-mandalajati.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/76/kecamatan-panyileukan.html"
-                            >Kecamatan Panyileukan</a
-                          >
-                        </td>
-                        <td><span>Jl. Soekarno Hatta KM 12,5 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7812727</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            panyileukan@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://panyileukan.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://panyileukan.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/76/kecamatan-panyileukan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/74/kecamatan-rancasari.html"
-                            >Kecamatan Rancasari</a
-                          >
-                        </td>
-                        <td><span>JL. Santosa Asih No.17 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7562918</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            rancasari@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://rancasari.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              rancasari.pematangsiantar.go.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/74/kecamatan-rancasari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/66/kecamatan-regol.html"
-                            >Kecamatan Regol</a
-                          >
-                        </td>
-                        <td><span>JL. Denki No. 54 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 5202489</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            regol@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/66/kecamatan-regol.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/55/kecamatan-sukajadi.html"
-                            >Kecamatan Sukajadi</a
-                          >
-                        </td>
-                        <td><span>JL. Sukamulya No.4 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 2015736</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            sukajadi@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://kecamatansukajadi.com/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://kecamatansukajadi.com/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/55/kecamatan-sukajadi.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/50/kecamatan-sukasari.html"
-                            >Kecamatan Sukasari</a
-                          >
-                        </td>
-                        <td>
-                          <span>JL. Gegerkalong Hilir No. 155 pematangsiantar</span>
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 2010203</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            sukasari@pematangsiantar.go.id /
-                            kec.sukasari@gmail.com</span
-                          >
-                          <a
-                            href="https://sukasari.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              https://sukasari.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/50/kecamatan-sukasari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/68/kecamatan-sumur-pematangsiantar.html"
-                            >Kecamatan Sumur pematangsiantar</a
-                          >
-                        </td>
-                        <td><span>JL. Lombok No.6 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022)4205668</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            sumurpematangsiantar@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://twitter.com/kec_surban"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/kec_sumurpematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/68/kecamatan-sumur-pematangsiantar.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/78/kecamatan-ujungberung.html"
-                            >Kecamatan Ujungberung</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >JL. Alun - Alun Utara No. 211 Ujungberung
-                            pematangsiantar</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7800003</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            ujungberung@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://ujungberung.pematangsiantar.go.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://ujungberung.pematangsiantar.go.id/</span
+                              https://dpmptsp.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://twitter.com/Ujungberung_Kec"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/kec.ujungberung/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/78/kecamatan-ujungberung.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/200/kelurahan-ancol.html"
-                            >Kelurahan Ancol</a
-                          >
-                        </td>
-                        <td><span>Jl. Sri Kania No. 20</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 5228040</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/200/kelurahan-ancol.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/181/kelurahan-antapani-kidul.html"
-                            >Kelurahan Antapani Kidul</a
-                          >
-                        </td>
-                        <td><span>Jl. Purwakarta No. 204</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 23452435</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/181/kelurahan-antapani-kidul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/179/kelurahan-antapani-kulon.html"
-                            >Kelurahan Antapani Kulon</a
-                          >
-                        </td>
-                        <td><span>Jl. Antapani No. 1</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7213641</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/179/kelurahan-antapani-kulon.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/180/kelurahan-antapani-tengah.html"
-                            >Kelurahan Antapani Tengah</a
-                          >
-                        </td>
-                        <td><span>Jl. Jatiwangi Raya No.17/a</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7210374</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/180/kelurahan-antapani-tengah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/197/kelurahan-antapani-wetan.html"
-                            >Kelurahan Antapani Wetan</a
-                          >
-                        </td>
-                        <td><span>Jl. Pameumpeuk Raya No. 1</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7279256</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/197/kelurahan-antapani-wetan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/90/kelurahan-arjuna.html"
-                            >Kelurahan Arjuna</a
-                          >
-                        </td>
-                        <td><span>Jl. Arjuna No. 70</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6034866</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/90/kelurahan-arjuna.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/160/kelurahan-babakan.html"
-                            >Kelurahan Babakan</a
-                          >
-                        </td>
-                        <td><span>Jl. Aki Padma No. 9</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6121113</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/160/kelurahan-babakan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/157/kelurahan-babakan-asih.html"
-                            >Kelurahan Babakan Asih</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukarma No. 22</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6128195</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/157/kelurahan-babakan-asih.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/115/kelurahan-babakan-ciamis.html"
-                            >Kelurahan Babakan Ciamis</a
-                          >
-                        </td>
-                        <td><span>Jl. Kebon Sirih No.2A</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4221956</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            kelurahanbabakanciamis@yahoo.com</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/115/kelurahan-babakan-ciamis.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/159/kelurahan-babakan-ciparay.html"
-                            >Kelurahan Babakan Ciparay</a
-                          >
-                        </td>
-                        <td><span>Jl. Caringin No. 197</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5426973</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/159/kelurahan-babakan-ciparay.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/282/kelurahan-babakan-penghulu.html"
-                            >Kelurahan Babakan Penghulu</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Gedebage Selatan No.19A, Babakan Penghulu, Kec.
-                            Cinambo, Pematang Siantar, Jawa Barat 40294</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7800305</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="%40kelurahan_babakanpenghulu.html"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/282/kelurahan-babakan-penghulu.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/128/kelurahan-babakan-sari.html"
-                            >Kelurahan Babakan Sari</a
-                          >
-                        </td>
-                        <td><span>Jl. Embah Malim No. 4</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7213640</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/128/kelurahan-babakan-sari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/126/kelurahan-babakan-surabaya.html"
-                            >Kelurahan Babakan Surabaya</a
-                          >
-                        </td>
-                        <td><span>Jl. Atlas IV No. 3</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7273199</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/126/kelurahan-babakan-surabaya.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/193/kelurahan-babakan-tarogong.html"
-                            >Kelurahan Babakan Tarogong</a
-                          >
-                        </td>
-                        <td><span>Jl. Babakan Tarogong No. 204</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/193/kelurahan-babakan-tarogong.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/147/kelurahan-balonggede.html"
-                            >Kelurahan Balonggede</a
-                          >
-                        </td>
-                        <td><span>Jl. Pasundan Blk No. 65</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4212917</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/147/kelurahan-balonggede.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/267/kelurahan-batununggal.html"
-                            >Kelurahan Batununggal</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Terusan Buah Batu No.66, Batununggal, Kec.
-                            pematangsiantar Kidul, Pematang Siantar, Jawa Barat 40286</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7507674</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="%40kel.html" target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/267/kelurahan-batununggal.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/137/kelurahan-binong.html"
-                            >Kelurahan Binong</a
-                          >
-                        </td>
-                        <td><span>Jl. Binong Jati</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7336870</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/137/kelurahan-binong.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/112/kelurahan-braga.html"
-                            >Kelurahan Braga</a
-                          >
-                        </td>
-                        <td><span>Jl. Pecinan Lama No. 134</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4204141</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/112/kelurahan-braga.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/140/kelurahan-burangrang.html"
-                            >Kelurahan Burangrang</a
-                          >
-                        </td>
-                        <td><span>Jl. Lodaya No. 18</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7322265</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/140/kelurahan-burangrang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/99/kelurahan-campaka.html"
-                            >Kelurahan Campaka</a
-                          >
-                        </td>
-                        <td><span>Gg. Bp. OHE No. 87 Cimindi</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6027725</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/99/kelurahan-campaka.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/174/kelurahan-caringin.html"
-                            >Kelurahan Caringin</a
-                          >
-                        </td>
-                        <td><span>Jl. Besi No. 4</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6003157</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/174/kelurahan-caringin.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/149/kelurahan-ciateul.html"
-                            >Kelurahan Ciateul</a
-                          >
-                        </td>
-                        <td><span>Jl. Moch. Ramdhan No. 78</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5227140</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/149/kelurahan-ciateul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/154/kelurahan-cibadak.html"
-                            >Kelurahan Cibadak</a
-                          >
-                        </td>
-                        <td><span>Jl. Cibadak No. 269</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-92639217</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/154/kelurahan-cibadak.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/167/kelurahan-cibaduyut.html"
-                            >Kelurahan Cibaduyut</a
-                          >
-                        </td>
-                        <td><span>Jl. Ma Eja No. 22</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5411309</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/167/kelurahan-cibaduyut.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/169/kelurahan-cibaduyut-kidul.html"
-                            >Kelurahan Cibaduyut Kidul</a
-                          >
-                        </td>
-                        <td><span>Jl. Cibaduyut Gg. TVRI No. 5</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5426893</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/169/kelurahan-cibaduyut-kidul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/170/kelurahan-cibaduyut-wetan.html"
-                            >Kelurahan Cibaduyut Wetan</a
-                          >
-                        </td>
-                        <td><span>Jl. Cibaduyut Gg. Wiratma 195</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5403349</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/170/kelurahan-cibaduyut-wetan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/132/kelurahan-cibangkong.html"
-                            >Kelurahan Cibangkong</a
-                          >
-                        </td>
-                        <td><span>Jl. Cibangkong No. 93</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7330000</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/132/kelurahan-cibangkong.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/172/kelurahan-cibuntu.html"
-                            >Kelurahan Cibuntu</a
-                          >
-                        </td>
-                        <td><span>Jl. H. Alpi No. 16</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6034428</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/172/kelurahan-cibuntu.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/120/kelurahan-cicadas.html"
-                            >Kelurahan Cicadas</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukamulus No. 257</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7213585</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/120/kelurahan-cicadas.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/127/kelurahan-cicaheum.html"
-                            >Kelurahan Cicaheum</a
-                          >
-                        </td>
-                        <td><span>Jl. Sulaksana Baru II</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7206481</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/127/kelurahan-cicaheum.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/198/kelurahan-cigadung.html"
-                            >Kelurahan Cigadung</a
-                          >
-                        </td>
-                        <td><span>Jl. Cigadung Raya No. 63</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 2502088</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/198/kelurahan-cigadung.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/300/kelurahan-cigending.html"
-                            >Kelurahan Cigending</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Cikoang No.111, Cigending, Kec. Ujung Berung,
-                            Pematang Siantar, Jawa Barat 40611</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7816130</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/300/kelurahan-cigending.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/145/kelurahan-cigereleng.html"
-                            >Kelurahan Cigereleng</a
-                          >
-                        </td>
-                        <td><span>Jl. Kembar Indah RT. 06 RW. 08</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5210645</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/145/kelurahan-cigereleng.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/175/kelurahan-cigondewah-kaler.html"
-                            >Kelurahan Cigondewah Kaler</a
-                          >
-                        </td>
-                        <td><span>Jl. Cigondewah No. 34</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6022908</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/175/kelurahan-cigondewah-kaler.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/178/kelurahan-cigondewah-kidul.html"
-                            >Kelurahan Cigondewah Kidul</a
-                          >
-                        </td>
-                        <td><span>Jl. Taman Holis Indah H No. 1</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6024737</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/178/kelurahan-cigondewah-kidul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/177/kelurahan-cigondewah-rahayu.html"
-                            >Kelurahan Cigondewah Rahayu</a
-                          >
-                        </td>
-                        <td><span>Jl. Taman Holis Indah C5/77</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6002905</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/177/kelurahan-cigondewah-rahayu.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/109/kelurahan-cihapit.html"
-                            >Kelurahan Cihapit</a
-                          >
-                        </td>
-                        <td><span>Jl. Sabang No. 24</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4212984</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/109/kelurahan-cihapit.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/275/kelurahan-cihaurgeulis.html"
-                            >Kelurahan Cihaurgeulis</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Surapati No.126, Cihaur Geulis, Kec. Cibeunying
-                            Kaler, Pematang Siantar, Jawa Barat 40122</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7271634</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/275/kelurahan-cihaurgeulis.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/138/kelurahan-cijagra.html"
-                            >Kelurahan Cijagra</a
-                          >
-                        </td>
-                        <td><span>Jl. Cijagra I Gang I</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7319913</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/138/kelurahan-cijagra.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/274/kelurahan-cijawura.html"
-                            >Kelurahan Cijawura</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Ciwastra No.3, Cijaura, Kec. Buahbatu, Kota
-                            pematangsiantar, Jawa Barat 40287</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7507748</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/274/kelurahan-cijawura.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/171/kelurahan-cijerah.html"
-                            >Kelurahan Cijerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Melong Asih No. 5</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6019250</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/171/kelurahan-cijerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/144/kelurahan-cikawao.html"
-                            >Kelurahan Cikawao</a
-                          >
-                        </td>
-                        <td><span>Jl. Melong Kaler No. 12</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4233865</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/144/kelurahan-cikawao.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/119/kelurahan-cikutra.html"
-                            >Kelurahan Cikutra</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukasenang No. 6A</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7215546</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/119/kelurahan-cikutra.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/286/kelurahan-cimincrang.html"
-                            >Kelurahan Cimincrang</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Cimincrang No.99, Cimenerang, Kec. Gedebage,
-                            Pematang Siantar, Jawa Barat 40292</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/286/kelurahan-cimincrang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/277/kelurahan-cipadung.html"
-                            >Kelurahan Cipadung</a
-                          >
-                        </td>
-                        <td><span></span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/277/kelurahan-cipadung.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/294/kelurahan-cipadung-kidul.html"
-                            >Kelurahan Cipadung Kidul</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Komplek Bumi Panyileukan F. 12 No. 31, Panyileukan,
-                            Cipadung Kidul, Kec. Panyileukan, Pematang Siantar, Jawa
-                            Barat 40616</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7816185</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="Cipadung%20Kidul.html" target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a href="%40kel_cipkid.html" target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="kelurahan_cipadung_kidul.html"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/294/kelurahan-cipadung-kidul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/292/kelurahan-cipadung-kulon.html"
-                            >Kelurahan Cipadung Kulon</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Panutan Raya, Cipadung Kulon, Kec. Panyileukan,
-                            Pematang Siantar, Jawa Barat 40614</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7832485</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/292/kelurahan-cipadung-kulon.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/293/kelurahan-cipadung-wetan.html"
-                            >Kelurahan Cipadung Wetan</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Raya Cipadung No.276, Cipadung Wetan, Kec.
-                            Panyileukan, Pematang Siantar, Jawa Barat 40614</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/293/kelurahan-cipadung-wetan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/103/kelurahan-cipaganti.html"
-                            >Kelurahan Cipaganti</a
-                          >
-                        </td>
-                        <td><span>Jl. Hegar Asih II No. 13</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2033784</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/103/kelurahan-cipaganti.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/295/kelurahan-cipamokolan.html"
-                            >Kelurahan Cipamokolan</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Cipamokolan No.26, Cipamokolan, Kec. Rancasari,
-                            Pematang Siantar, Jawa Barat 40292</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7508246</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/295/kelurahan-cipamokolan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/85/kelurahan-cipedes.html"
-                            >Kelurahan Cipedes</a
-                          >
-                        </td>
-                        <td><span>Sukagalih RT. 05/09</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2003302</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/85/kelurahan-cipedes.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/164/kelurahan-cirangrang.html"
-                            >Kelurahan Cirangrang</a
-                          >
-                        </td>
-                        <td><span>Jl. Gerhana No. 2 Kopo Elok</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5422827</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/164/kelurahan-cirangrang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/96/kelurahan-ciroyom.html"
-                            >Kelurahan Ciroyom</a
-                          >
-                        </td>
-                        <td><span>Jl.Ciroyom No. 27</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6019799</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/96/kelurahan-ciroyom.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/183/kelurahan-cisaranten-bina-harapan.html"
-                            >Kelurahan Cisaranten Bina Harapan</a
-                          >
-                        </td>
-                        <td><span>Jl. Cicukang</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7807799</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/183/kelurahan-cisaranten-bina-harapan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/185/kelurahan-cisaranten-endah.html"
-                            >Kelurahan Cisaranten Endah</a
-                          >
-                        </td>
-                        <td><span>Jl. Parakansaat Blk No. 152</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7317883</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/185/kelurahan-cisaranten-endah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/287/kelurahan-cisaranten-kidul.html"
-                            >Kelurahan Cisaranten Kidul</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Gedebage Selatan No.243, Cisaranten Kidul, Kec.
-                            Gedebage, Pematang Siantar, Jawa Barat 40295</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7510684</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/287/kelurahan-cisaranten-kidul.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/184/kelurahan-cisaranten-kulon.html"
-                            >Kelurahan Cisaranten Kulon</a
-                          >
-                        </td>
-                        <td><span>Jl. Cisaranten No. 127</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7806923</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/184/kelurahan-cisaranten-kulon.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/283/kelurahan-cisaranten-wetan.html"
-                            >Kelurahan Cisaranten Wetan</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Golf Raya No.6, Cisaranten Wetan, Kec. Cinambo,
-                            Pematang Siantar, Jawa Barat 40293</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="Kelurahan%20Cisaranten%20Wetan.html"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a href="%40cisarantenw.html" target="_blank"
+                          <!-- <a
+                            href="#"
+                            target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="%40kelurahancisarantenwetan.html"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/283/kelurahan-cisaranten-wetan.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/148/kelurahan-ciseureuh.html"
-                            >Kelurahan Ciseureuh</a
+                            href="https://disarpus.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Arsip dan Perpustakaan</a
                           >
                         </td>
-                        <td><span>Jl. Bbk.Priangan No.2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5226658</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/148/kelurahan-ciseureuh.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/276/kelurahan-cisurupan.html"
-                            >Kelurahan Cisurupan</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Cilengkrang 1 No.122, Cisurupan, Kec. Cibiru,
-                            Pematang Siantar, Jawa Barat 40614</span
-                          >
-                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
                             ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/276/kelurahan-cisurupan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/111/kelurahan-citarum.html"
-                            >Kelurahan Citarum</a
-                          >
-                        </td>
-                        <td><span>Jl. Gempol Wetan No. 60</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4237234</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/111/kelurahan-citarum.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/101/kelurahan-ciumbuleuit.html"
-                            >Kelurahan Ciumbuleuit</a
-                          >
-                        </td>
-                        <td><span>Jl. Kolam No. 1</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2033209</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/101/kelurahan-ciumbuleuit.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/106/kelurahan-dago.html"
-                            >Kelurahan Dago</a
-                          >
-                        </td>
-                        <td><span>Jl. Ir. H. Juanda Blk No. 279</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2515667</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/106/kelurahan-dago.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/296/kelurahan-derwati.html"
-                            >Kelurahan Derwati</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Raya Derwati No.38, Derwati, Kec. Rancasari,
-                            Pematang Siantar, Jawa Barat 40292</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7507921</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="LurahDerwati.html" target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a href="Kelurahan%20Derwati.html" target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/296/kelurahan-derwati.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/95/kelurahan-dungus-cariang.html"
-                            >Kelurahan Dungus Cariang</a
-                          >
-                        </td>
-                        <td><span>Jl. Terusan Rajawali No. 27</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6044423</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/95/kelurahan-dungus-cariang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/98/kelurahan-garuda.html"
-                            >Kelurahan Garuda</a
-                          >
-                        </td>
-                        <td><span>Jl. Elang No. 5</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6001580</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/98/kelurahan-garuda.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/81/kelurahan-geger-kalong.html"
-                            >Kelurahan Geger Kalong</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukajadi Atas Blk SMPN 15</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2036697</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/81/kelurahan-geger-kalong.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/176/kelurahan-gempolsari.html"
-                            >Kelurahan Gempolsari</a
-                          >
-                        </td>
-                        <td><span>Jl. Perumnas Cijerah No. 77A</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6003504</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/176/kelurahan-gempolsari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/130/kelurahan-gumuruh.html"
-                            >Kelurahan Gumuruh</a
-                          >
-                        </td>
-                        <td><span>Jl. Saturnus No. 8</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7315783</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/130/kelurahan-gumuruh.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/100/kelurahan-hegarmanah.html"
-                            >Kelurahan Hegarmanah</a
-                          >
-                        </td>
-                        <td><span>Bukit Resik No. 3</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2041078</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/100/kelurahan-hegarmanah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/89/kelurahan-husein-sastranegara.html"
-                            >Kelurahan Husein Sastranegara</a
-                          >
-                        </td>
-                        <td><span>Jl. Aruna No. 27</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6009489</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/89/kelurahan-husein-sastranegara.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/80/kelurahan-isola.html"
-                            >Kelurahan Isola</a
-                          >
-                        </td>
-                        <td><span>Jl. Gegerkalong Girang No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2012900</span
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i> -</span
-                          >
-                          <a href="http://-/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i> -</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/80/kelurahan-isola.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/156/kelurahan-jamika.html"
-                            >Kelurahan Jamika</a
-                          >
-                        </td>
-                        <td><span>Jl. Pagarsih Gg. Pak Oyon</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6002765</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/156/kelurahan-jamika.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/289/kelurahan-jatihandap.html"
-                            >Kelurahan Jatihandap</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jalan Jatihandap Km 1.5 No. 131, Jatihandap, Kec.
-                            Mandalajati, Pematang Siantar, Jawa Barat 40195</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/289/kelurahan-jatihandap.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/273/kelurahan-jatisari.html"
-                            >Kelurahan Jatisari</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Kawaluyaan Indah I No.52, Jatisari, Buahbatu,
-                            Pematang Siantar, Jawa Barat 40286, Indonesia Petunjuk
-                            Arah</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/273/kelurahan-jatisari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/133/kelurahan-kacapiring.html"
-                            >Kelurahan Kacapiring</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukabumi Dalam No. 34</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7279832</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/133/kelurahan-kacapiring.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/152/kelurahan-karang-anyar.html"
-                            >Kelurahan Karang Anyar</a
-                          >
-                        </td>
-                        <td><span>Jl. Pamarset No. 9</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4240857</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/152/kelurahan-karang-anyar.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/201/kelurahan-karang-pamulang.html"
-                            >Kelurahan Karang Pamulang</a
-                          >
-                        </td>
-                        <td><span>Jl. Raya Cikadut No. 1</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7214137</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/201/kelurahan-karang-pamulang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/196/kelurahan-karasak.html"
-                            >Kelurahan Karasak</a
-                          >
-                        </td>
-                        <td><span>Jl. Karasak Selatan No. 54</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 5225599</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/196/kelurahan-karasak.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/135/kelurahan-kebon-gedang.html"
-                            >Kelurahan Kebon Gedang</a
-                          >
-                        </td>
-                        <td><span>Jl. Wulan No. 5</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7307578</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/135/kelurahan-kebon-gedang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/125/kelurahan-kebon-jayanti.html"
-                            >Kelurahan Kebon Jayanti</a
-                          >
-                        </td>
-                        <td><span>Jl. Stasiun Kiaracondong No. 39</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7333054</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/125/kelurahan-kebon-jayanti.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/97/kelurahan-kebon-jeruk.html"
-                            >Kelurahan Kebon Jeruk</a
-                          >
-                        </td>
-                        <td><span>Jl. Babatan No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4213036</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/97/kelurahan-kebon-jeruk.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/129/kelurahan-kebon-kangkung.html"
-                            >Kelurahan Kebon Kangkung</a
-                          >
-                        </td>
-                        <td><span>Jl. Mandala No. 54</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7319061</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/129/kelurahan-kebon-kangkung.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/114/kelurahan-kebon-pisang.html"
-                            >Kelurahan Kebon Pisang</a
-                          >
-                        </td>
-                        <td><span>Jl. Baranangsiang No.71</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4237148</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            kelurahankebonpisang@gmail.com</span
-                          >
-                          <a href="http://-/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i> -</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/114/kelurahan-kebon-pisang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/134/kelurahan-kebon-waru.html"
-                            >Kelurahan Kebon Waru</a
-                          >
-                        </td>
-                        <td><span>Jl. Anyer No. 23</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7213639</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/134/kelurahan-kebon-waru.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/166/kelurahan-kebonlega.html"
-                            >Kelurahan Kebonlega</a
-                          >
-                        </td>
-                        <td><span>Jl. Cibaduyut Blok Lumbung</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5417804</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/166/kelurahan-kebonlega.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/155/kelurahan-kopo.html"
-                            >Kelurahan Kopo</a
-                          >
-                        </td>
-                        <td><span>Jl. Madesa</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6122397</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/155/kelurahan-kopo.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/264/kelurahan-kujangsari.html"
-                            >Kelurahan Kujangsari</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Jakapurwa, Kujangsari, Kec. pematangsiantar Kidul, Kota
-                            pematangsiantar, Jawa Barat 40287</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7501383</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/264/kelurahan-kujangsari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/104/kelurahan-lebak-gede.html"
-                            >Kelurahan Lebak Gede</a
-                          >
-                        </td>
-                        <td><span>Jl. Tubagus Ismail Bawah No. 5</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2512563</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/104/kelurahan-lebak-gede.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/108/kelurahan-lebak-siliwangi.html"
-                            >Kelurahan Lebak Siliwangi</a
-                          >
-                        </td>
-                        <td><span>Jl. Tamansari</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2507499</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/108/kelurahan-lebak-siliwangi.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/102/kelurahan-ledeng.html"
-                            >Kelurahan Ledeng</a
-                          >
-                        </td>
-                        <td><span>Jl. Cipaku Indah IV No. 4</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2013929</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/102/kelurahan-ledeng.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/139/kelurahan-lingkar-selatan.html"
-                            >Kelurahan Lingkar Selatan</a
-                          >
-                        </td>
-                        <td><span>Jl. Jotang No. 1</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7321770</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/139/kelurahan-lingkar-selatan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/143/kelurahan-malabar.html"
-                            >Kelurahan Malabar</a
-                          >
-                        </td>
-                        <td><span>Jl. Cipaera No.95</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-92630600</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/143/kelurahan-malabar.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/94/kelurahan-maleber.html"
-                            >Kelurahan Maleber</a
-                          >
-                        </td>
-                        <td><span>Jl. Srigunting II No. 11</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6072104</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/94/kelurahan-maleber.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/131/kelurahan-maleer.html"
-                            >Kelurahan Maleer</a
-                          >
-                        </td>
-                        <td><span>Jl. Maleer Indah II No. 42</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7313170</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/131/kelurahan-maleer.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/297/kelurahan-manjahlega.html"
-                            >Kelurahan Manjahlega</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >no.2A, Manjahlega, Jl. Merkuri, Manjahlega,
-                            Rancasari, pematangsiantar City, West Java 40286</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="kelurahanmanjahlega2.html" target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a href="%40Kelurahanmanjahlega.html" target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/297/kelurahan-manjahlega.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/162/kelurahan-margahayu-utara.html"
-                            >Kelurahan Margahayu Utara</a
-                          >
-                        </td>
-                        <td><span>Jl. Cibolerang No. 48</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5418022</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/162/kelurahan-margahayu-utara.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/272/kelurahan-margasari.html"
-                            >Kelurahan Margasari</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Cipagalo Girang No.9, Margasari, Kec. Buahbatu,
-                            Pematang Siantar, Jawa Barat 40286</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 70618971</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/272/kelurahan-margasari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/163/kelurahan-margasuka.html"
-                            >Kelurahan Margasuka</a
-                          >
-                        </td>
-                        <td><span>Jl. Sadang Buntu Gg. Masjid</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-70772593</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/163/kelurahan-margasuka.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/298/kelurahan-mekarjaya.html"
-                            >Kelurahan Mekarjaya</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Waru Jaya No.9, Mekar Jaya, Kec. Sukmajaya,
-                            Kota Depok, Jawa Barat 16411</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (021) 7710283</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/298/kelurahan-mekarjaya.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/291/kelurahan-mekarmulya.html"
-                            >Kelurahan Mekarmulya</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Mekar Mulya No.26, Mekar Mulya, Kec.
-                            Panyileukan, Pematang Siantar, Jawa Barat 40613</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7806896</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/291/kelurahan-mekarmulya.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/168/kelurahan-mekarwangi.html"
-                            >Kelurahan Mekarwangi</a
-                          >
-                        </td>
-                        <td><span>Jl. Moch Toha (Curug Candung)</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5229312</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/168/kelurahan-mekarwangi.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/266/kelurahan-mengger.html"
-                            >Kelurahan Mengger</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Terusan Batununggal, Mengger, Kec. pematangsiantar
-                            Kidul, Pematang Siantar, Jawa Barat 40267</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 87791553</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/266/kelurahan-mengger.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/113/kelurahan-merdeka.html"
-                            >Kelurahan Merdeka</a
-                          >
-                        </td>
-                        <td><span>Jl. Patra Komala No. 364A</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4224602</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/113/kelurahan-merdeka.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/117/kelurahan-neglasari.html"
-                            >Kelurahan Neglasari</a
-                          >
-                        </td>
-                        <td><span>Jl. Citra Green Garden</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7215624</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/117/kelurahan-neglasari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/151/kelurahan-nyengseret.html"
-                            >Kelurahan Nyengseret</a
-                          >
-                        </td>
-                        <td><span>Jl. Pajagalan No. 72</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5224987</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/151/kelurahan-nyengseret.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/118/kelurahan-padasuka.html"
-                            >Kelurahan Padasuka</a
-                          >
-                        </td>
-                        <td><span>Jl. Padasuka No. 9</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7213551</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/118/kelurahan-padasuka.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/91/kelurahan-pajajaran.html"
-                            >Kelurahan Pajajaran</a
-                          >
-                        </td>
-                        <td><span>Jl. Terusan Baladewa No. 62</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6020717</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/91/kelurahan-pajajaran.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/281/kelurahan-pakemitan.html"
-                            >Kelurahan Pakemitan</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. A.H. Nasution No.82, Pakemitan, Kec. Cinambo,
-                            Pematang Siantar, Jawa Barat 40294</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/281/kelurahan-pakemitan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/278/kelurahan-palasari.html"
-                            >Kelurahan Palasari</a
-                          >
-                        </td>
-                        <td><span></span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/278/kelurahan-palasari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/141/kelurahan-paledang.html"
-                            >Kelurahan Paledang</a
-                          >
-                        </td>
-                        <td><span>Jl. Karapitan No. 86E</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4262839</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/141/kelurahan-paledang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/93/kelurahan-pamoyanan.html"
-                            >Kelurahan Pamoyanan</a
-                          >
-                        </td>
-                        <td><span>Jl. Lesmana</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6021909</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/93/kelurahan-pamoyanan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/153/kelurahan-panjunan.html"
-                            >Kelurahan Panjunan</a
-                          >
-                        </td>
-                        <td><span>Jl. Lio Genteng No. 30</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5221576</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/153/kelurahan-panjunan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/299/kelurahan-pasanggrahan.html"
-                            >Kelurahan Pasanggrahan</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. A.H. Nasution No.299, Pasanggrahan, Kec. Ujung
-                            Berung, Pematang Siantar, Jawa Barat 40617</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/299/kelurahan-pasanggrahan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/279/kelurahan-pasir-biru.html"
-                            >Kelurahan Pasir Biru</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. A.H. Nasution No.A47, Pasir Biru, Kec. Cibiru,
-                            Pematang Siantar, Jawa Barat 40615</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7801582</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/279/kelurahan-pasir-biru.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/195/kelurahan-pasir-impun.html"
-                            >Kelurahan Pasir Impun</a
-                          >
-                        </td>
-                        <td><span>Jl. Pasir Impun No. 111</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/195/kelurahan-pasir-impun.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/92/kelurahan-pasir-kaliki.html"
-                            >Kelurahan Pasir Kaliki</a
-                          >
-                        </td>
-                        <td><span>Jl. Pajajaran Blk No. 37</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4219526</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/92/kelurahan-pasir-kaliki.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/303/kelurahan-pasirendah.html"
-                            >Kelurahan Pasirendah</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Simpay Asih No.8, Pasir Endah, Kec. Ujung
-                            Berung, Pematang Siantar, Jawa Barat 40619</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7838075</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="pasirendahkelurahan.html" target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a href="%40pasirendah.html" target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a href="%40kelurahan_pasirendah.html" target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/303/kelurahan-pasirendah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/301/kelurahan-pasirjati.html"
-                            >Kelurahan Pasirjati</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Nagrog No.117, Pasanggrahan, Kec. Ujung Berung,
-                            Pematang Siantar, Jawa Barat 40617</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7800305</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/301/kelurahan-pasirjati.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/123/kelurahan-pasirlayung.html"
-                            >Kelurahan Pasirlayung</a
-                          >
-                        </td>
-                        <td><span>Jl. Padasuka No. 112</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7219701</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/123/kelurahan-pasirlayung.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/150/kelurahan-pasirluyu.html"
-                            >Kelurahan Pasirluyu</a
-                          >
-                        </td>
-                        <td><span>Jl. Mengger Girang No. III No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5231742</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/150/kelurahan-pasirluyu.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/302/kelurahan-pasirwangi.html"
-                            >Kelurahan Pasirwangi</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Cinangka No.41, Pasirwangi, Kec. Ujung Berung,
-                            Pematang Siantar, Jawa Barat 40618</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7802401</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="%40kelurahan_pasirwangi.html" target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a href="%40kelpasirwangi.html" target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a href="%40kelurahan_pasirwangi.html" target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/302/kelurahan-pasirwangi.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/84/kelurahan-pasteur.html"
-                            >Kelurahan Pasteur</a
-                          >
-                        </td>
-                        <td><span>Jl. Sempurna No. 4</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2038010</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/84/kelurahan-pasteur.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/199/kelurahan-pelindung-hewan.html"
-                            >Kelurahan Pelindung Hewan</a
-                          >
-                        </td>
-                        <td><span>Jl. Pelindung Hewan No. 46</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 5224810</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/199/kelurahan-pelindung-hewan.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/146/kelurahan-pungkur.html"
-                            >Kelurahan Pungkur</a
-                          >
-                        </td>
-                        <td><span>Jl. Natawijaya No. 18 (ASMI)</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-5230828</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/146/kelurahan-pungkur.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/285/kelurahan-rancabolang.html"
-                            >Kelurahan Rancabolang</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Adi Flora Raya, Rancabolang, Kec. Gedebage,
-                            Pematang Siantar, Jawa Barat 40295</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 87526232</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="Rancabolang%20Cemerlang.html" target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a href="%40rancabolang.html" target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/285/kelurahan-rancabolang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/288/kelurahan-rancanumpang.html"
-                            >Kelurahan Rancanumpang</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Ranca Numpang No.1, Rancanumpang, Kec. Gede, Bage,
-                            pematangsiantar, Jawa Barat 40287</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="%40kel_rancanumpang.html" target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/288/kelurahan-rancanumpang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/105/kelurahan-sadang-serang.html"
-                            >Kelurahan Sadang Serang</a
-                          >
-                        </td>
-                        <td><span>Jl. Cikutra Barat I No. 131</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2512327</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/105/kelurahan-sadang-serang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/136/kelurahan-samoja.html"
-                            >Kelurahan Samoja</a
-                          >
-                        </td>
-                        <td><span>Jl. Centeh No. 38</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7319724</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/136/kelurahan-samoja.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/83/kelurahan-sarijadi.html"
-                            >Kelurahan Sarijadi</a
-                          >
-                        </td>
-                        <td><span>Jl. Sarijadi No. 71</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2003302</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/83/kelurahan-sarijadi.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/202/kelurahan-sekejati.html"
-                            >Kelurahan Sekejati</a
-                          >
-                        </td>
-                        <td><span>Jl. Jupiter Tengah IV Blok B II</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7563637</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/202/kelurahan-sekejati.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/107/kelurahan-sekeloa.html"
-                            >Kelurahan Sekeloa</a
-                          >
-                        </td>
-                        <td><span>Jl. Tubagus Ismail VII No.5</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2507117</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/107/kelurahan-sekeloa.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/290/kelurahan-sindangjaya.html"
-                            >Kelurahan Sindangjaya</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Arcamanik No.43, Pasir Impun, Kec. Mandalajati,
-                            Pematang Siantar, Jawa Barat 40293</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 7815675</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/290/kelurahan-sindangjaya.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/165/kelurahan-situsaeur.html"
-                            >Kelurahan Situsaeur</a
-                          >
-                        </td>
-                        <td><span>Jl. Leuwi Anyar VII</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-70773972</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/165/kelurahan-situsaeur.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/203/kelurahan-sukaasih.html"
-                            >Kelurahan Sukaasih</a
-                          >
-                        </td>
-                        <td><span>Jl. Komplek Tugu Kencana</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 6128125</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/203/kelurahan-sukaasih.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/88/kelurahan-sukabungah.html"
-                            >Kelurahan Sukabungah</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukagalih No. 329/182C</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2039566</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/88/kelurahan-sukabungah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/87/kelurahan-sukagalih.html"
-                            >Kelurahan Sukagalih</a
-                          >
-                        </td>
-                        <td><span>Jl. Babakan Jeruk II No. 31</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2019745</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/87/kelurahan-sukagalih.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/161/kelurahan-sukahaji-kel-sukahaji.html"
-                            >Kelurahan Sukahaji Kel. Sukahaji</a
-                          >
-                        </td>
-                        <td><span>Jl. H. Jakaria No. 24</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6026078</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/161/kelurahan-sukahaji-kel-sukahaji.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/116/kelurahan-sukaluyu.html"
-                            >Kelurahan Sukaluyu</a
-                          >
-                        </td>
-                        <td><span>Jl. Rereng Wulung No. 16</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2502805</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/116/kelurahan-sukaluyu.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/121/kelurahan-sukamaju.html"
-                            >Kelurahan Sukamaju</a
-                          >
-                        </td>
-                        <td><span>Jl. Cikaso Barat II No. 89</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7206699</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/121/kelurahan-sukamaju.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/182/kelurahan-sukamiskin.html"
-                            >Kelurahan Sukamiskin</a
-                          >
-                        </td>
-                        <td><span>Jl. Pacuan Kuda No. 204</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7202310</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/182/kelurahan-sukamiskin.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/284/kelurahan-sukamulya.html"
-                            >Kelurahan Sukamulya</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Sandang No.3-4, Sukamulya, Kec. Cinambo, Kota
-                            pematangsiantar, Jawa Barat 45474</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/284/kelurahan-sukamulya.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/122/kelurahan-sukapada.html"
-                            >Kelurahan Sukapada</a
-                          >
-                        </td>
-                        <td><span>Jl. Sekejati V/STIEB Cikutra</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7217341</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/122/kelurahan-sukapada.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/124/kelurahan-sukapura.html"
-                            >Kelurahan Sukapura</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukapura No. 1</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7333063</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/124/kelurahan-sukapura.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/194/kelurahan-sukaraja.html"
-                            >Kelurahan Sukaraja</a
-                          >
-                        </td>
-                        <td><span>Jl. Raya Cimindi No. 260</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 6613684</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/194/kelurahan-sukaraja.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/82/kelurahan-sukarasa.html"
-                            >Kelurahan Sukarasa</a
-                          >
-                        </td>
-                        <td><span>Jl. Setrara Sari III No. 4</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2001945</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/82/kelurahan-sukarasa.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/86/kelurahan-sukawarna.html"
-                            >Kelurahan Sukawarna</a
-                          >
-                        </td>
-                        <td><span>Jl. Lemah Neundeut No. 10</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-2006796</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/86/kelurahan-sukawarna.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/110/kelurahan-tamansari.html"
-                            >Kelurahan Tamansari</a
-                          >
-                        </td>
-                        <td><span>Jl. Tamansari No. 7A</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4217532</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/110/kelurahan-tamansari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/142/kelurahan-turangga.html"
-                            >Kelurahan Turangga</a
-                          >
-                        </td>
-                        <td><span>Jl. Karawitan No. 83</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-7315266</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/142/kelurahan-turangga.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/173/kelurahan-warungmuncang.html"
-                            >Kelurahan Warungmuncang</a
-                          >
-                        </td>
-                        <td><span>Jl. Cibuntu Tengah No. 30</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-6077064</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/173/kelurahan-warungmuncang.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="city-directory/info/265/kelurahan-wates.html"
-                            >Kelurahan Wates</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Moh. Toha No.431, Wates, Kec. pematangsiantar Kidul,
-                            Pematang Siantar, Jawa Barat 40256</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 5223285</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a href="city-directory/info/265/kelurahan-wates.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/29/perumda-bank-pematangsiantar.html"
-                            >Perumda Bank pematangsiantar</a
-                          >
-                        </td>
-                        <td><span>Jl. Naripan No.29 pematangsiantar</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4207147 -
-                            4203778</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            bankpematangsiantar@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://www.bankpematangsiantar.co.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://disarpus.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              www.bankpematangsiantar.co.id</span
+                              https://disarpus.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/pages/BPR-Kota-pematangsiantar-PD/356715954498658"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/bprkotapematangsiantar"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/bankpematangsiantar/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/29/perumda-bank-pematangsiantar.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/40/perumda-pasar-juara.html"
-                            >Perumda Pasar Juara</a
+                            href="https://dispar.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Dinas Pariwisata</a
                           >
                         </td>
-                        <td><span>Jl. Jurang No. 1</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 2038189</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            pd.pasar@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://pd-pasar-bermartabat.blogspot.co.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://pd-pasar-bermartabat.blogspot.co.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/pages/PD Pasar Bermartabat Pematang Siantar/597188490319338/"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/pasarkotabdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/perumdapasarjuarabdg/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/40/perumda-pasar-juara.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/30/perusahaan-daerah-air-minum-tirtawening-kota-pematangsiantar.html"
-                            >Perusahaan Daerah Air Minum Tirtawening Kota
-                            pematangsiantar</a
-                          >
-                        </td>
-                        <td><span>Jl.Badak Singa No. 10</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 2506581,
-                            250930</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            tirtawening@pambdg.co.id</span
-                          >
-                          <a
-                            href="http://www.pambdg.co.id/new2/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              www.pambdg.co.id/new2/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/30/perusahaan-daerah-air-minum-tirtawening-kota-pematangsiantar.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/304/pt-pematangsiantar-infra-investama-perseroda.html"
-                            >PT pematangsiantar Infra Investama (Perseroda)</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Dr. Djunjunan No.222, Sukawarna, Kec. Sukajadi,
-                            Pematang Siantar, Jawa Barat 40164</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 82002222</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            mail@pematangsiantarinfra.co.id</span
-                          >
-                          <a
-                            href="https://www.pematangsiantarinfra.co.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              https://www.pematangsiantarinfra.co.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://twitter.com/pematangsiantarInfra"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/pematangsiantarinfra/?hl=id"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/304/pt-pematangsiantar-infra-investama-perseroda.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/262/rumah-sakit-khusus-gigi-dan-mulut-lama.html"
-                            >Rumah Sakit Khusus Gigi dan Mulut (lama)</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. L. L. R.E. Martadinata No.45, Citarum, Kec.
-                            pematangsiantar Wetan, Pematang Siantar, Jawa Barat 40115</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4234058</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            rskgm@pematangsiantar.go.id</span
-                          >
-                          <a href="http://rskgm.pematangsiantar.go.id/" target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://rskgm.pematangsiantar.go.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/262/rumah-sakit-khusus-gigi-dan-mulut-lama.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/26/rumah-sakit-umum-daerah-lama.html"
-                            >Rumah Sakit Umum Daerah (lama)</a
-                          >
-                        </td>
-                        <td><span>Jl. Rumah Sakit No. 22 Ujungberung</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 7811794</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            rsud@pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://rsudkotapematangsiantar.web.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              http://rsudkotapematangsiantar.web.id</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/26/rumah-sakit-umum-daerah-lama.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/25/rumah-sakit-umum-daerah-pematangsiantar-kiwari.html"
-                            >Rumah Sakit Umum Daerah pematangsiantar Kiwari</a
-                          >
-                        </td>
-                        <td>
-                          <span
-                            >Jl. Raya Kopo No.311, RT.03/RW.05, Situsaeur, Kec.
-                            Bojongloa Kidul, Pematang Siantar, Jawa Barat
-                            40233</span
-                          >
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 86037777</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            sekretariat@rsudpematangsiantarkiwari.or.id</span
-                          >
-                          <a
-                            href="https://rsudpematangsiantarkiwari.or.id/"
-                            target="_blank"
-                            ><span class="nowrap"
-                              ><i class="fas fa-globe"></i>
-                              https://rsudpematangsiantarkiwari.or.id/</span
-                            ></a
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="facebook.com/rsudpematangsiantarkiwari.html"
-                            target="_blank"
-                            ><i class="fab fa-facebook"></i
-                          ></a>
-                          <a
-                            href="https://twitter.com/rsudbdgkiwari"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/rsudpematangsiantarkiwari/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/channel/UCecVBlboY3p_Rx0DtTU7KIw"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/25/rumah-sakit-umum-daerah-pematangsiantar-kiwari.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/47/satuan-polisi-pamong-praja.html"
-                            >Satuan Polisi Pamong Praja</a
-                          >
-                        </td>
-                        <td><span>Jl.R.E. Martanegara No. pematangsiantar</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
                             ><i class="fas fa-phone"></i>
-                            022-7300292,7300273</span
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            prog.satpolpp@gmail.com</span
-                          >
-                          <a
-                            href="http://satpolpp.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://dispar.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://satpolpp.pematangsiantar.go.id/</span
+                              https://dispar.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/satpolppbdg"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/satpolppbdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/satpolppbdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/47/satuan-polisi-pamong-praja.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/259/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
+                            href="https://siantarmarihat.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Kecamatan Siantar Marihat</a
                           >
                         </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
                             ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/259/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/261/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td>
-                          <span>Jl. Aceh No. 51, pematangsiantar, Indonesia</span>
-                        </td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022 4204358</span
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            contact@kerjasama.pematangsiantar.go.id</span
-                          >
-                          <a
-                            href="http://kerjasama.pematangsiantar.go.id/"
-                            target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://siantarmarihat.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://kerjasama.pematangsiantar.go.id/</span
+                              https://siantarmarihat.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/kerjasama.bdg"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/kerjasama_bdg"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/kerjasama.bdg"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/261/sekretariat-daerah.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/205/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
+                            href="https://siantarmarimbun.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Kecamatan Siantar Marimbun</a
                           >
                         </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4206485</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            asisten.pemerintahan@pematangsiantar.go.id</span
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://siantarmarimbun.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://siantarmarimbun.pematangsiantar.go.id/</span
+                            ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.instagram.com/kesra_kotapematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/205/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/206/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4206190</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            asisten.administrasiumum@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/pages/Sekretariat-Daerah-Kota-pematangsiantar-Asisten-Administrasi-Umum/417730142373180"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/asistenadum"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
+                          ></a> -->
                           <a
-                            href="city-directory/info/206/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/207/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4234539</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            asisten.perekonomian@pematangsiantar.go.id</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://twitter.com/Asisten2Bdg"
-                            target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/adbangbdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/207/sekretariat-daerah.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/212/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
+                            href="https://siantarbarat.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Kecamatan Siantar Barat</a
                           >
                         </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
                             ><i class="fas fa-phone"></i>
-                          </span>
+                            <!-- Telepon -->
+                             </span
+                          >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            humas@pematangsiantar.go.id</span
-                          >
-                          <a href="http://humas.pematangsiantar.go.id/" target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://siantarbarat.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://humas.pematangsiantar.go.id/</span
+                              https://siantarbarat.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.facebook.com/halokotabdg"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a
-                            href="https://twitter.com/halo_pematangsiantar"
+                          <!-- <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/halopematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                          <a
-                            href="https://www.youtube.com/c/HumasBdg/channels"
-                            target="_blank"
-                            ><i class="fab fa-youtube"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/212/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/219/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4237331</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a href="https://twitter.com/pembdg" target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/pembdg/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/219/sekretariat-daerah.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/220/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
+                            href="https://siantarutara.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Kecamatan Siantar Utara</a
                           >
                         </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4208591</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            bag.hukum@pematangsiantar.go.id</span
-                          >
-                          <a href="http://jdih.pematangsiantar.go.id/" target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://siantarutara.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://jdih.pematangsiantar.go.id/</span
+                              https://siantarutara.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
                           <a
-                            href="https://www.instagram.com/bagianhukumkotapematangsiantar/"
-                            target="_blank"
-                            ><i class="fab fa-instagram"></i
-                          ></a>
-                        </td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/220/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/221/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4207184</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed">
-                          <a
-                            href="https://www.facebook.com/bagianumum.setda.1"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-facebook"></i
                           ></a>
-                          <a href="https://twitter.com/Bagumpal" target="_blank"
+                          <!-- <a
+                            href="#"
+                            target="_blank"
                             ><i class="fab fa-twitter"></i
-                          ></a>
+                          ></a> -->
                           <a
-                            href="https://www.instagram.com/bag_umpal/"
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/221/sekretariat-daerah.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/223/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
+                            href="https://siantartimur.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Kecamatan Siantar Timur</a
                           >
                         </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4234635</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            orpad_setdabdg@yahoo.com</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/223/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/225/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 423489</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            bag.kesra@pematangsiantar.go.id</span
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://siantartimur.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://siantartimur.pematangsiantar.go.id/</span
+                            ></a
                           >
                         </td>
                         <td class="cityd-sosmed">
-                          <a href="https://twitter.com/BdgKesra" target="_blank"
-                            ><i class="fab fa-twitter"></i
-                          ></a>
                           <a
-                            href="https://www.instagram.com/kesra_kotapematangsiantar/"
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
                             target="_blank"
                             ><i class="fab fa-instagram"></i
                           ></a>
                         </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/225/sekretariat-daerah.html"
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
-                      </tr>
+                      </tr> 
                       <tr>
                         <td>
                           <a
-                            href="city-directory/info/242/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
+                            href="https://siantarmartoba.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Kecamatan Siantar Martoba</a
                           >
                         </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
                         <td>
                           <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4219423</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/242/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/243/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-4235180</span
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
                           >
                         </td>
                         <td class="cityd-emailweb">
-                          <span class="nowrap"
+                          <!-- <span class="nowrap"
                             ><i class="fas fa-envelope"></i>
-                            bagianekonomi.bdg@gmail.com</span
-                          >
-                          <a href="http://tjsl.pematangsiantar.go.id/" target="_blank"
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://siantarmartoba.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              http://tjsl.pematangsiantar.go.id/</span
+                              https://siantarmartoba.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
+                        <td class="cityd-sosmed">
                           <a
-                            href="city-directory/info/243/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/244/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> (022) 4203407</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            prodekbangbdg@gmail.com</span
-                          >
-                        </td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/244/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/245/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukencana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/245/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/250/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/250/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/255/sekretariat-daerah.html"
-                            >Sekretariat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Wastukancana No. 2</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i>
-                          </span>
-                        </td>
-                        <td class="cityd-emailweb"></td>
-                        <td class="cityd-sosmed"></td>
-                        <td class="cityd-info">
-                          <a
-                            href="city-directory/info/255/sekretariat-daerah.html"
-                            ><i class="fas fa-info-circle"></i
-                          ></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a
-                            href="city-directory/info/208/sekretariat-dewan-perwakilan-rakyat-daerah.html"
-                            >Sekretariat Dewan Perwakilan Rakyat Daerah</a
-                          >
-                        </td>
-                        <td><span>Jl. Sukabumi No. 30</span></td>
-                        <td>
-                          <span class="nowrap"
-                            ><i class="fas fa-phone"></i> 022-87243095</span
-                          >
-                        </td>
-                        <td class="cityd-emailweb">
-                          <span class="nowrap"
-                            ><i class="fas fa-envelope"></i>
-                            sekretariat@dprd-pematangsiantarkota.go.id</span
-                          >
-                          <a
-                            href="http://dprd-pematangsiantarkota.go.id/"
+                            href="#"
                             target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr> 
+                      <tr>
+                        <td>
+                          <a
+                            href="https://siantarsitalasari.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Kecamatan Siantar Sitalasari</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://siantarsitalasari.pematangsiantar.go.id/" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              dprd-pematangsiantarkota.go.id</span
+                              https://siantarsitalasari.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
-                        <td class="cityd-sosmed"></td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
                         <td class="cityd-info">
                           <a
-                            href="city-directory/info/208/sekretariat-dewan-perwakilan-rakyat-daerah.html"
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr> 
+                      <tr>
+                        <td>
+                          <a
+                            href="https://inspektorat.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Inspektorat</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://inspektorat.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://inspektorat.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
                             ><i class="fas fa-info-circle"></i
                           ></a>
                         </td>
                       </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://setwan.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Sekretariat DPRD</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://setwan.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://setwan.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://bpbd.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Badan Penanggulangan Bencana Daerah</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://bpbd.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://bpbd.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://satpol.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Satuan Polisi Pamong Praja</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://satpol.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://satpol.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://rsud.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Rumah Sakit Umum Daerah Djasamen Saragih</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://rsud.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://rsud.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://puskesmaskartini.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Puskesmas Kartini</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://puskesmaskartini.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://puskesmaskartini.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://puskesmasraya.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            Puskesmas Raya</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://puskesmasraya.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://puskesmasraya.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://spbe.pematangsiantar.go.id/"
+                            >
+                            <!-- Instansi -->
+                            SPBE</a
+                          >
+                        </td>
+                        <td><span>
+                             <!-- Alamat -->
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i>
+                            <!-- Telepon -->
+                             </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            bappeda.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://spbe.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://spbe.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                     
                     </tbody>
                   </table>
                 </div>

@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      Website Resmi Kota Pematang Siantar - Surat Edaran Kota Pematang Siantar
 
     </title>
     <meta
       name="title"
-      content="Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematang Siantar - Surat Edaran Kota Pematang Siantar
 "
     />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Surat Edaran Kota Pematang Siantar
 "
     />
     <meta
@@ -31,7 +31,7 @@
     <!-- Meta -->
     <meta
       itemprop="name"
-      content="Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematang Siantar - Surat Edaran Kota Pematang Siantar
 "
     />
     <meta itemprop="image" content="assets/images/sharepematangsiantar.png" />
@@ -55,13 +55,13 @@
     <meta property="og:site_name" content="index.html" />
     <meta
       property="og:title"
-      content="Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematang Siantar - Surat Edaran Kota Pematang Siantar
 "
     />
     <meta property="og:url" content="city-directory.html" />
     <meta
       property="og:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Surat Edaran Kota Pematang Siantar
 "
     />
     <meta property="og:image" content="assets/images/sharepematangsiantar.png" />
@@ -78,13 +78,13 @@
     <meta name="twitter:creator" content="@humaspematangsiantar_" />
     <meta
       name="twitter:title"
-      content="Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematang Siantar - Surat Edaran Kota Pematang Siantar
 "
       data-dynamic="true"
     />
     <meta
       name="twitter:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Surat Edaran Kota Pematang Siantar
 "
       data-dynamic="true"
     />
@@ -1667,7 +1667,7 @@
           <div class="sectionrow">
             <div class="dinasterkait">
               <div class="xsection__header">
-                <h1 class="xsection__title">Dokumen Perencanaan Kota Pematang Siantar</h1>
+                <h1 class="xsection__title">Surat Edaran Kota Pematang Siantar</h1>
               </div>
               <div class="dinasterkait__body">
                 <div class="zentable-outer">
@@ -1680,7 +1680,9 @@
                       </tr>
                     </thead>
                    <tbody>
-                   
+                        <td></td>
+                        <td></td>
+                        <td></td>
                    </tbody>
                   </table>
                 </div>
@@ -1767,92 +1769,7 @@
     </a>
     <!-- ============================= end-back-to-top ============================= -->
   </body>
-    <!-- Tabel -->
-    <script>
-      // Data contoh
-      const data = [
-          { NamaFile: 'RKPD Kota Pematang Siantar Tahun 2021', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/08/RKPD-Kota-Pematang-Siantar-Tahun-2021.pdf' },
-          { NamaFile: 'P RKPD Kota Pematangsiantar Tahun 2021', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/08/P-RKPD-Kota-Pematangsiantar-Tahun-2021.pdf' },
-          { NamaFile: 'Rencana Tata Ruang Wilayah Kota Pematang Siantar Tahun 2012-2032', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/07/PERDA-KOTA-PEMATANG-SIANTAR-NO.1-TAHUN-2013_2.pdf' },
-          { NamaFile: 'Renstra Badan Perencanaan, Penelitian Dan Pengembangan Daerah Kota Pematang Siantar 2017-2022', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/03/RENSTRA-BAPPEDA-KOTA-PEMATANGSIANTAR-TAHUN-2017-2022.pdf' },
-          { NamaFile: 'Permendagri 86 Tahun 2017', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/03/Permendagri-No-86-TH-2017.pdf' },
-          { NamaFile: 'RPJMD Pematangsiantar 2017-2022', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/09/RPJMD-Pematangsiantar-2017-2022.pdf' },
-          { NamaFile: 'RKPD Kota Pematangsiantar Tahun 2022', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/09/RKPD-Kota-Pematangsiantar-Tahun-2022.pdf' },
-          { NamaFile: 'Perubahan RKPD Kota Pematang Siantar Tahun 2022', TanggalUpload: '12 September 2022', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Perubahan-RKPD-Kota-Pematangsiantar-Tahun-2022.pdf' },
-          { NamaFile: 'RPJMD Pematang Siantar 2022-2027', TanggalUpload: '11 November 2022', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/RPJMD-Kota-Pematang-Siantar-Tahun-2022-2027.pdf' },
-          { NamaFile: 'RKPD Kota Pematang Siantar Tahun 2023', TanggalUpload: '11 Juli 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/09/Peraturan-Wali-Kota-Pematang-Siantar-Nomor-12-Tahun-2022-Tentang-Rencana-Kerja-Pemerintah-Daerah-Kota-Pematang-Siantar-Tahun-2023-dikompresi.pdf' },
-          { NamaFile: 'RKPD Kota Pematang Siantar 2024', TanggalUpload: '14 Juli 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERWA-NO-19-Tahun-2023-TTG-RKPD-KOTA-PS-TAHUN-2024.pdf' },
-		  { NamaFile: 'Perubahan RKPD Kota Pematang Siantar Tahun 2023', TanggalUpload: '28 Agustus 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERKADA-NO-28-TENTANG-P-RKPD-KOTA-PEMATANG-SIANTAR-TAHUN-2023.pdf' },
-		  { NamaFile: 'Lakip Bappeda kota Pematang Siantar', TanggalUpload: '15 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Lakip-Coaching-cliniq.pdf' },
-		  { NamaFile: 'Perjanjian Kinerja Bappeda kota Pematang Siantar', TanggalUpload: '15 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERJANJIAN-KINERJA-MASING-MASING-JABATAN.pdf' },
-		  { NamaFile: 'Rencana Strategis Bappeda kota Pematang Siantar Tahun 2022-2027', TanggalUpload: '21 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Rencana-Strategis.pdf' },
-        
-          // Tambahkan data tambahan di sini
-      ];
-
-      const itemsPerPage = 300;
-      let currentPage = 1;
-
-      // Fungsi untuk menampilkan data pada halaman tertentu
-      function displayData(page) {
-          const tableBody = document.querySelector('#myTable tbody');
-          tableBody.innerHTML = '';
-
-          const startIndex = (page - 1) * itemsPerPage;
-          const endIndex = startIndex + itemsPerPage;
-
-          for (let i = startIndex; i < endIndex && i < data.length; i++) {
-              const item = data[i];
-              const row = tableBody.insertRow();
-              const namaFileCell = row.insertCell(0);
-              const tanggalUploadCell = row.insertCell(1);
-              const alamatLinkCell = row.insertCell(2);
-
-              namaFileCell.textContent = item.NamaFile;
-              tanggalUploadCell.textContent = item.TanggalUpload;
-              alamatLinkCell.innerHTML = `<a href="${item.AlamatLink}" target="_blank">
-<i class="fa fa-download" aria-hidden="true" style="color: #253B7B; font-size: 24px;"></i></a>`;
-          }
-      }
-
-      // Fungsi untuk membuat tautan pagination
-      function createPaginationLinks() {
-          const paginationContainer = document.getElementById('pagination');
-          paginationContainer.innerHTML = '';
-
-          const totalPages = Math.ceil(data.length / itemsPerPage);
-
-          for (let i = 1; i <= totalPages; i++) {
-              const link = document.createElement('a');
-              link.textContent = i;
-              link.href = '#';
-              link.addEventListener('click', () => {
-                  currentPage = i;
-                  displayData(currentPage);
-                  highlightActiveLink();
-              });
-              paginationContainer.appendChild(link);
-          }
-
-          highlightActiveLink();
-      }
-
-      // Fungsi untuk menyoroti tautan pagination aktif
-      function highlightActiveLink() {
-          const links = document.querySelectorAll('.pagination a');
-          links.forEach((link, index) => {
-              if (index + 1 === currentPage) {
-                  link.classList.add('active');
-              } else {
-                  link.classList.remove('active');
-              }
-          });
-      }
-
-      // Memanggil fungsi untuk menampilkan data dan membuat pagination
-      displayData(currentPage);
-      createPaginationLinks();
-  </script>
+   
   <!-- js_plugins -->
   <script src="<?php echo base_url().'theme/depan/assets/js/jquery.min.js'?>"></script>
   <script src="<?php echo base_url().'theme/depan/assets/js/datatable.js'?>"></script>

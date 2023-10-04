@@ -1511,12 +1511,39 @@
     <div class="bdgcontent">
   <div class="floatmenu">
     <div class="floatmenu__wrap">
-      <ul>
-        <li><a href="#" target="_blank"><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/lapor-float.png'?>" alt="img"><span>LAPOR</span></a></li>
-        <li><a href="tel:119" rel="nofollow" target="_blank"><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/2.png'?>" alt="img"><span>119</span></a></li>
-        <li><a href="#"><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/3.png'?>" alt="img"><span>CCTV</span></a></li>
-        <li><a href="#" target="_blank"><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/4.png'?>" alt="img"><span>CHAT</span></a></li>
-      </ul>
+    <ul>
+            <li>
+              <a
+                href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
+                target="_blank"
+                ><img
+                  src="<?php echo base_url().'theme/depan/assets/img/floatmenu/lapor-float.png'?>"
+                  alt="img"
+                /><span>LAPOR</span></a
+              >
+            </li>
+            <li>
+              <a href="tel:119" rel="nofollow" target="_blank"
+                ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/2.png'?>" alt="img" /><span
+                  >PSC 119</span
+                ></a
+              >
+            </li>
+            <li>
+              <a href="https://cctv.pematangsiantar.go.id/"
+                ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/3.png'?>" alt="img" /><span
+                  >CCTV</span
+                ></a
+              >
+            </li>
+            <!-- <li>
+              <a href="#" target="_blank"
+                ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/4.png'?>" alt="img" /><span
+                  >CHAT</span
+                ></a
+              >
+            </li> -->
+          </ul>
     </div>
   </div>
 
@@ -1564,9 +1591,9 @@
                               >Dokumen Perencanaan</a
                             >
                           </li>
-                          <li><a href="#">Foto Wali Kota dan Forkopimda</a></li>
+                          <li><a href="<?php echo site_url('foto');?>">Foto Wali Kota dan Forkopimda</a></li>
                           <li>
-                            <a href="#">Surat Edaran</a>
+                            <a href="<?php echo site_url('surat');?>">Surat Edaran</a>
                           </li>
                         </ul>
                       </li>
@@ -1672,19 +1699,21 @@
   </div>
 
 
-
-<footer class="bg-blue">
-    <div class="wrapper">
-      <div class="footer">
-
-        <div class="footer__col">
-          <div class="footlogo"><img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt=""></div>
-          <div class="footalamat">PEMATANGSIANTAR.GO.ID<br />
+  <footer class="bg-blue">
+        <div class="wrapper">
+          <div class="footer">
+            <div class="footer__col">
+              <div class="footlogo">
+                <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="" />
+              </div>
+              <div class="footalamat">
+              PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135</div>
-        </div>
+               Kota Pematang Siantar, Sumatera Utara 21135
+              </div>
+            </div>
 
-        <div class="footer__col">
+            <div class="footer__col">
               <ul class="footmenu">
                 <li><a href="#">Tentang Kami</a></li>
                 <li><a href="#">Kontak</a></li>

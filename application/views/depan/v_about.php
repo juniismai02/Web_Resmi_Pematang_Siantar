@@ -1446,10 +1446,10 @@
     <div class="bdgcontent">
       <div class="floatmenu">
         <div class="floatmenu__wrap">
-          <ul>
+        <ul>
             <li>
               <a
-                href="#"
+                href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
                 target="_blank"
                 ><img
                   src="<?php echo base_url().'theme/depan/assets/img/floatmenu/lapor-float.png'?>"
@@ -1460,24 +1460,24 @@
             <li>
               <a href="tel:119" rel="nofollow" target="_blank"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/2.png'?>" alt="img" /><span
-                  >119</span
+                  >PSC 119</span
                 ></a
               >
             </li>
             <li>
-              <a href="#"
+              <a href="https://cctv.pematangsiantar.go.id/"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/3.png'?>" alt="img" /><span
                   >CCTV</span
                 ></a
               >
             </li>
-            <li>
+            <!-- <li>
               <a href="#" target="_blank"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/4.png'?>" alt="img" /><span
                   >CHAT</span
                 ></a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -1528,9 +1528,9 @@
                               >Dokumen Perencanaan</a
                             >
                           </li>
-                          <li><a href="#">Foto Wali Kota dan Forkopimda</a></li>
+                          <li><a href="<?php echo site_url('foto');?>">Foto Wali Kota dan Forkopimda</a></li>
                           <li>
-                            <a href="#">Surat Edaran</a>
+                            <a href="<?php echo site_url('surat');?>">Surat Edaran</a>
                           </li>
                         </ul>
                       </li>
@@ -1553,7 +1553,6 @@
                 </div>
               </div>
             </div>
-
 
             <div class="menu__right">
               <div class="hujanbahasa">
@@ -1597,7 +1596,7 @@
                       dr. Hj. Susanti Dewayani Sp.A
                     </div>
                     <div class="leader__summary" >
-                    dr. Hj. Susanti Dewayani, Sp.A. (lahir 28 Juni 1963) adalah Wali Kota Pematangsiantar untuk sisa periode 2022-2027,[2][3][4] dilantik menjadi Plt Walikota pada 22 Februari 2022 dan Dilantik menjadi Walikota Defenitif pada 22 Agustus 2022. Susanti merupakan Walikota Perempuan pertama yang memimpin Kota Pematangsiantar dan memiliki latar belakang sebagai seorang dokter spesialis anak.
+                    dr. Hj. Susanti Dewayani, Sp.A. (lahir 28 Juni 1963) adalah Wali Kota Pematangsiantar untuk sisa periode 2022-2027,[2][3][4] dilantik menjadi Plt Wali Kota pada 22 Februari 2022 dan Dilantik menjadi Wali Kota Defenitif pada 22 Agustus 2022. Susanti merupakan Wali Kota Perempuan pertama yang memimpin Kota Pematangsiantar dan memiliki latar belakang sebagai seorang dokter spesialis anak.
                      </div>
                   </div>
                   <div class="leader__pic">
@@ -1683,14 +1682,14 @@
       <div class="sectionrow">
         <div class="govideo">
           <div class="xsection__header">
-            <h1 class="xsection__title">Pesan dari Walikota Pematang Siantar</h1>
+            <h1 class="xsection__title">Pesan dari Wali Kota Pematang Siantar</h1>
           </div>
           <div class="govideo-body">
             <iframe
               width="560"
               height="315"
               src="https://www.youtube.com/embed/dIFGeqN81xM"
-              title="Pesan dari Walikota Pematang Siantar"
+              title="Pesan dari Wali Kota Pematang Siantar"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -1755,18 +1754,21 @@
       </div>
 
    
-<footer class="bg-blue">
-    <div class="wrapper">
-      <div class="footer">
-
-        <div class="footer__col">
-          <div class="footlogo"><img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt=""></div>
-          <div class="footalamat">PEMATANGSIANTAR.GO.ID<br />
+      <footer class="bg-blue">
+        <div class="wrapper">
+          <div class="footer">
+            <div class="footer__col">
+              <div class="footlogo">
+                <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="" />
+              </div>
+              <div class="footalamat">
+              PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135</div>
-        </div>
+               Kota Pematang Siantar, Sumatera Utara 21135
+              </div>
+            </div>
 
-        <div class="footer__col">
+            <div class="footer__col">
               <ul class="footmenu">
                 <li><a href="#">Tentang Kami</a></li>
                 <li><a href="#">Kontak</a></li>

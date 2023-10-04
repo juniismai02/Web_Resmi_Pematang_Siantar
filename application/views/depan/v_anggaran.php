@@ -1577,10 +1577,10 @@ h4 {
     <div class="bdgcontent">
       <div class="floatmenu">
         <div class="floatmenu__wrap">
-          <ul>
+        <ul>
             <li>
               <a
-                href="#"
+                href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
                 target="_blank"
                 ><img
                   src="<?php echo base_url().'theme/depan/assets/img/floatmenu/lapor-float.png'?>"
@@ -1591,24 +1591,24 @@ h4 {
             <li>
               <a href="tel:119" rel="nofollow" target="_blank"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/2.png'?>" alt="img" /><span
-                  >112</span
+                  >PSC 119</span
                 ></a
               >
             </li>
             <li>
-              <a href="#"
+              <a href="https://cctv.pematangsiantar.go.id/"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/3.png'?>" alt="img" /><span
                   >CCTV</span
                 ></a
               >
             </li>
-            <li>
+            <!-- <li>
               <a href="#" target="_blank"
                 ><img src="<?php echo base_url().'theme/depan/assets/img/floatmenu/4.png'?>" alt="img" /><span
                   >CHAT</span
                 ></a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -1622,7 +1622,7 @@ h4 {
             <div class="mobile-menutitle">
               <div class="mobile-menutitle-inner">
                 <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img" /><span
-                  >PORTAL pematang siantar</span
+                  >PEMATANG SIANTAR</span
                 >
               </div>
             </div>
@@ -1659,9 +1659,9 @@ h4 {
                               >Dokumen Perencanaan</a
                             >
                           </li>
-                          <li><a href="#">Foto Wali Kota dan Forkopimda</a></li>
+                          <li><a href="<?php echo site_url('foto');?>">Foto Wali Kota dan Forkopimda</a></li>
                           <li>
-                            <a href="#">Surat Edaran</a>
+                            <a href="<?php echo site_url('surat');?>">Surat Edaran</a>
                           </li>
                         </ul>
                       </li>
