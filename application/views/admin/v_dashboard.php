@@ -11,9 +11,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Madrasah Ibtidaiyah  Al-khoirot | Dashboard</title>
+  <title>Website Resmi Kota Pematang Siantar | Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
-  <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/icoon.png'?>">
+      <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="<?php echo base_url().'assets/bootstrap/css/bootstrap.min.css'?>">
@@ -77,30 +77,30 @@
             <li><a href="<?php echo base_url().'admin/kategori'?>"><i class="fa fa-wrench"></i> Kategori</a></li>
           </ul>
         </li>
-        <li>
+        <!-- <li>
           <a href="<?php echo base_url().'admin/pengguna'?>">
             <i class="fa fa-users"></i> <span>Pengguna</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
             </span>
           </a>
-        </li>
-        <li>
+        </li> -->
+        <!-- <li>
           <a href="<?php echo base_url().'admin/agenda'?>">
             <i class="fa fa-calendar"></i> <span>Agenda</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
             </span>
           </a>
-        </li>
-        <li>
+        </li> -->
+        <!-- <li>
           <a href="<?php echo base_url().'admin/pengumuman'?>">
             <i class="fa fa-volume-up"></i> <span>Pengumuman</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
             </span>
           </a>
-        </li>
+        </li> -->
         <li>
           <a href="<?php echo base_url().'admin/files'?>">
             <i class="fa fa-download"></i> <span>Download</span>
@@ -123,16 +123,16 @@
           </ul>
         </li>
 
-        <li>
+        <!-- <li>
           <a href="<?php echo base_url().'admin/guru'?>">
             <i class="fa fa-graduation-cap"></i> <span>Data Guru</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
             </span>
           </a>
-        </li>
+        </li> -->
 
-        <li class="treeview">
+        <!-- <li class="treeview">
           <a href="#">
             <i class="fa fa-user"></i>
             <span>Kesiswaan</span>
@@ -145,34 +145,34 @@
             <li><a href="#"><i class="fa fa-star-o"></i> Prestasi Siswa</a></li>
 
           </ul>
-        </li>
+        </li> -->
 
-        <li>
+        <!-- <li>
           <a href="<?php echo base_url().'admin/inbox'?>">
             <i class="fa fa-envelope"></i> <span>Inbox</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green"><?php echo $jum_pesan;?></small>
             </span>
           </a>
-        </li>
+        </li> -->
 
-        <li>
+        <!-- <li>
           <a href="<?php echo base_url().'admin/komentar'?>">
             <i class="fa fa-comments"></i> <span>Komentar</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green"><?php echo $jum_comment;?></small>
             </span>
           </a>
-        </li>
+        </li> -->
 
-         <li>
+         <!-- <li>
           <a href="<?php echo base_url().'administrator/logout'?>">
             <i class="fa fa-sign-out"></i> <span>Sign Out</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
             </span>
           </a>
-        </li>
+        </li> -->
 
 
       </ul>
@@ -434,7 +434,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 1.0
     </div>
-    <strong>Copyright &copy; 2022 <a href="#">Madrasah Ibtidaiyah  Al-khoirot </a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2022 <a href="#">Website Resmi Kota Pematang Siantar </a>.</strong> All rights reserved.
   </footer>
 
 

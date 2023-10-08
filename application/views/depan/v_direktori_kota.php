@@ -3622,18 +3622,18 @@
 
             <div class="footer__col">
               <ul class="footmenu">
-                <li><a href="#">Tentang Kami</a></li>
-                <li><a href="#">Kontak</a></li>
+                <li><a href="<?php echo site_url('about');?>">Tentang Kami</a></li>
+                <li><a href="<?php echo site_url('kontak');?>">Kontak</a></li>
                 
                 <li>
                   <a
                     target="_blank"
-                    href="#"
+                    href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
                     ><img width="110" src="<?php echo base_url().'theme/depan/assets/img/lapor-foot.png'?>" alt=""
                   /></a>
                 </li>
                 <li>
-                  <a target="_blank" href="#"
+                  <a target="_blank" href="https://jdih.pematangsiantar.go.id/"
                     ><img width="110" src="<?php echo base_url().'theme/depan/assets/img/jdih-foot.png'?>" alt=""
                   /></a>
                 </li>
@@ -3644,19 +3644,19 @@
             <div class="footer__col">
               <ul class="sosmedrow">
                 <li>
-                  <a href="#" target="_blank"
-                    ><i class="fab fa-twitter"></i>Twitter</a
+                  <a href="https://www.facebook.com/diskominfopematangsiantar" target="_blank"
+                    ><i class="fab fa-facebook"></i>Facebook</a
                   >
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/diskominfopematangsiantar/"
                     target="_blank"
                     ><i class="fab fa-instagram"></i> Instagram</a
                   >
                 </li>
                 <li>
-                  <a href="#" target="_blank"
+                  <a href="https://www.tiktok.com/@kominfopematangsiantar?_t=8gL05bIR9Os&_r=1" target="_blank"
                     ><img
                       width="20"
                       src="<?php echo base_url().'theme/depan/assets/img/tiktok.png'?>"
@@ -3666,7 +3666,7 @@
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/@DiskominfoPematangsiantar"
                     target="_blank"
                     ><i class="fab fa-youtube"></i> youtube</a
                   >

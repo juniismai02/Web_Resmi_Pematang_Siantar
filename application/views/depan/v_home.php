@@ -1825,13 +1825,13 @@
                     data-containt="PEMERINTAH Kota Pematang Siantar"
                   >
                     <a
-                      href="#"
+                      href="<?php echo site_url('pemerintah');?>"
                       class="thumboverlay"
                     >
                       <div class="thumboverlay__inner">
                       <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/1/pemko_siantar.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/PEMERINTAH KOTA PEMATANG SIANTAR.png'); ?>"
                           alt="img"
                         />
                       </div>
@@ -1847,13 +1847,13 @@
                     data-containt="PENDIDIKAN DAN KEBUDAYAAN"
                   >
                     <a
-                      href="#"
+                      href="<?php echo site_url('pendidikan_kebudayaan');?>"
                       class="thumboverlay"
                     >
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/2/pendidikan_kebudayaan.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/PENDIDIKAN DAN KEBUDAYAAN.png'); ?>"
                           alt="img"
                         />
                         </div>
@@ -1864,11 +1864,11 @@
                     </a>
                   </div>
                   <div class="element" data-containt="KESEHATAN">
-                    <a href="#" class="thumboverlay">
+                    <a href="<?php echo site_url('kesehatan');?>" class="thumboverlay">
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/3/kesehatan.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/KESEHATAN.png'); ?>"
                           alt="img"
                         />
                         </div>
@@ -1877,11 +1877,11 @@
                     </a>
                   </div>
                   <div class="element" data-containt="TRANSPORTASI">
-                    <a href="#" class="thumboverlay">
+                    <a href="<?php echo site_url('transportasi');?>" class="thumboverlay">
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                           <img
-                            src="<?php echo base_url('theme/depan/etalase/4/tranportasi.png'); ?>"
+                            src="<?php echo base_url('theme/depan/assets/img/transportasi.png'); ?>"
                             alt="img"
                           />
                         </div>
@@ -1894,13 +1894,13 @@
                     data-containt="PELAYANAN INFORMASI PUBLIK"
                   >
                     <a
-                      href="#"
+                      href="https://sisada.pematangsiantar.go.id/"
                       class="thumboverlay"
                     >
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/5/informasi_publik.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/pelayanan informasi publik.png'); ?>"
                           alt="img"
                         />
                         </div>
@@ -1915,13 +1915,13 @@
                     data-containt="TEMPAT WISATA DAN REKREASI"
                   >
                     <a
-                      href="#"
+                      href="<?php echo site_url('wisata');?>"
                       class="thumboverlay"
                     >
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/6/tempat_wisata.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/TEMPAT REKRASI.png'); ?>"
                           alt="img"
                         />
                         </div>
@@ -1939,7 +1939,7 @@
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/7/pelayanan_publik.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/pelayanan publik.png'); ?>"
                           alt="img"
                         />
                         </div>
@@ -1948,11 +1948,11 @@
                     </a>
                   </div>
                   <div class="element" data-containt="OPEN DATA">
-                    <a href="#" class="thumboverlay">
+                    <a href="https://sisada.pematangsiantar.go.id/" class="thumboverlay">
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/8/open_data.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/open data.png'); ?>"
                           alt="img"
                         />
                         </div>
@@ -1962,13 +1962,13 @@
                   </div>
                   <div class="element" data-containt="TRANSPARANSI KEUANGAN">
                     <a
-                      href="#"
+                      href="<?php echo site_url('transparansi');?>"
                       class="thumboverlay"
                     >
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/9/keuangan.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/transparansi keuangan.png'); ?>"
                           alt="img"
                         />
                         </div>
@@ -1979,11 +1979,11 @@
                     </a>
                   </div>
                   <div class="element" data-containt="PENGUMUMAN">
-                    <a href="#" class="thumboverlay">
+                    <a href="<?php echo site_url('pengumuman');?>" class="thumboverlay">
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/etalase/10/pengumuman.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/pengumuman.png'); ?>"
                           alt="img"
                         />
                         </div>
@@ -2150,18 +2150,18 @@
 
             <div class="footer__col">
               <ul class="footmenu">
-                <li><a href="#">Tentang Kami</a></li>
-                <li><a href="#">Kontak</a></li>
+                <li><a href="<?php echo site_url('about');?>">Tentang Kami</a></li>
+                <li><a href="<?php echo site_url('kontak');?>">Kontak</a></li>
                 
                 <li>
                   <a
                     target="_blank"
-                    href="#"
+                    href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
                     ><img width="110" src="<?php echo base_url().'theme/depan/assets/img/lapor-foot.png'?>" alt=""
                   /></a>
                 </li>
                 <li>
-                  <a target="_blank" href="#"
+                  <a target="_blank" href="https://jdih.pematangsiantar.go.id/"
                     ><img width="110" src="<?php echo base_url().'theme/depan/assets/img/jdih-foot.png'?>" alt=""
                   /></a>
                 </li>
@@ -2172,19 +2172,19 @@
             <div class="footer__col">
               <ul class="sosmedrow">
                 <li>
-                  <a href="#" target="_blank"
-                    ><i class="fab fa-twitter"></i>Twitter</a
+                  <a href="https://www.facebook.com/diskominfopematangsiantar" target="_blank"
+                    ><i class="fab fa-facebook"></i>Facebook</a
                   >
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/diskominfopematangsiantar/"
                     target="_blank"
                     ><i class="fab fa-instagram"></i> Instagram</a
                   >
                 </li>
                 <li>
-                  <a href="#" target="_blank"
+                  <a href="https://www.tiktok.com/@kominfopematangsiantar?_t=8gL05bIR9Os&_r=1" target="_blank"
                     ><img
                       width="20"
                       src="<?php echo base_url().'theme/depan/assets/img/tiktok.png'?>"
@@ -2194,7 +2194,7 @@
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/@DiskominfoPematangsiantar"
                     target="_blank"
                     ><i class="fab fa-youtube"></i> youtube</a
                   >

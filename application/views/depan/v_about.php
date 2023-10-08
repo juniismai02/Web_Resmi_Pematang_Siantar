@@ -17,7 +17,7 @@
     />
     <meta
       name="keywords"
-      content="bandung, kota Pematang Siantar, pemerintah kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
+      content="pematangsiantar, kota Pematang Siantar, pemerintah kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
     />
 
     <!-- Favicon Icon -->
@@ -31,6 +31,18 @@
     <!-- css_plugin -->
     <link href="<?php echo base_url().'theme/depan/assets/plugins/slick/css/slick.css'?>" rel="stylesheet" />
     <link href="<?php echo base_url().'theme/depan/assets/plugins/slick/css/slick-theme.css'?>" rel="stylesheet" />
+    <style>
+      .leader__row {
+ 
+  justify-content: center; /* Pusatkan secara horizontal */
+
+}
+
+.leader__col {
+  /* Tambahkan gaya styling lainnya sesuai kebutuhan */
+}
+
+    </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -1569,7 +1581,7 @@
                 </div>
               </div>
             </div>
-            <form action="https://www.bandung.go.id/search" method="get">
+            <form action="https://www.pematangsiantar.go.id/search" method="get">
               <div class="search__form-outer">
                 <div class="search__form">
                   <input type="text" name="key" />
@@ -1589,24 +1601,27 @@
               </div>
 
               <div class="leader__row">
-                <div class="leader__col">
-                  <div class="leader__text">
-                    <div class="leader__pos">WALI KOTA</div>
-                    <div class="leader__name">
-                      dr. Hj. Susanti Dewayani Sp.A
-                    </div>
-                    <div class="leader__summary" >
-                    dr. Hj. Susanti Dewayani, Sp.A. (lahir 28 Juni 1963) adalah Wali Kota Pematangsiantar untuk sisa periode 2022-2027,[2][3][4] dilantik menjadi Plt Wali Kota pada 22 Februari 2022 dan Dilantik menjadi Wali Kota Defenitif pada 22 Agustus 2022. Susanti merupakan Wali Kota Perempuan pertama yang memimpin Kota Pematangsiantar dan memiliki latar belakang sebagai seorang dokter spesialis anak.
-                     </div>
-                  </div>
-                  <div class="leader__pic">
-                    <img
-                      src="<?php echo base_url().'theme/depan/assets/img/walikota.png'?>"
-                      alt="dr. Hj. Susanti Dewayani Sp.A"
-                    />
-                  </div>
-                </div>
-                <div class="leader__col">
+  <div class="leader__col">
+    <div class="leader__text">
+      <div class="leader__pos">WALI KOTA</div>
+      <div class="leader__name">
+        dr. Hj. Susanti Dewayani Sp.A
+      </div>
+      <div class="leader__summary">
+        dr. Hj. Susanti Dewayani, Sp.A. (lahir 28 Juni 1963) adalah Wali Kota Pematangsiantar untuk sisa periode 2022-2027,[2][3][4] dilantik menjadi Plt Wali Kota pada 22 Februari 2022 dan Dilantik menjadi Wali Kota Defenitif pada 22 Agustus 2022. Susanti merupakan Wali Kota Perempuan pertama yang memimpin Kota Pematangsiantar dan memiliki latar belakang sebagai seorang dokter spesialis anak.
+      </div>
+    </div>
+    <div class="leader__pic">
+      <img
+        src="<?php echo base_url().'theme/depan/assets/img/walikota.png'?>"
+        alt="dr. Hj. Susanti Dewayani Sp.A"
+      />
+    </div>
+  </div>
+</div>
+
+                <!-- Wakil Walikota -->
+                <!-- <div class="leader__col">
                   <div class="leader__text">
                     <div class="leader__pos">WAKIL WALI KOTA</div>
                     <div class="leader__name">-</div>
@@ -1614,11 +1629,11 @@
                   </div>
                   <div class="leader__pic">
                     <img
-                      src="https://img.bandung.go.id/images/profil/2022/08/03/2/16595161764-.jpg"
+                      src="https://img.pematangsiantar.go.id/images/profil/2022/08/03/2/16595161764-.jpg"
                       alt="-"
                     />
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -1627,7 +1642,7 @@
           <div class="sectionrow">
             <div class="about">
               <div class="about__map">
-                <!-- <img src="./assets/img/map/map-bandung-v4.svg" alt="map"> -->
+                <!-- <img src="./assets/img/map/map-pematangsiantar-v4.svg" alt="map"> -->
                 <!-- ===== MAP ===== -->
                 <img
                       src="<?php echo base_url().'theme/depan/assets/img/map.png'?>"
@@ -1770,18 +1785,18 @@
 
             <div class="footer__col">
               <ul class="footmenu">
-                <li><a href="#">Tentang Kami</a></li>
-                <li><a href="#">Kontak</a></li>
+                <li><a href="<?php echo site_url('about');?>">Tentang Kami</a></li>
+                <li><a href="<?php echo site_url('kontak');?>">Kontak</a></li>
                 
                 <li>
                   <a
                     target="_blank"
-                    href="#"
+                    href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
                     ><img width="110" src="<?php echo base_url().'theme/depan/assets/img/lapor-foot.png'?>" alt=""
                   /></a>
                 </li>
                 <li>
-                  <a target="_blank" href="#"
+                  <a target="_blank" href="https://jdih.pematangsiantar.go.id/"
                     ><img width="110" src="<?php echo base_url().'theme/depan/assets/img/jdih-foot.png'?>" alt=""
                   /></a>
                 </li>
@@ -1792,19 +1807,19 @@
             <div class="footer__col">
               <ul class="sosmedrow">
                 <li>
-                  <a href="#" target="_blank"
-                    ><i class="fab fa-twitter"></i>Twitter</a
+                  <a href="https://www.facebook.com/diskominfopematangsiantar" target="_blank"
+                    ><i class="fab fa-facebook"></i>Facebook</a
                   >
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/diskominfopematangsiantar/"
                     target="_blank"
                     ><i class="fab fa-instagram"></i> Instagram</a
                   >
                 </li>
                 <li>
-                  <a href="#" target="_blank"
+                  <a href="https://www.tiktok.com/@kominfopematangsiantar?_t=8gL05bIR9Os&_r=1" target="_blank"
                     ><img
                       width="20"
                       src="<?php echo base_url().'theme/depan/assets/img/tiktok.png'?>"
@@ -1814,7 +1829,7 @@
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/@DiskominfoPematangsiantar"
                     target="_blank"
                     ><i class="fab fa-youtube"></i> youtube</a
                   >
