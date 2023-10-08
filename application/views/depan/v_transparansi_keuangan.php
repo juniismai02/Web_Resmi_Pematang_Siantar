@@ -1670,13 +1670,38 @@ h4 {
                         <span><a href="https://jdih.pematangsiantar.go.id/">JDIH</a></span>
                       </li>
 
-                      <li><a href="<?php echo site_url('direktori');?>">Direktori Kota</a></li>
+
+                      <li class="has-dropdown">
+                        <span
+                          ><a href="#">Direktori Kota</a>
+                          <i class="idrop fas fa-caret-down"></i
+                        ></span>
+                        <ul>
+                          <li><a href="<?php echo site_url('direktori');?>">Informasi Dinas Terkait</a></li>
+                          <li>
+                            <a href="<?php echo site_url('aplikasi');?>"
+                              >Layanan Aplikasi</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://berita.pematangsiantar.go.id/"
+                              >Layanan Berita</a
+                            >
+                          </li>
+                          
+                        </ul>
+                      </li>
                       
                      
-                      <li>
+                      <!-- <li>
                         <a href="https://sisada.pematangsiantar.go.id/"
                           ><i class="fas fa-exclamation-circle"></i> Open
                           Data</a
+                        >
+                      </li> -->
+                      <li>
+                        <a href="https://opinipublik.pematangsiantar.go.id/berita/"
+                          ><i class="fas fa-exclamation-circle"></i> Opini Publik</a
                         >
                       </li>
                     </ul>
@@ -1684,7 +1709,6 @@ h4 {
                 </div>
               </div>
             </div>
-
 
             <div class="menu__right">
               <div class="hujanbahasa">

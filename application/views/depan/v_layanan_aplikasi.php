@@ -1612,13 +1612,38 @@
                         <span><a href="https://jdih.pematangsiantar.go.id/">JDIH</a></span>
                       </li>
 
-                      <li><a href="<?php echo site_url('direktori');?>">Layanan Aplikasi Kota</a></li>
+
+                      <li class="has-dropdown">
+                        <span
+                          ><a href="#">Direktori Kota</a>
+                          <i class="idrop fas fa-caret-down"></i
+                        ></span>
+                        <ul>
+                          <li><a href="<?php echo site_url('direktori');?>">Informasi Dinas Terkait</a></li>
+                          <li>
+                            <a href="<?php echo site_url('aplikasi');?>"
+                              >Layanan Aplikasi</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://berita.pematangsiantar.go.id/"
+                              >Layanan Berita</a
+                            >
+                          </li>
+                          
+                        </ul>
+                      </li>
                       
                      
-                      <li>
+                      <!-- <li>
                         <a href="https://sisada.pematangsiantar.go.id/"
                           ><i class="fas fa-exclamation-circle"></i> Open
                           Data</a
+                        >
+                      </li> -->
+                      <li>
+                        <a href="https://opinipublik.pematangsiantar.go.id/berita/"
+                          ><i class="fas fa-exclamation-circle"></i> Opini Publik</a
                         >
                       </li>
                     </ul>
@@ -1730,7 +1755,7 @@
                           <a href="https://siantarman.pematangsiantar.go.id/index.php" target="_blank"
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
-                              https://ekinerja.pematangsiantar.go.id/</span
+                              https://siantarman.pematangsiantar.go.id/</span
                             ></a
                           >
                         </td>
@@ -1741,6 +1766,514 @@
                           ></a>
                         </td>
                       </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://play.google.com/store/apps/details?id=com.sidupasiantar.app"
+                            >Sidupas</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://play.google.com/store/apps/details?id=com.sidupasiantar.app" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i> 
+                              https://play.google.com/store/apps/details?id=com.sidupasiantar.app</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://siantar.dukcapil.online/"
+                            >Disdukcapil</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://siantar.dukcapil.online/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i> 
+                              https://siantar.dukcapil.online/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://siantarpaten.pematangsiantar.go.id/"
+                            >Siantar Paten</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://siantarpaten.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://siantarpaten.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://smantig.pematangsiantar.go.id/smantig/login"
+                            >Smantig</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://smantig.pematangsiantar.go.id/smantig/login" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://smantig.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          <a
+                            href="https://jurnalkebijakan.pematangsiantar.go.id/"
+                            >E-Jurnal</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://jurnalkebijakan.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://jurnalkebijakan.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://baja.pematangsiantar.go.id/"
+                            >Baja</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://baja.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://baja.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://simpedes-sigita.pematangsiantar.go.id/"
+                            >Simpedes Sigita</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://simpedes-sigita.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://simpedes-sigita.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://jdih.pematangsiantar.go.id/"
+                            >JDIH</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://jdih.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://jdih.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://e-wars.pematangsiantar.go.id/"
+                            >E-Wars</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://e-wars.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://e-wars.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://siantarbang.pematangsiantar.go.id/"
+                            >Siantar Bang</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://siantarbang.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://siantarbang.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://didataup2k.pematangsiantar.go.id/"
+                            >UP2K</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://didataup2k.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://didataup2k.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://siantarsehat.pematangsiantar.go.id/"
+                            >Siantar Sehat</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://siantarsehat.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://siantarsehat.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://simlpju.pematangsiantar.go.id/"
+                            >Simlpju</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://simlpju.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://simlpju.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://simtgr.pematangsiantar.go.id/"
+                            >Simtgr</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://simtgr.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://simtgr.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://sipepi.pematangsiantar.go.id/"
+                            >Sipepi</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://sipepi.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://sipepi.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://prp2siantar.pematangsiantar.go.id/"
+                            >Pr2p Siantar</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://prp2siantar.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://prp2siantar.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="http://bphtb.pematangsiantar.go.id:10087/?modul=login"
+                            >Bphtb</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="http://bphtb.pematangsiantar.go.id:10087/?modul=login" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              http://bphtb.pematangsiantar.go.id</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="http://cekpajak.pematangsiantar.go.id:10086/?modul=login"
+                            >Pbb</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="http://pbb.pematangsiantar.go.id:10086/?modul=login" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              http://pbb.pematangsiantar.go.id</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="http://cekpajak.pematangsiantar.go.id:10088/"
+                            >Cek Pajak</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="http://cekpajak.pematangsiantar.go.id:10088/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              http://cekpajak.pematangsiantar.go.id</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="http://simpatda.pematangsiantar.go.id/simpatda/"
+                            >Simpatda</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="http://simpatda.pematangsiantar.go.id/simpatda/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              http://simpatda.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://psc.pematangsiantar.go.id/"
+                            >PSC 119</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://psc.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://psc.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://sinimas.pematangsiantar.go.id/"
+                            >SiniMAS</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://sinimas.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://sinimas.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      
                      
                      
                     </tbody>

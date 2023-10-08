@@ -1666,6 +1666,11 @@
                               >Layanan Aplikasi</a
                             >
                           </li>
+                          <li>
+                            <a href="https://berita.pematangsiantar.go.id/"
+                              >Layanan Berita</a
+                            >
+                          </li>
                           
                         </ul>
                       </li>
@@ -1953,7 +1958,7 @@
                   </div>
                   <div class="element" data-containt="PELAYANAN PUBLIK">
                     <a
-                      href="#"
+                      href="<?php echo site_url('pelayanan_publik');?>"
                       class="thumboverlay"
                     >
                       <div class="thumboverlay__inner">
