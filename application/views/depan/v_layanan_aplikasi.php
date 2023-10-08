@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html lang="id">
-  <meta
-    http-equiv="content-type"
-    content="text/html;charset=UTF-8"
-  />
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Website Resmi Kota Pematang Siantar</title>
-    <meta name="title" content="Website Resmi Kota Pematang Siantar" />
+    <title>
+      Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi
+    </title>
+    <meta
+      name="title"
+      content="Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+    />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Informasi Kota Pematang Siantar"
+      content="Website Resmi Pematang Siantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
     />
     <meta
       name="keywords"
-      content="Pematang Siantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota"
+      content="pematangsiantar, Pematang Siantar, pemerintah Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, Layanan Aplikasi Kota, fitur"
     />
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>" />
 
     <!-- Meta -->
-    <meta itemprop="name" content="Website Resmi Kota Pematang Siantar" />
-    <meta itemprop="articleSection" content="<?php echo site_url('');?>" />
+    <meta
+      itemprop="name"
+      content="Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+    />
+    <meta itemprop="image" content="assets/images/sharepematangsiantar.png" />
+    <meta itemprop="articleSection" content="city-directory.html" />
+    <meta itemprop="thumbnailUrl" content="assets/images/sharepematangsiantar.png" />
     <meta
       name="google-site-verification"
       content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo"
     />
     <meta name="robots" content="index,follow" />
     <meta content="index,follow" name="googlebot" />
-    <meta content="Website Resmi Kota Pematang Siantar" name="author" />
+    <meta content="Website Resmi Pematang Siantar" name="author" />
     <meta content="In-Id" http-equiv="content-language" />
     <meta content="id" name="language" />
     <meta content="id" name="geo.country" />
     <meta content="Indonesia" name="geo.placename" />
-    <link rel="canonical" href="<?php echo site_url('');?>" />
+    <link rel="canonical" href="city-directory.html" />
 
     <!-- facebook META -->
     <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="<?php echo site_url('');?>" />
-    <meta property="og:title" content="Website Resmi Kota Pematang Siantar" />
-    <meta property="og:url" content="<?php echo site_url('');?>" />
+    <meta property="og:site_name" content="index.html" />
+    <meta
+      property="og:title"
+      content="Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+    />
+    <meta property="og:url" content="city-directory.html" />
     <meta
       property="og:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Informasi Kota Pematang Siantar"
+      content="Website Resmi Pematang Siantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
     />
+    <meta property="og:image" content="assets/images/sharepematangsiantar.png" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="315" />
 
@@ -57,17 +68,33 @@
       content="summary_large_image"
       data-dynamic="true"
     />
+    <meta name="twitter:site" content="@humaspematangsiantar_" />
+    <meta name="twitter:creator" content="@humaspematangsiantar_" />
     <meta
       name="twitter:title"
-      content="Website Resmi Kota Pematang Siantar"
+      content="Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
       data-dynamic="true"
     />
     <meta
       name="twitter:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Informasi Kota Pematang Siantar"
+      content="Website Resmi Pematang Siantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
       data-dynamic="true"
     />
-    
+    <meta
+      name="twitter:image"
+      content="https://www.pematangsiantar.go.id/assets/images/sharepematangsiantar.png"
+      data-dynamic="true"
+    />
+    <meta
+      name="twitter:url"
+      content="https://www.pematangsiantar.go.id/city-directory"
+      data-dynamic="true"
+    />
+    <meta
+      name="twitter:domain"
+      content="https://www.pematangsiantar.go.id"
+      data-dynamic="true"
+    />
 
     <!-- css_main -->
     <link href="<?php echo base_url().'theme/depan/assets/css/datatable.css'?>" rel="stylesheet" />
@@ -88,9 +115,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "UA-215056084-1");
+      gtag('config', 'UA-215056084-1');
     </script>
 
     <!-- DISABILITAS -->
@@ -164,7 +191,7 @@
         margin-bottom: 10px;
       }
 
-      .btn-color-mode-switch input[type="checkbox"] {
+      .btn-color-mode-switch input[type='checkbox'] {
         cursor: pointer;
         width: 70px;
         height: 25px;
@@ -177,7 +204,7 @@
       }
 
       .btn-color-mode-switch
-        input[type="checkbox"]:checked
+        input[type='checkbox']:checked
         + label.btn-color-mode-switch-inner {
         background: #e0e0e0;
         color: black;
@@ -186,7 +213,7 @@
       }
 
       .btn-color-mode-switch
-        input[type="checkbox"]:checked
+        input[type='checkbox']:checked
         + label.btn-color-mode-switch-inner:after {
         content: attr(data-on);
         left: 83px;
@@ -196,7 +223,7 @@
       }
 
       .btn-color-mode-switch
-        input[type="checkbox"]:checked
+        input[type='checkbox']:checked
         + label.btn-color-mode-switch-inner:before {
         content: attr(data-off);
         right: auto;
@@ -206,7 +233,7 @@
         font-size: 12px;
       }
 
-      .btn-color-mode-switch input[type="checkbox"]:checked ~ .alert {
+      .btn-color-mode-switch input[type='checkbox']:checked ~ .alert {
         display: block;
       }
 
@@ -362,31 +389,31 @@
 
     <span id="loadmodaldisabilitas"></span>
     <script type="text/javascript">
-      localStorage.removeItem("permismobile");
-      localStorage.removeItem("permisvoice");
+      localStorage.removeItem('permismobile');
+      localStorage.removeItem('permisvoice');
       var arraybase64 = [];
 
       function speachmobile(value) {
-        var voicecek = localStorage.getItem("permismobile");
-        if (voicecek != null && voicecek == "on") {
+        var voicecek = localStorage.getItem('permismobile');
+        if (voicecek != null && voicecek == 'on') {
           if (responsiveVoice.voiceSupport()) {
-            responsiveVoice.speak(value, "Indonesian Female");
+            responsiveVoice.speak(value, 'Indonesian Female');
           }
         }
       }
 
       function speach(value) {
-        var voicecek = localStorage.getItem("permisvoice");
-        if (voicecek != null && voicecek == "on") {
+        var voicecek = localStorage.getItem('permisvoice');
+        if (voicecek != null && voicecek == 'on') {
           var speechSynthesis = window.speechSynthesis;
           speechSynthesis.cancel();
-          if ("speechSynthesis" in window) {
-            const to_speak = new SpeechSynthesisUtterance(value || "");
-            to_speak.lang = "id-ID";
+          if ('speechSynthesis' in window) {
+            const to_speak = new SpeechSynthesisUtterance(value || '');
+            to_speak.lang = 'id-ID';
             speechSynthesis.getVoices();
             speechSynthesis.speak(to_speak);
           } else {
-            alert("not supported");
+            alert('not supported');
           }
         }
       }
@@ -404,19 +431,19 @@
         }
         var selectedText = userSelection;
         if (userSelection.text) selectedText = userSelection.text;
-        if (selectedText != "") {
+        if (selectedText != '') {
           var textvalue = window.getSelection().toString();
           speach(textvalue);
           speachmobile(textvalue);
         }
       };
       $(document).ready(function () {
-        $(document).bind("mouseup", James.Selector.mouseup);
+        $(document).bind('mouseup', James.Selector.mouseup);
       });
       $(document).ready(function () {
-        document.addEventListener("selectionchange", function (event) {
-          var voicecek = localStorage.getItem("permismobile");
-          if (voicecek != null && voicecek == "on") {
+        document.addEventListener('selectionchange', function (event) {
+          var voicecek = localStorage.getItem('permismobile');
+          if (voicecek != null && voicecek == 'on') {
             const selection = window.getSelection();
             if (selection.rangeCount === 0) {
               return;
@@ -424,7 +451,7 @@
             const range = selection.getRangeAt(0);
             const rect = range.getBoundingClientRect();
             const text = selection.toString();
-            if (!isBlank(text) || text != undefined || text != "") {
+            if (!isBlank(text) || text != undefined || text != '') {
               speachmobile(text);
             }
           }
@@ -463,7 +490,7 @@
   </div>
 
         `;
-      var logicspeachweb = getOS() == "Windows" ? dataspeachweb : datamobileweb;
+      var logicspeachweb = getOS() == 'Windows' ? dataspeachweb : datamobileweb;
       var toolbardisabilitas =
         `
   <div class="toolbar-disabilitas">
@@ -559,40 +586,40 @@
           </svg>
       </button>
       </div>`;
-      document.getElementById("loadmodaldisabilitas").innerHTML =
+      document.getElementById('loadmodaldisabilitas').innerHTML =
         toolbardisabilitas;
 
       function getOS() {
-        var is_chrome = navigator.userAgent.indexOf("Chrome") > -1;
-        var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+        var is_chrome = navigator.userAgent.indexOf('Chrome') > -1;
+        var is_safari = navigator.userAgent.indexOf('Safari') > -1;
         var userAgent = window.navigator.userAgent,
           platform =
             window.navigator?.userAgentData?.platform ||
             window.navigator.platform,
-          macosPlatforms = ["Macintosh", "MacIntel", "MacPPC", "Mac68K"],
-          windowsPlatforms = ["Win32", "Win64", "Windows", "WinCE"],
-          iosPlatforms = ["iPhone", "iPad", "iPod"],
+          macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+          windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+          iosPlatforms = ['iPhone', 'iPad', 'iPod'],
           os = null;
         if (macosPlatforms.indexOf(platform) !== -1) {
-          os = "Mac OS";
+          os = 'Mac OS';
         } else if (iosPlatforms.indexOf(platform) !== -1) {
-          os = "iOS";
+          os = 'iOS';
         } else if (windowsPlatforms.indexOf(platform) !== -1) {
-          os = "Windows";
+          os = 'Windows';
         } else if (/Android/.test(userAgent)) {
-          os = "Android";
+          os = 'Android';
         } else if (/Linux/.test(platform)) {
-          os = "Linux";
+          os = 'Linux';
         }
         return os;
       }
-      $(".open-toolbar").click(function (event) {
+      $('.open-toolbar').click(function (event) {
         var stickyToolbarContainer = document.querySelector(
-          ".toolbar-disabilitas"
+          '.toolbar-disabilitas'
         );
-        stickyToolbarContainer.classList.toggle("show-toolbar");
+        stickyToolbarContainer.classList.toggle('show-toolbar');
       });
-      $("#checklang").on("change", function () {
+      $('#checklang').on('change', function () {
         changelang(this);
       });
 
@@ -600,37 +627,37 @@
       var langdefault = [];
 
       function replacemultipletext(lang, status) {
-        var dataratatulisanid = "";
-        var dataratatulisanen = "";
+        var dataratatulisanid = '';
+        var dataratatulisanen = '';
         if (arrayratatulisan.length == 0) {
-          dataratatulisanid = "Rata Tulisan";
-          dataratatulisanen = "Average Writing";
+          dataratatulisanid = 'Rata Tulisan';
+          dataratatulisanen = 'Average Writing';
         } else if (arrayratatulisan.length > 0) {
           if (arrayratatulisan[0] == 0) {
-            dataratatulisanid = "Rata Tulisan";
-            dataratatulisanen = "Average Writing";
+            dataratatulisanid = 'Rata Tulisan';
+            dataratatulisanen = 'Average Writing';
           } else if (arrayratatulisan[0] == 1) {
-            dataratatulisanid = "Rata Kiri";
-            dataratatulisanen = "Align Left";
+            dataratatulisanid = 'Rata Kiri';
+            dataratatulisanen = 'Align Left';
           } else if (arrayratatulisan[0] == 2) {
-            dataratatulisanid = "Rata Tengah";
-            dataratatulisanen = "Average Middle";
+            dataratatulisanid = 'Rata Tengah';
+            dataratatulisanen = 'Average Middle';
           } else if (arrayratatulisan[0] == 3) {
-            dataratatulisanid = "Rata Tengah";
-            dataratatulisanen = "Average Middle";
+            dataratatulisanid = 'Rata Tengah';
+            dataratatulisanen = 'Average Middle';
           } else if (arrayratatulisan[0] == 4) {
-            dataratatulisanid = "Rata Kanan";
-            dataratatulisanen = "Align Right";
+            dataratatulisanid = 'Rata Kanan';
+            dataratatulisanen = 'Align Right';
           }
         }
 
-        if (status == "reset") {
-          dataratatulisanid = "Rata Tulisan";
-          dataratatulisanen = "Average Writing";
+        if (status == 'reset') {
+          dataratatulisanid = 'Rata Tulisan';
+          dataratatulisanen = 'Average Writing';
         }
 
-        var replaceratatulisan = "";
-        if (lang == undefined || lang == "") {
+        var replaceratatulisan = '';
+        if (lang == undefined || lang == '') {
           replaceratatulisan = {
             ratatulisan: dataratatulisanid,
           };
@@ -648,68 +675,68 @@
       }
 
       function ratatulisan(lang) {
-        var resulttext = replacemultipletext(lang, "noreset");
-        var text_tulisan = "";
-        if (lang == "") {
-          text_tulisan = "";
+        var resulttext = replacemultipletext(lang, 'noreset');
+        var text_tulisan = '';
+        if (lang == '') {
+          text_tulisan = '';
         } else {
           text_tulisan = resulttext.ratatulisan;
         }
-        $("#tratatulisan").text(text_tulisan);
+        $('#tratatulisan').text(text_tulisan);
       }
 
       function changelang(ele) {
-        var groups = Array.from(document.querySelectorAll("#checklangmenu"));
+        var groups = Array.from(document.querySelectorAll('#checklangmenu'));
         langdefault.length = 0;
         langdefault.push(2);
 
-        var resulttext = replacemultipletext(2, "noreset");
-        if ($(ele).prop("checked") == true) {
+        var resulttext = replacemultipletext(2, 'noreset');
+        if ($(ele).prop('checked') == true) {
           var toolslangEn = {
-            tdataoff: "Indonesian",
-            tdataon: "English",
-            taccessbility: "Accessibility Tools",
-            tincreasetext: "Increase Text",
-            tdecreasetext: "Decrease Text",
-            tegrayscale: "Grayscale",
-            thcontrash: "Hight Contrast",
-            tncontrash: "Negative Contrast",
-            tlgcontrash: "Light Background",
-            treadablefont: "Readable Font",
-            tlinkunderline: "Link Underline",
-            twebspeach: "Web Speech",
+            tdataoff: 'Indonesian',
+            tdataon: 'English',
+            taccessbility: 'Accessibility Tools',
+            tincreasetext: 'Increase Text',
+            tdecreasetext: 'Decrease Text',
+            tegrayscale: 'Grayscale',
+            thcontrash: 'Hight Contrast',
+            tncontrash: 'Negative Contrast',
+            tlgcontrash: 'Light Background',
+            treadablefont: 'Readable Font',
+            tlinkunderline: 'Link Underline',
+            twebspeach: 'Web Speech',
             tratatulisan: resulttext.ratatulisan,
-            tidreset: "Reset",
+            tidreset: 'Reset',
           };
           replacetext(groups, toolslangEn);
-        } else if ($(ele).prop("checked") == false) {
+        } else if ($(ele).prop('checked') == false) {
           langdefault.length = 0;
           langdefault.push(1);
 
-          var resulttext = replacemultipletext(1, "noreset");
+          var resulttext = replacemultipletext(1, 'noreset');
           var toolslangID = {
-            tdataoff: "Indonesia",
-            tdataon: "Inggris",
-            taccessbility: "Sarana",
-            tincreasetext: "Perbesar Teks",
-            tdecreasetext: "Perkecil Teks",
-            tegrayscale: "Skala Abu - Abu",
-            thcontrash: "Kontras Tinggi",
-            tncontrash: "Latar Gelap",
-            tlgcontrash: "Latar Terang",
-            treadablefont: "Tulisan Dapat Dibaca",
-            tlinkunderline: "Garis Bawahi Tautan",
-            twebspeach: "Moda Suara",
+            tdataoff: 'Indonesia',
+            tdataon: 'Inggris',
+            taccessbility: 'Sarana',
+            tincreasetext: 'Perbesar Teks',
+            tdecreasetext: 'Perkecil Teks',
+            tegrayscale: 'Skala Abu - Abu',
+            thcontrash: 'Kontras Tinggi',
+            tncontrash: 'Latar Gelap',
+            tlgcontrash: 'Latar Terang',
+            treadablefont: 'Tulisan Dapat Dibaca',
+            tlinkunderline: 'Garis Bawahi Tautan',
+            twebspeach: 'Moda Suara',
             tratatulisan: resulttext.ratatulisan,
-            tidreset: "Atur Ulang",
+            tidreset: 'Atur Ulang',
           };
           replacetext(groups, toolslangID);
         }
       }
 
       function callfunction(value) {
-        var voicecek = localStorage.getItem("permismobile");
-        if (voicecek != null && voicecek == "on") {
+        var voicecek = localStorage.getItem('permismobile');
+        if (voicecek != null && voicecek == 'on') {
           setTimeout(() => {
             speachmobile(value);
           }, 50);
@@ -720,7 +747,7 @@
 
       function replacetext(groups, arrayjs) {
         var namedatainput = '[class="contenttoolbar_disabilitas"]';
-        var namedatainput2 = "div";
+        var namedatainput2 = 'div';
         var listgroupselector = groups.map(function (group) {
           return group.querySelector(namedatainput);
         });
@@ -742,22 +769,22 @@
               var idhtml = keysarray[b];
               if (
                 listdata[i][k].id == idhtml &&
-                idhtml != "tdataoff" &&
-                idhtml != "tdataon"
+                idhtml != 'tdataoff' &&
+                idhtml != 'tdataon'
               ) {
                 // var listdatallx = listdata[i][k];
                 var getelement = document.getElementById(keysarray[b]);
                 var mytext = getelement.textContent.trim();
                 var resultvalue = mytext.replace(mytext, keysvalues[b]);
-                $("#" + idhtml).text(resultvalue);
-              } else if (idhtml == "tdataoff" || idhtml == "tdataon") {
-                if (idhtml == "tdataon") {
-                  var mytext = $("#tmycheckbox").attr("data-on");
-                  $("#tmycheckbox").attr("data-on", keysvalues[b]);
+                $('#' + idhtml).text(resultvalue);
+              } else if (idhtml == 'tdataoff' || idhtml == 'tdataon') {
+                if (idhtml == 'tdataon') {
+                  var mytext = $('#tmycheckbox').attr('data-on');
+                  $('#tmycheckbox').attr('data-on', keysvalues[b]);
                 }
-                if (idhtml == "tdataoff") {
-                  var mytext = $("#tmycheckbox").attr("data-off");
-                  $("#tmycheckbox").attr("data-off", keysvalues[b]);
+                if (idhtml == 'tdataoff') {
+                  var mytext = $('#tmycheckbox').attr('data-off');
+                  $('#tmycheckbox').attr('data-off', keysvalues[b]);
                 }
                 ///
               }
@@ -766,7 +793,7 @@
         }
       }
 
-      $("#ratatulisan").click(function (event) {
+      $('#ratatulisan').click(function (event) {
         if (arrayratatulisan.length > 0) {
           if (arrayratatulisan[0] == 1) {
             arrayratatulisan.length = 0;
@@ -776,10 +803,10 @@
               i,
               item
             ) {
-              $(item).cssImportant("text-align", "left");
+              $(item).cssImportant('text-align', 'left');
 
-              if ($(item).css("flex-direction") == "row") {
-                $(item).cssImportant("justify-content", "flex-start");
+              if ($(item).css('flex-direction') == 'row') {
+                $(item).cssImportant('justify-content', 'flex-start');
               }
             });
           }
@@ -791,9 +818,9 @@
             ratatulisan(langdefault[0]);
 
             $('*:not(".btn-color-mode-switch-inner")').each(function (i, item) {
-              $(item).cssImportant("text-align", "center");
-              if ($(item).css("flex-direction") == "row") {
-                $(item).cssImportant("justify-content", "center");
+              $(item).cssImportant('text-align', 'center');
+              if ($(item).css('flex-direction') == 'row') {
+                $(item).cssImportant('justify-content', 'center');
               }
             });
           } else if (arrayratatulisan[0] == 3) {
@@ -801,66 +828,66 @@
             arrayratatulisan.push(4);
             ratatulisan(langdefault[0]);
             $('*:not(".btn-color-mode-switch-inner")').each(function (i, item) {
-              $(item).cssImportant("text-align", "right");
-              if ($(item).css("flex-direction") == "row") {
-                $(item).cssImportant("justify-content", "flex-end");
+              $(item).cssImportant('text-align', 'right');
+              if ($(item).css('flex-direction') == 'row') {
+                $(item).cssImportant('justify-content', 'flex-end');
               }
             });
           } else if (arrayratatulisan[0] == 4) {
-            cekclassactive(groups, "ratatulisan");
+            cekclassactive(groups, 'ratatulisan');
             arrayratatulisan.length = 0;
             ratatulisan(langdefault[0]);
 
             $('*:not(".btn-color-mode-switch-inner")').each(function (i, item) {
-              $(item).cssImportant("text-align", "");
-              if ($(item).css("flex-direction") == "row") {
-                $(item).cssImportant("justify-content", "");
+              $(item).cssImportant('text-align', '');
+              if ($(item).css('flex-direction') == 'row') {
+                $(item).cssImportant('justify-content', '');
               }
             });
           } else if (arrayratatulisan[0] == 0) {
-            cekclassactive(groups, "ratatulisan");
+            cekclassactive(groups, 'ratatulisan');
             arrayratatulisan.length = 0;
 
             arrayratatulisan.push(1);
             ratatulisan(langdefault[0]);
 
             $('*:not(".btn-color-mode-switch-inner")').each(function (i, item) {
-              $(item).cssImportant("text-align", "left");
-              if ($(item).css("flex-direction") == "row") {
-                $(item).cssImportant("justify-content", "flex-start");
+              $(item).cssImportant('text-align', 'left');
+              if ($(item).css('flex-direction') == 'row') {
+                $(item).cssImportant('justify-content', 'flex-start');
               }
             });
           }
         } else {
-          cekclassactive(groups, "ratatulisan");
+          cekclassactive(groups, 'ratatulisan');
           arrayratatulisan.length = 0;
 
           arrayratatulisan.push(1);
           ratatulisan(langdefault[0]);
 
           $('*:not(".btn-color-mode-switch-inner")').each(function (i, item) {
-            $(item).cssImportant("text-align", "left");
-            if ($(item).css("flex-direction") == "row") {
-              $(item).cssImportant("justify-content", "flex-start");
+            $(item).cssImportant('text-align', 'left');
+            if ($(item).css('flex-direction') == 'row') {
+              $(item).cssImportant('justify-content', 'flex-start');
             }
           });
         }
 
-        $(".contenttoolbar_disabilitas *,div.titletools,.open-toolbar").each(
+        $('.contenttoolbar_disabilitas *,div.titletools,.open-toolbar').each(
           function (i, item) {
-            $(item).cssImportant("text-align", "");
-            $(item).cssImportant("justify-content", "");
+            $(item).cssImportant('text-align', '');
+            $(item).cssImportant('justify-content', '');
           }
         );
-        $(".titletools").cssImportant("text-align", "center");
+        $('.titletools').cssImportant('text-align', 'center');
       });
 
       var zoomLevel = 1;
       var rootFontSize = 12;
-      var groups = Array.from(document.querySelectorAll("#groupcekmenu"));
-      $("#increasetext").click(function (event) {
+      var groups = Array.from(document.querySelectorAll('#groupcekmenu'));
+      $('#increasetext').click(function (event) {
         // tracking_fitur_disabilitas('Perbesar Text');
-        var listdatagroup = cekclassactive(groups, "increasetext");
+        var listdatagroup = cekclassactive(groups, 'increasetext');
 
         zoomLevel = zoomLevel + 0.1;
         rootFontSize = rootFontSize + 2;
@@ -868,50 +895,50 @@
           'div > *:not(".fa-search,.toolbar-disabilitas  *,.fa,.fa-angle-down")'
         ).css({
           // "font-weight": 400,
-          "font-size": rootFontSize + "px",
+          'font-size': rootFontSize + 'px',
         });
       });
-      $("#decreasetext").click(function (event) {
+      $('#decreasetext').click(function (event) {
         //  tracking_fitur_disabilitas('Perkecil Text');
-        $("#resetdisabilitas").removeClass("subtitletoolsactive");
-        $("#resetdisabilitas").addClass("subtitletools");
+        $('#resetdisabilitas').removeClass('subtitletoolsactive');
+        $('#resetdisabilitas').addClass('subtitletools');
         //  var listdatagroup = cekclassactive(groups, 'decreasetext');
         setTimeout(() => {
           zoomLevel = zoomLevel - 0.1;
           rootFontSize = rootFontSize - 2;
-          $("#increasetext").removeClass("subtitletoolsactive");
-          $("#increasetext").addClass("subtitletools");
+          $('#increasetext').removeClass('subtitletoolsactive');
+          $('#increasetext').addClass('subtitletools');
           $(
             'div > *:not(".fa-search,.toolbar-disabilitas  *,.fa,.fa-angle-down")'
           ).css({
             //  "font-weight": 400,
-            "font-size": rootFontSize + "px",
+            'font-size': rootFontSize + 'px',
           });
         }, 100);
       });
-      $("#readablefont").on("click", function (event) {
+      $('#readablefont').on('click', function (event) {
         //  tracking_fitur_disabilitas('Tulisan Dapat Di Baca');
-        var listdatagroup = cekclassactive(groups, "readablefont");
-        if (listdatagroup.getclass.classactiv == "active") {
+        var listdatagroup = cekclassactive(groups, 'readablefont');
+        if (listdatagroup.getclass.classactiv == 'active') {
           $(
             '*:not(".fa-search,.toolbar-disabilitas  *,.fa,.fa-angle-down, h1 ,h2 , h3")'
           ).css({
             //"font-weight": 400,
 
-            "font-size": "25px",
+            'font-size': '25px',
           });
 
-          $("h1,h2,h3,h4").css({
-            "font-size": "45px",
+          $('h1,h2,h3,h4').css({
+            'font-size': '45px',
           });
         } else {
           $(
             '*:not(".fa-search,.toolbar-disabilitas  *,.fa,.fa-angle-down")'
           ).css({
-            "font-family": "",
-            "font-weight": "",
-            "font-size": "",
-            "font-family": "",
+            'font-family': '',
+            'font-weight': '',
+            'font-size': '',
+            'font-family': '',
           });
         }
       });
@@ -923,12 +950,12 @@
             const dashedName = n.replace(
               /(.)([A-Z])(.)/g,
               (str, m1, upper, m2) => {
-                return m1 + "-" + upper.toLowerCase() + m2;
+                return m1 + '-' + upper.toLowerCase() + m2;
               }
             );
             // Loop over each element in the selector and set the styles.
             $this.each(function () {
-              this.style.setProperty(dashedName, v, "important");
+              this.style.setProperty(dashedName, v, 'important');
             });
           };
           // If called with the first parameter that is an object,
@@ -946,77 +973,77 @@
         };
       });
 
-      $("#hcontrash").click(function (event) {
+      $('#hcontrash').click(function (event) {
         //   tracking_fitur_disabilitas('Warna');
 
-        var listdatagroup = cekclassactive(groups, "hcontrash", "on");
-        if (listdatagroup.getclass.classactiv == "active") {
-          $(".navbar-inverse2").css("background-color", "rgb(0, 0, 0)");
+        var listdatagroup = cekclassactive(groups, 'hcontrash', 'on');
+        if (listdatagroup.getclass.classactiv == 'active') {
+          $('.navbar-inverse2').css('background-color', 'rgb(0, 0, 0)');
           $(
             '*:not(".btn-color-mode-switch-inner,.mycheckbox,.Vue-Toastification__container")'
           ).each(function (i, item) {
-            var color = $(item).css("color");
-            $(item).cssImportant("background-color", "black");
+            var color = $(item).css('color');
+            $(item).cssImportant('background-color', 'black');
 
-            $(item).cssImportant("color", "#40C090");
-            $(item).cssImportant("background", "black");
+            $(item).cssImportant('color', '#40C090');
+            $(item).cssImportant('background', 'black');
           });
 
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("border-color", "white");
-          var links = document.querySelectorAll("a,div,li a strong");
+          ).cssImportant('border-color', 'white');
+          var links = document.querySelectorAll('a,div,li a strong');
           for (var i = 0; i < links.length; i++) {
             if (!isBlank(links[i].href)) {
-              links[i].style.color = "#00f3f7 !important";
+              links[i].style.color = '#00f3f7 !important';
             }
           }
-          $("h1,h2,h3,h4,h5").each(function (i, item) {
-            var color = $(item).css("color");
-            $(item).cssImportant("color", "white");
+          $('h1,h2,h3,h4,h5').each(function (i, item) {
+            var color = $(item).css('color');
+            $(item).cssImportant('color', 'white');
 
-            $(item).cssImportant("background-color", "black");
-            $(item).cssImportant("color", "#40C090");
-            $(item).cssImportant("background", "black");
+            $(item).cssImportant('background-color', 'black');
+            $(item).cssImportant('color', '#40C090');
+            $(item).cssImportant('background', 'black');
           });
 
-          $("* > div").each(function (i, item) {
-            var color = $(item).css("color");
+          $('* > div').each(function (i, item) {
+            var color = $(item).css('color');
           });
 
-          $("*>button, * > p").each(function (i, item) {
-            var color = $(item).css("color");
+          $('*>button, * > p').each(function (i, item) {
+            var color = $(item).css('color');
 
-            $(item).cssImportant("background-color", "black");
-            $(item).cssImportant("color", "#40C090");
-            $(item).cssImportant("background", "black");
+            $(item).cssImportant('background-color', 'black');
+            $(item).cssImportant('color', '#40C090');
+            $(item).cssImportant('background', 'black');
           });
 
-          $("*>a").each(function (i, item) {
-            var color = $(item).css("color");
+          $('*>a').each(function (i, item) {
+            var color = $(item).css('color');
 
-            $(item).cssImportant("background-color", "black");
-            $(item).cssImportant("color", "yellow");
-            $(item).cssImportant("background", "black");
+            $(item).cssImportant('background-color', 'black');
+            $(item).cssImportant('color', 'yellow');
+            $(item).cssImportant('background', 'black');
           });
           changecolordisabilitas(groups);
           hoveractive();
 
-          $("#groupcekmenu > *, .bodytools path").each(function (i, item) {
-            $(item).cssImportant("color", "#00f3f7");
+          $('#groupcekmenu > *, .bodytools path').each(function (i, item) {
+            $(item).cssImportant('color', '#00f3f7');
           });
         } else {
-          $("*").each(function (i, item) {
-            var color = $(item).css("color");
+          $('*').each(function (i, item) {
+            var color = $(item).css('color');
             $(item).css({
-              "background-color": "",
-              background: "",
-              color: "",
+              'background-color': '',
+              background: '',
+              color: '',
             });
           });
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("border-color", "");
+          ).cssImportant('border-color', '');
           hovernoactive();
         }
       });
@@ -1039,135 +1066,135 @@
         var listdatall2 = [];
         for (let i = 0; i < listdata.length; i++) {
           for (let k = 0; k < listdata[i].length; k++) {
-            var classactive = "";
-            var classid = "";
+            var classactive = '';
+            var classid = '';
             //     console.log(listdata[i][k].id);
-            $("#" + listdata[i][k].id).css({
-              color: "#00f3f7",
+            $('#' + listdata[i][k].id).css({
+              color: '#00f3f7',
             });
             //  document.getElementById().style.color = "#0080FF";
             //  $("#thcontrash").css("color", "#0080FF");
           }
         }
       }
-      $("#ncontrash").click(function (event) {
+      $('#ncontrash').click(function (event) {
         //  tracking_fitur_disabilitas('Klise');
-        var listdatagroup = cekclassactive(groups, "ncontrash");
-        if (listdatagroup.getclass.classactiv == "active") {
-          $(".navbar-inverse2").css("background-color", "rgb(0, 0, 0)");
+        var listdatagroup = cekclassactive(groups, 'ncontrash');
+        if (listdatagroup.getclass.classactiv == 'active') {
+          $('.navbar-inverse2').css('background-color', 'rgb(0, 0, 0)');
           $(
             '*:not(".btn-color-mode-switch-inner,.mycheckbox,.Vue-Toastification__container")'
           ).each(function (i, item) {
-            var color = $(item).css("color");
-            $(item).cssImportant("background-color", "black");
-            $(item).cssImportant("color", "yellow");
-            $(item).cssImportant("background", "black");
+            var color = $(item).css('color');
+            $(item).cssImportant('background-color', 'black');
+            $(item).cssImportant('color', 'yellow');
+            $(item).cssImportant('background', 'black');
           });
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("border-color", "white");
+          ).cssImportant('border-color', 'white');
           hoveractive();
         } else {
-          $("*").each(function (i, item) {
-            var color = $(item).css("color");
+          $('*').each(function (i, item) {
+            var color = $(item).css('color');
             $(item).css({
-              "background-color": "",
-              background: "",
-              color: "",
+              'background-color': '',
+              background: '',
+              color: '',
             });
           });
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("border-color", "");
+          ).cssImportant('border-color', '');
           hovernoactive();
         }
       });
 
       function hoveractive() {
-        $("* > a").hover(function (e) {
-          if (e.type === "mouseenter") {
+        $('* > a').hover(function (e) {
+          if (e.type === 'mouseenter') {
             $(this).css({
-              "background-color": "#c23616",
-              opacity: "0.5",
+              'background-color': '#c23616',
+              opacity: '0.5',
             });
-          } else if (e.type === "mouseleave") {
+          } else if (e.type === 'mouseleave') {
             $(this).css({
-              "background-color": "black",
-              opacity: "",
+              'background-color': 'black',
+              opacity: '',
             });
           }
         });
       }
 
       function hovernoactive() {
-        $("* > a").hover(function (e) {
+        $('* > a').hover(function (e) {
           // console.log(e.type);
-          if (e.type === "mouseenter") {
+          if (e.type === 'mouseenter') {
             $(this).css({
-              "background-color": "",
-              opacity: "",
+              'background-color': '',
+              opacity: '',
             });
-          } else if (e.type === "mouseleave") {
+          } else if (e.type === 'mouseleave') {
             $(this).css({
-              "background-color": "",
-              opacity: "",
+              'background-color': '',
+              opacity: '',
             });
           }
         });
       }
-      $("#lgcontrash").click(function (event) {
+      $('#lgcontrash').click(function (event) {
         //  tracking_fitur_disabilitas('Penerangan');
-        var listdatagroup = cekclassactive(groups, "lgcontrash");
-        if (listdatagroup.getclass.classactiv == "active") {
-          $("*").each(function (i, item) {
-            var color = $(item).css("color");
+        var listdatagroup = cekclassactive(groups, 'lgcontrash');
+        if (listdatagroup.getclass.classactiv == 'active') {
+          $('*').each(function (i, item) {
+            var color = $(item).css('color');
             $(item).css({
-              "background-color": "",
-              background: "",
-              color: "",
+              'background-color': '',
+              background: '',
+              color: '',
             });
           });
 
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("background-color", "white");
+          ).cssImportant('background-color', 'white');
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("color", "black");
+          ).cssImportant('color', 'black');
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("background", "white");
+          ).cssImportant('background', 'white');
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("border-color", "white");
-          $("*:hover").cssImportant("border-color", "white");
-          $("*:focus").cssImportant("border-color", "white");
+          ).cssImportant('border-color', 'white');
+          $('*:hover').cssImportant('border-color', 'white');
+          $('*:focus').cssImportant('border-color', 'white');
 
           hovernoactive();
         } else {
-          $("*").each(function (i, item) {
-            var color = $(item).css("color");
+          $('*').each(function (i, item) {
+            var color = $(item).css('color');
             $(item).css({
-              "background-color": "",
-              background: "",
-              color: "",
+              'background-color': '',
+              background: '',
+              color: '',
             });
           });
           $(
             '*:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("border-color", "");
+          ).cssImportant('border-color', '');
           hovernoactive();
         }
         // resetcss();
       });
-      $("#linkunderline").click(function (event) {
+      $('#linkunderline').click(function (event) {
         //    tracking_fitur_disabilitas('Garis Bawahi Tautan');
-        var listdatagroup = cekclassactive(groups, "linkunderline");
-        if (listdatagroup.getclass.classactiv == "active") {
-          var links = document.querySelectorAll("a,div > a,li a, a *");
+        var listdatagroup = cekclassactive(groups, 'linkunderline');
+        if (listdatagroup.getclass.classactiv == 'active') {
+          var links = document.querySelectorAll('a,div > a,li a, a *');
           for (var i = 0; i < links.length; i++) {
             if (!isBlank(links[i].href)) {
-              $(links[i]).cssImportant("textDecoration", "underline");
+              $(links[i]).cssImportant('textDecoration', 'underline');
 
               //  links[i].style.textDecoration = "underline";
             }
@@ -1175,83 +1202,83 @@
 
           $(
             'a *:not(".fa-search,.titletools,svg,.btn-color-mode-switch-inner,.Vue-Toastification__container")'
-          ).cssImportant("textDecoration", "underline");
-          $(".toolbar-disabilitas  *").css({
-            "text-decoration": "",
+          ).cssImportant('textDecoration', 'underline');
+          $('.toolbar-disabilitas  *').css({
+            'text-decoration': '',
           });
         } else {
-          $("*").css({
-            "text-decoration": "",
+          $('*').css({
+            'text-decoration': '',
           });
         }
       });
-      $("#egrayscale").on("click", function (event) {
+      $('#egrayscale').on('click', function (event) {
         //('Skala Abu-abu');
-        var listdatagroup = cekclassactive(groups, "egrayscale");
+        var listdatagroup = cekclassactive(groups, 'egrayscale');
         // console.log("grey");
-        if (listdatagroup.getclass.classactiv == "active") {
-          $("html").attr("class", "greyscaleall");
+        if (listdatagroup.getclass.classactiv == 'active') {
+          $('html').attr('class', 'greyscaleall');
         } else {
-          $("html").removeAttr("class");
+          $('html').removeAttr('class');
         }
       });
 
-      $("#resetdisabilitas").click(function (event) {
+      $('#resetdisabilitas').click(function (event) {
         //    tracking_fitur_disabilitas('Mengatur Ulang');
-        var listdatagroup = cekclassactive(groups, "resetdisabilitas");
-        if (listdatagroup.getclass.classactiv == "active") {
+        var listdatagroup = cekclassactive(groups, 'resetdisabilitas');
+        if (listdatagroup.getclass.classactiv == 'active') {
           resetcss();
-          localStorage.removeItem("permisvoice");
-          localStorage.removeItem("permismobile");
+          localStorage.removeItem('permisvoice');
+          localStorage.removeItem('permismobile');
         }
       });
 
       function resetcss() {
-        localStorage.removeItem("permisvoice");
-        localStorage.removeItem("permismobile");
+        localStorage.removeItem('permisvoice');
+        localStorage.removeItem('permismobile');
         arrayratatulisan.length = 0;
         arrayratatulisan.push(0);
 
-        $("*").each(function (i, item) {
-          var color = $(item).css("color");
+        $('*').each(function (i, item) {
+          var color = $(item).css('color');
           $(item).css({
-            "background-color": "",
-            background: "",
-            color: "",
-            "font-size": "",
-            "text-decoration": "",
-            "font-weight": "",
-            "font-family": "",
+            'background-color': '',
+            background: '',
+            color: '',
+            'font-size': '',
+            'text-decoration': '',
+            'font-weight': '',
+            'font-family': '',
           });
         });
-        $("a").hover(function (e) {
+        $('a').hover(function (e) {
           //console.log(e.type);
-          if (e.type === "mouseenter") {
+          if (e.type === 'mouseenter') {
             $(this).css({
-              "background-color": "",
-              opacity: "",
+              'background-color': '',
+              opacity: '',
             });
-          } else if (e.type === "mouseleave") {
+          } else if (e.type === 'mouseleave') {
             $(this).css({
-              "background-color": "",
-              opacity: "",
+              'background-color': '',
+              opacity: '',
             });
           }
         });
-        $("html").removeAttr("class");
-        $("*").css({
-          "text-decoration": "",
-          "border-color": "",
-          "text-align": "",
+        $('html').removeAttr('class');
+        $('*').css({
+          'text-decoration': '',
+          'border-color': '',
+          'text-align': '',
         });
 
         rootFontSize = 20;
         $('*:not(".btn-color-mode-switch-inner")').each(function (i, item) {
-          $(item).cssImportant("text-align", "");
-          $(item).cssImportant("justify-content", "");
+          $(item).cssImportant('text-align', '');
+          $(item).cssImportant('justify-content', '');
         });
 
-        var text_tulisan = "";
+        var text_tulisan = '';
         var langnew = 1;
 
         if (langdefault.length > 0) {
@@ -1259,28 +1286,28 @@
         }
 
         if (langdefault.length == 0) {
-          replacemultipletext(langnew, "noreset");
-          var resultdata = replacemultipletext(langnew, "reset");
+          replacemultipletext(langnew, 'noreset');
+          var resultdata = replacemultipletext(langnew, 'reset');
           text_tulisan = resultdata.ratatulisan;
         } else {
           langnew = langdefault[0];
 
-          replacemultipletext(langnew, "noreset");
-          var resultdata = replacemultipletext(langnew, "reset");
+          replacemultipletext(langnew, 'noreset');
+          var resultdata = replacemultipletext(langnew, 'reset');
           // langdefault.length = 0;
           text_tulisan = resultdata.ratatulisan;
         }
 
-        $("#tratatulisan").text(text_tulisan);
+        $('#tratatulisan').text(text_tulisan);
       }
 
       function cekclassactive(groups, idhtml) {
-        if (idhtml != "resetdisabilitas") {
-          $("#resetdisabilitas").removeClass("subtitletoolsactive");
-          $("#resetdisabilitas").addClass("subtitletools");
+        if (idhtml != 'resetdisabilitas') {
+          $('#resetdisabilitas').removeClass('subtitletoolsactive');
+          $('#resetdisabilitas').addClass('subtitletools');
         }
         var namedatainput = '[class="bodytools"]';
-        var namedatainput2 = "div";
+        var namedatainput2 = 'div';
         var listgroupselector = groups.map(function (group) {
           return group.querySelector(namedatainput);
         });
@@ -1295,55 +1322,55 @@
         var listdatall2 = [];
         for (let i = 0; i < listdata.length; i++) {
           for (let k = 0; k < listdata[i].length; k++) {
-            var classactive = "";
-            var classid = "";
+            var classactive = '';
+            var classid = '';
             if (listdata[i][k].id == idhtml) {
               if (
-                $("#" + idhtml).hasClass("subtitletools") &&
-                idhtml != "decreasetext"
+                $('#' + idhtml).hasClass('subtitletools') &&
+                idhtml != 'decreasetext'
               ) {
-                classactive = "active";
-                $("#" + idhtml).addClass("subtitletoolsactive");
-                $("#" + idhtml).removeClass("subtitletools");
+                classactive = 'active';
+                $('#' + idhtml).addClass('subtitletoolsactive');
+                $('#' + idhtml).removeClass('subtitletools');
               } else if (
-                $("#" + idhtml).hasClass("subtitletoolsactive") &&
-                idhtml == "resetdisabilitas"
+                $('#' + idhtml).hasClass('subtitletoolsactive') &&
+                idhtml == 'resetdisabilitas'
               ) {
-                classactive = "noactive";
-                $("#" + idhtml).removeClass("subtitletoolsactive");
-                $("#" + idhtml).addClass("subtitletools");
+                classactive = 'noactive';
+                $('#' + idhtml).removeClass('subtitletoolsactive');
+                $('#' + idhtml).addClass('subtitletools');
               } else {
-                classactive = "noactive";
-                $("#" + idhtml).removeClass("subtitletoolsactive");
-                $("#" + idhtml).addClass("subtitletools");
+                classactive = 'noactive';
+                $('#' + idhtml).removeClass('subtitletoolsactive');
+                $('#' + idhtml).addClass('subtitletools');
               }
             } else {
-              if (idhtml == "resetdisabilitas") {
-                classactive = "noactive";
+              if (idhtml == 'resetdisabilitas') {
+                classactive = 'noactive';
                 //   classid = listdata[i][k].id;
                 if (
-                  $("#" + listdata[i][k].id).hasClass("subtitletoolsactive")
+                  $('#' + listdata[i][k].id).hasClass('subtitletoolsactive')
                 ) {
-                  $("#" + listdata[i][k].id).removeClass("subtitletoolsactive");
-                  $("#" + listdata[i][k].id).addClass("subtitletools");
+                  $('#' + listdata[i][k].id).removeClass('subtitletoolsactive');
+                  $('#' + listdata[i][k].id).addClass('subtitletools');
                 }
               } else if (
-                idhtml == "lgcontrash" ||
-                idhtml == "ncontrash" ||
-                idhtml == "hcontrash"
+                idhtml == 'lgcontrash' ||
+                idhtml == 'ncontrash' ||
+                idhtml == 'hcontrash'
               ) {
                 if (
-                  listdata[i][k].id == "lgcontrash" ||
-                  listdata[i][k].id == "ncontrash" ||
-                  listdata[i][k].id == "hcontrash"
+                  listdata[i][k].id == 'lgcontrash' ||
+                  listdata[i][k].id == 'ncontrash' ||
+                  listdata[i][k].id == 'hcontrash'
                 ) {
                   if (
-                    $("#" + listdata[i][k].id).hasClass("subtitletoolsactive")
+                    $('#' + listdata[i][k].id).hasClass('subtitletoolsactive')
                   ) {
-                    $("#" + listdata[i][k].id).removeClass(
-                      "subtitletoolsactive"
+                    $('#' + listdata[i][k].id).removeClass(
+                      'subtitletoolsactive'
                     );
-                    $("#" + listdata[i][k].id).addClass("subtitletools");
+                    $('#' + listdata[i][k].id).addClass('subtitletools');
                   }
                 }
               }
@@ -1367,49 +1394,49 @@
         return returndata;
       }
 
-      $("#webspeach").click(function (event) {
+      $('#webspeach').click(function (event) {
         // tracking_fitur_disabilitas('Moda Suara');
-        var listdatagroup = cekclassactive(groups, "webspeach");
-        if (listdatagroup.getclass.classactiv == "active") {
-          localStorage.setItem("permisvoice", "on");
-          speach("Selamat Datang Di Website Info.go.id");
+        var listdatagroup = cekclassactive(groups, 'webspeach');
+        if (listdatagroup.getclass.classactiv == 'active') {
+          localStorage.setItem('permisvoice', 'on');
+          speach('Selamat Datang Di Website Info.go.id');
           //    localStorage.setItem("setwelcome", "welcomeoff");
         } else {
-          localStorage.setItem("permisvoice", "off");
+          localStorage.setItem('permisvoice', 'off');
         }
       });
 
-      $("#mobileapp").click(function (event) {
+      $('#mobileapp').click(function (event) {
         //     tracking_fitur_disabilitas('Moda Suara Mobile Apps');
-        var listdatagroup = cekclassactive(groups, "mobileapp");
-        if (listdatagroup.getclass.classactiv == "active") {
-          localStorage.setItem("permismobile", "on");
-          speachmobile("Selamat Datang Di Website Info.go.id");
+        var listdatagroup = cekclassactive(groups, 'mobileapp');
+        if (listdatagroup.getclass.classactiv == 'active') {
+          localStorage.setItem('permismobile', 'on');
+          speachmobile('Selamat Datang Di Website Info.go.id');
           //    localStorage.setItem("setwelcome", "welcomeoff");
         } else {
-          localStorage.setItem("permismobile", "off");
+          localStorage.setItem('permismobile', 'off');
         }
       });
-      localStorage.removeItem("permismobile");
-      localStorage.removeItem("permisvoice");
+      localStorage.removeItem('permismobile');
+      localStorage.removeItem('permisvoice');
 
-      $(document).on("mouseover", "a > *:not('.subtitletools')", function () {
+      $(document).on('mouseover', "a > *:not('.subtitletools')", function () {
         var textvalue = $(this).text().toString();
         console.log(textvalue);
         speach(textvalue);
         speachmobile(textvalue);
       });
 
-      $(document).on("mouseover", "a:not('.subtitletools')", function () {
+      $(document).on('mouseover', "a:not('.subtitletools')", function () {
         var textvalue = $(this).text().toString();
         console.log(textvalue);
         speach(textvalue);
         speachmobile(textvalue);
       });
 
-      if (getOS() == "Windows" || getOS() == "Mac OS") {
+      if (getOS() == 'Windows' || getOS() == 'Mac OS') {
         var namedatainput = '[class="bodytools"]';
-        var namedatainput2 = "div";
+        var namedatainput2 = 'div';
         var listgroupselector = groups.map(function (group) {
           return group.querySelector(namedatainput);
         });
@@ -1425,9 +1452,9 @@
 
         for (let i = 0; i < listdata.length; i++) {
           for (let k = 0; k < listdata[i].length; k++) {
-            var tagid = "#" + listdata[i][k].id;
+            var tagid = '#' + listdata[i][k].id;
 
-            if (tagid == "#ratatulisan") {
+            if (tagid == '#ratatulisan') {
               $(tagid).click(function () {
                 var mytext = $(this).text();
                 callfunction(mytext);
@@ -1436,13 +1463,13 @@
           }
         }
 
-        $(document).on("mouseover", ".subtitletools", function () {
+        $(document).on('mouseover', '.subtitletools', function () {
           var textvalue = $(this).text().toString();
           callfunction(textvalue);
         });
       } else {
         var namedatainput = '[class="bodytools"]';
-        var namedatainput2 = "div";
+        var namedatainput2 = 'div';
         var listgroupselector = groups.map(function (group) {
           return group.querySelector(namedatainput);
         });
@@ -1458,17 +1485,17 @@
 
         for (let i = 0; i < listdata.length; i++) {
           for (let k = 0; k < listdata[i].length; k++) {
-            var tagid = "#" + listdata[i][k].id;
+            var tagid = '#' + listdata[i][k].id;
             var notagid = listdata[i][k].id;
 
-            if (tagid != "#resetdisabilitas" && tagid != "#mobileapp") {
+            if (tagid != '#resetdisabilitas' && tagid != '#mobileapp') {
               $(tagid).click(function () {
                 var mytext = $(this).text();
                 callfunction(mytext);
               });
             }
-            if (notagid == "resetdisabilitas") {
-              $(document).on("mouseover", ".subtitletools", function () {
+            if (notagid == 'resetdisabilitas') {
+              $(document).on('mouseover', '.subtitletools', function () {
                 var textvalue = $(this).text().toString();
                 callmobile(textvalue);
               });
@@ -1478,8 +1505,8 @@
       }
 
       function callmobile(value) {
-        var voicecek = localStorage.getItem("permismobile");
-        if (voicecek != null && voicecek == "on") {
+        var voicecek = localStorage.getItem('permismobile');
+        if (voicecek != null && voicecek == 'on') {
           speachmobile(value);
         }
       }
@@ -1489,78 +1516,10 @@
   </head>
 
   <body>
-    <h1 style="display: none">Website Resmi Kota Pematang Siantar</h1>
-
-    <style>
-      .m_onlyami {
-        width: 651px;
-      }
-    </style>
-
-<div class="slidelax">
-  <div class="sliderfixed">
-    <div class="homeslide" id="story">
-      <div class="slick-home">
-        <?php $counter = 0; ?>
-        <?php foreach ($all_galeri->result() as $galeri): ?>
-          <?php if ($galeri->album_nama == 'Header Beranda' && $counter < 10): ?>
-            <div class="slickwrap">
-              <div class="homeimg">
-                <img
-                  class="d-only"
-                  src="<?php echo base_url('assets/images/' . $galeri->galeri_gambar); ?>"
-                  alt="<?php echo $galeri->galeri_judul; ?>"
-                />
-                <img
-                  class="m-only"
-                  src="<?php echo base_url('assets/images/' . $galeri->galeri_gambar); ?>"
-                  alt="<?php echo $galeri->galeri_judul; ?>"
-                />
-              </div>
-              <div class="hometext">
-                <div class="wrapper">
-                  <div class="hometext__inner">
-                    <!-- <div class="hometitle"><?php echo $galeri->galeri_judul; ?></div>
-                    <div class="homesummary"><?php echo $galeri->album_nama; ?></div>
-                    <div class="homelink">
-                      <a href="<?php echo base_url('theme/depan/features/detail/' . $galeri->galeri_id . '/' . url_title($galeri->galeri_judul) . '.html'); ?>"
-                        >Selengkapnya</a
-                      >
-                    </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <?php $counter++; ?>
-          <?php endif; ?>
-        <?php endforeach; ?>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-    <div class="popup">
-      <div class="popup-overlay"></div>
-      <div class="popup-wrap">
-        <div class="popup-content">
-          <div class="popup-close">&times;</div>
-
-          <div class="popsosial">
-            <div class="popsosial-img">
-              <img src="<?php echo base_url().'theme/depan/assets/img/main-banner.html'?>" alt="img" />
-            </div>
-            <div class="popsosial-title"></div>
-            <div class="popsosial-summary"></div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="bdgcontent">
       <div class="floatmenu">
         <div class="floatmenu__wrap">
-          <ul>
+        <ul>
             <li>
               <a
                 href="https://www.lapor.go.id/instansi/pemerintah-kota-pematang-siantar"
@@ -1653,33 +1612,13 @@
                         <span><a href="https://jdih.pematangsiantar.go.id/">JDIH</a></span>
                       </li>
 
-
-                      <li class="has-dropdown">
-                        <span
-                          ><a href="#">Direktori Kota</a>
-                          <i class="idrop fas fa-caret-down"></i
-                        ></span>
-                        <ul>
-                          <li><a href="<?php echo site_url('direktori');?>">Informasi Dinas Terkait</a></li>
-                          <li>
-                            <a href="<?php echo site_url('aplikasi');?>"
-                              >Layanan Aplikasi</a
-                            >
-                          </li>
-                          
-                        </ul>
-                      </li>
+                      <li><a href="<?php echo site_url('direktori');?>">Layanan Aplikasi Kota</a></li>
                       
                      
-                      <!-- <li>
+                      <li>
                         <a href="https://sisada.pematangsiantar.go.id/"
                           ><i class="fas fa-exclamation-circle"></i> Open
                           Data</a
-                        >
-                      </li> -->
-                      <li>
-                        <a href="https://opinipublik.pematangsiantar.go.id/berita/"
-                          ><i class="fas fa-exclamation-circle"></i> Opini Publik</a
                         >
                       </li>
                     </ul>
@@ -1688,12 +1627,13 @@
               </div>
             </div>
 
+
             <div class="menu__right">
               <div class="hujanbahasa">
                 <div class="hujan">21&#176;C Berawan</div>
                 <div class="bahasa">
-                  <a href="index9bb4.html?lang=id">ID</a> |
-                  <a href="index9ed2.html?lang=en">EN</a>
+                  <a href="city-directory9bb4.html?lang=id">ID</a> |
+                  <a href="city-directory9ed2.html?lang=en">EN</a>
                 </div>
               </div>
               <div class="search">
@@ -1711,448 +1651,106 @@
                 </div>
               </div>
             </form>
-          </nav>  
+          </nav>
         </div>
       </header>
       <div class="wrapper">
         <div class="mainwrap">
           <div class="sectionrow">
-            <div class="bagidua">
-              <div class="bagidua__col">
-                <div class="newstopic" id="beritatopic">
-                  <div class="xsection__header">
-                    <h2 class="xsection__title">Berita Terbaru</h2>
-                    <a href="#" class="linkmore" tabindex="0"
-                      ><a href="<?php echo site_url('artikel');?>" class="linkmore" tabindex="0"
-                      ><span>Selengkapnya</span></a
-                    >
-                  </div>
-
-                  <div class="newsslider">
-                  <section class="slick-news-slider">
-    <?php
-    $count = 0; // Variabel untuk menghitung jumlah data yang telah ditampilkan
-
-    foreach ($berita->result() as $row) :
-        if ($row->tulisan_kategori_nama === "Berita Terbaru" && $count < 10) : // Menampilkan hanya jika kategori adalah "Berita Terbaru" dan belum mencapai 10 data
-            $count++;
-    ?>
-            <a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>" class="newsslider__row">
-                <div class="newsslider__img">
-                    <img src="<?php echo base_url('assets/images/' . $row->tulisan_gambar); ?>" class="img-fluid" alt="courses-img">
-                </div>
-                <div class="newsslider__summary">
-                    <div class="sosial__title">
-                        <h3>
-                            <?php echo $row->tulisan_judul; ?>
-                        </h3>
-                    </div>
-                </div>
-            </a>
-    <?php
-        endif;
-    endforeach;
-    ?>
-</section>
-
-
-
-
-
-
-
-
-                  </div>
-                </div>
+            <div class="dinasterkait">
+              <div class="xsection__header">
+                <h1 class="xsection__title">Informasi Layanan Aplikasi</h1>
               </div>
-
-              <div class="bagidua__col" id="kolomsosial">
-              <div class="sosial">
-            <div class="sosalisasi__header xsection__header">
-                <h2 class="xsection__title">Sosialisasi</h2>
-            </div>
-    <br />
-    <div class="sosial__body">
-        <div class="sosial__main">
-        <section class="slick-vertical">
-            <?php
-            $count = 0; // Variabel untuk menghitung jumlah data yang telah ditampilkan
-
-            foreach ($berita->result() as $row) :
-                if ($row->tulisan_kategori_nama === "Sosialisasi" && $count < 10) : // Menampilkan hanya jika kategori adalah "Sosialisasi" dan belum mencapai 10 data
-                    $count++;
-            ?>
-                    <div class="sosial__row">
-                        <div class="sosial__img">
-                            <img src="<?php echo base_url('assets/images/' . $row->tulisan_gambar); ?>" alt="img" />
-                        </div>
-                        <div class="sosial__title">
-                            <h3><?php echo $row->tulisan_judul; ?></h3>
-                        </div>
-                        <div class="sosial__summary">
-                            <?php echo $row->tulisan_isi; ?>
-                        </div>
-                        <div class="linkmore"><span>Selengkapnya</span></div>
-                    </div>
-            <?php
-                endif;
-            endforeach;
-            ?>
-        </section>
-    </div>
-    <div class="sosial__nav">
-        <section class="slick-vertical-nav">
-            <?php
-            $count = 0; // Variabel untuk menghitung jumlah data yang telah ditampilkan
-
-            foreach ($berita->result() as $row) :
-                if ($row->tulisan_kategori_nama === "Sosialisasi" && $count < 10) : // Menampilkan hanya jika kategori adalah "Sosialisasi" dan belum mencapai 10 data
-                    $count++;
-            ?>
-                    <div class="sosial__navrow">
-                        <img src="<?php echo base_url('assets/images/' . $row->tulisan_gambar); ?>" alt="img" />
-                    </div>
-            <?php
-                endif;
-            endforeach;
-            ?>
-        </section>
-        </div>
-    </div>
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- sectionrow -->
-        </div>
-        <!-- mainwrap -->
-      </div>
-      <!-- wrapper -->
-
-      <div class="bg-yellow etalase-section" id="etalase">
-        <div class="wrapper">
-          <div class="sectionrow">
-            <div class="xsection__header">
-              <h2 class="xsection__title">Etalase Kota Pematang Siantar</h2>
-            </div>
-
-            <div class="etalasemain">
-              <section class="etalasemain-wrap">
-                <div class="etalasemain-row">
-                  <div
-                    class="element"
-                    data-containt="PEMERINTAH Kota Pematang Siantar"
-                  >
-                    <a
-                      href="<?php echo site_url('pemerintah');?>"
-                      class="thumboverlay"
-                    >
-                      <div class="thumboverlay__inner">
-                      <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/PEMERINTAH KOTA PEMATANG SIANTAR.png'); ?>"
-                          alt="img"
-                        />
-                      </div>
-
-                        <h3 class="thumboverlay__title">
-                          Pemerintah Kota Pematang Siantar
-                        </h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div
-                    class="element"
-                    data-containt="PENDIDIKAN DAN KEBUDAYAAN"
-                  >
-                    <a
-                      href="<?php echo site_url('pendidikan_kebudayaan');?>"
-                      class="thumboverlay"
-                    >
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/PENDIDIKAN DAN KEBUDAYAAN.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">
-                          Pendidikan Dan Kebudayaan
-                        </h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="element" data-containt="KESEHATAN">
-                    <a href="<?php echo site_url('kesehatan');?>" class="thumboverlay">
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/KESEHATAN.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">Kesehatan</h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="element" data-containt="TRANSPORTASI">
-                    <a href="<?php echo site_url('transportasi');?>" class="thumboverlay">
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                          <img
-                            src="<?php echo base_url('theme/depan/assets/img/transportasi.png'); ?>"
-                            alt="img"
-                          />
-                        </div>
-                        <h3 class="thumboverlay__title">Transportasi</h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div
-                    class="element"
-                    data-containt="PELAYANAN INFORMASI PUBLIK"
-                  >
-                    <a
-                      href="https://sisada.pematangsiantar.go.id/"
-                      class="thumboverlay"
-                    >
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/pelayanan informasi publik.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">
-                          Pelayanan Informasi Publik
-                        </h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div
-                    class="element"
-                    data-containt="TEMPAT WISATA DAN REKREASI"
-                  >
-                    <a
-                      href="<?php echo site_url('wisata');?>"
-                      class="thumboverlay"
-                    >
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/TEMPAT REKRASI.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">
-                          Tempat Wisata Dan Rekreasi
-                        </h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="element" data-containt="PELAYANAN PUBLIK">
-                    <a
-                      href="#"
-                      class="thumboverlay"
-                    >
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/pelayanan publik.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">Pelayanan Publik</h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="element" data-containt="OPEN DATA">
-                    <a href="https://sisada.pematangsiantar.go.id/" class="thumboverlay">
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/open data.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">Open Data</h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="element" data-containt="TRANSPARANSI KEUANGAN">
-                    <a
-                      href="<?php echo site_url('transparansi');?>"
-                      class="thumboverlay"
-                    >
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/transparansi keuangan.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">
-                          Transparansi Keuangan
-                        </h3>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="element" data-containt="PENGUMUMAN">
-                    <a href="<?php echo site_url('pengumuman');?>" class="thumboverlay">
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/pengumuman.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">Pengumuman</h3>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="wrapper">
-        <div class="mainwrap">
-          <div class="sectionrow">
-            <div class="bagidua">
-              <div class="bagidua__col">
-                <div class="newstopic" id="beritatopic">
-                  <div class="xsection__header">
-                    <h2 class="xsection__title">Pengumuman</h2>
-                  </div>
-                  <div class="newsslider">
-                  <section class="slick-news-slider">
-    <?php 
-    // Inisialisasi array untuk menyimpan berita dengan kategori "Pengumuman"
-    $pengumumanBerita = array();
-
-    foreach ($berita->result() as $row) :
-        // Cek apakah kategori berita sama dengan "Pengumuman"
-        if ($row->tulisan_kategori_nama === "Pengumuman") :
-            $pengumumanBerita[] = $row;
-        endif;
-    endforeach;
-
-    // Ambil 10 berita terbaru atau kurang jika tidak ada 10 berita
-    $count = count($pengumumanBerita);
-    $limit = min($count, 10);
-
-    // Tampilkan 10 berita terbaru
-    for ($i = 0; $i < $limit; $i++) :
-    ?>
-        <a href="<?php echo site_url('artikel/'.$pengumumanBerita[$i]->tulisan_slug);?>" class="newsslider__row">
-            <div class="newsslider__img">
-                <img src="<?php echo base_url('assets/images/'.$pengumumanBerita[$i]->tulisan_gambar); ?>" class="img-fluid" alt="courses-img">
-            </div>
-            <div class="newsslider__summary">
-                <h3 style="text-align:left;"><?php echo $pengumumanBerita[$i]->tulisan_judul; ?></h3>
-            </div>
-        </a>
-    <?php
-    endfor;
-    ?>
-</section>
-
-
-
-               
-                    <a href="<?php echo site_url('artikel');?>" class="linkmore" tabindex="0"
-                      ><span>Selengkapnya</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="bagidua__col">
-                <div class="kolominfo" id="kolominfo">
-                  <div class="xsection__header">
-                    <h2 class="xsection__title">Kolom Informasi</h2>
-                  </div>
-                  <div class="newsslider">
-                  <section class="slick-news-slider">
-    <?php
-    // Inisialisasi array untuk menyimpan berita dengan kategori "Kolom Informasi"
-    $kolomInformasiBerita = array();
-
-    foreach ($berita->result() as $row) :
-        // Cek apakah kategori berita sama dengan "Kolom Informasi"
-        if ($row->tulisan_kategori_nama === "Kolom Informasi") :
-            $kolomInformasiBerita[] = $row;
-        endif;
-    endforeach;
-
-    // Urutkan berdasarkan tanggal (anda perlu menyesuaikan nama kolom tanggal)
-    usort($kolomInformasiBerita, function($a, $b) {
-        return strtotime($b->tanggal) - strtotime($a->tanggal);
-    });
-
-    // Ambil 10 berita terbaru atau kurang jika tidak ada 10 berita
-    $limit = min(count($kolomInformasiBerita), 10);
-
-    // Tampilkan 10 berita terbaru
-    for ($i = 0; $i < $limit; $i++) :
-    ?>
-        <a href="<?php echo site_url('artikel/'.$kolomInformasiBerita[$i]->tulisan_slug);?>" class="newsslider__row">
-            <div class="newsslider__img">
-                <img src="<?php echo base_url('assets/images/'.$kolomInformasiBerita[$i]->tulisan_gambar); ?>" class="img-fluid" alt="courses-img">
-            </div>
-            <div class="newsslider__summary">
-                <h3 style="text-align:left;"><?php echo $kolomInformasiBerita[$i]->tulisan_judul; ?></h3>
-            </div>
-        </a>
-    <?php
-    endfor;
-    ?>
-</section>
-
-                    <a href="<?php echo site_url('artikel');?>" class="linkmore" tabindex="0"
-                      ><span>Selengkapnya</span></a
-                    >
-                  </div>
+              <div class="dinasterkait__body">
+                <div class="zentable-outer">
+                  <table class="zentable cityd-table" id="myTable">
+                    <thead>
+                      <tr>
+                        <td>Aplikasi</td>
+                        <td>Link</td>
+                        <td>Info</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://absensi.pematangsiantar.go.id/absensi/"
+                            >Absensi</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://absensi.pematangsiantar.go.id/absensi/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://absensi.pematangsiantar.go.id/absensi/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://ekinerja.pematangsiantar.go.id/index.php"
+                            >E-Kinerja</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://ekinerja.pematangsiantar.go.id/index.php" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://ekinerja.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://siantarman.pematangsiantar.go.id/index.php"
+                            >Siantar Man</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://siantarman.pematangsiantar.go.id/index.php" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://ekinerja.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                     
+                     
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
-          <!-- sectionrow-->
-
-          <!-- sectionrow-->
-        </div>
-        <!-- mainwrap-->
-      </div>
-      <!-- wrapper -->
-
-      <!-- Video -->
-      <div class="bg-yellow bg-color" id="pesanpemerintah">
-  <div class="wrapper">
-    <div class="mainwrap">
-      <div class="sectionrow">
-        <div class="govideo">
-          <div class="xsection__header">
-            <h1 class="xsection__title">Kegiatan Wali Kota Pematang Siantar</h1>
-          </div>
-          <div class="govideo-body">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/uAK0PdX1GaE"
-              title="Kegiatan Wali Kota Pematang Siantar"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
       <footer class="bg-blue">
         <div class="wrapper">
@@ -2243,6 +1841,4 @@
     type="text/javascript"
     src="https://widget.kominfo.go.id/gpr-widget-kominfo.min.js"
   ></script>
-
- 
 </html>
