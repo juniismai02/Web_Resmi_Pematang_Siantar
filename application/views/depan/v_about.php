@@ -1698,16 +1698,7 @@
                 </p>
 
                 <p align="justify">Motto dari kota ini adalah "sapangambei manoktok hitei" yang berasal dari bahasa Batak Simalungun yang memiliki arti "saling bergotong-royong demi mencapai tujuan yang mulia".</p>
-                <div class="buttonlist">
-                  <ul>
-                    <li class="active">
-                      <a href="#">Tentang Kota Pematang Siantar</a>
-                    </li>
-                    <li class="active">
-                      <a href="#">Sejarah Kota Pematang Siantar</a>
-                    </li>
-                  </ul>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -1750,7 +1741,9 @@
             <div class="sectionrow">
               <div class="galerifoto">
                 <div class="xsection__header">
-                  <h2 class="xsection__title">Galeri Foto</h2>
+                  <h2 class="xsection__title">Sejarah Kota Pematang Siantar</h2>
+                  <br>
+                  
                 </div>
 
                 <div class="galeri-slider">
@@ -1783,7 +1776,116 @@
     ?>
   </section>
 </div>
+<br>
+<div class="buttonlist">
+                  <ul>
+                    <li class="active">
+                      <a href="#">Masa Kerajaan Siantar</a>
+                    </li>
+                  </ul>
+                </div>
+                <p align="justify">
+                Sebelum Proklamasi Kemerdekaan Republik Indonesia, Pematangsiantar merupakan wilayah dan pusat pemerintahan dari Kerajaan Siantar, yaitu satu dari tujuh kerajaan yang ada di Simalungun. Kerajaan Siantar yang berkedudukan di Pulau Holing dan raja terakhir dari dinasti ini adalah keturunan marga Damanik yaitu Tuan Sang Naualuh Damanik.[butuh rujukan] Ia mulai memerintah sebagai raja di Kerajaan Siantar sejak tahun 1889 hingga tahun 1904.[7] 
+                </p>
+                <p align="justify">Di sekitar Pulau Holing kemudian berkembang menjadi perkampungan tempat tinggal penduduk diantaranya Kampung Suhi Huluan, Siantar Bayu, Suhi Kahean, Pantoan, Suhi Bah Bosar, dan Tomuan. Daerah-daerah tersebut kemudian menjadi daerah hukum Kota Pematangsiantar yaitu: </p>
+                <p>1.	Pulau Holing menjadi Kampung Pematang <br>
+2.	Siantar Bayu menjadi Kampung Pusat Kota <br>
+3.	Suhi Kahean menjadi Kampung Sipinggol-pinggol, Kampung Melayu, Martoba, Sukadame, dan Bane. <br>
+4.	Suhi Bah Bosar menjadi Kampung Kristen, Karo, Tomuan, Pantoan, Toba dan Martimbang. <br>
+</p>
+<br>
+                <div class="buttonlist">
+                  <ul>
+                    <li class="active">
+                      <a href="#">Masa Pendudukan Belanda</a>
+                    </li>
+                  </ul>
+                </div>
+                <p align="justify">
+                Setelah Belanda memasuki daerah Sumatera Utara, daerah Simalungun menjadi daerah kekuasaan Belanda sehingga pada tahun 1907 berakhirlah kekuasaan raja-raja. Kontroleur Belanda yang semula berkedudukan di Perdagangan, pada tahun 1907 dipindahkan ke Pematangsiantar. Sejak itu Pematangsiantar berkembang menjadi daerah yang banyak dikunjungi pendatang baru, Bangsa Cina mendiami kawasan Timbang Galung dan Kampung Melayu.  
+                </p>
+                <p align="justify">Di sekitar Pulau Holing kemudian berkembang menjadi perkampungan tempat tinggal penduduk diantaranya Kampung Suhi Huluan, Siantar Bayu, Suhi Kahean, Pantoan, Suhi Bah Bosar, dan Tomuan. Daerah-daerah tersebut kemudian menjadi daerah hukum Kota Pematangsiantar yaitu: </p>
+                <p align="justify">Pada tahun 1910 didirikan Badan Persiapan Kota Pematangsiantar. Kemudian pada tanggal 1 Juli 1917 berdasarkan Stad Blad No. 285 Pematangsiantar berubah menjadi Gemente yang mempunyai otonomi sendiri. Sejak Januari 1939 berdasarkan Stad Blad No. 717 berubah menjadi Gemente yang mempunyai Dewan. </p>
+                <br>
+                <div class="buttonlist">
+                  <ul>
+                    <li class="active">
+                      <a href="#">Masa Pendudukan Jepang</a>
+                    </li>
+                  </ul>
+                </div>
+                <p align="justify">
+                Pada zaman Jepang berubah menjadi Siantar State dan Dewan dihapus. Setelah Proklamasi Kemerdekaan Indonesia, Pematangsiantar kembali menjadi Daerah Otonomi. Berdasarkan Undang-undang No.22/ 1948 Status Gemente menjadi Kota Kabupaten Simalungun dan Wali Kota dirangkap oleh Bupati Simalungun sampai tahun 1957.  
+                </p>
+                <br>
+                <div class="buttonlist">
+                  <ul>
+                    <li class="active">
+                      <a href="#">Masa Kemerdekaan Indonesia</a>
+                    </li>
+                  </ul>
+                </div>
+                <p align="justify">
+                Berdasarkan UU No.1/1957 berubah menjadi Kota Praja Penuh dan dengan keluarnya Undang-undang No.18/ 1965 berubah menjadi Kota, dan dengan keluarnya Undang-undang No. 5/ 1974 tentang-Pokok-pokok Pemerintahan di Daerah berubah menjadi Kota Daerah Tingkat II Pematangsiantar sampai sekarang.  
+                </p>
+                <p align="justify">
+                Berdasarkan Peraturan Pemerintah No.35 Tahun 1981 Kota Daerah Tingkat II Pematangsiantar terbagi atas empat wilayah kecamatan yang terdiri atas 29 Desa/Kelurahan dengan luas wilayah 12,48 km² yang peresmiannya dilaksanakan oleh Gubernur Sumatera Utara pada tanggal 17 Maret 1982. Kecamatan-kecamatan tersebut yaitu: 
+                </p>
+                <p align="justify">
+                1.	Kecamatan Siantar Barat <br>
+2.	Kecamatan Siantar Timur <br>
+3.	Kecamatan Siantar Utara <br>
+4.	Kecamatan Siantar Selatan <br>
 
+                </p>
+                <br>
+                <div class="buttonlist">
+                  <ul>
+                    <li class="active">
+                      <a href="#">Pemekaran Daerah 1986</a>
+                    </li>
+                  </ul>
+                </div>
+                <p align="justify">
+                Berdasarkan Peraturan Pemerintah No. 15 tahun 1986 tanggal 10 Maret 1986 Kota Daerah Tingkat II Pematangsiantar diperluas menjadi 6 wilayah kecamatan, di mana 9 desa/Kelurahan dari wilayah Kabupaten Simalungun masuk menjadi wilayah Kota Pematangsiantar, sehingga Kota Pematangsiantar terdiri dari 38 desa/kelurahan dengan luas wilayah menjadi 70,230 km² Kecamatan-kecamatan tersebut yaitu:  
+                </p>
+                <p align="justify">
+                1.	Kecamatan Siantar Barat <br>
+2.	Kecamatan Siantar Timur <br>
+3.	Kecamatan Siantar Utara <br>
+4.	Kecamatan Siantar Selatan <br>
+5.	Kecamatan Siantar Marihat <br>
+6.	Kecamatan Siantar Martoba <br>
+
+                </p>
+                <p align="justify">
+                Pada tanggal 23 Mei 1994, dikeluarkan kesepakatan bersama Penyesuaian Batas Wilayah Administrasi antara Kota Pematangsiantar dan Kabupaten Simalungun. Adapun hasil kesepakatan tersebut adalah wilayah Kota Pematangsiantar menjadi seluas 79,9706 km². 
+                </p>
+                <br>
+                <div class="buttonlist">
+                  <ul>
+                    <li class="active">
+                      <a href="#">Pemekaran Daerah 2007</a>
+                    </li>
+                  </ul>
+                </div>
+                <p align="justify">
+                Pada tahun 2007, diterbitkan 5 Peraturan Daerah tentang pemekaran wilayah administrasi Kota Pematangsiantar, yaitu:   
+                </p>
+                <p align="justify">
+                1.	Peraturan Daerah No.3 tahun 2007 tentang Pembentukan Kecamatan Siantar Sitalasari <br>
+2.	Peraturan Daerah No.6 Tahun 2007 tentang Pembentukan Kecamatan Siantar Marimbun <br>
+3.	Peraturan Daerah No.7 Tahun 2007 tentang Pembentukan Kelurahan Bah Sorma <br>
+4.	Peraturan Daerah Nomor 8 Tahun 2007 tentang Pembentukan Kelurahan Tanjung Tongah, Nagapitu dan Tanjung Pinggir <br>
+5.	Peraturan Daerah Nomor 9 Tahun 2007 tetang Pembentukan Kelurahan Parhorasan Nauli, Sukamakmur, Marihat Jaya, Tong Marimbun, Mekar Nauli dan Nagahuta Timur <br>
+
+                </p>
+                <p align="justify">
+                Dengan demikian jumlah Kecamatan di Kota Pematangsiantar ada sebanyak delapan kecamatan dengan jumlah kelurahan sebanyak lima puluh tiga Kelurahan.  
+                </p>
+                <br>
+                  
+                <br><br>
 
 
               </div>
@@ -1792,6 +1894,8 @@
           </div>
         </div>
       </div>
+
+      
 
    
       <footer class="bg-blue">

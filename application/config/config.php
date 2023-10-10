@@ -25,6 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $config['base_url'] = 'http://localhost/pematangsiantar/';
 
+// $config['base_url'] = 'https://pematangsiantar.go.id/';
+
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -384,7 +386,6 @@ $config['sess_save_path']          = APPPATH.'writable';
 $config['sess_match_ip']           = FALSE;
 $config['sess_time_to_update']     = 300;
 $config['sess_regenerate_destroy'] = FALSE; 
-
 /*
 |--------------------------------------------------------------------------
 | Cookie Related Variables

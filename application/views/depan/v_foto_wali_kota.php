@@ -1698,15 +1698,33 @@
                   <table class="zentable cityd-table" id="myTable">
                     <thead>
                       <tr>
+                        <td>No</td>
                         <td>Nama File</td>
-                        <td>Tanggal Upload</td>
+                        <!-- <td>Tanggal Upload</td> -->
                         <td>Alamat Link/Unduh</td>
                       </tr>
                     </thead>
                    <tbody>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                   <?php 
+                      $no = 1;
+                      foreach ($data->result() as $row):
+                          // Hanya menampilkan data yang memiliki nilai file_oleh sama dengan "Foto"
+                          if ($row->file_oleh == "Foto"):
+                      ?>
+                          <tr>
+                              <td><?php echo $no++;?></td>
+                              <td><?php echo $row->file_judul;?></td>
+                              <!-- <td><?php echo $row->tanggal;?></td> -->
+                              <td style="text-align:center;">
+                                  <a href="<?php echo site_url('download/get_file/'.$row->file_id);?>" class="btn btn-info">
+                                      <i class="fa fa-download" aria-hidden="true" style="color: #253B7B; font-size: 24px;"></i>
+                                  </a>
+                              </td>
+                          </tr>
+                      <?php 
+                          endif;
+                      endforeach;
+                      ?>
                    </tbody>
                   </table>
                 </div>

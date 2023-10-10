@@ -2146,7 +2146,7 @@
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/uAK0PdX1GaE"
+              src="https://www.youtube.com/embed/5qLuc1LbVq0"
               title="Kegiatan Wali Kota Pematang Siantar"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
