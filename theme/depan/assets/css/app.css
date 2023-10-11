@@ -4788,7 +4788,7 @@ a {
   display: none;
 }
 .bg-yellow {
-  background: #ffffe7;
+  background: #fff8d8;
 }
 .bg-gray {
   background: #efefef;
@@ -4893,7 +4893,7 @@ table tr td {
   font-size: 26px;
 }
 .mainmenu {
-  background-color: #084a83;
+  background-color: #004ae1;
   color: #fff;
   font-weight: 300;
   width: 100%;
@@ -5340,7 +5340,7 @@ li.has-dropdown ul li.has-dropdown ul {
   }
 }
 .bg-blue {
-  background-color: #084a83;
+  background-color: #004ae1;
 }
 .footer {
   display: flex;
@@ -7772,7 +7772,7 @@ ul.tabs li.current {
   height: 65px;
   margin-bottom: 5px;
   padding: 5px;
-  background: #539ddb;
+  background: #004ae1;
   border: 2px solid #fff;
   color: #fff;
   border-radius: 100%;
