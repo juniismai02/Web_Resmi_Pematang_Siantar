@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Oct 11, 2023 at 04:37 PM
--- Server version: 10.6.13-MariaDB
--- PHP Version: 8.2.9
+-- Host: 127.0.0.1
+-- Generation Time: Oct 12, 2023 at 01:39 PM
+-- Server version: 10.4.20-MariaDB
+-- PHP Version: 7.4.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -38,7 +38,7 @@ CREATE TABLE `tbl_agenda` (
   `agenda_waktu` varchar(30) DEFAULT NULL,
   `agenda_keterangan` varchar(200) DEFAULT NULL,
   `agenda_author` varchar(60) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_agenda`
@@ -63,7 +63,7 @@ CREATE TABLE `tbl_album` (
   `album_author` varchar(60) DEFAULT NULL,
   `album_count` int(11) DEFAULT 0,
   `album_cover` varchar(40) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_album`
@@ -87,7 +87,7 @@ CREATE TABLE `tbl_files` (
   `file_oleh` varchar(60) DEFAULT NULL,
   `file_download` int(11) DEFAULT 0,
   `file_data` varchar(120) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_files`
@@ -132,7 +132,7 @@ CREATE TABLE `tbl_galeri` (
   `galeri_album_id` int(11) DEFAULT NULL,
   `galeri_pengguna_id` int(11) DEFAULT NULL,
   `galeri_author` varchar(60) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_galeri`
@@ -174,7 +174,7 @@ CREATE TABLE `tbl_guru` (
   `guru_mapel` varchar(120) DEFAULT NULL,
   `guru_photo` varchar(40) DEFAULT NULL,
   `guru_tgl_input` timestamp NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_guru`
@@ -204,7 +204,7 @@ CREATE TABLE `tbl_inbox` (
   `inbox_pesan` text DEFAULT NULL,
   `inbox_tanggal` timestamp NULL DEFAULT current_timestamp(),
   `inbox_status` int(11) DEFAULT 1 COMMENT '1=Belum dilihat, 0=Telah dilihat'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -216,7 +216,7 @@ CREATE TABLE `tbl_kategori` (
   `kategori_id` int(11) NOT NULL,
   `kategori_nama` varchar(30) DEFAULT NULL,
   `kategori_tanggal` timestamp NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_kategori`
@@ -237,7 +237,7 @@ INSERT INTO `tbl_kategori` (`kategori_id`, `kategori_nama`, `kategori_tanggal`) 
 CREATE TABLE `tbl_kelas` (
   `kelas_id` int(11) NOT NULL,
   `kelas_nama` varchar(40) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_kelas`
@@ -266,7 +266,7 @@ CREATE TABLE `tbl_komentar` (
   `komentar_status` varchar(2) DEFAULT NULL,
   `komentar_tulisan_id` int(11) DEFAULT NULL,
   `komentar_parent` int(11) DEFAULT 0
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_komentar`
@@ -291,7 +291,7 @@ CREATE TABLE `tbl_log_aktivitas` (
   `log_pengguna_id` int(11) DEFAULT NULL,
   `log_icon` blob DEFAULT NULL,
   `log_jenis_icon` varchar(50) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -317,7 +317,7 @@ CREATE TABLE `tbl_pengguna` (
   `pengguna_level` varchar(3) DEFAULT NULL,
   `pengguna_register` timestamp NULL DEFAULT current_timestamp(),
   `pengguna_photo` varchar(40) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_pengguna`
@@ -338,7 +338,7 @@ CREATE TABLE `tbl_pengumuman` (
   `pengumuman_deskripsi` text DEFAULT NULL,
   `pengumuman_tanggal` timestamp NULL DEFAULT current_timestamp(),
   `pengumuman_author` varchar(60) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_pengumuman`
@@ -361,7 +361,7 @@ CREATE TABLE `tbl_pengunjung` (
   `pengunjung_tanggal` timestamp NULL DEFAULT current_timestamp(),
   `pengunjung_ip` varchar(40) DEFAULT NULL,
   `pengunjung_perangkat` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_pengunjung`
@@ -392,7 +392,8 @@ INSERT INTO `tbl_pengunjung` (`pengunjung_id`, `pengunjung_tanggal`, `pengunjung
 (951, '2023-10-09 17:01:33', '192.168.250.1', 'Mozilla'),
 (952, '2023-10-10 09:43:56', '::1', 'Chrome'),
 (953, '2023-10-10 17:01:56', '::1', 'Safari'),
-(954, '2023-10-10 17:48:34', '192.168.250.1', 'Chrome');
+(954, '2023-10-10 17:48:34', '192.168.250.1', 'Chrome'),
+(955, '2023-10-12 11:07:26', '::1', 'Chrome');
 
 -- --------------------------------------------------------
 
@@ -407,7 +408,7 @@ CREATE TABLE `tbl_siswa` (
   `siswa_jenkel` varchar(2) DEFAULT NULL,
   `siswa_kelas_id` int(11) DEFAULT NULL,
   `siswa_photo` varchar(40) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_siswa`
@@ -438,7 +439,7 @@ CREATE TABLE `tbl_testimoni` (
   `testimoni_isi` varchar(120) DEFAULT NULL,
   `testimoni_email` varchar(35) DEFAULT NULL,
   `testimoni_tanggal` timestamp NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -459,7 +460,7 @@ CREATE TABLE `tbl_tulisan` (
   `tulisan_author` varchar(40) DEFAULT NULL,
   `tulisan_img_slider` int(2) NOT NULL DEFAULT 0,
   `tulisan_slug` varchar(200) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_tulisan`
@@ -516,7 +517,11 @@ INSERT INTO `tbl_tulisan` (`tulisan_id`, `tulisan_judul`, `tulisan_isi`, `tulisa
 (120, 'LAYANAN ENDOSKOPI', '', '2023-10-10 12:08:05', 3, 'Sosialisasi', 1, 'af033a3a2ae3f4a74984d56ee455ffe6.png', 7, 'Pematang Siantar', 0, 'layanan-endoskopi'),
 (121, 'MAMMOGRAFI', '', '2023-10-10 12:08:24', 3, 'Sosialisasi', 1, '7c75419b4b9ed3b276ee0242d9c6e569.png', 7, 'Pematang Siantar', 0, 'mammografi'),
 (122, 'Jelang Pertandingan Persahabatan Sepakbola APEKSI Komwil 1 dr Susanti Tunjukkan Pematang Siantar Mam', '<p>Jelang Pertandingan Persahabatan Sepakbola APEKSI Komwil 1, dr Susanti: Tunjukkan Pematang Siantar Mampu!</p>\r\n\r\n<p>Menjadi tuan rumah Pertandingan Persahabatan Sepak Bola Asosiasi Pemerintah Kota Seluruh Indonesia (APEKSI) Komisariat Wilayah (Komwil) 1 Sumatera Bagian Utara (Sumbagut), Kota Pematang Siantar diberi kesempatan untuk menunjukkan kepada Indonesia bahwa kota kecil yang berada di ujung Pulau Sumatera ini mampu.</p>\r\n\r\n<p>&quot;Mampu menjadi tuan rumah dan mampu memberi kenangan indah bagi seluruh utusan kota yang hadir dalam perhelatan akbar tersebut nantinya,&quot; kata Wali Kota Pematang Siantar dr Susanti Dewayani SpA dalam pemaparannya, pada Rapat Finalisasi Persiapan Pelaksanaan Pertandingan Persahabatan Sepak Bola APEKSI Komwil I Sumbagut, di Ruang Rapat Serbaguna Pemko Pematang Siantar, Selasa (10/10/2023) sore.</p>\r\n\r\n<p>Pada kesempatan ini, dr Susanti mengucapkan terima kasih kepada semua pihak yang terus bekerja dalam melakukan persiapan menyambut agenda APEKSI Komwil 1 Sumbagut, terkhusus kepada Danrindam 1/Bukit Barisan dan Kodim 02/07 Simalungun yang telah memberikan fasilitas lapangan.</p>\r\n\r\n<p>Dalam rapat finalisasi tersebut, dr Susanti mengakui semua pihak telah bekerja secara maksimal. Untuk itu diharapkan terus berkoordinasi dan berkolaborasi.</p>\r\n\r\n<p>&quot;Kepada seluruh OPD diharapkan untuk terus menjaga kebersihan dan keindahan, terutama OPD yang berkantor di jalan protokoler. Ditambah dengan adanya spanduk dan baliho, sehingga suasana di Kota Pematang Siantar menjadi meriah dalam menyambut perhelatan APEKSI Komwil 1 Sumbagut,&quot; tutur dr Susanti.</p>\r\n\r\n<p>Masih kata dr Susanti, dengan peserta yang hadir berjumlah 300 orang lebih di suatu tempat, antisipasi menghindari kemacetan lalu lintas perlu dilakukan.</p>\r\n', '2023-10-10 12:25:23', 1, 'Berita Terbaru', 4, 'dee5c100b4f932f3399c92a422e2a9a6.png', 7, 'Pematang Siantar', 0, 'jelang-pertandingan-persahabatan-sepakbola-apeksi-komwil-1-dr-susanti-tunjukkan-pematang-siantar-mampu'),
-(123, 'dr Susanti Bersama Menkum HAM Yasonna Laoly Hadiri Pembukaan Sinode Am Kerja GKPI Tahun 2023', '<p>Wali Kota Pematang Siantar dr Susanti Dewayani SpA bersama Menteri Hukum dan Hak Asasi Manusia (Menkum HAM) Yasonna Laoly menghadiri Pembukaan Sinode Am Kerja (SAK) XXIII Gereja Kristen Protestan Indonesia (GKPI) Tahun 2023, di GKPI Center-Komplek PA Mamre Rambung Merah, Kabupaten Simalungun, Selasa (10/10/2023) sore.</p>\r\n\r\n<p>Dalam sambutannya, dr Susanti menyampaikan sinode bertujuan merumuskan program pada periode ke depan.</p>\r\n\r\n<p>&quot;Ini merupakan momen yang tepat dengan langkah strategis membawa GKPI pada Visi Pelayanan pada cita-cita bersama dalam pengembangan keberhasilan umat, termasuk di Kota Pematang Siantar,&quot; sebut dr Susanti.</p>\r\n\r\n<p>Menurut dr Susanti, selama ini GKPI telah menjadi mitra kerja Pemerintah Kota (Pemko) Pematang Siantar dalam pembinaan kerohanian umat.</p>\r\n\r\n<p>&quot;Saya mengapresiasi sinergitas dan kolaborasi GKPI yang luar biasa, berkontribusi untuk kemajuan Kota Pematang Siantar. Kita memiliki komitmen untuk penguatan kegiatan rohani, memberikan dukungan penuh untuk rencana ke depannya guna mendukung Pematang Siantar Sehat, Sejahtera, dan Berkualitas,&quot; tukasnya.</p>\r\n\r\n<p>Sementara itu, Menkum HAM RI Yasonna Laoly mengucapkan selamat atas pelaksanaan Sinode Am Kerja GKPI Tahun 2023. Ia berharap kegiatan tersebut menjadi kehendak Allah membangun Kekristenan yang lebih baik.</p>\r\n\r\n<p>Yasonna mengajak jemaat GKPI untuk adaptif terhadap perkembangan di tengah revolusi industri.</p>\r\n\r\n<p>&quot;Semoga sinode ini membawa program kerja yang baik kepada jemaat, bangsa, dan negara,&quot; tandasnya.</p>\r\n\r\n<p>Sedangkan Sekjen GKPI Dr Hulman Lumban Tobing mengajak seluruh jemaat GKPI berjalan bersama mewujudkan visi misi GKPI sebagai perwujudan nyata dalam Sinode Am Kerja.</p>\r\n\r\n<p>&quot;Kita menyadari gereja hadir hampir 20 abad dalam misi Kekristenan. Bahwa gereja bersifat misioner tanda-tanda Kerajaan Allah di masyarakat, karena panggilan gereja menjadi terang dunia,&quot; pungkasnya.</p>\r\n', '2023-10-10 17:46:36', 1, 'Berita Terbaru', 13, 'e721e13dbdab9a1ae55cf8a39ae866f9.png', 7, 'Pematang Siantar', 0, 'dr-susanti-bersama-menkum-ham-yasonna-laoly-hadiri-pembukaan-sinode-am-kerja-gkpi-tahun-2023');
+(123, 'dr Susanti Bersama Menkum HAM Yasonna Laoly Hadiri Pembukaan Sinode Am Kerja GKPI Tahun 2023', '<p>Wali Kota Pematang Siantar dr Susanti Dewayani SpA bersama Menteri Hukum dan Hak Asasi Manusia (Menkum HAM) Yasonna Laoly menghadiri Pembukaan Sinode Am Kerja (SAK) XXIII Gereja Kristen Protestan Indonesia (GKPI) Tahun 2023, di GKPI Center-Komplek PA Mamre Rambung Merah, Kabupaten Simalungun, Selasa (10/10/2023) sore.</p>\r\n\r\n<p>Dalam sambutannya, dr Susanti menyampaikan sinode bertujuan merumuskan program pada periode ke depan.</p>\r\n\r\n<p>&quot;Ini merupakan momen yang tepat dengan langkah strategis membawa GKPI pada Visi Pelayanan pada cita-cita bersama dalam pengembangan keberhasilan umat, termasuk di Kota Pematang Siantar,&quot; sebut dr Susanti.</p>\r\n\r\n<p>Menurut dr Susanti, selama ini GKPI telah menjadi mitra kerja Pemerintah Kota (Pemko) Pematang Siantar dalam pembinaan kerohanian umat.</p>\r\n\r\n<p>&quot;Saya mengapresiasi sinergitas dan kolaborasi GKPI yang luar biasa, berkontribusi untuk kemajuan Kota Pematang Siantar. Kita memiliki komitmen untuk penguatan kegiatan rohani, memberikan dukungan penuh untuk rencana ke depannya guna mendukung Pematang Siantar Sehat, Sejahtera, dan Berkualitas,&quot; tukasnya.</p>\r\n\r\n<p>Sementara itu, Menkum HAM RI Yasonna Laoly mengucapkan selamat atas pelaksanaan Sinode Am Kerja GKPI Tahun 2023. Ia berharap kegiatan tersebut menjadi kehendak Allah membangun Kekristenan yang lebih baik.</p>\r\n\r\n<p>Yasonna mengajak jemaat GKPI untuk adaptif terhadap perkembangan di tengah revolusi industri.</p>\r\n\r\n<p>&quot;Semoga sinode ini membawa program kerja yang baik kepada jemaat, bangsa, dan negara,&quot; tandasnya.</p>\r\n\r\n<p>Sedangkan Sekjen GKPI Dr Hulman Lumban Tobing mengajak seluruh jemaat GKPI berjalan bersama mewujudkan visi misi GKPI sebagai perwujudan nyata dalam Sinode Am Kerja.</p>\r\n\r\n<p>&quot;Kita menyadari gereja hadir hampir 20 abad dalam misi Kekristenan. Bahwa gereja bersifat misioner tanda-tanda Kerajaan Allah di masyarakat, karena panggilan gereja menjadi terang dunia,&quot; pungkasnya.</p>\r\n', '2023-10-10 17:46:36', 1, 'Berita Terbaru', 13, 'e721e13dbdab9a1ae55cf8a39ae866f9.png', 7, 'Pematang Siantar', 0, 'dr-susanti-bersama-menkum-ham-yasonna-laoly-hadiri-pembukaan-sinode-am-kerja-gkpi-tahun-2023'),
+(124, 'dr Susanti Bersama Erizal Ginting Resmikan Kampung Tenun Ulos Siantar', '<p>Wali Kota Pematang Siantar dr Susanti Dewayani SpA bersama Ketua Dekranasda H Kusma Erizal Ginting SH meresmikan Kampung Tenun Ulos Siantar, sekaligus perayaan Hari Ulos Nasional Tahun 2023, di Jalan Aries 1 No 51 Kelurahan Bah Kapul, Kecamatan Siantar Sitalasari, Rabu (11/10).</p>\r\n\r\n<p>Mengawali sambutannya, dr Susanti mengucapkan terima kasih kepada PT PLN (Persero) atas dukungan dan support dalam peresmian Kampung Tenun Ulos Siantar. Sebab PT PLN telah memberikan bantuan alat tenun yang menggunakan daya listrik.</p>\r\n\r\n<p>&quot;Ini menunjukkan bukti konkret adanya kolaborasi atau kerjasama antara pihak BUMN atau swasta dengan Pemko Pematang Siantar, yang tujuannya untuk meningkatkan perekonomian di Kota Pematang Sian?ar,&quot; sebut dr Susanti.</p>\r\n\r\n<p>Menurut dr Susanti, Indonesia kaya akan budaya dan warisan leluhur. Salah satunya Ulos yang patut dilestarikan.</p>\r\n\r\n<p>&quot;Untuk itu, dalam rangka memperingati Hari Ulos Nasional yang jatuh pada 17 Oktober 2023, peresmian Kampung Ulos dilakukan diwakili Kelurahan Bah Kapul. Serta ada beberapa titik lagi yang kita canangkan sebagai Kampung Ulos,&quot; katanya.</p>\r\n\r\n<p>Kampung Ulos, lanjut dr Susanti, memiliki 2.300 pengrajin tenun Ulos yang bergabung dalam satu koperasi. Sehingga tingkat kepercayaan masyarakat pengguna tenun Ulos akan semakin baik. Dan mudah-mudahan juga semakin meningkat dari segi kualitas dan kuantitas.</p>\r\n\r\n<p>dr Susanti juga mengutarakan beberapa hal yang bisa diambil dari keberadaan Kampung Tenun Ulos Siantar. Di antaranya, lokasi tersebut akan menjadi pusat pengembangan tenun Ulos khususnya di Kota Pematang Siantar.</p>\r\n\r\n<p>&quot;Di lokasi ini nantinya akan ada inovasi-inovasi dalam motif dan produk turunannya,&quot; sebut dr Susanti.</p>\r\n\r\n<p>Kepada pengurus Koperasi Ulos Siantar Sejahtera periode 2023-2026 yang baru dilantik, dr Susanti mengatakan para pengurus merupakan orang-orang yang dipercaya dalam mengemban amanah dan mengembangkan tenun Ulos di Kota Pematang Siantar.</p>\r\n', '2023-10-11 10:08:38', 1, 'Berita Terbaru', 0, '318a726b6dd1b0af0f8e7bdb942843b3.png', 7, 'Pematang Siantar', 0, 'dr-susanti-bersama-erizal-ginting-resmikan-kampung-tenun-ulos-siantar'),
+(125, 'PENGALIHAN ARUS LALU LINTAS', '<p>Sehubungan dengan diadakannya acara Football Tournament Friendly Match Komwil I APEKSI di Kota Pematang Siantar, Pemko Pematang Siantar melalui&nbsp;<a href=\"https://www.facebook.com/dishub.pematangsiantar?__cft__[0]=AZUgzscy9vwv7ebHy6l9dEPy7C-GBQMvbGGhok59Ljhj7_0Kv0xmyCryX5p-h6nGo2gdABy8LTMGpUKdynH1StjtVXTX1jN-vV5gnFwzUgXWyFxCpNiMKTA9a_boIzcf8svhR4OPm0J0aQcHU47yXdRSvno-dlKFiSHa4ssfb78HZA&amp;__tn__=-]K*F\">Dishub Pematangsiantar</a>&nbsp;akan menutup sementara sebagian Jl. Merdeka (depan Balai Kota Pematang Siantar).<br />\r\nInfo Selengkapnya simak infografis berikut.<br />\r\n.<br />\r\n.<br />\r\n.<br />\r\n.<br />\r\n<a href=\"https://www.facebook.com/hashtag/siantarbangkitdanmaju?__eep__=6&amp;__cft__[0]=AZUgzscy9vwv7ebHy6l9dEPy7C-GBQMvbGGhok59Ljhj7_0Kv0xmyCryX5p-h6nGo2gdABy8LTMGpUKdynH1StjtVXTX1jN-vV5gnFwzUgXWyFxCpNiMKTA9a_boIzcf8svhR4OPm0J0aQcHU47yXdRSvno-dlKFiSHa4ssfb78HZA&amp;__tn__=*NK*F\">#siantarbangkitdanmaju</a><br />\r\n<a href=\"https://www.facebook.com/hashtag/siantarsehatsejahteradanberkualitas?__eep__=6&amp;__cft__[0]=AZUgzscy9vwv7ebHy6l9dEPy7C-GBQMvbGGhok59Ljhj7_0Kv0xmyCryX5p-h6nGo2gdABy8LTMGpUKdynH1StjtVXTX1jN-vV5gnFwzUgXWyFxCpNiMKTA9a_boIzcf8svhR4OPm0J0aQcHU47yXdRSvno-dlKFiSHa4ssfb78HZA&amp;__tn__=*NK*F\">#siantarsehatsejahteradanberkualitas</a><br />\r\n<a href=\"https://www.facebook.com/hashtag/ayokesiantar?__eep__=6&amp;__cft__[0]=AZUgzscy9vwv7ebHy6l9dEPy7C-GBQMvbGGhok59Ljhj7_0Kv0xmyCryX5p-h6nGo2gdABy8LTMGpUKdynH1StjtVXTX1jN-vV5gnFwzUgXWyFxCpNiMKTA9a_boIzcf8svhR4OPm0J0aQcHU47yXdRSvno-dlKFiSHa4ssfb78HZA&amp;__tn__=*NK*F\">#ayokesiantar</a><br />\r\n-<br />\r\n- -<br />\r\n- - -<br />\r\nAyo Follow Website Pemko Pematang Siantar Dan Sosial Media Diskominfo Pematang Siantar<br />\r\nWebsite :&nbsp;<a href=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fpematangsiantar.go.id%2F%3Ffbclid%3DIwAR1RZo0TFZxJ4Km9sS9Ui4yWZcdv7Xu5OjaeOy4RHizbwlQY3TNEy6LK-d8&amp;h=AT1xx0v8P6t3UB9bgITh0xK-Asf6N7ccCHlq04ns0Wn8Auo2M7sQAQr6-7-TbyLhnqZrip3NuVNgPSSQZS8BAQ69OviIb2JGGEOAYnwkL_jLlt5JDCjTcYtb8Alm5N7svP0V&amp;__tn__=-UK*F&amp;c[0]=AT1S_6T-i4e_eZACGr8_dJtv2Rf_0nEwUHhKaiMzsn1AOf9wkQY2qZmPPdRHM8ux6DWpufmeNbp5cvSYmAUeCP-MCDsgkm0sjt3exjTCOKOLWjtLL3yDLLW4z856fX3dUaF9qy18KMs96kR8KXh7KcQ4kzrwIU1rVKLuZqj__E6-FExcFyE\" target=\"_blank\">https://pematangsiantar.go.id/</a><br />\r\nFacebook&nbsp;<a href=\"https://www.facebook.com/diskominfopematangsiantar?__cft__[0]=AZUgzscy9vwv7ebHy6l9dEPy7C-GBQMvbGGhok59Ljhj7_0Kv0xmyCryX5p-h6nGo2gdABy8LTMGpUKdynH1StjtVXTX1jN-vV5gnFwzUgXWyFxCpNiMKTA9a_boIzcf8svhR4OPm0J0aQcHU47yXdRSvno-dlKFiSHa4ssfb78HZA&amp;__tn__=-]K*F\">https://www.facebook.com/diskominfopematangsiantar</a><br />\r\nYoutube :&nbsp;<a href=\"https://youtube.com/c/DiskominfoPematangsiantar?fbclid=IwAR38mkn69UFDNZt7FigHtJifLg3F7-RG3vaRJnHdXR9TNpiHqzHyy_uSAzg\" target=\"_blank\">https://youtube.com/c/DiskominfoPematangsiantar</a></p>\r\n', '2023-10-12 11:19:15', 2, 'Pengumuman', 1, '884abeda60a2208c11cded9d3e55f0db.png', 7, 'Pematang Siantar', 0, 'pengalihan-arus-lalu-lintas');
+INSERT INTO `tbl_tulisan` (`tulisan_id`, `tulisan_judul`, `tulisan_isi`, `tulisan_tanggal`, `tulisan_kategori_id`, `tulisan_kategori_nama`, `tulisan_views`, `tulisan_gambar`, `tulisan_pengguna_id`, `tulisan_author`, `tulisan_img_slider`, `tulisan_slug`) VALUES
+(126, 'dr Susanti dan AKBP Yogen Saksikan Kotak Suara Dirampok dan Kantor KPU Didemo Massa Anarkis', '<p>Wali Kota Pematang Siantar dr Susanti Dewayani SpA bersama Kapolres Pematang Siantar AKBP Yogen Heroes Baruno SH SIK menyaksikan kotak suara dirampok dan Kantor Komisi Pemilihan Umum (KPU) didemo oleh massa yang anarkis. Adegan perampokan dan demo anarkis tersebut merupakan rangkaian Simulasi Sistem Pengamanan (Sispam) Kota dalam Rangka Kesiapan Pengamanan Tahapan Pemilu Serentak Tahun 2023 di Wilayah Kota Pematang Siantar. Simulasi berlangsung di</p>\r\n\r\n<p>Jalan Merdeka, depan Balai Kota Pematang Siantar, Kamis (12/10/2023) pagi.</p>\r\n\r\n<p>Berita Selengkapnya:</p>\r\n\r\n<p><a href=\"https://berita.pematangsiantar.go.id/?p=7388&amp;fbclid=IwAR39lBeQhrXlz3BA7_ZFnaNrhgxuq3Eou06nGlldjQeMGNty18HamH-TAlY\" target=\"_blank\">https://berita.pematangsiantar.go.id/?p=7388</a></p>\r\n\r\n<p>.</p>\r\n\r\n<p>.</p>\r\n\r\n<p><a href=\"https://www.facebook.com/hashtag/siantarbangkitdanmaju?__eep__=6&amp;__cft__[0]=AZVOZTXPlmAxXkmjD-QSKqB7ut2L3O-hZrNTskezdsHthRXSHPYo9bkR-tXfUDFWVr5nbaXhRCRXvBmHtB6X8Wq4o9apn2DL8bskDBMPug34ytAS7MQX-DZC0puQ0lDPR_ddTxNajD1ny_HWXZYAehYRZ68HXqcjb1GUACVCN_VrKg&amp;__tn__=*NK-R\">#siantarbangkitdanmaju</a></p>\r\n\r\n<p><a href=\"https://www.facebook.com/hashtag/siantarsehatsejahteradanberkualitas?__eep__=6&amp;__cft__[0]=AZVOZTXPlmAxXkmjD-QSKqB7ut2L3O-hZrNTskezdsHthRXSHPYo9bkR-tXfUDFWVr5nbaXhRCRXvBmHtB6X8Wq4o9apn2DL8bskDBMPug34ytAS7MQX-DZC0puQ0lDPR_ddTxNajD1ny_HWXZYAehYRZ68HXqcjb1GUACVCN_VrKg&amp;__tn__=*NK-R\">#siantarsehatsejahteradanberkualitas</a></p>\r\n\r\n<p><a href=\"https://www.facebook.com/hashtag/ayokesiantar?__eep__=6&amp;__cft__[0]=AZVOZTXPlmAxXkmjD-QSKqB7ut2L3O-hZrNTskezdsHthRXSHPYo9bkR-tXfUDFWVr5nbaXhRCRXvBmHtB6X8Wq4o9apn2DL8bskDBMPug34ytAS7MQX-DZC0puQ0lDPR_ddTxNajD1ny_HWXZYAehYRZ68HXqcjb1GUACVCN_VrKg&amp;__tn__=*NK-R\">#ayokesiantar</a></p>\r\n\r\n<p>-</p>\r\n\r\n<p>- -</p>\r\n\r\n<p>- - -</p>\r\n\r\n<p>Ayo Follow Website Pemko Pematang Siantar Dan Sosial Media Diskominfo Pematang Siantar</p>\r\n\r\n<p>Website : <a href=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fpematangsiantar.go.id%2F%3Ffbclid%3DIwAR2TLgonmtQRiVTg4BMYcvO61HgBl6S6WLUm4OK73CgHiKmafPudYSOH05g&amp;h=AT1IpBP5aHFfIkaq4xbmroAXYwbH1oR1w_CQBko8VD5V9USAm3S-bgpFmn6Rl93gg89ji7mhufsDKTSsvjtHgbrO0xac10d_z2QeiEHWMygUwimRH9FzS8uGC2Zfjg_nzaEN&amp;__tn__=-UK-R&amp;c[0]=AT3ooNszv1cjJfFRZOFk2ZZScIut25STdhAAdYq12kZF1VTNtwE60uIa_MN4Gl4oSojcnfdarwLTjFW6L42B9fvcmp5OAiiZkwwrdFhNIMtXoHHp3ITEdoN9P3Vd-almuX8MRVigs2quXpWAIcjlh1AMlKNVw7TxI1Nixa9XPv2F_4WM4EQ\" target=\"_blank\">https://pematangsiantar.go.id/</a></p>\r\n\r\n<p>Facebook <a href=\"https://www.facebook.com/diskominfopematangsiantar?__cft__[0]=AZVOZTXPlmAxXkmjD-QSKqB7ut2L3O-hZrNTskezdsHthRXSHPYo9bkR-tXfUDFWVr5nbaXhRCRXvBmHtB6X8Wq4o9apn2DL8bskDBMPug34ytAS7MQX-DZC0puQ0lDPR_ddTxNajD1ny_HWXZYAehYRZ68HXqcjb1GUACVCN_VrKg&amp;__tn__=-]K-R\">https://www.facebook.com/diskominfopematangsiantar</a></p>\r\n\r\n<p>Youtube : <a href=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fc%2FDiskominfoPematangsiantar%3Ffbclid%3DIwAR1zOVQLowzE9pzGuqoqiQBVAn7oc2vJUu4vMydj5QXkV3cOUa-Yl2kyD4s&amp;h=AT3lgAGBDTPXANeHGAs1BVhgwrLfjv5YmCKH94AeQKqERE_GTUTwVCWCMP02XAta-rcTEHqJWWdEXX__8KQyvcKWd1tuZFtm3-A3oo2r2dFjKDD0cfLOybYB_ufJtmYevYFb&amp;__tn__=-UK-R&amp;c[0]=AT3ooNszv1cjJfFRZOFk2ZZScIut25STdhAAdYq12kZF1VTNtwE60uIa_MN4Gl4oSojcnfdarwLTjFW6L42B9fvcmp5OAiiZkwwrdFhNIMtXoHHp3ITEdoN9P3Vd-almuX8MRVigs2quXpWAIcjlh1AMlKNVw7TxI1Nixa9XPv2F_4WM4EQ\" target=\"_blank\">https://youtube.com/c/DiskominfoPematangsiantar</a></p>\r\n', '2023-10-12 11:25:46', 1, 'Berita Terbaru', 1, '743a5e586959354d2bfe0d1321b5787f.png', 7, 'Pematang Siantar', 0, 'dr-susanti-dan-akbp-yogen-saksikan-kotak-suara-dirampok-dan-kantor-kpu-didemo-massa-anarkis');
 
 --
 -- Indexes for dumped tables
@@ -705,7 +710,7 @@ ALTER TABLE `tbl_pengumuman`
 -- AUTO_INCREMENT for table `tbl_pengunjung`
 --
 ALTER TABLE `tbl_pengunjung`
-  MODIFY `pengunjung_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=955;
+  MODIFY `pengunjung_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=956;
 
 --
 -- AUTO_INCREMENT for table `tbl_siswa`
@@ -723,7 +728,7 @@ ALTER TABLE `tbl_testimoni`
 -- AUTO_INCREMENT for table `tbl_tulisan`
 --
 ALTER TABLE `tbl_tulisan`
-  MODIFY `tulisan_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=124;
+  MODIFY `tulisan_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=127;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
