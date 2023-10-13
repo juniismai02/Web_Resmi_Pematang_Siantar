@@ -32,6 +32,25 @@
     <link href="<?php echo base_url().'theme/depan/assets/plugins/slick/css/slick.css'?>" rel="stylesheet" />
     <link href="<?php echo base_url().'theme/depan/assets/plugins/slick/css/slick-theme.css'?>" rel="stylesheet" />
     <style>
+        /* Tambahkan gaya untuk pop-up */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    </style>
+    <style>
       .leader__row {
  
   justify-content: center; /* Pusatkan secara horizontal */
@@ -1895,9 +1914,261 @@
   
                 </p>
                 <br>
-                  
+                <div class="xsection__header">
+                <h1 class="xsection__title">WALI KOTA PEMATANG SIANTAR
+                  DARI MASA KE MASA
+                  </h1>
+                  <br>
+              </div>
+              <div class="zentable-outer">
+              <table class="zentable cityd-table" id="myTable">
+    <thead>
+        <tr>
+            <td>Ke</td>
+            <td>Foto</td>
+            <td>Nama</td>
+            <td>Masa Jabatan</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">1</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/O.K.H Salamuddin.png'?>"
+                    alt="O.K.H Salamuddin"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">O.K.H Salamuddin</td>
+            <td align="center">1956-1957</td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Djamaluddin Tambunan.png'?>"
+                    alt="Djamaluddin Tambunan"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Djamaluddin Tambunan</td>
+            <td align="center">1957-1959</td>
+        </tr>
+        <tr>
+            <td align="center">3</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Rakutta Sembiring Brahmana.png'?>"
+                    alt="Rakutta Sembiring Brahmana"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Rakutta Sembiring Brahmana</td>
+            <td align="center">1960-1964</td>
+        </tr>
+        <tr>
+            <td align="center">4</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Abner Situmorang.png'?>"
+                    alt="Abner Situmorang"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Abner Situmorang</td>
+            <td align="center">Juni 1964 – Agustus 1964</td>
+        </tr>
+        <tr>
+            <td align="center">5</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Pandak Tarigan.png'?>"
+                    alt="Pandak Tarigan"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Pandak Tarigan</td>
+            <td align="center">10 Agustus 1964 – 31 Agustus 1965</td>
+        </tr>
+        <tr>
+            <td align="center">6</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Zainuddin Hasan.png'?>"
+                    alt="Zainuddin Hasan"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Zainuddin Hasan</td>
+            <td align="center">31 Agustus 1965 – 20 Oktober 1966</td>
+        </tr>
+        <tr>
+            <td align="center">7</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Tarip Siregar.png'?>"
+                    alt="Tarip Siregar"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Tarip Siregar</td>
+            <td align="center">1 November 1966 – 27 Desember 1966</td>
+        </tr>
+        <tr>
+            <td align="center">8</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Mulatua Pardede.png'?>"
+                    alt="Mulatua Pardede"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Mulatua Pardede</td>
+            <td align="center">28 Desember 1966 – 24 April 1967</td>
+        </tr>
+        <tr>
+            <td align="center">9</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Leurimba Saragih.png'?>"
+                    alt="Leurimba Saragih"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Leurimba Saragih</td>
+            <td align="center">25 April 1967 – 28 Juni 1974</td>
+        </tr>
+        <tr>
+            <td align="center">10</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Sanggup Ketaren.png'?>"
+                    alt="Sanggup Ketaren"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Sanggup Ketaren</td>
+            <td align="center">29 Juni 1974 – 29 Juni 1979</td>
+        </tr>
+        <tr>
+            <td align="center">11</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/M.J.T. Sihotang.png'?>"
+                    alt="M.J.T. Sihotang"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">M.J.T. Sihotang</td>
+            <td align="center">29 Juni – 29 Juni 1984</td>
+        </tr>
+        <tr>
+            <td align="center">12</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Djabanten Damanik.png'?>"
+                    alt="Djabanten Damanik"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Djabanten Damanik</td>
+            <td align="center">29 Juni – 29 Juni 1989</td>
+        </tr>
+        <tr>
+            <td align="center">13</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Zulkifli Harahap.png'?>"
+                    alt="Zulkifli Harahap"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Zulkifli Harahap</td>
+            <td align="center">29 Juni 1989 – 29 Juni 1994</td>
+        </tr>
+        <tr>
+            <td align="center">14</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Abu Hanifah.png'?>"
+                    alt="Abu Hanifah"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Abu Hanifah</td>
+            <td align="center">29 Juni 1994 – 29 Agustus 1999</td>
+        </tr>
+        <tr>
+            <td align="center">15</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Marim Purba.png'?>"
+                    alt="Marim Purba"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Marim Purba</td>
+            <td align="center">25 Mei 2000 – 2005</td>
+        </tr>
+        <tr>
+            <td align="center">16</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/R.E Siahaan.png'?>"
+                    alt="R.E Siahaan"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">R.E Siahaan</td>
+            <td align="center">25 Agustus 2005 – 25 Agustus 2010</td>
+        </tr>
+        <tr>
+            <td align="center">17</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Hulman Sitorus.png'?>"
+                    alt="Hulman Sitorus"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Hulman Sitorus</td>
+            <td align="center">22 September 2010 – 22 September 2015</td>
+        </tr>
+        <tr>
+            <td align="center">18</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Hefriansyah.png'?>"
+                    alt="Hefriansyah"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Hefriansyah</td>
+            <td align="center">22 Februari 2017 – 22 Februari 2022</td>
+        </tr>
+        <tr>
+            <td align="center">19</td>
+            <td align="center">
+                <img
+                    src="<?php echo base_url().'assets/images/walikota/Susanti Dewayani.png'?>"
+                    alt="Susanti Dewayani"
+                    onclick="showPopup(this.src, this.alt)"
+                />
+            </td>
+            <td align="center">Susanti Dewayani</td>
+            <td align="center">22 Februari 2022 – Sekarang</td>
+        </tr>
+    </tbody>
+</table>
+
+                </div>
                 <br><br>
 
+                <!-- Pop-up container -->
+    <div id="popup" class="popup" onclick="hidePopup()">
+        <img id="popupImage" src="" alt="Popup Image">
+    </div>
 
               </div>
               
@@ -1905,6 +2176,8 @@
           </div>
         </div>
       </div>
+
+
 
       
 
@@ -1989,6 +2262,20 @@
   </body>
   <!-- Include jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+        function showPopup(src, alt) {
+            // Menampilkan pop-up
+            document.getElementById("popupImage").src = src;
+            document.getElementById("popupImage").alt = alt;
+            document.getElementById("popup").style.display = "flex";
+        }
+
+        function hidePopup() {
+            // Menyembunyikan pop-up
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
 
 <!-- Include Fancybox -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
