@@ -2023,6 +2023,9 @@
         </div>
       </div>
 
+      <div id="gpr-kominfo-widget-container" style="margin:auto" ></div>'
+      
+      
       <div class="wrapper">
         <div class="mainwrap">
           <div class="sectionrow">
@@ -2133,6 +2136,8 @@
       </div>
       <!-- wrapper -->
 
+     
+
       <!-- Video -->
       <div class="bg-yellow bg-color" id="pesanpemerintah">
   <div class="wrapper">
@@ -2158,6 +2163,7 @@
     </div>
   </div>
 </div>
+
 
       <footer class="bg-blue">
         <div class="wrapper">
