@@ -2023,7 +2023,7 @@
         </div>
       </div>
 
-      <div id="gpr-kominfo-widget-container" style="margin:auto" ></div>'
+      
       
       
       <div class="wrapper">
@@ -2136,7 +2136,7 @@
       </div>
       <!-- wrapper -->
 
-     
+      <div id="gpr-kominfo-widget-container" style="margin:auto" ></div>
 
       <!-- Video -->
       <div class="bg-yellow bg-color" id="pesanpemerintah">
