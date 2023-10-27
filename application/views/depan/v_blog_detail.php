@@ -1639,7 +1639,7 @@
                   <ul>
                     <li><a href="javascript:voud(0)" onclick="sharelinkfacebook()" class="xsm-fb"><span style="display: none;">Facebook</span> <i class="fab fa-facebook-f"></i> </a></li>
                     <li><a href="javascript:voud(0)" onclick="sharelinkinstagram()" class="xsm-tw"><span style="display: none;">Instagram</span><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="whatsapp://send?text=http://localhost/pematangsiantar/artikel/<?php echo $title;?>" class="xsm-ig"><span style="display: none;">Whatsapp</span><i class="fab fa-whatsapp"></i> </a></li>
+                    <li><a href="whatsapp://send?text=https://pematangsiantar.go.id/artikel/<?php echo $title;?>" class="xsm-ig"><span style="display: none;">Whatsapp</span><i class="fab fa-whatsapp"></i> </a></li>
                   </ul>
                 </div>
               </div>
@@ -1665,7 +1665,7 @@
                 <ul>
                     <li><a href="javascript:voud(0)" onclick="sharelinkfacebook()" class="xsm-fb"><span style="display: none;">Facebook</span> <i class="fab fa-facebook-f"></i> </a></li>
                     <li><a href="javascript:voud(0)" onclick="sharelinkinstagram()" class="xsm-tw"><span style="display: none;">Instagram</span><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="whatsapp://send?text=http://localhost/pematangsiantar/artikel/<?php echo $title;?>" class="xsm-ig"><span style="display: none;">Whatsapp</span><i class="fab fa-whatsapp"></i> </a></li>
+                    <li><a href="whatsapp://send?text=https://pematangsiantar.go.id/artikel/<?php echo $title;?>" class="xsm-ig"><span style="display: none;">Whatsapp</span><i class="fab fa-whatsapp"></i> </a></li>
                   </ul>
                 </div>
               </div>
