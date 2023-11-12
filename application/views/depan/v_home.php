@@ -2155,7 +2155,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/3CfGbW521rY?si"
+                    src="https://www.youtube.com/embed/ede4H9tWN08?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2169,7 +2169,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/ax3efCYx6hw?si"
+                    src="https://www.youtube.com/embed/q3h1b2n2uRY?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2182,7 +2182,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/e70PGC-dYxI"
+                    src="https://www.youtube.com/embed/DFkMYCodxGA?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2194,7 +2194,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/hTavQ-_Iiu8?si"
+                    src="https://www.youtube.com/embed/008wbYgtegI?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2206,7 +2206,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/_yEpSc35PLI?si"
+                    src="https://www.youtube.com/embed/uRRt0sD5IS4?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2218,7 +2218,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/Dtglv-wcJOM?si"
+                    src="https://www.youtube.com/embed/gUW9-UBq0ss?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2230,7 +2230,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/WlqUHNdKA2w?si"
+                    src="https://www.youtube.com/embed/1ziCh340DmY?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2242,7 +2242,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/W05-wNN1eDo?si"
+                    src="https://www.youtube.com/embed/qi9yR5jUbKk?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2254,7 +2254,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/P50tYBWcvss?si"
+                    src="https://www.youtube.com/embed/I9TvtQF3deQ?s"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2266,7 +2266,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/5qLuc1LbVq0?si"
+                    src="https://www.youtube.com/embed/Rphn7HP1nKg?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
