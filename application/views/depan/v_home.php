@@ -2150,6 +2150,42 @@
                   </div>
                   <div class="newsslider">
                   <section class="slick-news-slider">
+                    <!-- Video 6 -->
+                  <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/vi-hXVVZ2hE?si"
+                    title="Kegiatan Wali Kota Pematang Siantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                  </div>
+                  <!-- Video 7 -->
+                  <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/dhdUaINO3_o?si"
+                    title="Kegiatan Wali Kota Pematang Siantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                  </div>
+                  <!-- Video 8 -->
+                  <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/CkQuKSQ4evI?si"
+                    title="Kegiatan Wali Kota Pematang Siantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                  </div>
                     <!-- Video 9 -->
                   <div class="govideo-body">
                   <iframe
@@ -2237,42 +2273,7 @@
                     allowfullscreen
                   ></iframe>
                   </div>
-                  <!-- Video 6 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/qi9yR5jUbKk?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                  <!-- Video 7 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/I9TvtQF3deQ?s"
-                    title="Kegiatan Wali Kota Pematang Siantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                  <!-- Video 8 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/Rphn7HP1nKg?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
+                  
                   
                   
                </section>
