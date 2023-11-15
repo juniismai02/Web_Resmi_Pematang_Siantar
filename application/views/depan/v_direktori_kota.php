@@ -1700,6 +1700,108 @@
                       </tr>
                     </thead>
                     <tbody>
+                    <tr>
+                        <td>
+                          <a
+                            href="https://damkar.pematangsiantar.go.id/"
+                            >Damkar</a
+                          >
+                        </td>
+                        <td><span>
+                        Jl. Tarutung No.10, Kristen, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21118  
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i> </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            damkar.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://damkar.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://damkar.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://setdako.pematangsiantar.go.id/"
+                            >Setdako</a
+                          >
+                        </td>
+                        <td><span>
+                        Jl. Merdeka No.6, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21144  
+                        </span></td>
+                        <td>
+                          <span class="nowrap"
+                            ><i class="fas fa-phone"></i> </span
+                          >
+                        </td>
+                        <td class="cityd-emailweb">
+                          <!-- <span class="nowrap"
+                            ><i class="fas fa-envelope"></i>
+                            setdako.pematangsiantar.go.id</span
+                          > -->
+                          <a href="https://setdako.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://setdako.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-sosmed">
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                          ></a>
+                          <!-- <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                          ></a> -->
+                          <a
+                            href="#"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
                       <tr>
                         <td>
                           <a
@@ -1708,7 +1810,7 @@
                           >
                         </td>
                         <td><span>
-                        Jln. Merdeka No.6   
+                        Jl. Merdeka No.6, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21144
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -1762,6 +1864,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             X346+MV5, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21144
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -1817,6 +1920,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Merdeka No.4, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21145
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -1872,6 +1976,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. H. Adam Malik No.2, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21143
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -1927,6 +2032,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Merdeka No.228c, Dwikora, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21146
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -1982,6 +2088,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Sutomo No.245, Dwikora, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21145
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2037,6 +2144,8 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Pendeta J.Wismar Saragih
+Pondok Sayur, Siantar Martoba, Pematang Siantar City, North Sumatra
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2092,6 +2201,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Tarutung kelurahan No.10, Teladan, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21118
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2147,6 +2257,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Dahlia No.04, Simarito, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21139
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2202,6 +2313,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             X342+CC2, Bukit Sofa, Kec. Siantar Sitalasari, Kota Pematang Siantar, Sumatera Utara 21139
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2257,6 +2369,8 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Tuan Rondahaim Saragih
+Tanjung Pinggir, Siantar Martoba, Pematang Siantar City, North Sumatra
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2312,6 +2426,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Rakutta Sembiring No.86, Naga Pita., Kec. Siantar Martoba, Kota Pematang Siantar, Sumatera Utara 21143
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2367,6 +2482,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jalan Melathon Siregar P. Siantar No.36, Pardamean, Sukamaju, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2422,6 +2538,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             X25W+VW7, Jl. Regu, Bukit Sofa, Kec. Siantar Sitalasari, Kota Pematang Siantar, Sumatera Utara 21139
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2477,6 +2594,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. W. R. Supratman No.4, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21145
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2532,6 +2650,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. W. R. Supratman No.4, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21145, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2587,6 +2706,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             X24X+2J2, Jl. Sisingamangaraja, Bukit Sofa, Kec. Siantar Sitalasari, Kota Pematang Siantar, Sumatera Utara 21139, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2642,6 +2762,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             W3QF+77M, Jl. Melanthon Siregar, Marihat Jaya, Kec. Siantar Marimbun, Kota Pematang Siantar, Sumatera Utara 21133, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2697,6 +2818,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Merdeka No.3, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21145, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2752,6 +2874,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Singosari No.4, Bantan, Kec. Siantar Utara, Kota Pematang Siantar, Sumatera Utara 21138, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2807,6 +2930,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             W3W9+89R, Gg. Cemp., Sukamaju, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21133, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2862,6 +2986,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Bahkora II, Marihat Jaya, Kec. Siantar Marimbun, Kota Pematang Siantar, Sumatera Utara 21123, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2917,6 +3042,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Bangau No.3, Sipinggol-Pinggol, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21114, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -2972,6 +3098,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Patuan Anggi No.198, Suka Dame, Kec. Siantar Utara, Kota Pematang Siantar, Sumatera Utara 21147, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3082,6 +3209,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             X3P7+4RJ, Jl. Pendeta J.Wismar Saragih, Tj. Pinggir, Kec. Siantar Martoba, Kota Pematang Siantar, Sumatera Utara 21143, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3137,6 +3265,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             X27X+VM9, Jl. Sisingamangaraja, Bukit Sofa, Kec. Siantar Sitalasari, Kota Pematang Siantar, Sumatera Utara 21139, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3192,6 +3321,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jln. Kertas No. 2 Kota Pematangsiantar, Sumatera Utara, Sumatera Utara, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3247,6 +3377,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. H. Adam Malik Gg. Peringatan No.1, Silalas, Kec. Medan Bar., Kota Medan, Sumatera Utara 20235
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3302,6 +3433,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             X327+J84, Teladan, Siantar Barat, Pematang Siantar City, North Sumatra 21144, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3357,6 +3489,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Kapten M.H. Sitorus No.7, Timbang Galung, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21143, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3412,6 +3545,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Gunung Simanuk Manuk No.6, Teladan, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21117, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3467,6 +3601,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Dahlia No.1, Simarito, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21111, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3522,6 +3657,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Raya No.8A, Timbang Galung, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21112, Indonesia
                         </span></td>
                         <td>
                           <span class="nowrap"
@@ -3577,6 +3713,7 @@
                         </td>
                         <td><span>
                              <!-- Alamat -->
+                             Jl. Merdeka No.6, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar, Sumatera Utara 21144
                         </span></td>
                         <td>
                           <span class="nowrap"
