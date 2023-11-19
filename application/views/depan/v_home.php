@@ -1719,8 +1719,125 @@
           </nav>  
         </div>
       </header>
+
+      
+
+
       <div class="wrapper">
         <div class="mainwrap">
+
+
+
+
+                <!-- CCTV -->
+        <div class="bg-gray " id="galerifoto">
+    <div class="wrapper">
+      <div class="mainwrap">
+        <div class="sectionrow">
+          <div class="galerifoto">
+          <div class="xsection__header">
+  <img src="<?php echo base_url().'theme/depan/assets/images/pelintas.svg'?>" alt="Logo" style="max-width: 50%; height: auto;">
+  
+</div>
+
+
+
+<div class="galeri-slider">
+<section class="slick-galeri-slider">
+  <!-- Merdeka -->
+  <div class="newsslider__row">
+    <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://g3.ipcamlive.com/player/player.php?alias=64f544f07c393"
+        frameborder="0"
+        allowfullscreen=""
+        style="border-radius: 10px; overflow: hidden;"
+      ></iframe>
+    </div>
+  </div>
+  <!-- Sisipkan embed iframe untuk setiap gambar -->
+  <!-- Contoh gambar lainnya -->
+  <!-- Simpang Dua -->
+  <div class="newsslider__row">
+    <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://g3.ipcamlive.com/player/player.php?alias=64f544a025441"
+        frameborder="0"
+        allowfullscreen=""
+        style="border-radius: 10px; overflow: hidden;"
+      ></iframe>
+    </div>
+  </div>
+  <!-- Simpang Sambo -->
+  <div class="newsslider__row">
+    <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://g3.ipcamlive.com/player/player.php?alias=64f544483782b"
+        frameborder="0"
+        allowfullscreen=""
+        style="border-radius: 10px; overflow: hidden;"
+      ></iframe>
+    </div>
+  </div>
+  <!-- JL.SUDIRMAN / BRI -->
+  <div class="newsslider__row">
+    <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://g3.ipcamlive.com/player/player.php?alias=64f55a48f34dc"
+        frameborder="0"
+        allowfullscreen=""
+        style="border-radius: 10px; overflow: hidden;"
+      ></iframe>
+    </div>
+  </div>
+  <!--JL.MERDEKA / DEPAN BALAI KOTA -->
+  <div class="newsslider__row">
+    <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
+      <img
+        src="<?php echo base_url().'theme/depan/assets/images/perbaikan.png'?>"
+        alt="CCTV Under Maintenance"
+        style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; overflow: hidden;"
+      />
+    </div>
+  </div>
+  <!-- JL.MH. SITORUS -->
+  <div class="newsslider__row">
+    <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
+      <img
+        src="<?php echo base_url().'theme/depan/assets/images/perbaikan.png'?>"
+        alt="CCTV Under Maintenance"
+        style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; overflow: hidden;"
+      />
+    </div>
+  </div>
+  <!-- Lanjutkan untuk gambar-gambar lainnya -->
+</section>
+
+</div>
+
+
+          </div>
+          <div class="buttonlist cus-butlis">
+            <ul>
+              <li class="active"><a href="https://cctv.pematangsiantar.go.id/">CCTV Lainnya</a></li>
+            </ul>
+          </div>
+        </div>
+
+       
+      </div>
+    </div>   
+  </div>
+
+<!-- CCTV -->
           <div class="sectionrow">
             <div class="bagidua">
               <div class="bagidua__col">
@@ -1830,10 +1947,108 @@
             </div>
           </div>
           <!-- sectionrow -->
+
+            <!-- Aplikasi -->
+      <!-- <div class="service-section">
+          <div class="xsection__header">
+            <div id="kependudukan" class="alink"></div>
+            <h2 class="xsection__title">Pelayanan Kependudukan </h2>
+          </div>
+
+          <div class="service">
+            <div class="service__label"><div class="xlabel"><span>Etalase Pelayanan</span></div></div>
+            
+            <div class="service__row">
+              <div class="service__col">
+                <div class="service__slidewrap">
+                  <div class="serviceslider-nav">
+                    <section class="slick-service-nav sliderx">
+                                            <div class="newsslider__row">
+                        <div class="newsslider__img"><img src="https://img.bandung.go.id/images/pelayananpublik/2021/10/14/thumb/169329508687-mepeling-memberikan-pelayanan-keliling-salah-satu-program-layanan-terpadu-pembuatan-akta-kelahiran-akta-kematian-dan-perekaman-ktp-el-thumb.png" alt="img"></div>
+                      </div>
+											                      <div class="newsslider__row">
+                        <div class="newsslider__img"><img src="https://img.bandung.go.id/images/pelayananpublik/2021/10/14/thumb/16932081448-layanan-kependudukan-email-thumb.jpg" alt="img"></div>
+                      </div>
+											                      <div class="newsslider__row">
+                        <div class="newsslider__img"><img src="https://img.bandung.go.id/images/pelayananpublik/2023/08/28/thumb/169320550189-salaman-selesai-dalam-genggaman-memberikan-kemudahan-dan-transparansi-dalam-pelayanan-administrasi-kependudukan-yang-tidak-terbatas-oleh-waktu-thumb.jpg" alt="img"></div>
+                      </div>
+											  
+                    </section>
+                  </div>
+                </div>
+              </div>
+
+              <div class="service__col">
+                <div class="serviceslider-outer">
+                  <section class="slick-service-slider sliderx" >
+                                        <div class="service-slider-wrap">
+                      <div class="newstype1">
+                        <div class="newstype1__row">
+                          <div class="newstype1__pic"><a href="#"><img src="https://img.bandung.go.id/images/pelayananpublik/2021/10/14/thumb/169329508687-mepeling-memberikan-pelayanan-keliling-salah-satu-program-layanan-terpadu-pembuatan-akta-kelahiran-akta-kematian-dan-perekaman-ktp-el-thumb.png" alt="img"></a></div>
+                          <div class="newstype1__text">
+                            <div class="newstype__summary">
+                              <p>MEPELING (Memberikan Pelayanan Keliling) | Salah Satu Program Layanan Terpadu Pembuatan Akta Kelahiran, Akta Kematian, dan  Perekaman KTP-el </p><p>| Email : disdukcapilkotabdg@gmail.com
+                            </div>
+                              <div class="linklayanan">
+                              <ul>
+                                <li><a href="tel:+62224209891"><i class="fas fa-phone-alt"></i></a></li>                                <li><a href="https://disdukcapil.bandung.go.id/" target="_blank"><i class="fas fa-globe"></i></a></li>                                <li><a href="https://www.facebook.com/disdukcapilbdg" target="_blank"><i class="fab fa-facebook"></i> </a></li>                                <li><a href="https://twitter.com/disdukcapilbdg" target="_blank"><i class="fab fa-twitter"></i> </a></li>                                <li><a href="https://www.instagram.com/disdukcapilbdg" target="_blank"><i class="fab fa-instagram"></i> </a></li>                                <li><a href="https://www.youtube.com/watch?app=desktop&amp;v=0jEh_J-w8_U" target="_blank"><i class="fab fa-youtube"></i> </a></li>                              </ul>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                                        <div class="service-slider-wrap">
+                      <div class="newstype1">
+                        <div class="newstype1__row">
+                          <div class="newstype1__pic"><a href="#"><img src="https://img.bandung.go.id/images/pelayananpublik/2021/10/14/thumb/16932081448-layanan-kependudukan-email-thumb.jpg" alt="img"></a></div>
+                          <div class="newstype1__text">
+                            <div class="newstype__summary">
+                              <p>Layanan Pencatatan Sipil dan Pendaftaran Penduduk Lainnya yang Menggunakan Surat Elektronik (e-mail) </p><p>| Email : disdukcapilkotabdg@gmail.com
+                            </div>
+                              <div class="linklayanan">
+                              <ul>
+                                <li><a href="tel:+62224209891"><i class="fas fa-phone-alt"></i></a></li>                                <li><a href="https://disdukcapil.bandung.go.id/layanan-online" target="_blank"><i class="fas fa-globe"></i></a></li>                                <li><a href="https://www.facebook.com/disdukcapilbdg" target="_blank"><i class="fab fa-facebook"></i> </a></li>                                <li><a href="https://www.twitter.com/disdukcapilbdg" target="_blank"><i class="fab fa-twitter"></i> </a></li>                                <li><a href="https://www.instagram.com/disdukcapilbdg" target="_blank"><i class="fab fa-instagram"></i> </a></li>                                <li><a href="https://www.youtube.com/channel/UCJcpnSkamhfouom8Dq1ReqA" target="_blank"><i class="fab fa-youtube"></i> </a></li>                              </ul>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                                        <div class="service-slider-wrap">
+                      <div class="newstype1">
+                        <div class="newstype1__row">
+                          <div class="newstype1__pic"><a href="#"><img src="https://img.bandung.go.id/images/pelayananpublik/2023/08/28/thumb/169320550189-salaman-selesai-dalam-genggaman-memberikan-kemudahan-dan-transparansi-dalam-pelayanan-administrasi-kependudukan-yang-tidak-terbatas-oleh-waktu-thumb.jpg" alt="img"></a></div>
+                          <div class="newstype1__text">
+                            <div class="newstype__summary">
+                              <p>SALAMAN+ (Selesai Dalam Genggaman | Layanan Pembuatan Akta Kelahiran, Akta Kematian, KIA, dan Surat Pindah Keluar </p><p>| Email : disdukcapilkotabdg@gmail.com
+                            </div>
+                              <div class="linklayanan">
+                              <ul>
+                                <li><a href="tel:0224218695"><i class="fas fa-phone-alt"></i></a></li>                                <li><a href="https://play.google.com/store/apps/details?id=gov.disdukcapilkotabdg.salaman" target="_blank"><i class="fas fa-globe"></i></a></li>                                <li><a href="https://www.facebook.com/disdukcapilbdg" target="_blank"><i class="fab fa-facebook"></i> </a></li>                                <li><a href="https://twitter.com/bdg_dukcapil" target="_blank"><i class="fab fa-twitter"></i> </a></li>                                <li><a href="https://www.instagram.com/reel/CpMYdCJjlPS/?utm_source=ig_web_copy_link&amp;igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fab fa-instagram"></i> </a></li>                                <li><a href="https://www.youtube.com/watch?v=fFHfIDwvse0" target="_blank"><i class="fab fa-youtube"></i> </a></li>                              </ul>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    										
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div> -->
+
+      <!-- Aplikasi -->
+
+
         </div>
         <!-- mainwrap -->
       </div>
       <!-- wrapper -->
+
+      
 
       <div class="bg-yellow etalase-section" id="etalase">
         <div class="wrapper">
@@ -2150,6 +2365,30 @@
                   </div>
                   <div class="newsslider">
                   <section class="slick-news-slider">
+                     <!-- Video 4 -->
+                  <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/mpmF08NQk7o?si"
+                    title="Kegiatan Wali Kota Pematang Siantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                  </div>
+                  <!-- Video 5 -->
+                  <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/m7W79l_LC8Q?si"
+                    title="Kegiatan Wali Kota Pematang Siantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                  </div>
                     <!-- Video 6 -->
                   <div class="govideo-body">
                   <iframe
@@ -2249,30 +2488,7 @@
                     allowfullscreen
                   ></iframe>
                   </div>
-                  <!-- Video 4 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/gUW9-UBq0ss?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                  <!-- Video 5 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/1ziCh340DmY?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
+                 
                   
                   
                   
