@@ -2521,6 +2521,32 @@
       <!-- wrapper -->
       </div>
 
+      <div class="bg-yellow bg-color" id="pesanpemerintah">
+  <div class="wrapper">
+    <div class="mainwrap">
+      <div class="sectionrow">
+        <div class="govideo">
+          <div class="xsection__header">
+            <h1 class="xsection__title">Ayo Ke Siantar! Destinasi Yes, Transit No!</h1>
+          </div>
+          <div class="govideo-body">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Dtglv-wcJOM?si"
+              title="Pesan dari Wali Kota Pematang Siantar"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
       <footer class="bg-blue">
