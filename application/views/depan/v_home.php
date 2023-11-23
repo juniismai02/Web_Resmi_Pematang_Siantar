@@ -2365,6 +2365,18 @@
                   </div>
                   <div class="newsslider">
                   <section class="slick-news-slider">
+                     <!-- Video 3 -->
+                  <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/hA__Hinv0DQ?si"
+                    title="Kegiatan Wali Kota Pematang Siantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                  </div>
                      <!-- Video 4 -->
                   <div class="govideo-body">
                   <iframe
@@ -2476,18 +2488,7 @@
                     allowfullscreen
                   ></iframe>
                   </div>
-                  <!-- Video 3 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/uRRt0sD5IS4?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
+                 
                  
                   
                   
