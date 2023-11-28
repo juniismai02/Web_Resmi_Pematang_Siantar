@@ -1798,6 +1798,19 @@
       ></iframe>
     </div>
   </div>
+	 <!-- Terminal Parluasan-->
+  <div class="newsslider__row">
+    <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://g3.ipcamlive.com/player/player.php?alias=6564119a424f7"
+        frameborder="0"
+        allowfullscreen=""
+        style="border-radius: 10px; overflow: hidden;"
+      ></iframe>
+    </div>
+  </div>
   <!--JL.MERDEKA / DEPAN BALAI KOTA -->
   <div class="newsslider__row">
     <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
@@ -2286,7 +2299,7 @@
 
 
                
-                    <a href="<?php echo site_url('artikel');?>" class="linkmore" tabindex="0"
+                    <a href="<?php echo site_url('pengumuman');?>" class="linkmore" tabindex="0"
                       ><span>Selengkapnya</span></a
                     >
                   </div>
