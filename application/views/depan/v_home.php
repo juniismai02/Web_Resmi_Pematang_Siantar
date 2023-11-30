@@ -1756,6 +1756,7 @@
         style="border-radius: 10px; overflow: hidden;"
       ></iframe>
     </div>
+    <p>Simpang Rambung Merah</p>
   </div>
   <!-- Sisipkan embed iframe untuk setiap gambar -->
   <!-- Contoh gambar lainnya -->
@@ -1771,6 +1772,7 @@
         style="border-radius: 10px; overflow: hidden;"
       ></iframe>
     </div>
+    <p>Simpang Dua</p>
   </div>
   <!-- Simpang Sambo -->
   <div class="newsslider__row">
@@ -1784,6 +1786,7 @@
         style="border-radius: 10px; overflow: hidden;"
       ></iframe>
     </div>
+    <p>Simpang Sambo</p>
   </div>
   <!-- JL.SUDIRMAN / BRI -->
   <div class="newsslider__row">
@@ -1797,6 +1800,7 @@
         style="border-radius: 10px; overflow: hidden;"
       ></iframe>
     </div>
+    <p>Jl.Sudirman / Simpang BRI</p>
   </div>
 	 <!-- Terminal Parluasan-->
   <div class="newsslider__row">
@@ -1810,6 +1814,7 @@
         style="border-radius: 10px; overflow: hidden;"
       ></iframe>
     </div>
+    <p>Terminal Parluasan</p>
   </div>
   <!--JL.MERDEKA / DEPAN BALAI KOTA -->
   <div class="newsslider__row">
@@ -1820,6 +1825,7 @@
         style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; overflow: hidden;"
       />
     </div>
+    <p>Jl.Merdeka / Depan Balai Kota</p>
   </div>
   <!-- JL.MH. SITORUS -->
   <div class="newsslider__row">
@@ -1830,6 +1836,7 @@
         style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; overflow: hidden;"
       />
     </div>
+    <p>Jl.Mh. Sitorus</p>
   </div>
   <!-- Lanjutkan untuk gambar-gambar lainnya -->
 </section>
