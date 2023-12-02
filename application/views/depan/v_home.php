@@ -1803,7 +1803,7 @@
     <p>Jl.Sudirman / Simpang BRI</p>
   </div>
 	 <!-- Terminal Parluasan-->
-  <div class="newsslider__row">
+  <!-- <div class="newsslider__row">
     <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
       <iframe
         width="100%"
@@ -1815,7 +1815,7 @@
       ></iframe>
     </div>
     <p>Terminal Parluasan</p>
-  </div>
+  </div> -->
   <!--JL.MERDEKA / DEPAN BALAI KOTA -->
   <div class="newsslider__row">
     <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
