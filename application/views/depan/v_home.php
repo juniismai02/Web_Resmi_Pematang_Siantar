@@ -1802,6 +1802,20 @@
     </div>
     <p>Jl.Sudirman / Simpang BRI</p>
   </div>
+  <!-- Ramayana -->
+  <div class="newsslider__row">
+    <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://g3.ipcamlive.com/player/player.php?alias=6569afa62cae1"
+        frameborder="0"
+        allowfullscreen=""
+        style="border-radius: 10px; overflow: hidden;"
+      ></iframe>
+    </div>
+    <p>Ramayana</p>
+  </div>
 	 <!-- Terminal Parluasan-->
   <!-- <div class="newsslider__row">
     <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
@@ -2370,6 +2384,45 @@
         <!-- mainwrap-->
       </div>
       <!-- wrapper -->
+
+      <!-- Berita BPS -->
+      <div class="bg-gray" id="govideo">
+  <div class="wrapper">
+    <div class="mainwrap">
+      <div class="sectionrow">
+        <div class="govideo">
+          <div class="xsection__header">
+            <h2 class="xsection__title">Berita Resmi Statistik Kota Pematang Siantar</h2>
+            <br>
+          </div>
+
+          <div class="govideo-slider">
+            <section class="slick-govideo-slider">
+              <?php
+              // Menggunakan link Google Drive yang diberikan
+              $googleDriveLink = "https://drive.google.com/file/d/1Ce7sqXw-LjHg7MRFPYde1Gs303sMuvOz/view?usp=sharing";
+
+              // Memasukkan ID file dari link Google Drive
+              $fileID = "1Ce7sqXw-LjHg7MRFPYde1Gs303sMuvOz";
+
+              // Menggunakan iframe untuk menampilkan PDF dari Google Drive
+              ?>
+              <div class="newsslider__row">
+                <div class="newsslider__img">
+                  <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://drive.google.com/uc?id=<?php echo $fileID; ?>" frameborder="0" width="100%" height="500px"></iframe>
+                </div>
+              </div>
+              <?php
+              ?>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
 
 
       <!-- Video -->
