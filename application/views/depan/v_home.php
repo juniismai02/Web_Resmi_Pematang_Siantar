@@ -2397,24 +2397,25 @@
           </div>
 
           <div class="govideo-slider">
-            <section class="slick-govideo-slider">
-              <?php
-              // Menggunakan link Google Drive yang diberikan
-              $googleDriveLink = "https://drive.google.com/file/d/1Ce7sqXw-LjHg7MRFPYde1Gs303sMuvOz/view?usp=sharing";
+          <section class="slick-govideo-slider">
+  <?php
+  // Menggunakan link Google Drive yang baru
+  $googleDriveLink = "https://drive.google.com/file/d/1lhcIz_Q6EJZbRyuyhsGjKbQPi0hGaA2H/view?usp=sharing";
 
-              // Memasukkan ID file dari link Google Drive
-              $fileID = "1Ce7sqXw-LjHg7MRFPYde1Gs303sMuvOz";
+  // Memasukkan ID file dari link Google Drive yang baru
+  $fileID = "1lhcIz_Q6EJZbRyuyhsGjKbQPi0hGaA2H";
 
-              // Menggunakan iframe untuk menampilkan PDF dari Google Drive
-              ?>
-              <div class="newsslider__row">
-                <div class="newsslider__img">
-                  <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://drive.google.com/uc?id=<?php echo $fileID; ?>" frameborder="0" width="100%" height="500px"></iframe>
-                </div>
-              </div>
-              <?php
-              ?>
-            </section>
+  // Menggunakan iframe untuk menampilkan PDF dari Google Drive
+  ?>
+  <div class="newsslider__row">
+    <div class="newsslider__img">
+      <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://drive.google.com/uc?id=<?php echo $fileID; ?>" frameborder="0" width="100%" height="500px"></iframe>
+    </div>
+  </div>
+  <?php
+  ?>
+</section>
+
           </div>
         </div>
       </div>
