@@ -1814,7 +1814,7 @@
         style="border-radius: 10px; overflow: hidden;"
       ></iframe>
     </div>
-    <p>Ramayana</p>
+    <p>Sutomo-Sangnawaluh</p>
   </div>
 	 <!-- Terminal Parluasan-->
   <!-- <div class="newsslider__row">
@@ -1833,22 +1833,38 @@
   <!--JL.MERDEKA / DEPAN BALAI KOTA -->
   <div class="newsslider__row">
     <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
-      <img
+    <iframe
+        width="100%"
+        height="100%"
+        src="https://g3.ipcamlive.com/player/player.php?alias=64f559a324bf2"
+        frameborder="0"
+        allowfullscreen=""
+        style="border-radius: 10px; overflow: hidden;"
+      ></iframe>
+      <!-- <img
         src="<?php echo base_url().'theme/depan/assets/images/perbaikan.png'?>"
         alt="CCTV Under Maintenance"
         style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; overflow: hidden;"
-      />
+      /> -->
     </div>
     <p>Jl.Merdeka / Depan Balai Kota</p>
   </div>
   <!-- JL.MH. SITORUS -->
   <div class="newsslider__row">
     <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
-      <img
+    <iframe
+        width="100%"
+        height="100%"
+        src="https://g3.ipcamlive.com/player/player.php?alias=64f559f37c744"
+        frameborder="0"
+        allowfullscreen=""
+        style="border-radius: 10px; overflow: hidden;"
+      ></iframe>
+      <!-- <img
         src="<?php echo base_url().'theme/depan/assets/images/perbaikan.png'?>"
         alt="CCTV Under Maintenance"
         style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; overflow: hidden;"
-      />
+      /> -->
     </div>
     <p>Jl.Mh. Sitorus</p>
   </div>
