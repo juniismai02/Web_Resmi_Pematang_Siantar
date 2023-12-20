@@ -1750,7 +1750,7 @@
       <iframe
         width="100%"
         height="100%"
-        src="https://g3.ipcamlive.com/player/player.php?alias=64f544f07c393"
+        src="https://g3.ipcamlive.com/player/player.php?alias=65702245751f4"
         frameborder="0"
         allowfullscreen=""
         style="border-radius: 10px; overflow: hidden;"
@@ -1766,7 +1766,7 @@
       <iframe
         width="100%"
         height="100%"
-        src="https://g3.ipcamlive.com/player/player.php?alias=64f544a025441"
+        src="https://g3.ipcamlive.com/player/player.php?alias=657021f92ee0c"
         frameborder="0"
         allowfullscreen=""
         style="border-radius: 10px; overflow: hidden;"
@@ -1780,7 +1780,7 @@
       <iframe
         width="100%"
         height="100%"
-        src="https://g3.ipcamlive.com/player/player.php?alias=64f544483782b"
+        src="https://g3.ipcamlive.com/player/player.php?alias=6570215853a1f"
         frameborder="0"
         allowfullscreen=""
         style="border-radius: 10px; overflow: hidden;"
@@ -1808,7 +1808,7 @@
       <iframe
         width="100%"
         height="100%"
-        src="https://g3.ipcamlive.com/player/player.php?alias=6569afa62cae1"
+        src="https://g3.ipcamlive.com/player/player.php?alias=65702481c1036"
         frameborder="0"
         allowfullscreen=""
         style="border-radius: 10px; overflow: hidden;"
