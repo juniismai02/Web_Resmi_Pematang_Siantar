@@ -2385,7 +2385,7 @@
     ?>
 </section>
 
-                    <a href="<?php echo site_url('artikel');?>" class="linkmore" tabindex="0"
+                    <a href="<?php echo site_url('kolom_informasi');?>" class="linkmore" tabindex="0"
                       ><span>Selengkapnya</span></a
                     >
                   </div>
