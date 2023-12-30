@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2023 at 05:36 AM
+-- Generation Time: Dec 30, 2023 at 12:52 PM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 7.4.21
 
@@ -70,7 +70,7 @@ CREATE TABLE `tbl_album` (
 --
 
 INSERT INTO `tbl_album` (`album_id`, `album_nama`, `album_tanggal`, `album_pengguna_id`, `album_author`, `album_count`, `album_cover`) VALUES
-(6, 'Header Beranda', '2023-10-01 08:46:07', 1, 'Kurnia Agung', 8, 'd79ca056658ef59fda36c249063b7c07.jpg'),
+(6, 'Header Beranda', '2023-10-01 08:46:07', 1, 'Kurnia Agung', 9, 'd79ca056658ef59fda36c249063b7c07.jpg'),
 (7, 'Galeri Kota', '2023-10-03 12:15:48', 1, 'Kurnia Agung', 10, '263576daa7386d2870769318192360f0.jpg');
 
 -- --------------------------------------------------------
@@ -162,7 +162,8 @@ INSERT INTO `tbl_galeri` (`galeri_id`, `galeri_judul`, `galeri_tanggal`, `galeri
 (66, 'Stunting', '2023-11-17 00:54:02', '46cc0eea4225643d931676e9a2c2ba69.png', 6, 7, 'Pematang Siantar'),
 (68, 'Surat Edaran', '2023-11-20 06:10:39', '3669b5711c1bdfc037431e5452f5c469.png', 6, 7, 'Pematang Siantar'),
 (70, 'ambulance', '2023-12-12 02:30:09', '7cf2ed09f099c2f2f37bcb504474114f.png', 6, 7, 'Pematang Siantar'),
-(71, 'cctv', '2023-12-12 02:31:28', 'b7ed39b6eedeccad01ba279e77b80218.png', 6, 7, 'Pematang Siantar');
+(71, 'cctv', '2023-12-12 02:31:28', 'b7ed39b6eedeccad01ba279e77b80218.png', 6, 7, 'Pematang Siantar'),
+(72, '2024', '2023-12-30 11:32:38', '50139b950d1c560436ca30627ba7fe92.jpeg', 6, 7, 'Pematang Siantar');
 
 -- --------------------------------------------------------
 
@@ -936,7 +937,7 @@ ALTER TABLE `tbl_files`
 -- AUTO_INCREMENT for table `tbl_galeri`
 --
 ALTER TABLE `tbl_galeri`
-  MODIFY `galeri_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
+  MODIFY `galeri_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
 
 --
 -- AUTO_INCREMENT for table `tbl_guru`

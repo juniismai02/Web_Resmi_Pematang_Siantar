@@ -1941,7 +1941,7 @@
               <div class="bagidua__col" id="kolomsosial">
               <div class="sosial">
             <div class="sosalisasi__header xsection__header">
-                <h2 class="xsection__title">Sosialisasi</h2>
+                <h2 class="xsection__title">Infografis</h2>
             </div>
     <br />
     <div class="sosial__body">
@@ -2460,7 +2460,7 @@
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/hA__Hinv0DQ?si"
+                    src="https://www.youtube.com/embed/9e3AQdQEjLo?si"
                     title="Kegiatan Wali Kota Pematang Siantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
