@@ -1791,19 +1791,19 @@
   <!-- JL.SUDIRMAN / BRI -->
   <div class="newsslider__row">
     <div class="newsslider__img" style="border-radius: 10px; overflow: hidden;">
-      <!-- <iframe
+      <iframe
         width="100%"
         height="100%"
         src="https://g3.ipcamlive.com/player/player.php?alias=64f55a48f34dc"
         frameborder="0"
         allowfullscreen=""
         style="border-radius: 10px; overflow: hidden;"
-      ></iframe> -->
-      <img
+      ></iframe>
+      <!-- <img
         src="<?php echo base_url().'theme/depan/assets/images/perbaikan.png'?>"
         alt="CCTV Under Maintenance"
         style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; overflow: hidden;"
-      />
+      /> -->
     </div>
     <p>Jl.Sudirman / Simpang BRI</p>
   </div>

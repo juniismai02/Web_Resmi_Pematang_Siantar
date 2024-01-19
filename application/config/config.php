@@ -379,14 +379,27 @@ $config['encryption_key'] = 'TRUE';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-$config['sess_driver']             = 'files';
-$config['sess_cookie_name']        = 'pcfx_session_';
-$config['sess_expiration']         = 7200;
-$config['sess_save_path']          = APPPATH.'writable';
-$config['sess_match_ip']           = FALSE;
-$config['sess_time_to_update']     = 300;
-$config['sess_regenerate_destroy'] = FALSE; 
+// Config Windows
+// $config['sess_driver']             = 'files';
+// $config['sess_cookie_name']        = 'pcfx_session_';
+// $config['sess_expiration']         = 7200;
+// $config['sess_save_path']          = APPPATH.'writable';
+// $config['sess_match_ip']           = FALSE;
+// $config['sess_time_to_update']     = 300;
+// $config['sess_regenerate_destroy'] = FALSE; 
 
+// Config Macbook
+$sessDir = session_save_path();
+$sessDir = "{$sessDir}/sessionPath";
+is_dir($sessDir)?:mkdir($sessDir);
+
+$config['sess_driver'] = 'files';
+$config['sess_cookie_name'] = 'ci_session';
+$config['sess_expiration'] = 7200;
+$config['sess_save_path'] = $sessDir;
+$config['sess_match_ip'] = FALSE;
+$config['sess_time_to_update'] = 300;
+$config['sess_regenerate_destroy'] = FALSE;
 /*
 |--------------------------------------------------------------------------
 | Cookie Related Variables
