@@ -6,23 +6,23 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title>Website Resmi Kota Pematang Siantar - Tempat Wisata dan Rekreasi Kota Pematang Siantar</title>
-<meta name="title" content="Website Resmi Kota Pematang Siantar - Tempat Wisata dan Rekreasi Kota Pematang Siantar">
-<meta name="description" itemprop="description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Tempat Wisata dan Rekreasi Kota Pematang Siantar">
-<meta name="keywords" content="pematangsiantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
+<title>Website Resmi Kota Pematangsiantar - Tempat Wisata dan Rekreasi Kota Pematangsiantar</title>
+<meta name="title" content="Website Resmi Kota Pematangsiantar - Tempat Wisata dan Rekreasi Kota Pematangsiantar">
+<meta name="description" itemprop="description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Tempat Wisata dan Rekreasi Kota Pematangsiantar">
+<meta name="keywords" content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
 
 <!-- Favicon Icon -->
 <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>">
 
 <!-- Meta -->
-<meta itemprop="name" content="Website Resmi Kota Pematang Siantar - Tempat Wisata dan Rekreasi Kota Pematang Siantar">
+<meta itemprop="name" content="Website Resmi Kota Pematangsiantar - Tempat Wisata dan Rekreasi Kota Pematangsiantar">
 <meta itemprop="image" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG" >
 <meta itemprop="articleSection" content="pemerintah-kota-pematangsiantar.html"/>
 <meta itemprop="thumbnailUrl" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG"/>
 <meta name="google-site-verification" content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo" />
 <meta name="robots" content="index,follow"> 
 <meta content="index,follow" name="googlebot"> 
-<meta content="Website Resmi Kota Pematang Siantar" name="author"> 
+<meta content="Website Resmi Kota Pematangsiantar" name="author"> 
 <meta content="In-Id" http-equiv="content-language"> 
 <meta content="id" name="language"> 
 <meta content="id" name="geo.country">
@@ -1498,7 +1498,7 @@
         <div class="burger"><span></span></div>
         <div class="mobile-menutitle">
           <div class="mobile-menutitle-inner">
-            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>PEMATANG SIANTAR</span>
+            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>Pematangsiantar</span>
           </div>
         </div>
 
@@ -1617,7 +1617,7 @@
       <div class="sectionrow">
         <div class="featsection artikelwrap">
           <div class="xsection__header">
-            <h1 class="xsection__title">Tempat Wisata Kota Pematang Siantar</h1>
+            <h1 class="xsection__title">Tempat Wisata Kota Pematangsiantar</h1>
             <br><br>
           </div>
           <br>
@@ -1653,7 +1653,7 @@
           </div>
           <div class="eta-wrap">
             <div class="eta-img"><img src="<?php echo base_url().'theme/depan/assets/img/museum.jpg'?>" alt="img"></div>
-                <p>Museum Simalungun merupakan salah satu wisata sejarah yang dapat dijadikan alternatif untuk rekreasi. Berlokasi di Jl. Sudirman, Pematang Siantar</p>
+                <p>Museum Simalungun merupakan salah satu wisata sejarah yang dapat dijadikan alternatif untuk rekreasi. Berlokasi di Jl. Sudirman, Pematangsiantar</p>
           </div>
           <br>
           <div class="xsection__header">
@@ -1662,7 +1662,7 @@
           </div>
           <div class="eta-wrap">
             <div class="eta-img"><img src="<?php echo base_url().'theme/depan/assets/img/Tugu_Becak.jpg'?>" alt="img"></div>
-                <p>Salah satu daya tarik wisata yang unik dan khas yang diabadikan dalam sebuah tugu. Berlokasi di Jalan Merdeka Kota Pematang Siantar</p>
+                <p>Salah satu daya tarik wisata yang unik dan khas yang diabadikan dalam sebuah tugu. Berlokasi di Jalan Merdeka Kota Pematangsiantar</p>
           </div>
           <br>
           <div class="xsection__header">
@@ -1671,7 +1671,7 @@
           </div>
           <div class="eta-wrap">
             <div class="eta-img"><img src="<?php echo base_url().'theme/depan/assets/img/Pohon_Natal.jpg'?>" alt="img"></div>
-                <p>Gemerlap lampu dimalam hari yang terpancar dari pohon Natal tertinggi se Asia Tenggara disambut suka cita warga Kota. Pohon Natal berdiri megah di Jalan Gereja, Komplek Sopo Godang HKBP Kota Pematang Siantar.</p>
+                <p>Gemerlap lampu dimalam hari yang terpancar dari pohon Natal tertinggi se Asia Tenggara disambut suka cita warga Kota. Pohon Natal berdiri megah di Jalan Gereja, Komplek Sopo Godang HKBP Kota Pematangsiantar.</p>
           </div>
           <br>
           <div class="xsection__header">
@@ -1680,7 +1680,7 @@
           </div>
           <div class="eta-wrap">
             <div class="eta-img"><img src="<?php echo base_url().'theme/depan/assets/img/Patung_dewi.jpg'?>" alt="img"></div>
-                <p>Patung Dewi Kwan Im merupakan salah satu patung tertingggi bagi agama Budha di Asia Tenggara. Berlokasi di Jalan Pusuk Buhit Kota Pematang Siantar.</p>
+                <p>Patung Dewi Kwan Im merupakan salah satu patung tertingggi bagi agama Budha di Asia Tenggara. Berlokasi di Jalan Pusuk Buhit Kota Pematangsiantar.</p>
           </div>
         </div>
         <br>
@@ -1699,7 +1699,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

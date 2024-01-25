@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      Website Resmi Kota Pematangsiantar - Dokumen Perencanaan Kota Pematangsiantar
 
     </title>
     <meta
       name="title"
-      content="Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Dokumen Perencanaan Kota Pematangsiantar
 "
     />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematangsiantar
 "
     />
     <meta
       name="keywords"
-      content="pematangsiantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
+      content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
     />
 
     <!-- Favicon Icon -->
@@ -31,7 +31,7 @@
     <!-- Meta -->
     <meta
       itemprop="name"
-      content="Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Dokumen Perencanaan Kota Pematangsiantar
 "
     />
     <meta itemprop="image" content="assets/images/sharepematangsiantar.png" />
@@ -43,7 +43,7 @@
     />
     <meta name="robots" content="index,follow" />
     <meta content="index,follow" name="googlebot" />
-    <meta content="Website Resmi Kota Pematang Siantar" name="author" />
+    <meta content="Website Resmi Kota Pematangsiantar" name="author" />
     <meta content="In-Id" http-equiv="content-language" />
     <meta content="id" name="language" />
     <meta content="id" name="geo.country" />
@@ -55,13 +55,13 @@
     <meta property="og:site_name" content="index.html" />
     <meta
       property="og:title"
-      content="Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Dokumen Perencanaan Kota Pematangsiantar
 "
     />
     <meta property="og:url" content="city-directory.html" />
     <meta
       property="og:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematangsiantar
 "
     />
     <meta property="og:image" content="assets/images/sharepematangsiantar.png" />
@@ -78,13 +78,13 @@
     <meta name="twitter:creator" content="@humaspematangsiantar_" />
     <meta
       name="twitter:title"
-      content="Website Resmi Kota Pematang Siantar - Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Dokumen Perencanaan Kota Pematangsiantar
 "
       data-dynamic="true"
     />
     <meta
       name="twitter:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Dokumen Perencanaan Kota Pematangsiantar
 "
       data-dynamic="true"
     />
@@ -1572,7 +1572,7 @@
             <div class="mobile-menutitle">
               <div class="mobile-menutitle-inner">
                 <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img" /><span
-                  >PEMATANG SIANTAR</span
+                  >Pematangsiantar</span
                 >
               </div>
             </div>
@@ -1692,7 +1692,7 @@
           <div class="sectionrow">
             <div class="dinasterkait">
               <div class="xsection__header">
-                <h1 class="xsection__title">Dokumen Perencanaan Kota Pematang Siantar</h1>
+                <h1 class="xsection__title">Dokumen Perencanaan Kota Pematangsiantar</h1>
               </div>
               <div class="dinasterkait__body">
                 <div class="zentable-outer">
@@ -1724,7 +1724,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 
@@ -1796,22 +1796,22 @@
     <script>
       // Data contoh
       const data = [
-		  { NamaFile: 'Pengisian Link Kuesioner Penjaringan Isu Strategis RPJDP Kota Pematang Siantar Tahun 2025 - 2045.', TanggalUpload: '5 Oktober 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/10/DOC-20231009-WA0012.pdf' },
-          { NamaFile: 'RKPD Kota Pematang Siantar Tahun 2021', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/08/RKPD-Kota-Pematang-Siantar-Tahun-2021.pdf' },
+		  { NamaFile: 'Pengisian Link Kuesioner Penjaringan Isu Strategis RPJDP Kota Pematangsiantar Tahun 2025 - 2045.', TanggalUpload: '5 Oktober 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/10/DOC-20231009-WA0012.pdf' },
+          { NamaFile: 'RKPD Kota Pematangsiantar Tahun 2021', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/08/RKPD-Kota-Pematang-Siantar-Tahun-2021.pdf' },
           { NamaFile: 'P RKPD Kota Pematangsiantar Tahun 2021', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/08/P-RKPD-Kota-Pematangsiantar-Tahun-2021.pdf' },
-          { NamaFile: 'Rencana Tata Ruang Wilayah Kota Pematang Siantar Tahun 2012-2032', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/07/PERDA-KOTA-PEMATANG-SIANTAR-NO.1-TAHUN-2013_2.pdf' },
-          { NamaFile: 'Renstra Badan Perencanaan, Penelitian Dan Pengembangan Daerah Kota Pematang Siantar 2017-2022', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/03/RENSTRA-BAPPEDA-KOTA-PEMATANGSIANTAR-TAHUN-2017-2022.pdf' },
+          { NamaFile: 'Rencana Tata Ruang Wilayah Kota Pematangsiantar Tahun 2012-2032', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/07/PERDA-KOTA-PEMATANG-SIANTAR-NO.1-TAHUN-2013_2.pdf' },
+          { NamaFile: 'Renstra Badan Perencanaan, Penelitian Dan Pengembangan Daerah Kota Pematangsiantar 2017-2022', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/03/RENSTRA-BAPPEDA-KOTA-PEMATANGSIANTAR-TAHUN-2017-2022.pdf' },
           { NamaFile: 'Permendagri 86 Tahun 2017', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/03/Permendagri-No-86-TH-2017.pdf' },
           { NamaFile: 'RPJMD Pematangsiantar 2017-2022', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/09/RPJMD-Pematangsiantar-2017-2022.pdf' },
           { NamaFile: 'RKPD Kota Pematangsiantar Tahun 2022', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/09/RKPD-Kota-Pematangsiantar-Tahun-2022.pdf' },
-          { NamaFile: 'Perubahan RKPD Kota Pematang Siantar Tahun 2022', TanggalUpload: '12 September 2022', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Perubahan-RKPD-Kota-Pematangsiantar-Tahun-2022.pdf' },
-          { NamaFile: 'RPJMD Pematang Siantar 2022-2027', TanggalUpload: '11 November 2022', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/RPJMD-Kota-Pematang-Siantar-Tahun-2022-2027.pdf' },
-          { NamaFile: 'RKPD Kota Pematang Siantar Tahun 2023', TanggalUpload: '11 Juli 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/09/Peraturan-Wali-Kota-Pematang-Siantar-Nomor-12-Tahun-2022-Tentang-Rencana-Kerja-Pemerintah-Daerah-Kota-Pematang-Siantar-Tahun-2023-dikompresi.pdf' },
-          { NamaFile: 'RKPD Kota Pematang Siantar 2024', TanggalUpload: '14 Juli 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERWA-NO-19-Tahun-2023-TTG-RKPD-KOTA-PS-TAHUN-2024.pdf' },
-		  { NamaFile: 'Perubahan RKPD Kota Pematang Siantar Tahun 2023', TanggalUpload: '28 Agustus 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERKADA-NO-28-TENTANG-P-RKPD-KOTA-PEMATANG-SIANTAR-TAHUN-2023.pdf' },
-		  { NamaFile: 'Lakip Bappeda kota Pematang Siantar', TanggalUpload: '15 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Lakip-Coaching-cliniq.pdf' },
-		  { NamaFile: 'Perjanjian Kinerja Bappeda kota Pematang Siantar', TanggalUpload: '15 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERJANJIAN-KINERJA-MASING-MASING-JABATAN.pdf' },
-		  { NamaFile: 'Rencana Strategis Bappeda kota Pematang Siantar Tahun 2022-2027', TanggalUpload: '21 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Rencana-Strategis.pdf' },
+          { NamaFile: 'Perubahan RKPD Kota Pematangsiantar Tahun 2022', TanggalUpload: '12 September 2022', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Perubahan-RKPD-Kota-Pematangsiantar-Tahun-2022.pdf' },
+          { NamaFile: 'RPJMD Pematangsiantar 2022-2027', TanggalUpload: '11 November 2022', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/RPJMD-Kota-Pematang-Siantar-Tahun-2022-2027.pdf' },
+          { NamaFile: 'RKPD Kota Pematangsiantar Tahun 2023', TanggalUpload: '11 Juli 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/09/Peraturan-Wali-Kota-Pematang-Siantar-Nomor-12-Tahun-2022-Tentang-Rencana-Kerja-Pemerintah-Daerah-Kota-Pematang-Siantar-Tahun-2023-dikompresi.pdf' },
+          { NamaFile: 'RKPD Kota Pematangsiantar 2024', TanggalUpload: '14 Juli 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERWA-NO-19-Tahun-2023-TTG-RKPD-KOTA-PS-TAHUN-2024.pdf' },
+		  { NamaFile: 'Perubahan RKPD Kota Pematangsiantar Tahun 2023', TanggalUpload: '28 Agustus 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERKADA-NO-28-TENTANG-P-RKPD-KOTA-PEMATANG-SIANTAR-TAHUN-2023.pdf' },
+		  { NamaFile: 'Lakip Bappeda kota Pematangsiantar', TanggalUpload: '15 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Lakip-Coaching-cliniq.pdf' },
+		  { NamaFile: 'Perjanjian Kinerja Bappeda kota Pematangsiantar', TanggalUpload: '15 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERJANJIAN-KINERJA-MASING-MASING-JABATAN.pdf' },
+		  { NamaFile: 'Rencana Strategis Bappeda kota Pematangsiantar Tahun 2022-2027', TanggalUpload: '21 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Rencana-Strategis.pdf' },
         
           // Tambahkan data tambahan di sini
       ];

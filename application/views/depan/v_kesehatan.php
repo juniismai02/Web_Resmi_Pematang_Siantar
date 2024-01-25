@@ -6,23 +6,23 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title>Website Resmi Kota Pematang Siantar - Kesehatan Kota Pematang Siantar</title>
-<meta name="title" content="Website Resmi Kota Pematang Siantar - Kesehatan Kota Pematang Siantar">
-<meta name="description" itemprop="description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Kesehatan Kota Pematang Siantar">
-<meta name="keywords" content="pematangsiantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
+<title>Website Resmi Kota Pematangsiantar - Kesehatan Kota Pematangsiantar</title>
+<meta name="title" content="Website Resmi Kota Pematangsiantar - Kesehatan Kota Pematangsiantar">
+<meta name="description" itemprop="description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Kesehatan Kota Pematangsiantar">
+<meta name="keywords" content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
 
 <!-- Favicon Icon -->
 <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>">
 
 <!-- Meta -->
-<meta itemprop="name" content="Website Resmi Kota Pematang Siantar - Kesehatan Kota Pematang Siantar">
+<meta itemprop="name" content="Website Resmi Kota Pematangsiantar - Kesehatan Kota Pematangsiantar">
 <meta itemprop="image" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG" >
 <meta itemprop="articleSection" content="pemerintah-kota-pematangsiantar.html"/>
 <meta itemprop="thumbnailUrl" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG"/>
 <meta name="google-site-verification" content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo" />
 <meta name="robots" content="index,follow"> 
 <meta content="index,follow" name="googlebot"> 
-<meta content="Website Resmi Kota Pematang Siantar" name="author"> 
+<meta content="Website Resmi Kota Pematangsiantar" name="author"> 
 <meta content="In-Id" http-equiv="content-language"> 
 <meta content="id" name="language"> 
 <meta content="id" name="geo.country">
@@ -1498,7 +1498,7 @@
         <div class="burger"><span></span></div>
         <div class="mobile-menutitle">
           <div class="mobile-menutitle-inner">
-            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>PEMATANG SIANTAR</span>
+            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>Pematangsiantar</span>
           </div>
         </div>
 
@@ -1620,7 +1620,7 @@
             <h1 class="xsection__title">Kesehatan</h1>
           </div>
           <div class="featsection__summary">
-                <p>Hingga tahun 2021, Kota Pematang Siantar telah memiliki 288 unit fasilitas Kesehatan, antara lain; 9 unit rumah sakit, 19 unit Puskesmas, 8 Puskesmas Pembantu, dan 252 unit Posyandu yang tersebar di kota ini. </p>
+                <p>Hingga tahun 2021, Kota Pematangsiantar telah memiliki 288 unit fasilitas Kesehatan, antara lain; 9 unit rumah sakit, 19 unit Puskesmas, 8 Puskesmas Pembantu, dan 252 unit Posyandu yang tersebar di kota ini. </p>
 
           </div>
 
@@ -1662,11 +1662,11 @@
             <div class="eta-content">
                <br>
                <p>Praktek Dokter yang tersebar di Kota berhawa sejuk ini pada tahun 2021 sebanyak 220 praktek dokter, dengan klasifikasi jumlah antara lain; sebanyak 112 Dokter Umum, 79 Dokter Spesialis dan 29 Dokter Gigi. Untuk Bidan, Perawat dan tenaga Kesehatan lainnya yang tersebar berjumlah 1.632 pada tahun 2021, antara lain: 362 bidan, 1.118 Perawat, 98 Farmasi dan 54 Ahli Gizi.</p>
-               <p>Dari jumlah tenaga medis yang tercatat di Kota Pematang Siantar dibandingkan dengan jumlah penduduk pada tahun 2021 adalah 86 orang tenaga medis untuk melayani 100.000 penduduk.</p>
+               <p>Dari jumlah tenaga medis yang tercatat di Kota Pematangsiantar dibandingkan dengan jumlah penduduk pada tahun 2021 adalah 86 orang tenaga medis untuk melayani 100.000 penduduk.</p>
                <br>
                <p><b>Fungsi</b></p>
-               <p>•	Melaksanakan tugas teknis operasional di bidang kesehatan yang meliputi pengembangan dan pembinaan pelayanan kesehatan, pencegahan pemberantasan penyakit menular dan penyehatan lingkungan, kesehatan keluarga, pelayanan kefarmasian dan pengawasan makanan dan minuman serta pembinaan program berdasarkan kebijakan Wali Kota Pematang Siantar.</p>
-               <p>•	Pelaksanaan tugas teknis fungsional di bidang kesehatan berdasarkan kebijakan Wali Kota Pematang Siantar.</p>
+               <p>•	Melaksanakan tugas teknis operasional di bidang kesehatan yang meliputi pengembangan dan pembinaan pelayanan kesehatan, pencegahan pemberantasan penyakit menular dan penyehatan lingkungan, kesehatan keluarga, pelayanan kefarmasian dan pengawasan makanan dan minuman serta pembinaan program berdasarkan kebijakan Wali Kota Pematangsiantar.</p>
+               <p>•	Pelaksanaan tugas teknis fungsional di bidang kesehatan berdasarkan kebijakan Wali Kota Pematangsiantar.</p>
                <p>•	Pelaksanaan pelayanan teknis administrasi ketatausahaan yang meliputi kepegawaian, keuangan umum dan perlengkapan.</p>
             </div>
           </div>
@@ -1686,7 +1686,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

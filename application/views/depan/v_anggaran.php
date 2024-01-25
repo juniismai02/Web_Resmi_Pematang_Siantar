@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Website Resmi Kota Pematang Siantar - Realisasi Anggaran Kota Pematang Siantar
+      Website Resmi Kota Pematangsiantar - Realisasi Anggaran Kota Pematangsiantar
     </title>
     <meta
       name="title"
-      content="Website Resmi Kota Pematang Siantar - Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Direktori Kota Informasi Dinas Terkait"
     />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
     />
     <meta
       name="keywords"
-      content="pematang siantar, kota Pematang Siantar, pemerintah kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
+      content="Pematangsiantar, kota Pematangsiantar, pemerintah kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
     />
 
     <!-- Favicon Icon -->
@@ -28,18 +28,18 @@
     <!-- Meta -->
     <meta
       itemprop="name"
-      content="Website Resmi Kota Pematang Siantar - Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Direktori Kota Informasi Dinas Terkait"
     />
-    <meta itemprop="image" content="assets/images/sharepematang siantar.png" />
+    <meta itemprop="image" content="assets/images/sharePematangsiantar.png" />
     <meta itemprop="articleSection" content="city-directory.html" />
-    <meta itemprop="thumbnailUrl" content="assets/images/sharepematang siantar.png" />
+    <meta itemprop="thumbnailUrl" content="assets/images/sharePematangsiantar.png" />
     <meta
       name="google-site-verification"
       content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo"
     />
     <meta name="robots" content="index,follow" />
     <meta content="index,follow" name="googlebot" />
-    <meta content="Website Resmi Kota Pematang Siantar" name="author" />
+    <meta content="Website Resmi Kota Pematangsiantar" name="author" />
     <meta content="In-Id" http-equiv="content-language" />
     <meta content="id" name="language" />
     <meta content="id" name="geo.country" />
@@ -51,14 +51,14 @@
     <meta property="og:site_name" content="index.html" />
     <meta
       property="og:title"
-      content="Website Resmi Kota Pematang Siantar - Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Direktori Kota Informasi Dinas Terkait"
     />
     <meta property="og:url" content="city-directory.html" />
     <meta
       property="og:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
     />
-    <meta property="og:image" content="assets/images/sharepematang siantar.png" />
+    <meta property="og:image" content="assets/images/sharePematangsiantar.png" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="315" />
 
@@ -68,31 +68,31 @@
       content="summary_large_image"
       data-dynamic="true"
     />
-    <meta name="twitter:site" content="@humaspematang siantar_" />
-    <meta name="twitter:creator" content="@humaspematang siantar_" />
+    <meta name="twitter:site" content="@humasPematangsiantar_" />
+    <meta name="twitter:creator" content="@humasPematangsiantar_" />
     <meta
       name="twitter:title"
-      content="Website Resmi Kota Pematang Siantar - Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Direktori Kota Informasi Dinas Terkait"
       data-dynamic="true"
     />
     <meta
       name="twitter:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
       data-dynamic="true"
     />
     <meta
       name="twitter:image"
-      content="https://www.pematang siantar.go.id/assets/images/sharepematang siantar.png"
+      content="https://www.Pematangsiantar.go.id/assets/images/sharePematangsiantar.png"
       data-dynamic="true"
     />
     <meta
       name="twitter:url"
-      content="https://www.pematang siantar.go.id/city-directory"
+      content="https://www.Pematangsiantar.go.id/city-directory"
       data-dynamic="true"
     />
     <meta
       name="twitter:domain"
-      content="https://www.pematang siantar.go.id"
+      content="https://www.Pematangsiantar.go.id"
       data-dynamic="true"
     />
 
@@ -1622,7 +1622,7 @@ h4 {
             <div class="mobile-menutitle">
               <div class="mobile-menutitle-inner">
                 <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img" /><span
-                  >PEMATANG SIANTAR</span
+                  >Pematangsiantar</span
                 >
               </div>
             </div>
@@ -1726,7 +1726,7 @@ h4 {
                 </div>
               </div>
             </div>
-            <form action="https://www.pematang siantar.go.id/search" method="get">
+            <form action="https://www.Pematangsiantar.go.id/search" method="get">
               <div class="search__form-outer">
                 <div class="search__form">
                   <input type="text" name="key" />
@@ -1742,7 +1742,7 @@ h4 {
           <div class="sectionrow">
             <div class="dinasterkait">
               <div class="xsection__header">
-                <h1 class="xsection__title">Laporan Realisasi Anggaran Kota Pematang Siantar</h1>
+                <h1 class="xsection__title">Laporan Realisasi Anggaran Kota Pematangsiantar</h1>
               </div>
               <div class="dinasterkait__body">
                 <div class="zentable-outer">
@@ -1767,7 +1767,7 @@ h4 {
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

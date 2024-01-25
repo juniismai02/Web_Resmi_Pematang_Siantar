@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Website Resmi Kota Pematang Siantar - Foto Wali Kota dan Forkopimda Kota Pematang Siantar
+      Website Resmi Kota Pematangsiantar - Foto Wali Kota dan Forkopimda Kota Pematangsiantar
 
     </title>
     <meta
       name="title"
-      content="Website Resmi Kota Pematang Siantar - Foto Wali Kota dan Forkopimda Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Foto Wali Kota dan Forkopimda Kota Pematangsiantar
 "
     />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Foto Wali Kota dan Forkopimda Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Foto Wali Kota dan Forkopimda Kota Pematangsiantar
 "
     />
     <meta
       name="keywords"
-      content="pematangsiantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
+      content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
     />
 
     <!-- Favicon Icon -->
@@ -31,7 +31,7 @@
     <!-- Meta -->
     <meta
       itemprop="name"
-      content="Website Resmi Kota Pematang Siantar - Foto Wali Kota dan Forkopimda Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Foto Wali Kota dan Forkopimda Kota Pematangsiantar
 "
     />
     <meta itemprop="image" content="assets/images/sharepematangsiantar.png" />
@@ -43,7 +43,7 @@
     />
     <meta name="robots" content="index,follow" />
     <meta content="index,follow" name="googlebot" />
-    <meta content="Website Resmi Kota Pematang Siantar" name="author" />
+    <meta content="Website Resmi Kota Pematangsiantar" name="author" />
     <meta content="In-Id" http-equiv="content-language" />
     <meta content="id" name="language" />
     <meta content="id" name="geo.country" />
@@ -55,13 +55,13 @@
     <meta property="og:site_name" content="index.html" />
     <meta
       property="og:title"
-      content="Website Resmi Kota Pematang Siantar - Foto Wali Kota dan Forkopimda Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Foto Wali Kota dan Forkopimda Kota Pematangsiantar
 "
     />
     <meta property="og:url" content="city-directory.html" />
     <meta
       property="og:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Foto Wali Kota dan Forkopimda Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Foto Wali Kota dan Forkopimda Kota Pematangsiantar
 "
     />
     <meta property="og:image" content="assets/images/sharepematangsiantar.png" />
@@ -78,13 +78,13 @@
     <meta name="twitter:creator" content="@humaspematangsiantar_" />
     <meta
       name="twitter:title"
-      content="Website Resmi Kota Pematang Siantar - Foto Wali Kota dan Forkopimda Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Foto Wali Kota dan Forkopimda Kota Pematangsiantar
 "
       data-dynamic="true"
     />
     <meta
       name="twitter:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Foto Wali Kota dan Forkopimda Kota Pematang Siantar
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Foto Wali Kota dan Forkopimda Kota Pematangsiantar
 "
       data-dynamic="true"
     />
@@ -1572,7 +1572,7 @@
             <div class="mobile-menutitle">
               <div class="mobile-menutitle-inner">
                 <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img" /><span
-                  >PEMATANG SIANTAR</span
+                  >Pematangsiantar</span
                 >
               </div>
             </div>
@@ -1691,7 +1691,7 @@
           <div class="sectionrow">
             <div class="dinasterkait">
               <div class="xsection__header">
-                <h1 class="xsection__title">Foto Wali Kota dan Forkopimda Kota Pematang Siantar</h1>
+                <h1 class="xsection__title">Foto Wali Kota dan Forkopimda Kota Pematangsiantar</h1>
               </div>
               <div class="dinasterkait__body">
                 <div class="zentable-outer">
@@ -1743,7 +1743,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

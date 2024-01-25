@@ -15,7 +15,7 @@
 <title><?php echo $title;?></title>
 <meta name="title" content="<?php echo $title;?>">
 <meta name="description" itemprop="description" content="<?php echo $title;?>">
-<meta name="keywords" content="pematang siantar, kota pematang siantar, pemerintah kota pematang siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
+<meta name="keywords" content="Pematangsiantar, kota Pematangsiantar, pemerintah kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
 
 <!-- Favicon Icon -->
 <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>">
@@ -1499,7 +1499,7 @@
         <div class="burger"><span></span></div>
         <div class="mobile-menutitle">
           <div class="mobile-menutitle-inner">
-            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>PEMATANG SIANTAR</span>
+            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>Pematangsiantar</span>
           </div>
         </div>
 
@@ -1726,7 +1726,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

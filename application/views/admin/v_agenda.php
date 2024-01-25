@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Website Resmi Kota Pematang Siantar  | Agenda</title>
+  <title>Website Resmi Kota Pematangsiantar  | Agenda</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
       <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>" />
@@ -259,7 +259,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 1.0
     </div>
-    <strong>Copyright &copy; 2022 <a href="#">Website Resmi Kota Pematang Siantar </a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2022 <a href="#">Website Resmi Kota Pematangsiantar </a>.</strong> All rights reserved.
   </footer>
 
   <!-- Control Sidebar -->

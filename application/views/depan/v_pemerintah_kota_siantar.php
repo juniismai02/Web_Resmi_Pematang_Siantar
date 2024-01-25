@@ -6,23 +6,23 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title>Website Resmi Kota Pematang Siantar - Etalase Pemerintah Kota Pematang Siantar</title>
-<meta name="title" content="Website Resmi Kota Pematang Siantar - Etalase Pemerintah Kota Pematang Siantar">
-<meta name="description" itemprop="description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Etalase Pemerintah Kota Pematang Siantar">
-<meta name="keywords" content="pematangsiantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
+<title>Website Resmi Kota Pematangsiantar - Etalase Pemerintah Kota Pematangsiantar</title>
+<meta name="title" content="Website Resmi Kota Pematangsiantar - Etalase Pemerintah Kota Pematangsiantar">
+<meta name="description" itemprop="description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Etalase Pemerintah Kota Pematangsiantar">
+<meta name="keywords" content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
 
 <!-- Favicon Icon -->
 <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>">
 
 <!-- Meta -->
-<meta itemprop="name" content="Website Resmi Kota Pematang Siantar - Etalase Pemerintah Kota Pematang Siantar">
+<meta itemprop="name" content="Website Resmi Kota Pematangsiantar - Etalase Pemerintah Kota Pematangsiantar">
 <meta itemprop="image" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG" >
 <meta itemprop="articleSection" content="pemerintah-kota-pematangsiantar.html"/>
 <meta itemprop="thumbnailUrl" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG"/>
 <meta name="google-site-verification" content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo" />
 <meta name="robots" content="index,follow"> 
 <meta content="index,follow" name="googlebot"> 
-<meta content="Website Resmi Kota Pematang Siantar" name="author"> 
+<meta content="Website Resmi Kota Pematangsiantar" name="author"> 
 <meta content="In-Id" http-equiv="content-language"> 
 <meta content="id" name="language"> 
 <meta content="id" name="geo.country">
@@ -1498,7 +1498,7 @@
         <div class="burger"><span></span></div>
         <div class="mobile-menutitle">
           <div class="mobile-menutitle-inner">
-            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>PEMATANG SIANTAR</span>
+            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>Pematangsiantar</span>
           </div>
         </div>
 
@@ -1617,7 +1617,7 @@
       <div class="sectionrow">
         <div class="featsection artikelwrap">
           <div class="xsection__header">
-            <h1 class="xsection__title">Pemerintah Kota Pematang Siantar</h1>
+            <h1 class="xsection__title">Pemerintah Kota Pematangsiantar</h1>
           </div>
           <div class="featsection__summary">
               <p>Secara umum kondisi geofrafis suatu wilayah adalah keadaan permukaan bumi wilayah tersebut, yang dilihat dari beberapa aspek antara lain; letak wilayah, cuaca, iklim dan topologinya.</p>
@@ -1659,9 +1659,9 @@
           <div class="eta-wrap">
             <div class="eta-img"><img src="<?php echo base_url().'theme/depan/assets/img/BALAIKOTA.jpg'?>" alt="img"></div>
             <div class="eta-content">
-              <p>Kota Pematang Siantar merupakan salah satu kota bagian dari provinsi Sumatera Utara dan kota terbesar kedua setelah Kota Medan. Kota ini berjarak sekitar 128 Km dari Ibukota Provinsi Sumatera Utara dan berjarak 45 Km ke Kota Wisata Parapat, terletak pada garis 2° 53’ 20” - 3° 01’ 00” Lintang Utara dan 99°1’ 00” - 99° 6’ 35” Bujur Timur, berada di tengah-tengah wilayah Kabupaten Simalungun.</p>
+              <p>Kota Pematangsiantar merupakan salah satu kota bagian dari provinsi Sumatera Utara dan kota terbesar kedua setelah Kota Medan. Kota ini berjarak sekitar 128 Km dari Ibukota Provinsi Sumatera Utara dan berjarak 45 Km ke Kota Wisata Parapat, terletak pada garis 2° 53’ 20” - 3° 01’ 00” Lintang Utara dan 99°1’ 00” - 99° 6’ 35” Bujur Timur, berada di tengah-tengah wilayah Kabupaten Simalungun.</p>
 
-<p>Luas daratan Kota Pematang Siantar adalah 79,971 Km² terletak 400-500 meter di atas permukaan laut. Berdasarkan luas wilayah menurut kecamatan, yang terluas adalah Kecamatan Siantar Sitalasari dengan luas wilayah 22,723 km² atau sama dengan 28,41 persen dari total luas wilayah Kota Pematang Siantar. Luas wilayah untuk masing-masing kecamatan dapat dilihat dari tabel 1.1.2. Secara administrasi wilayah Kota Pematang Siantar terbagi menjadi 8 (delapan) kecamatan yaitu:</p>
+<p>Luas daratan Kota Pematangsiantar adalah 79,971 Km² terletak 400-500 meter di atas permukaan laut. Berdasarkan luas wilayah menurut kecamatan, yang terluas adalah Kecamatan Siantar Sitalasari dengan luas wilayah 22,723 km² atau sama dengan 28,41 persen dari total luas wilayah Kota Pematangsiantar. Luas wilayah untuk masing-masing kecamatan dapat dilihat dari tabel 1.1.2. Secara administrasi wilayah Kota Pematangsiantar terbagi menjadi 8 (delapan) kecamatan yaitu:</p>
 
 <p>1.	Kecamatan Siantar Marihat <br>
 2.	Kecamatan Siantar Marimbun <br>
@@ -1677,7 +1677,7 @@
 <h1 class="xsection__title">Lokasi dan Keadaan Geografis</h1>
 <br> 
 <p>Tabel	1 : 	Luas Daerah, Tinggi Wilayah, dan Jarak ke Ibukota Menurut 
-	Kecamatan di Kota Pematang Siantar, 2022
+	Kecamatan di Kota Pematangsiantar, 2022
 </p>
 <br>
 <div class="zentable-outer">
@@ -1759,7 +1759,7 @@
                   </table>
                 </div>
 <br>
-<p>Sumber: 	SKB Bersama No 136/3140/1994 dan No. 136/4620/1994 tentang Penyesuaian Batas Wilayah Administrasi antara Kota Pematang Siantar dan Kabupaten Simalungun</p>
+<p>Sumber: 	SKB Bersama No 136/3140/1994 dan No. 136/4620/1994 tentang Penyesuaian Batas Wilayah Administrasi antara Kota Pematangsiantar dan Kabupaten Simalungun</p>
 <br><br>
 
 
@@ -1933,7 +1933,7 @@
                   </table>
                 </div>
 <br>
-<p>Sumber: 	SKB Bersama No 136/3140/1994 dan No. 136/4620/1994 tentang Penyesuaian Batas Wilayah Administrasi antara Kota Pematang Siantar dan Kabupaten Simalungun</p>
+<p>Sumber: 	SKB Bersama No 136/3140/1994 dan No. 136/4620/1994 tentang Penyesuaian Batas Wilayah Administrasi antara Kota Pematangsiantar dan Kabupaten Simalungun</p>
 <br><br>
 
             </div>
@@ -1954,7 +1954,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

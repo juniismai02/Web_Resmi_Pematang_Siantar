@@ -1,8 +1,8 @@
 # https://pematangsiantar.go.id/
 
-Web Resmi Pemerintah Kota Pematang Siantar
+Web Resmi Pemerintah Kota Pematangsiantar
 
-Pengembangan Web Resmi Pemerintah Kota Pematang Siantar
+Pengembangan Web Resmi Pemerintah Kota Pematangsiantar
 
 ## Beranda
 

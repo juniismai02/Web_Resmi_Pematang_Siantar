@@ -8,23 +8,23 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Website Resmi Kota Pematang Siantar</title>
-    <meta name="title" content="Website Resmi Kota Pematang Siantar" />
+    <title>Website Resmi Kota Pematangsiantar</title>
+    <meta name="title" content="Website Resmi Kota Pematangsiantar" />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Informasi Kota Pematang Siantar"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Informasi Kota Pematangsiantar"
     />
     <meta
       name="keywords"
-      content="Pematang Siantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota"
+      content="Pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota"
     />
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>" />
 
     <!-- Meta -->
-    <meta itemprop="name" content="Website Resmi Kota Pematang Siantar" />
+    <meta itemprop="name" content="Website Resmi Kota Pematangsiantar" />
     <meta itemprop="articleSection" content="<?php echo site_url('');?>" />
     <meta
       name="google-site-verification"
@@ -32,7 +32,7 @@
     />
     <meta name="robots" content="index,follow" />
     <meta content="index,follow" name="googlebot" />
-    <meta content="Website Resmi Kota Pematang Siantar" name="author" />
+    <meta content="Website Resmi Kota Pematangsiantar" name="author" />
     <meta content="In-Id" http-equiv="content-language" />
     <meta content="id" name="language" />
     <meta content="id" name="geo.country" />
@@ -42,11 +42,11 @@
     <!-- facebook META -->
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="<?php echo site_url('');?>" />
-    <meta property="og:title" content="Website Resmi Kota Pematang Siantar" />
+    <meta property="og:title" content="Website Resmi Kota Pematangsiantar" />
     <meta property="og:url" content="<?php echo site_url('');?>" />
     <meta
       property="og:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Informasi Kota Pematang Siantar"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Informasi Kota Pematangsiantar"
     />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="315" />
@@ -59,12 +59,12 @@
     />
     <meta
       name="twitter:title"
-      content="Website Resmi Kota Pematang Siantar"
+      content="Website Resmi Kota Pematangsiantar"
       data-dynamic="true"
     />
     <meta
       name="twitter:description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Informasi Kota Pematang Siantar"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Informasi Kota Pematangsiantar"
       data-dynamic="true"
     />
     
@@ -1489,7 +1489,7 @@
   </head>
 
   <body>
-    <h1 style="display: none">Website Resmi Kota Pematang Siantar</h1>
+    <h1 style="display: none">Website Resmi Kota Pematangsiantar</h1>
 
     <style>
       .m_onlyami {
@@ -1605,7 +1605,7 @@
             <div class="mobile-menutitle">
               <div class="mobile-menutitle-inner">
                 <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img" /><span
-                  >PEMATANG SIANTAR</span
+                  >Pematangsiantar</span
                 >
               </div>
             </div>
@@ -2109,7 +2109,7 @@
         <div class="wrapper">
           <div class="sectionrow">
             <div class="xsection__header">
-              <h2 class="xsection__title">Etalase Kota Pematang Siantar</h2>
+              <h2 class="xsection__title">Etalase Kota Pematangsiantar</h2>
             </div>
 
             <div class="etalasemain">
@@ -2117,7 +2117,7 @@
                 <div class="etalasemain-row">
                   <div
                     class="element"
-                    data-containt="PEMERINTAH Kota Pematang Siantar"
+                    data-containt="PEMERINTAH Kota Pematangsiantar"
                   >
                     <a
                       href="<?php echo site_url('pemerintah');?>"
@@ -2126,13 +2126,13 @@
                       <div class="thumboverlay__inner">
                       <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/assets/img/PEMERINTAH KOTA PEMATANG SIANTAR.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/PEMERINTAH KOTA Pematang Siantar.png'); ?>"
                           alt="img"
                         />
                       </div>
 
                         <h3 class="thumboverlay__title">
-                          Pemerintah Kota Pematang Siantar
+                          Pemerintah Kota Pematangsiantar
                         </h3>
                       </div>
                     </a>
@@ -2413,7 +2413,7 @@
       <div class="sectionrow">
         <div class="govideo">
           <div class="xsection__header">
-            <h2 class="xsection__title">Berita Resmi Statistik Kota Pematang Siantar</h2>
+            <h2 class="xsection__title">Berita Resmi Statistik Kota Pematangsiantar</h2>
             <br>
           </div>
 
@@ -2456,7 +2456,7 @@
               <div class="bagidua__col">
                 <div class="newstopic" id="beritatopic">
                   <div class="xsection__header">
-                    <h2 class="xsection__title">Kegiatan Wali Kota Pematang Siantar</h2>
+                    <h2 class="xsection__title">Kegiatan Wali Kota Pematangsiantar</h2>
                   </div>
                   <div class="newsslider">
                   <section class="slick-news-slider">
@@ -2466,7 +2466,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/9e3AQdQEjLo?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2478,7 +2478,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/mpmF08NQk7o?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2490,7 +2490,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/m7W79l_LC8Q?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2502,7 +2502,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/vi-hXVVZ2hE?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2514,7 +2514,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/dhdUaINO3_o?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2526,7 +2526,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/CkQuKSQ4evI?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2538,7 +2538,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/ede4H9tWN08?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2552,7 +2552,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/q3h1b2n2uRY?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2565,7 +2565,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/DFkMYCodxGA?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2577,7 +2577,7 @@
                     width="500"
                     height="280"
                     src="https://www.youtube.com/embed/008wbYgtegI?si"
-                    title="Kegiatan Wali Kota Pematang Siantar"
+                    title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -2630,7 +2630,7 @@
               width="560"
               height="315"
               src="https://www.youtube.com/embed/Dtglv-wcJOM?si"
-              title="Pesan dari Wali Kota Pematang Siantar"
+              title="Pesan dari Wali Kota Pematangsiantar"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -2655,7 +2655,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

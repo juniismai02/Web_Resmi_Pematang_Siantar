@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi
+      Website Resmi Pematangsiantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi
     </title>
     <meta
       name="title"
-      content="Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+      content="Website Resmi Pematangsiantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
     />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Pematang Siantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+      content="Website Resmi Pematangsiantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
     />
     <meta
       name="keywords"
-      content="pematangsiantar, Pematang Siantar, pemerintah Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, Layanan Aplikasi Kota, fitur"
+      content="pematangsiantar, Pematangsiantar, pemerintah Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, Layanan Aplikasi Kota, fitur"
     />
 
     <!-- Favicon Icon -->
@@ -28,7 +28,7 @@
     <!-- Meta -->
     <meta
       itemprop="name"
-      content="Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+      content="Website Resmi Pematangsiantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
     />
     <meta itemprop="image" content="assets/images/sharepematangsiantar.png" />
     <meta itemprop="articleSection" content="city-directory.html" />
@@ -39,7 +39,7 @@
     />
     <meta name="robots" content="index,follow" />
     <meta content="index,follow" name="googlebot" />
-    <meta content="Website Resmi Pematang Siantar" name="author" />
+    <meta content="Website Resmi Pematangsiantar" name="author" />
     <meta content="In-Id" http-equiv="content-language" />
     <meta content="id" name="language" />
     <meta content="id" name="geo.country" />
@@ -51,12 +51,12 @@
     <meta property="og:site_name" content="index.html" />
     <meta
       property="og:title"
-      content="Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+      content="Website Resmi Pematangsiantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
     />
     <meta property="og:url" content="city-directory.html" />
     <meta
       property="og:description"
-      content="Website Resmi Pematang Siantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+      content="Website Resmi Pematangsiantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
     />
     <meta property="og:image" content="assets/images/sharepematangsiantar.png" />
     <meta property="og:image:width" content="600" />
@@ -72,12 +72,12 @@
     <meta name="twitter:creator" content="@humaspematangsiantar_" />
     <meta
       name="twitter:title"
-      content="Website Resmi Pematang Siantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+      content="Website Resmi Pematangsiantar - Layanan Aplikasi Kota Informasi Layanan Aplikasi"
       data-dynamic="true"
     />
     <meta
       name="twitter:description"
-      content="Website Resmi Pematang Siantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
+      content="Website Resmi Pematangsiantar - Menyajikan Seputar Layanan Aplikasi Kota Informasi Layanan Aplikasi"
       data-dynamic="true"
     />
     <meta
@@ -1564,7 +1564,7 @@
             <div class="mobile-menutitle">
               <div class="mobile-menutitle-inner">
                 <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img" /><span
-                  >PEMATANG SIANTAR</span
+                  >Pematangsiantar</span
                 >
               </div>
             </div>
@@ -2295,7 +2295,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

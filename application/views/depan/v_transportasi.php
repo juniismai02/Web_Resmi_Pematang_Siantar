@@ -6,23 +6,23 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title>Website Resmi Kota Pematang Siantar - Transportasi Kota Pematang Siantar</title>
-<meta name="title" content="Website Resmi Kota Pematang Siantar - Transportasi Kota Pematang Siantar">
-<meta name="description" itemprop="description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Transportasi Kota Pematang Siantar">
-<meta name="keywords" content="pematangsiantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
+<title>Website Resmi Kota Pematangsiantar - Transportasi Kota Pematangsiantar</title>
+<meta name="title" content="Website Resmi Kota Pematangsiantar - Transportasi Kota Pematangsiantar">
+<meta name="description" itemprop="description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Transportasi Kota Pematangsiantar">
+<meta name="keywords" content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
 
 <!-- Favicon Icon -->
 <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>">
 
 <!-- Meta -->
-<meta itemprop="name" content="Website Resmi Kota Pematang Siantar - Transportasi Kota Pematang Siantar">
+<meta itemprop="name" content="Website Resmi Kota Pematangsiantar - Transportasi Kota Pematangsiantar">
 <meta itemprop="image" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG" >
 <meta itemprop="articleSection" content="pemerintah-kota-pematangsiantar.html"/>
 <meta itemprop="thumbnailUrl" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG"/>
 <meta name="google-site-verification" content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo" />
 <meta name="robots" content="index,follow"> 
 <meta content="index,follow" name="googlebot"> 
-<meta content="Website Resmi Kota Pematang Siantar" name="author"> 
+<meta content="Website Resmi Kota Pematangsiantar" name="author"> 
 <meta content="In-Id" http-equiv="content-language"> 
 <meta content="id" name="language"> 
 <meta content="id" name="geo.country">
@@ -1498,7 +1498,7 @@
         <div class="burger"><span></span></div>
         <div class="mobile-menutitle">
           <div class="mobile-menutitle-inner">
-            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>PEMATANG SIANTAR</span>
+            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>Pematangsiantar</span>
           </div>
         </div>
 
@@ -1620,7 +1620,7 @@
             <h1 class="xsection__title">Transportasi</h1>
           </div>
           <div class="featsection__summary">
-            <p>Moda transportasi yang ada di Kota Pematang Siantar melayani beberapa trayek baik sekitaran dalam kota maupun lintas dalam provinsi (AKDP) dan lintas antar provinsi (AKAP). Pelayanan moda transportasi yakni angkutan kota (Angkot), angkutan pedesaan (Angdes), Becak antarkota dalam provinsi (AKDP) dan antarkota antarprovinsi (AKAP).</p>
+            <p>Moda transportasi yang ada di Kota Pematangsiantar melayani beberapa trayek baik sekitaran dalam kota maupun lintas dalam provinsi (AKDP) dan lintas antar provinsi (AKAP). Pelayanan moda transportasi yakni angkutan kota (Angkot), angkutan pedesaan (Angdes), Becak antarkota dalam provinsi (AKDP) dan antarkota antarprovinsi (AKAP).</p>
 
           </div>
 
@@ -1663,11 +1663,11 @@
                <br>
                <h2 class="xsection__title">Bus Antarkota dan Angkutan Kota</h2>
                <br>
-               <p>Sebagian besar masyarakat Kota Pematang Siantar dalam kesehariannya menggunakan transportasi massal biasanya menggunakan angkutan kota (Angkot/Mopen). Sedangkan bus dan taksi travel digunakan untuk bepergian jauh baik antarkota dalam provinsi maupun antarkota antarprovinsi. Terminal bus antarkota dalam provinsi dan antarprovinsi bernama Terminal Tanjungpinggir. Untuk tujuan Siantar-Medan, Siantar-Sibolga, Siantar-Pekanbaru, Siantar-Jambi masing-masing memiliki poolnya sendiri yang tersebar di beberapa lokasi. Ada juga bus dan travel dengan tujuan Siantar-Bandara Kualanamu.</p>
+               <p>Sebagian besar masyarakat Kota Pematangsiantar dalam kesehariannya menggunakan transportasi massal biasanya menggunakan angkutan kota (Angkot/Mopen). Sedangkan bus dan taksi travel digunakan untuk bepergian jauh baik antarkota dalam provinsi maupun antarkota antarprovinsi. Terminal bus antarkota dalam provinsi dan antarprovinsi bernama Terminal Tanjungpinggir. Untuk tujuan Siantar-Medan, Siantar-Sibolga, Siantar-Pekanbaru, Siantar-Jambi masing-masing memiliki poolnya sendiri yang tersebar di beberapa lokasi. Ada juga bus dan travel dengan tujuan Siantar-Bandara Kualanamu.</p>
                <br>
                <h2 class="xsection__title">Kereta Api</h2>
                <br>
-                <p>Stasiun Kereta Api juga tersedia di Kota ini, yaitu Stasiun Siantar dengan tujuan Siantar-Medan dan sebaliknya, terletak di Jalan Kartini Kelurahan Proklamasi, Kecamatan Siantar Barat, Kota Pematang Siantar.</p>
+                <p>Stasiun Kereta Api juga tersedia di Kota ini, yaitu Stasiun Siantar dengan tujuan Siantar-Medan dan sebaliknya, terletak di Jalan Kartini Kelurahan Proklamasi, Kecamatan Siantar Barat, Kota Pematangsiantar.</p>
                <br>
               </div>
           </div>
@@ -1687,7 +1687,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

@@ -5,19 +5,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Website Resmi Kota Pematang Siantar - Tentang Kota Pematang Siantar</title>
+    <title>Website Resmi Kota Pematangsiantar - Tentang Kota Pematangsiantar</title>
     <meta
       name="title"
-      content="Website Resmi Kota Pematang Siantar - Tentang Kota Pematang Siantar"
+      content="Website Resmi Kota Pematangsiantar - Tentang Kota Pematangsiantar"
     />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Kota Pematang Siantar"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Kota Pematangsiantar"
     />
     <meta
       name="keywords"
-      content="pematangsiantar, kota Pematang Siantar, pemerintah kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
+      content="pematangsiantar, kota Pematangsiantar, pemerintah kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
     />
 
     <!-- Favicon Icon -->
@@ -1522,7 +1522,7 @@
             <div class="mobile-menutitle">
               <div class="mobile-menutitle-inner">
                 <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img" /><span
-                  >PEMATANG SIANTAR</span
+                  >Pematangsiantar</span
                 >
               </div>
             </div>
@@ -1698,10 +1698,10 @@
 
               <div class="about__text">
                 <div class="xsection__header">
-                  <h1 class="xsection__title">Profil Kota Pematang Siantar</h1>
+                  <h1 class="xsection__title">Profil Kota Pematangsiantar</h1>
                 </div>
                 <p align="justify">
-                Pematang Siantar, Pamatang Siantar, atau Siantar saja) adalah salah satu kota di Provinsi Sumatera Utara, Indonesia, yang merupakan enklave dari Kabupaten Simalungun. Karena letak Pematangsiantar yang strategis, kota ini dilalui oleh Jalan Raya Lintas Sumatra. Kota ini memiliki luas wilayah 79,97 km² dan berpenduduk sebanyak 268.254 jiwa (2021), dimana laki-laki berjumlah 132.615 jiwa dan perempuan 135.639 jiwa.[3].&nbsp;
+                Pematangsiantar, Pamatang Siantar, atau Siantar saja) adalah salah satu kota di Provinsi Sumatera Utara, Indonesia, yang merupakan enklave dari Kabupaten Simalungun. Karena letak Pematangsiantar yang strategis, kota ini dilalui oleh Jalan Raya Lintas Sumatra. Kota ini memiliki luas wilayah 79,97 km² dan berpenduduk sebanyak 268.254 jiwa (2021), dimana laki-laki berjumlah 132.615 jiwa dan perempuan 135.639 jiwa.[3].&nbsp;
                 </p>
 
                 <p align="justify">
@@ -1732,14 +1732,14 @@
       <div class="sectionrow">
         <div class="govideo">
           <div class="xsection__header">
-            <h1 class="xsection__title">Pesan dari Wali Kota Pematang Siantar</h1>
+            <h1 class="xsection__title">Pesan dari Wali Kota Pematangsiantar</h1>
           </div>
           <div class="govideo-body">
             <iframe
               width="560"
               height="315"
               src="https://www.youtube.com/embed/W05-wNN1eDo"
-              title="Pesan dari Wali Kota Pematang Siantar"
+              title="Pesan dari Wali Kota Pematangsiantar"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -1760,7 +1760,7 @@
             <div class="sectionrow">
               <div class="galerifoto">
                 <div class="xsection__header">
-                  <h2 class="xsection__title">Sejarah Kota Pematang Siantar</h2>
+                  <h2 class="xsection__title">Sejarah Kota Pematangsiantar</h2>
                   <br>
                   
                 </div>
@@ -1915,7 +1915,7 @@
                 </p>
                 <br>
                 <div class="xsection__header">
-                <h1 class="xsection__title">WALI KOTA PEMATANG SIANTAR
+                <h1 class="xsection__title">WALI KOTA Pematangsiantar
                   DARI MASA KE MASA
                   </h1>
                   <br>
@@ -2192,7 +2192,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

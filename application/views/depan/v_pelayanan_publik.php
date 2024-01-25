@@ -7,23 +7,23 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title>Website Resmi Kota Pematang Siantar - Etalase Pelayanan Publik</title>
-<meta name="title" content="Website Resmi Kota Pematang Siantar - Etalase Pelayanan Publik">
-<meta name="description" itemprop="description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Etalase Pelayanan Publik">
-<meta name="keywords" content="pematangsiantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
+<title>Website Resmi Kota Pematangsiantar - Etalase Pelayanan Publik</title>
+<meta name="title" content="Website Resmi Kota Pematangsiantar - Etalase Pelayanan Publik">
+<meta name="description" itemprop="description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Etalase Pelayanan Publik">
+<meta name="keywords" content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
 
 <!-- Favicon Icon -->
 <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>">
 
 <!-- Meta -->
-<meta itemprop="name" content="Website Resmi Kota Pematang Siantar - Etalase Pelayanan Publik">
+<meta itemprop="name" content="Website Resmi Kota Pematangsiantar - Etalase Pelayanan Publik">
 <meta itemprop="image" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163944803159-pelayanan-publik.jpg" >
 <meta itemprop="articleSection" content="pelayanan-publik.html"/>
 <meta itemprop="thumbnailUrl" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163944803159-pelayanan-publik.jpg"/>
 <meta name="google-site-verification" content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo" />
 <meta name="robots" content="index,follow"> 
 <meta content="index,follow" name="googlebot"> 
-<meta content="Website Resmi Kota Pematang Siantar" name="author"> 
+<meta content="Website Resmi Kota Pematangsiantar" name="author"> 
 <meta content="In-Id" http-equiv="content-language"> 
 <meta content="id" name="language"> 
 <meta content="id" name="geo.country">
@@ -33,9 +33,9 @@
 <!-- facebook META -->
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="../../index.html">
-<meta property="og:title" content="Website Resmi Kota Pematang Siantar - Etalase Pelayanan Publik">
+<meta property="og:title" content="Website Resmi Kota Pematangsiantar - Etalase Pelayanan Publik">
 <meta property="og:url" content="pelayanan-publik.html">
-<meta property="og:description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Etalase Pelayanan Publik">
+<meta property="og:description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Etalase Pelayanan Publik">
 <meta property="og:image" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163944803159-pelayanan-publik.jpg">
 <meta property="og:image:width" content="600">
 <meta property="og:image:height" content="315">
@@ -44,8 +44,8 @@
 <meta name="twitter:card" content="summary_large_image" data-dynamic="true">
 <meta name="twitter:site" content="@humaspematangsiantar_">
 <meta name="twitter:creator" content="@humaspematangsiantar_">
-<meta name="twitter:title" content="Website Resmi Kota Pematang Siantar - Etalase Pelayanan Publik" data-dynamic="true">
-<meta name="twitter:description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Etalase Pelayanan Publik" data-dynamic="true">
+<meta name="twitter:title" content="Website Resmi Kota Pematangsiantar - Etalase Pelayanan Publik" data-dynamic="true">
+<meta name="twitter:description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Etalase Pelayanan Publik" data-dynamic="true">
 <meta name="twitter:image" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163944803159-pelayanan-publik.jpg" data-dynamic="true">
 <meta name="twitter:url" content="https://www.pematangsiantar.go.id/etalase/7/pelayanan-publik" data-dynamic="true">
 <meta name="twitter:domain" content="https://www.pematangsiantar.go.id" data-dynamic="true">
@@ -1519,7 +1519,7 @@
         <div class="burger"><span></span></div>
         <div class="mobile-menutitle">
           <div class="mobile-menutitle-inner">
-            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>PEMATANG SIANTAR</span>
+            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>Pematangsiantar</span>
           </div>
         </div>
 
@@ -1635,12 +1635,12 @@
     </div>
   </header>
 	<div class="wrapper" id="services">
-    <h1 style="display: none;">Pelayanan Pemerintah Kota Pematang Siantar</h1>
+    <h1 style="display: none;">Pelayanan Pemerintah Kota Pematangsiantar</h1>
     <div class="mainwrap">
       <div class="sectionrow">
   
         <div class="xsection__header">
-          <h1 class="xsection__title">Pelayanan Publik Kota Pematang Siantar</h1>
+          <h1 class="xsection__title">Pelayanan Publik Kota Pematangsiantar</h1>
         </div>
 
         <div class="buttonlist">
@@ -1833,7 +1833,7 @@
                           <div class="newstype1__pic"><a href="#"><img src="https://img.pematangsiantar.go.id/images/pelayananpublik/2021/10/14/thumb/16395266089-informasi-data-puskesmas-di-kota-pematangsiantar-thumb.jpeg" alt="img"></a></div>
                           <div class="newstype1__text">
                             <div class="newstype__summary">
-                              <p>Informasi Data Puskesmas di Kota Pematang Siantar </p><p>| Email : dinaskesehatankotapematangsiantar@gmail.com
+                              <p>Informasi Data Puskesmas di Kota Pematangsiantar </p><p>| Email : dinaskesehatankotapematangsiantar@gmail.com
                             </div>
                               <div class="linklayanan">
                               <ul>
@@ -1850,7 +1850,7 @@
                           <div class="newstype1__pic"><a href="#"><img src="https://img.pematangsiantar.go.id/images/pelayananpublik/2021/10/14/thumb/163952767850-informasi-data-rumah-sakit-di-kota-pematangsiantar-thumb.jpg" alt="img"></a></div>
                           <div class="newstype1__text">
                             <div class="newstype__summary">
-                              <p>Informasi Data Rumah Sakit di Kota Pematang Siantar </p><p>| Email : dinaskesehatankotapematangsiantar@gmail.com
+                              <p>Informasi Data Rumah Sakit di Kota Pematangsiantar </p><p>| Email : dinaskesehatankotapematangsiantar@gmail.com
                             </div>
                               <div class="linklayanan">
                               <ul>
@@ -2897,7 +2897,7 @@
                             <div class="newstype1__pic"><a href="#"><img src="https://img.pematangsiantar.go.id/images/pelayananpublik/2021/12/16/thumb/16932964724-ppid-kota-pematangsiantar-thumb.jpg" alt="img"></a></div>
                             <div class="newstype1__text">
                                 <div class="newstype__summary">
-                                <p>PPID Kota Pematang Siantar </p><p>| Email : ppidutama.kotapematangsiantar@gmail.com
+                                <p>PPID Kota Pematangsiantar </p><p>| Email : ppidutama.kotapematangsiantar@gmail.com
                                 </div>
                                 <div class="linklayanan">
                                 <ul>
@@ -2948,7 +2948,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

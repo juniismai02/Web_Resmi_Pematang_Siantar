@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>PORTAL PEMERINTAH KOTA PEMATANG SIANTAR - Login</title>
+    <title>PORTAL PEMERINTAH KOTA Pematangsiantar - Login</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--===============================================================================================-->
@@ -64,10 +64,10 @@
             method="POST"
           >
             <span class="login100-form-title">
-           PEMATANG SIANTAR
+           Pematangsiantar
            <br>
               <center>
-                <p>Login ke Portal Utama Pematang Siantar</p>
+                <p>Login ke Portal Utama Pematangsiantar</p>
               </center>
             </span>
 

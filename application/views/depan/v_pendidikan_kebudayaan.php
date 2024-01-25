@@ -6,23 +6,23 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title>Website Resmi Kota Pematang Siantar - Pendidikan dan Kebudayaan Kota Pematang Siantar</title>
-<meta name="title" content="Website Resmi Kota Pematang Siantar - Pendidikan dan Kebudayaan Kota Pematang Siantar">
-<meta name="description" itemprop="description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Pendidikan dan Kebudayaan Kota Pematang Siantar">
-<meta name="keywords" content="pematangsiantar, Kota Pematang Siantar, pemerintah Kota Pematang Siantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
+<title>Website Resmi Kota Pematangsiantar - Pendidikan dan Kebudayaan Kota Pematangsiantar</title>
+<meta name="title" content="Website Resmi Kota Pematangsiantar - Pendidikan dan Kebudayaan Kota Pematangsiantar">
+<meta name="description" itemprop="description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Pendidikan dan Kebudayaan Kota Pematangsiantar">
+<meta name="keywords" content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur" />
 
 <!-- Favicon Icon -->
 <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>">
 
 <!-- Meta -->
-<meta itemprop="name" content="Website Resmi Kota Pematang Siantar - Pendidikan dan Kebudayaan Kota Pematang Siantar">
+<meta itemprop="name" content="Website Resmi Kota Pematangsiantar - Pendidikan dan Kebudayaan Kota Pematangsiantar">
 <meta itemprop="image" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG" >
 <meta itemprop="articleSection" content="pemerintah-kota-pematangsiantar.html"/>
 <meta itemprop="thumbnailUrl" content="https://img.pematangsiantar.go.id/images/etcategory/2021/10/11/header/163954413935-pemerintah-kota-pematangsiantar.JPG"/>
 <meta name="google-site-verification" content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo" />
 <meta name="robots" content="index,follow"> 
 <meta content="index,follow" name="googlebot"> 
-<meta content="Website Resmi Kota Pematang Siantar" name="author"> 
+<meta content="Website Resmi Kota Pematangsiantar" name="author"> 
 <meta content="In-Id" http-equiv="content-language"> 
 <meta content="id" name="language"> 
 <meta content="id" name="geo.country">
@@ -1498,7 +1498,7 @@
         <div class="burger"><span></span></div>
         <div class="mobile-menutitle">
           <div class="mobile-menutitle-inner">
-            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>PEMATANG SIANTAR</span>
+            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>Pematangsiantar</span>
           </div>
         </div>
 
@@ -1661,22 +1661,22 @@
             <div class="eta-img"><img src="<?php echo base_url().'theme/depan/assets/img/Pendidikan.jpg'?>" alt="img"></div>
             <div class="eta-content">
                 <br><br>
-            <h1 class="xsection__title">Pendidikan di Kota Pematang Siantar</h1>
+            <h1 class="xsection__title">Pendidikan di Kota Pematangsiantar</h1>
             <br>
                 <p>Pendidikan merupakan unsur yang sangat penting dalam Pembangunan. Seperti yang tercantum Undang-undang Dasar 1945 tentang Tujuan Pendidikan Nasional adalah mencerdaskan kehidupan bangsa dan mengembangkan suember daya manusia (SDM). Di antaranya manusia yang beriman, bertakwa terhadap Tuhan Yang Maha Esa; berbudi pekerti luhur; memiliki pengetahuan; keterampilan; kesehatan jasmani dan rohani; berkepribadian yang baik; mandiri serta rasa tanggung jawab kemasyarakatan serta kebangsaan.</p>
-                <p>Para tokoh nasional itu berpikir maju dan turut membangun negeri ini, antara lain, berkat kemajuan pendidikan di Pematang Siantar. “Ketika warga daerah di sekitarnya masih buta huruf, di Siantar sudah berdiri sekolah,” kata sejarawan dari Universitas Simalungun, Hisarma Saragih. 
+                <p>Para tokoh nasional itu berpikir maju dan turut membangun negeri ini, antara lain, berkat kemajuan pendidikan di Pematangsiantar. “Ketika warga daerah di sekitarnya masih buta huruf, di Siantar sudah berdiri sekolah,” kata sejarawan dari Universitas Simalungun, Hisarma Saragih. 
 Menurutnya, lembaga pendidikan mirip sekolah sudah ada di Siantar sejak daerah ini masih berupa kerajaan. Anak raja dan petinggi kerajaan dididik secara khusus untuk disiapkan menjadi generasi penerus. Pendidikan yang diberikan, antara lain, mengenai etika, tata pemerintahan, dan ilmu pengobatan. Ini berlangsung hingga tahun 1900-an. 
 </p>
-<p>Pola pendidikan di Siantar mengalami modernisasi sejak utusan zending Jerman, Rheinische Missionsgesellschaft (RMG), datang menyebarkan agama. Untuk memudahkan warga dalam memahami Injil, zending mengusulkan dibangun sekolah. Sebuah sekolah didirikan RMG pada tahun 1904 di Bulu Raya (sekarang masuk Kabupaten Simalungun setelah Pematang Siantar menjadi kotamadya pada 1074). (Kompas)</p>
+<p>Pola pendidikan di Siantar mengalami modernisasi sejak utusan zending Jerman, Rheinische Missionsgesellschaft (RMG), datang menyebarkan agama. Untuk memudahkan warga dalam memahami Injil, zending mengusulkan dibangun sekolah. Sebuah sekolah didirikan RMG pada tahun 1904 di Bulu Raya (sekarang masuk Kabupaten Simalungun setelah Pematangsiantar menjadi kotamadya pada 1074). (Kompas)</p>
 <br> <br>
-<h1 class="xsection__title">Kebudayaan di Kota Pematang Siantar</h1>
+<h1 class="xsection__title">Kebudayaan di Kota Pematangsiantar</h1>
 <br>
-<p>Kota Pematang Siantar menjadi kawasan multi etnis. Etnis yang berkembang diantaranya Melayu, Batak Karo, Simalungun, Fak-fak/Dairi, Batak Toba, Mandailing, Pesisir dan Nias, hingga Jawa.</p>
-<p>Etnis Simalungun dan Toba menjadi etnis yang paling berkembang di kota ini. Etnis Simalungun merupakan penduduk asli Kota Pematang Siantar. Sedangkan etnis Toba merupakan etnis pendatang, namun menjadi etnis yang mendominasi kota ini.</p>
-<p>Hal tersebut juga terlihat dari dominannya bahasa Toba digunakan oleh masyarakat Pematang Siantar dalam berkegiatan sehari-hari. Meskipun begitu, kota ini termasuk kota toleran yang jarang sekali berselisih karena permasalahan etnis.</p>
+<p>Kota Pematangsiantar menjadi kawasan multi etnis. Etnis yang berkembang diantaranya Melayu, Batak Karo, Simalungun, Fak-fak/Dairi, Batak Toba, Mandailing, Pesisir dan Nias, hingga Jawa.</p>
+<p>Etnis Simalungun dan Toba menjadi etnis yang paling berkembang di kota ini. Etnis Simalungun merupakan penduduk asli Kota Pematangsiantar. Sedangkan etnis Toba merupakan etnis pendatang, namun menjadi etnis yang mendominasi kota ini.</p>
+<p>Hal tersebut juga terlihat dari dominannya bahasa Toba digunakan oleh masyarakat Pematangsiantar dalam berkegiatan sehari-hari. Meskipun begitu, kota ini termasuk kota toleran yang jarang sekali berselisih karena permasalahan etnis.</p>
 <p>Penggunaan bahasa daerah di kota ini masih sangat kental, adat istiadat juga masih terlaksana. Berkembangnya berbagai etnis di kota ini membuat kebudayaan saling menyatu, seperti dalam perkawinan akulturasi.</p>
 <p>Banyak masyarakat etnis Simalungun menikah dengan Toba, ataupun etnis Jawa yang menggunakan Gondang dalam acara perkawinan, dan memakai pakaian adat khas batak di setiap acara-acara penting. (parboaboa)</p>
-<p>Bahkan di Kota Pematang Siantar, sejumlah nama etnis digunakan sebagai nama jalan atau lokasi pemukiman penduduk. Kunjungi (https://disdik.pematangsiantar.go.id/). </p>
+<p>Bahkan di Kota Pematangsiantar, sejumlah nama etnis digunakan sebagai nama jalan atau lokasi pemukiman penduduk. Kunjungi (https://disdik.pematangsiantar.go.id/). </p>
 
 
             </div>
@@ -1697,7 +1697,7 @@ Menurutnya, lembaga pendidikan mirip sekolah sudah ada di Siantar sejak daerah i
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 

@@ -5,20 +5,20 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title>Website Resmi Kota Pematang Siantar - Pengumuman</title>
-<meta name="title" content="Website Resmi Kota Pematang Siantar - Pengumuman">
-<meta name="description" itemprop="description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Pengumuman Kota Pematang Siantar">
-<meta name="keywords" content="pematang siantar, kota pematang siantar, pemerintah kota pematang siantar, Pengumuman, informasi, sosialisasi, agenda, direktori kota, fitur" />
+<title>Website Resmi Kota Pematangsiantar - Pengumuman</title>
+<meta name="title" content="Website Resmi Kota Pematangsiantar - Pengumuman">
+<meta name="description" itemprop="description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Pengumuman Kota Pematangsiantar">
+<meta name="keywords" content="Pematangsiantar, kota Pematangsiantar, pemerintah kota Pematangsiantar, Pengumuman, informasi, sosialisasi, agenda, direktori kota, fitur" />
 
 <!-- Favicon Icon -->
 <link rel="shortcut icon" href="<?php echo base_url().'theme/depan/assets/img/logo.svg'?>">
 
 <!-- Meta -->
-<meta itemprop="name" content="Website Resmi Kota Pematang Siantar - Pengumuman">
+<meta itemprop="name" content="Website Resmi Kota Pematangsiantar - Pengumuman">
 <meta name="google-site-verification" content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo" />
 <meta name="robots" content="index,follow"> 
 <meta content="index,follow" name="googlebot"> 
-<meta content="Website Resmi Kota Pematang Siantar" name="author"> 
+<meta content="Website Resmi Kota Pematangsiantar" name="author"> 
 <meta content="In-Id" http-equiv="content-language"> 
 <meta content="id" name="language"> 
 <meta content="id" name="geo.country">
@@ -27,16 +27,16 @@
 <!-- facebook META -->
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="<?php echo site_url('');?>">
-<meta property="og:title" content="Website Resmi Kota Pematang Siantar - Pengumuman">
+<meta property="og:title" content="Website Resmi Kota Pematangsiantar - Pengumuman">
 <meta property="og:url" content="news.html">
-<meta property="og:description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Pengumuman Kota Pematang Siantar">
+<meta property="og:description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Pengumuman Kota Pematangsiantar">
 <meta property="og:image:width" content="600">
 <meta property="og:image:height" content="315">
 
 <!--twitter cards -->
 <meta name="twitter:card" content="summary_large_image" data-dynamic="true">
-<meta name="twitter:title" content="Website Resmi Kota Pematang Siantar - Pengumuman" data-dynamic="true">
-<meta name="twitter:description" content="Website Resmi Kota Pematang Siantar - Menyajikan Seputar Pengumuman Kota Pematang Siantar" data-dynamic="true">
+<meta name="twitter:title" content="Website Resmi Kota Pematangsiantar - Pengumuman" data-dynamic="true">
+<meta name="twitter:description" content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Pengumuman Kota Pematangsiantar" data-dynamic="true">
   
 <!-- css_main --> 
 <link href="<?php echo base_url().'theme/depan/assets/css/datatable.css'?>" rel="stylesheet">
@@ -1555,7 +1555,7 @@
         <div class="burger"><span></span></div>
         <div class="mobile-menutitle">
           <div class="mobile-menutitle-inner">
-            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>PEMATANG SIANTAR</span>
+            <img src="<?php echo base_url().'theme/depan/assets/img/logo.png'?>" alt="img"><span>Pematangsiantar</span>
           </div>
         </div>
 
@@ -1733,7 +1733,7 @@
               <div class="footalamat">
               PEMATANGSIANTAR.GO.ID<br />
               Jl. Merdeka No.10, Proklamasi, Kec. Siantar Bar., <br>
-               Kota Pematang Siantar, Sumatera Utara 21135
+               Kota Pematangsiantar, Sumatera Utara 21135
               </div>
             </div>
 
