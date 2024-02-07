@@ -2184,27 +2184,17 @@
                       </div>
                     </a>
                   </div>
-                  <div
-                    class="element"
-                    data-containt="PELAYANAN INFORMASI PUBLIK"
-                  >
-                    <a
-                      href="https://sisada.pematangsiantar.go.id/"
-                      class="thumboverlay"
-                    >
-                      <div class="thumboverlay__inner">
-                        <div class="thumboverlay__img">
-                        <img
-                          src="<?php echo base_url('theme/depan/assets/img/pelayanan informasi publik.png'); ?>"
-                          alt="img"
-                        />
-                        </div>
-                        <h3 class="thumboverlay__title">
-                          Pelayanan Informasi Publik
-                        </h3>
-                      </div>
-                    </a>
-                  </div>
+                  <div class="element" data-containt="PELAYANAN INFORMASI PUBLIK">
+  <a href="https://ppid.pematangsiantar.go.id/" class="thumboverlay" target="_blank">
+    <div class="thumboverlay__inner">
+      <div class="thumboverlay__img">
+        <img src="<?php echo base_url('theme/depan/assets/img/pelayanan informasi publik.png'); ?>" alt="img" />
+      </div>
+      <h3 class="thumboverlay__title">PPID</h3>
+    </div>
+  </a>
+</div>
+
                   <div
                     class="element"
                     data-containt="TEMPAT WISATA DAN REKREASI"
