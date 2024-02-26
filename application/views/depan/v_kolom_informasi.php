@@ -1688,21 +1688,34 @@
     <div class="news3col__row">
         <?php echo $this->session->flashdata('msg'); ?>
 
-        <?php $data_result = $data->result();
-        rsort($data_result); // Urutkan berita berdasarkan tanggal terbaru
-
-        foreach ($data_result as $row) : ?>
+        <?php 
+        // Query untuk mengambil semua data Hargapokok berdasarkan tanggal terbaru
+        $query = $this->db->query("SELECT * FROM tbl_tulisan WHERE tulisan_kategori_nama = 'Hargapokok' ORDER BY tulisan_tanggal DESC");
+        
+        if ($query->num_rows() > 0) {
+            $data_result = $query->result();
+            foreach ($data_result as $row) : 
+        ?>
             <div class="news3col__col">
-                <a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>" class="news3col__img"><img src="<?php echo base_url() . 'assets/images/' . $row->tulisan_gambar; ?>" alt="img"></a>
+                <a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>" class="news3col__img">
+                    <img src="<?php echo base_url() . 'assets/images/' . $row->tulisan_gambar; ?>" alt="img">
+                </a>
                 <p class="news3col__summary"><?php echo $row->tulisan_judul; ?></p>
                 <a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>" class="linkmore" tabindex="0"><span>Lihat Detail</span></a>
             </div>
-        <?php endforeach; ?>
+        <?php 
+            endforeach;
+        } else {
+            // Tampilkan pesan jika tidak ada data yang ditemukan
+            echo "<p>Tidak ada data Hargapokok yang tersedia.</p>";
+        }
+        ?>
     </div>
 </div>
 
 
 
+<!-- 
 <div class="pagingg">
     <ul>
         <li>
@@ -1710,7 +1723,7 @@
         </li>
     </ul>
     
-</div>
+</div> -->
 
 
 	

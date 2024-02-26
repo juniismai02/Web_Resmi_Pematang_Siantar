@@ -24,11 +24,11 @@ class Kolom_informasi extends CI_Controller{
 		$this->pagination->initialize($config);
 		$x['page'] = $this->pagination->create_links();
 	
-		// Mengambil daftar berita dengan kategori "Kolom Informasi"
+		// Mengambil daftar berita dengan kategori "Hargapokok"
 		$this->db->select('*');
 		$this->db->from('tbl_tulisan');
 		$this->db->join('tbl_kategori', 'tbl_kategori.kategori_id = tbl_tulisan.tulisan_kategori_id');
-		$this->db->where('tbl_kategori.kategori_nama', 'Kolom Informasi');
+		$this->db->where('tbl_kategori.kategori_nama', 'Hargapokok'); // Ubah kategori menjadi "Hargapokok"
 		$this->db->order_by('tbl_tulisan.tulisan_views', 'DESC');
 		$this->db->limit($limit, $offset);
 		$x['data'] = $this->db->get();
@@ -37,6 +37,7 @@ class Kolom_informasi extends CI_Controller{
 		$x['populer'] = $this->db->query("SELECT * FROM tbl_tulisan ORDER BY tulisan_views DESC LIMIT 15");
 		$this->load->view('depan/v_kolom_informasi', $x);
 	}
+	
 	
 	
 	function detail($slugs){

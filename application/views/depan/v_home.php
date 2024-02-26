@@ -2345,39 +2345,30 @@
                   </div>
                   <div class="newsslider">
                   <section class="slick-news-slider">
-    <?php
-    // Inisialisasi array untuk menyimpan berita dengan kategori "Kolom Informasi"
-    $kolomInformasiBerita = array();
+                  <?php
+$count = 0; // Variabel untuk menghitung jumlah data yang telah ditampilkan
 
-    foreach ($berita->result() as $row) :
-        // Cek apakah kategori berita sama dengan "Kolom Informasi"
-        if ($row->tulisan_kategori_nama === "Kolom Informasi") :
-            $kolomInformasiBerita[] = $row;
-        endif;
-    endforeach;
-
-    // Urutkan berdasarkan tanggal (anda perlu menyesuaikan nama kolom tanggal)
-    usort($kolomInformasiBerita, function($a, $b) {
-        return strtotime($b->tanggal) - strtotime($a->tanggal);
-    });
-
-    // Ambil 10 berita terbaru atau kurang jika tidak ada 10 berita
-    $limit = min(count($kolomInformasiBerita), 10);
-
-    // Tampilkan 10 berita terbaru
-    for ($i = 0; $i < $limit; $i++) :
-    ?>
-        <a href="<?php echo site_url('artikel/'.$kolomInformasiBerita[$i]->tulisan_slug);?>" class="newsslider__row">
+foreach ($berita->result() as $row) :
+    if ($row->tulisan_kategori_nama === "Hargapokok" && $count < 10) : // Menampilkan hanya jika kategori adalah "Hargapokok" dan belum mencapai 10 data
+        $count++;
+?>
+        <a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>" class="newsslider__row">
             <div class="newsslider__img">
-                <img src="<?php echo base_url('assets/images/'.$kolomInformasiBerita[$i]->tulisan_gambar); ?>" class="img-fluid" alt="courses-img">
+                <img src="<?php echo base_url('assets/images/' . $row->tulisan_gambar); ?>" class="img-fluid" alt="courses-img">
             </div>
             <div class="newsslider__summary">
-                <h3 style="text-align:left;"><?php echo $kolomInformasiBerita[$i]->tulisan_judul; ?></h3>
+                <div class="sosial__title">
+                    <h3>
+                        <?php echo $row->tulisan_judul; ?>
+                    </h3>
+                </div>
             </div>
         </a>
-    <?php
-    endfor;
-    ?>
+<?php
+    endif;
+endforeach;
+?>
+
 </section>
 
                     <a href="<?php echo site_url('kolom_informasi');?>" class="linkmore" tabindex="0"
