@@ -1737,19 +1737,2263 @@ h4 {
           </nav>
         </div>
       </header>
+      <!-- <div class="wrapper">
+        <div class="mainwrap">
+          <div class="sectionrow">
+            <div class="dinasterkait">
+              <div class="xsection__header">
+                <h1 class="xsection__title">
+LAPORAN REALISASI ANGGARAN PENDAPATAN DAN BELANJA DAERAH (KONSOLIDASI)
+TAHUN ANGGARAN 2024</h1>
+              </div>
+              <div class="dinasterkait__body">
+                <div class="zentable-outer">
+                
+                 <div class="pdf-container">
+                    <iframe src="https://drive.google.com/file/d/1oibaszpGz4gSPMZq_ZttY8QfztbfxNPF/preview" frameborder="0"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
       <div class="wrapper">
         <div class="mainwrap">
           <div class="sectionrow">
             <div class="dinasterkait">
               <div class="xsection__header">
-                <h1 class="xsection__title">Laporan Realisasi Anggaran Kota Pematangsiantar</h1>
+                <h1 class="xsection__title">LAPORAN REALISASI ANGGARAN PENDAPATAN DAN BELANJA DAERAH (KONSOLIDASI)
+TAHUN ANGGARAN 2024</h1>
               </div>
               <div class="dinasterkait__body">
                 <div class="zentable-outer">
-                 <!-- Content -->
-                 <div class="pdf-container">
-  <iframe src="https://drive.google.com/file/d/1oibaszpGz4gSPMZq_ZttY8QfztbfxNPF/preview" frameborder="0"></iframe>
-</div>
+                  <table class="zentable cityd-table" id="myTable">
+                    <thead>
+                      <tr>
+                        <td>Kode Rekening</td>
+                        <td>URAIAN</td>
+                        <td>ANGGARAN 2024</td>
+                        <td>REALISASI 2024</td>
+                        <td>% 2024 </td>
+                        <td>REALISASI 2023</td>
+                      </tr>
+                    </thead>
+                   <tbody>
+                        <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5 = (4 / 3) * 100</td>
+                        <td>6</td>
+                        </tr>    
+                        <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>    
+                        <tr>
+                        <td>4</td>
+                        <td>PENDAPATAN DAERAH</td>
+                        <td>1.028.544.501.209</td>
+                        <td>100.657.722.901,89</td>
+                        <td>9,79</td>
+                        <td>100.686.595.901,89</td>
+                        </tr> 
+                        <tr>
+                        <td>4.1 </td>
+                        <td>PENDAPATAN ASLI DAERAH (PAD) </td>
+                        <td>190.782.774.409</td>
+                        <td>24.486.376.301,89</td>
+                        <td>12,83</td>
+                        <td>24.515.249.301,89</td>
+                        </tr>   
+                        <tr>
+                        <td>4.1.01</td>
+                        <td>Pajak Daerah</td>
+                        <td>89.500.000.000</td>
+                        <td>12.360.771.574,00</td>
+                        <td>13,81</td>
+                        <td>12.372.644.574,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.06</td>
+                        <td>Pajak Hotel </td>
+                        <td>3.300.000.000</td>
+                        <td>797.592.939,00</td>
+                        <td>24,17</td>
+                        <td>797.592.939,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.06.01</td>
+                        <td>Pajak Hotel</td>
+                        <td>3.300.000.000</td>
+                        <td>797.592.939,00</td>
+                        <td>24,17</td>
+                        <td>797.592.939,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.07</td>
+                        <td>Pajak Restoran</td>
+                        <td>16.000.000.000</td>
+                        <td>2.002.387.636,00</td>
+                        <td>12,51</td>
+                        <td>2.002.387.636,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.07.01 </td>
+                        <td>Pajak Restoran dan Sejenisnya</td>
+                        <td>16.000.000.000</td>
+                        <td>2.002.387.636,00</td>
+                        <td>12,51</td>
+                        <td>2.002.387.636,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.08 </td>
+                        <td>Pajak Hiburan</td>
+                        <td>2.000.000.000</td>
+                        <td>379.551.573,00</td>
+                        <td>18,98</td>
+                        <td>379.551.573,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.08.01</td>
+                        <td>Pajak Tontonan Film</td>
+                        <td>0</td>
+                        <td>120.339.955,00</td>
+                        <td>0,00</td>
+                        <td>120.339.955,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.08.02 </td>
+                        <td>Pajak Pagelaran Kesenian/Musik/Tari/ Busana</td>
+                        <td>2.000.000.000</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.08.08</td>
+                        <td>Pajak Pacuan Kuda, Kendaraan Bermotor, dan Permainan Ketangkasan</td>
+                        <td>0</td>
+                        <td>216.123.100,00</td>
+                        <td>0,00</td>
+                        <td>216.123.100,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.08.10 </td>
+                        <td>Pajak Pertandingan Olahraga</td>
+                        <td>0</td>
+                        <td>43.088.518,00</td>
+                        <td>0,00</td>
+                        <td>43.088.518,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.09 </td>
+                        <td>Pajak Reklame</td>
+                        <td>3.500.000.000</td>
+                        <td>378.244.000,00</td>
+                        <td>10,81</td>
+                        <td>378.244.000,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.09.01</td>
+                        <td>Pajak Reklame Papan/Billboard/Videotron/ Megatron</td>
+                        <td>3.500.000.000</td>
+                        <td>378.244.000,00</td>
+                        <td>10,81</td>
+                        <td>378.244.000,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.10 </td>
+                        <td>Pajak Penerangan Jalan</td>
+                        <td>22.000.000.000</td>
+                        <td>3.960.586.660,00</td>
+                        <td>18,00</td>
+                        <td>3.960.586.660,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.10.02</td>
+                        <td>Pajak Penerangan Jalan Sumber Lain</td>
+                        <td>22.000.000.000</td>
+                        <td>3.960.586.660,00</td>
+                        <td>18,00</td>
+                        <td>3.960.586.660,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.11 </td>
+                        <td>Pajak Parkir</td>
+                        <td>600.000.000</td>
+                        <td>107.517.250,00</td>
+                        <td>17,92</td>
+                        <td>107.517.250,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.11.01</td>
+                        <td>Pajak Parkir</td>
+                        <td>600.000.000</td>
+                        <td>107.517.250,00</td>
+                        <td>17,92</td>
+                        <td>107.517.250,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.12</td>
+                        <td>Pajak Air Tanah</td>
+                        <td>600.000.000</td>
+                        <td>92.021.160,00</td>
+                        <td>15,34</td>
+                        <td>103.894.160,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.12.01</td>
+                        <td>Pajak Air Tanah</td>
+                        <td>600.000.000 </td>
+                        <td>92.021.160,00</td>
+                        <td>15,34</td>
+                        <td>103.894.160,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.15 </td>
+                        <td>Pajak Bumi dan Bangunan Perdesaan dan Perkotaan (PBBP2)</td>
+                        <td>12.500.000.000</td>
+                        <td>409.009.196,00</td>
+                        <td>3,27</td>
+                        <td>409.009.196,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.15.01 </td>
+                        <td>PBBP2</td>
+                        <td>12.500.000.000</td>
+                        <td>409.009.196,00</td>
+                        <td>3,27</td>
+                        <td>409.009.196,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.16 </td>
+                        <td>Bea Perolehan Hak Atas Tanah dan Bangunan (BPHTB) </td>
+                        <td>29.000.000.000</td>
+                        <td>4.233.861.160,00</td>
+                        <td>14,60</td>
+                        <td>4.233.861.160,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.01.16.02</td>
+                        <td>BPHTB-Pemberian Hak Baru </td>
+                        <td>29.000.000.000</td>
+                        <td>4.233.861.160,00</td>
+                        <td>14,60</td>
+                        <td>4.233.861.160,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02 </td>
+                        <td>Retribusi Daerah </td>
+                        <td>44.920.690.000</td>
+                        <td>797.834.750,00</td>
+                        <td>1,78</td>
+                        <td>797.834.750,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.01 </td>
+                        <td>Retribusi Jasa Umum</td>
+                        <td>41.072.090.000</td>
+                        <td>791.834.750,00</td>
+                        <td>1,93</td>
+                        <td>791.834.750,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.01.01</td>
+                        <td>Retribusi Pelayanan Kesehatan</td>
+                        <td>150.000.000 </td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.01.02</td>
+                        <td>Retribusi Pelayanan Persampahan/ Kebersihan</td>
+                        <td>5.751.090.000</td>
+                        <td>109.841.750,00</td>
+                        <td>1,91</td>
+                        <td>109.841.750,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.01.03</td>
+                        <td>Retribusi Pelayanan Pemakaman dan Pengabuan Mayat </td>
+                        <td>21.000.000</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.01.04</td>
+                        <td>Retribusi Pelayanan Parkir di Tepi Jalan Umum </td>
+                        <td>34.000.000.000</td>
+                        <td>681.993.000,00</td>
+                        <td>2,01</td>
+                        <td>681.993.000,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.01.06</td>
+                        <td>Retribusi Pengujian Kendaraan Bermotor</td>
+                        <td>1.100.000.000</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.01.07</td>
+                        <td>Retribusi Pemeriksaan Alat Pemadam Kebakaran</td>
+                        <td>50.000.000</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        <td>0,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.02</td>
+                        <td>Retribusi Jasa Usaha</td>
+                        <td>2.225.000.000</td>
+                        <td>6.000.000,00</td>
+                        <td>0,27</td>
+                        <td>6.000.000,00</td>
+                        </tr>    
+                        <tr>
+                        <td>4.1.02.02.01</td>
+                        <td>Retribusi Pemakaian Kekayaan Daerah</td>
+                        <td>110.000.000</td>
+                        <td>6.000.000,00</td>
+                        <td>5,45</td>
+                        <td>6.000.000,00</td>
+                        </tr>    
+                        <tr>
+    <td style="text-align: right">4.1.02.02.05</td>
+    <td>Retribusi Tempat Khusus Parkir</td>
+    <td style="text-align: right">60.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.02.02.07</td>
+    <td>Retribusi Rumah Potong Hewan</td>
+    <td style="text-align: right">2.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.02.02.09</td>
+    <td>Retribusi Tempat Rekreasi dan Olahraga</td>
+    <td style="text-align: right">55.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.02.03</td>
+    <td>Retribusi Perizinan Tertentu</td>
+    <td style="text-align: right">1.623.600.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.02.03.07</td>
+    <td>Retribusi Persetujuan Bangunan Gedung</td>
+    <td style="text-align: right">1.623.600.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.03</td>
+    <td>Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan</td>
+    <td style="text-align: right">10.781.206.262</td>
+    <td style="text-align: right">11.052.986.850,89</td>
+    <td style="text-align: right">102,52</td>
+    <td style="text-align: right">11.052.986.850,89</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.03.02</td>
+    <td>
+      Bagian Laba yang Dibagikan kepada Pemerintah Daerah (Dividen) atas
+      Penyertaan Modal pada BUMD
+    </td>
+    <td style="text-align: right">10.781.206.262</td>
+    <td style="text-align: right">11.052.986.850,89</td>
+    <td style="text-align: right">102,52</td>
+    <td style="text-align: right">11.052.986.850,89</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.03.02.01</td>
+    <td>
+      Bagian Laba yang Dibagikan kepada Pemerintah Daerah (Dividen) atas
+      Penyertaan Modal pada BUMD (Lembaga<br />Keuangan)
+    </td>
+    <td style="text-align: right">10.281.206.262</td>
+    <td style="text-align: right">11.052.986.850,89</td>
+    <td style="text-align: right">107,51</td>
+    <td style="text-align: right">11.052.986.850,89</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.03.02.03</td>
+    <td>
+      Bagian Laba yang Dibagikan kepada Pemerintah Daerah (Dividen) atas
+      Penyertaan Modal pada BUMD (Bidang Air<br />Minum)
+    </td>
+    <td style="text-align: right">500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04</td>
+    <td>Lain-lain PAD yang Sah</td>
+    <td style="text-align: right">45.580.878.147</td>
+    <td style="text-align: right">274.783.127,00</td>
+    <td style="text-align: right">0,60</td>
+    <td style="text-align: right">291.783.127,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.01</td>
+    <td>Hasil Penjualan BMD yang Tidak Dipisahkan</td>
+    <td style="text-align: right">310.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.01.08</td>
+    <td>Hasil Penjualan Aset Lain-Lain</td>
+    <td style="text-align: right">310.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.03</td>
+    <td>Hasil Pemanfaatan BMD yang Tidak Dipisahkan</td>
+    <td style="text-align: right">500.000.000</td>
+    <td style="text-align: right">34.000.000,00</td>
+    <td style="text-align: right">6,80</td>
+    <td style="text-align: right">51.000.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.03.02</td>
+    <td>Hasil Kerja Sama Pemanfaatan BMD</td>
+    <td style="text-align: right">354.000.000</td>
+    <td style="text-align: right">34.000.000,00</td>
+    <td style="text-align: right">9,60</td>
+    <td style="text-align: right">51.000.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.03.03</td>
+    <td>Hasil dari Bangun Guna Serah</td>
+    <td style="text-align: right">146.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.05</td>
+    <td>Jasa Giro</td>
+    <td style="text-align: right">5.770.878.147</td>
+    <td style="text-align: right">159.487.750,00</td>
+    <td style="text-align: right">2,76</td>
+    <td style="text-align: right">159.487.750,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.05.01</td>
+    <td>Jasa Giro pada Kas Daerah</td>
+    <td style="text-align: right">5.770.878.147</td>
+    <td style="text-align: right">159.487.750,00</td>
+    <td style="text-align: right">2,76</td>
+    <td style="text-align: right">159.487.750,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.07</td>
+    <td>Pendapatan Bunga</td>
+    <td style="text-align: right">500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.07.01</td>
+    <td>Pendapatan Bunga atas Penempatan Uang Pemerintah Daerah</td>
+    <td style="text-align: right">500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.08</td>
+    <td>Penerimaan atas Tuntutan Ganti Kerugian Keuangan Daerah</td>
+    <td style="text-align: right">500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.08.02</td>
+    <td>
+      Tuntutan Ganti Kerugian Daerah terhadap Pegawai Negeri Bukan Bendahara
+      atau Pejabat Lain
+    </td>
+    <td style="text-align: right">500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.11</td>
+    <td>Pendapatan Denda atas Keterlambatan Pelaksanaan Pekerjaan</td>
+    <td style="text-align: right">1.500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.11.01</td>
+    <td>Pendapatan Denda atas Keterlambatan Pelaksanaan Pekerjaan</td>
+    <td style="text-align: right">1.500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.12</td>
+    <td>Pendapatan Denda Pajak Daerah</td>
+    <td style="text-align: right">0</td>
+    <td style="text-align: right">81.295.377,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">81.295.377,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.12.06</td>
+    <td>Pendapatan Denda Pajak Hotel</td>
+    <td style="text-align: right">0</td>
+    <td style="text-align: right">785.877,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">785.877,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.12.07</td>
+    <td>Pendapatan Denda Pajak Restoran</td>
+    <td style="text-align: right">0</td>
+    <td style="text-align: right">10.252.985,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">10.252.985,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.12.08</td>
+    <td>Pendapatan Denda Pajak Hiburan</td>
+    <td style="text-align: right">0</td>
+    <td style="text-align: right">1.744.486,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">1.744.486,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.12.09</td>
+    <td>Pendapatan Denda Pajak Reklame</td>
+    <td style="text-align: right">0</td>
+    <td style="text-align: right">1.770.380,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">1.770.380,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.12.11</td>
+    <td>Pendapatan Denda Pajak Parkir</td>
+    <td style="text-align: right">0</td>
+    <td style="text-align: right">661.573,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">661.573,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.12.12</td>
+    <td>Pendapatan Denda Pajak Air Tanah</td>
+    <td style="text-align: right">0</td>
+    <td style="text-align: right">285.920,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">285.920,00</td>
+  </tr>
+  <tr>
+    <td>Kode Rekening</td>
+    <td>URAIAN</td>
+    <td>ANGGARAN 2024</td>
+    <td>REALISASI 2024</td>
+    <td style="text-align: right">% 2024</td>
+    <td>REALISASI 2023</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.12.15</td>
+    <td>
+      Pendapatan Denda Pajak Bumi dan Bangunan Perdesaan dan Perkotaan (PBBP2)
+    </td>
+    <td style="text-align: right">0</td>
+    <td style="text-align: right">65.794.156,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">65.794.156,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.15</td>
+    <td>Pendapatan dari Pengembalian</td>
+    <td style="text-align: right">500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.15.08</td>
+    <td>
+      Pendapatan dari Pengembalian Kelebihan Pembayaran Belanja Gaji dan
+      Tunjangan ASN
+    </td>
+    <td style="text-align: right">500.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.16</td>
+    <td>Pendapatan BLUD</td>
+    <td style="text-align: right">36.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.1.04.16.02</td>
+    <td>Pendapatan BLUD dari Jasa Layanan</td>
+    <td style="text-align: right">36.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH PENDAPATAN ASLI DAERAH</td>
+    <td style="text-align: right">190.782.774.409</td>
+    <td style="text-align: right">24.486.376.301,89</td>
+    <td style="text-align: right">12,83</td>
+    <td style="text-align: right">24.515.249.301,89</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2</td>
+    <td>PENDAPATAN TRANSFER</td>
+    <td style="text-align: right">827.823.544.000</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+    <td style="text-align: right">9,20</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.01</td>
+    <td>Pendapatan Transfer Pemerintah Pusat</td>
+    <td style="text-align: right">767.302.153.000</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+    <td style="text-align: right">9,93</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.01.01</td>
+    <td>Dana Perimbangan</td>
+    <td style="text-align: right">760.564.168.000</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+    <td style="text-align: right">10,02</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.01.01.01</td>
+    <td>Dana Transfer Umum-Dana Bagi Hasil (DBH)</td>
+    <td style="text-align: right">25.371.696.000</td>
+    <td style="text-align: right">487.407.850,00</td>
+    <td style="text-align: right">1,92</td>
+    <td style="text-align: right">487.407.850,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.01.01.02</td>
+    <td>Dana Transfer Umum-Dana Alokasi Umum (DAU)</td>
+    <td style="text-align: right">598.236.485.000</td>
+    <td style="text-align: right">75.683.938.750,00</td>
+    <td style="text-align: right">12,65</td>
+    <td style="text-align: right">75.683.938.750,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.01.01.03</td>
+    <td>Dana Transfer Khusus-Dana Alokasi Khusus (DAK) Fisik</td>
+    <td style="text-align: right">18.160.256.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.01.01.04</td>
+    <td>Dana Transfer Khusus-Dana Alokasi Khusus (DAK) Non Fisik</td>
+    <td style="text-align: right">118.795.731.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH PENDAPATAN TRANSFER DANA PERIMBANGAN</td>
+    <td style="text-align: right">760.564.168.000</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+    <td style="text-align: right">10,02</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.02</td>
+    <td>Pendapatan Transfer Antar Daerah</td>
+    <td style="text-align: right">60.521.391.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.02.01</td>
+    <td>Pendapatan Bagi Hasil</td>
+    <td style="text-align: right">60.521.391.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.2.02.01.01</td>
+    <td>Pendapatan Bagi Hasil Pajak</td>
+    <td style="text-align: right">60.521.391.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH PENDAPATAN TRANSFER ANTAR DAERAH</td>
+    <td style="text-align: right">60.521.391.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>TOTAL PENDAPATAN TRANSFER</td>
+    <td style="text-align: right">827.823.544.000</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+    <td style="text-align: right">9,20</td>
+    <td style="text-align: right">76.171.346.600,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.3</td>
+    <td>LAIN-LAIN PENDAPATAN DAERAH YANG SAH</td>
+    <td style="text-align: right">9.938.182.800</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.3.03</td>
+    <td>
+      Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan
+    </td>
+    <td style="text-align: right">9.938.182.800</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.3.03.02</td>
+    <td>
+      Pendapatan Dana Kapitasi Jaminan Kesehatan Nasional (JKN) pada Fasilitas
+      Kesehatan Tingkat Pertama (FKTP)
+    </td>
+    <td style="text-align: right">9.938.182.800</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">4.3.03.02.01</td>
+    <td>Pendapatan Dana Kapitasi JKN pada FKTP</td>
+    <td style="text-align: right">9.938.182.800</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH LAIN LAIN PENDAPATAN DAERAH YANG SAH</td>
+    <td style="text-align: right">9.938.182.800</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH PENDAPATAN</td>
+    <td style="text-align: right">1.028.544.501.209</td>
+    <td style="text-align: right">100.657.722.901,89</td>
+    <td style="text-align: right">9,79</td>
+    <td style="text-align: right">100.686.595.901,89</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5</td>
+    <td>BELANJA DAERAH</td>
+    <td style="text-align: right">1.268.760.505.436</td>
+    <td style="text-align: right">78.915.113.763,00</td>
+    <td style="text-align: right">6,22</td>
+    <td style="text-align: right">89.632.086.917,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1</td>
+    <td>BELANJA OPERASI</td>
+    <td style="text-align: right">1.129.536.219.707</td>
+    <td style="text-align: right">76.219.089.172,00</td>
+    <td style="text-align: right">6,75</td>
+    <td style="text-align: right">86.936.062.326,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01</td>
+    <td>Belanja Pegawai</td>
+    <td style="text-align: right">653.472.102.458</td>
+    <td style="text-align: right">62.732.312.400,00</td>
+    <td style="text-align: right">9,60</td>
+    <td style="text-align: right">68.119.849.550,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01</td>
+    <td>Belanja Gaji dan Tunjangan ASN</td>
+    <td style="text-align: right">425.140.102.684</td>
+    <td style="text-align: right">55.626.047.322,00</td>
+    <td style="text-align: right">13,08</td>
+    <td style="text-align: right">60.530.952.972,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.01</td>
+    <td>Belanja Gaji Pokok ASN</td>
+    <td style="text-align: right">313.890.066.882</td>
+    <td style="text-align: right">42.352.810.630,00</td>
+    <td style="text-align: right">13,49</td>
+    <td style="text-align: right">46.140.536.230,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.02</td>
+    <td>Belanja Tunjangan Keluarga ASN</td>
+    <td style="text-align: right">30.340.898.668</td>
+    <td style="text-align: right">3.727.068.646,00</td>
+    <td style="text-align: right">12,28</td>
+    <td style="text-align: right">4.066.712.862,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.03</td>
+    <td>Belanja Tunjangan Jabatan ASN</td>
+    <td style="text-align: right">11.977.266.463</td>
+    <td style="text-align: right">1.209.275.000,00</td>
+    <td style="text-align: right">10,10</td>
+    <td style="text-align: right">1.399.085.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.04</td>
+    <td>Belanja Tunjangan Fungsional ASN</td>
+    <td style="text-align: right">25.360.011.614</td>
+    <td style="text-align: right">3.156.857.920,00</td>
+    <td style="text-align: right">12,45</td>
+    <td style="text-align: right">3.311.590.920,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.05</td>
+    <td>Belanja Tunjangan Fungsional Umum ASN</td>
+    <td style="text-align: right">3.700.088.146</td>
+    <td style="text-align: right">455.970.000,00</td>
+    <td style="text-align: right">12,32</td>
+    <td style="text-align: right">512.910.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.06</td>
+    <td>Belanja Tunjangan Beras ASN</td>
+    <td style="text-align: right">19.439.742.259</td>
+    <td style="text-align: right">2.229.087.600,00</td>
+    <td style="text-align: right">11,47</td>
+    <td style="text-align: right">2.448.158.100,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.07</td>
+    <td>Belanja Tunjangan PPh/Tunjangan Khusus ASN</td>
+    <td style="text-align: right">572.374.508</td>
+    <td style="text-align: right">56.477.891,00</td>
+    <td style="text-align: right">9,87</td>
+    <td style="text-align: right">58.778.033,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.08</td>
+    <td>Belanja Pembulatan Gaji ASN</td>
+    <td style="text-align: right">5.466.327</td>
+    <td style="text-align: right">539.120,00</td>
+    <td style="text-align: right">9,86</td>
+    <td style="text-align: right">579.637,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.09</td>
+    <td>Belanja Iuran Jaminan Kesehatan ASN</td>
+    <td style="text-align: right">17.513.122.842</td>
+    <td style="text-align: right">2.150.508.356,00</td>
+    <td style="text-align: right">12,28</td>
+    <td style="text-align: right">2.150.508.356,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.10</td>
+    <td>Belanja Iuran Jaminan Kecelakaan Kerja ASN</td>
+    <td style="text-align: right">603.149.575</td>
+    <td style="text-align: right">71.863.040,00</td>
+    <td style="text-align: right">11,91</td>
+    <td style="text-align: right">110.523.459,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.11</td>
+    <td>Belanja Iuran Jaminan Kematian ASN</td>
+    <td style="text-align: right">1.733.595.400</td>
+    <td style="text-align: right">215.589.119,00</td>
+    <td style="text-align: right">12,44</td>
+    <td style="text-align: right">331.570.375,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.01.14</td>
+    <td>Belanja Tunjangan Khusus</td>
+    <td style="text-align: right">4.320.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.02</td>
+    <td>Belanja Tambahan Penghasilan ASN</td>
+    <td style="text-align: right">155.440.840.750</td>
+    <td style="text-align: right">4.759.904.530,00</td>
+    <td style="text-align: right">3,06</td>
+    <td style="text-align: right">5.196.596.030,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.02.01</td>
+    <td>Tambahan Penghasilan berdasarkan Beban Kerja ASN</td>
+    <td style="text-align: right">97.586.774.750</td>
+    <td style="text-align: right">4.500.404.530,00</td>
+    <td style="text-align: right">4,61</td>
+    <td style="text-align: right">4.937.096.030,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.02.03</td>
+    <td>Tambahan Penghasilan berdasarkan Kondisi Kerja ASN</td>
+    <td style="text-align: right">2.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.02.04</td>
+    <td>Tambahan Penghasilan berdasarkan Kelangkaan Profesi ASN</td>
+    <td style="text-align: right">55.854.066.000</td>
+    <td style="text-align: right">259.500.000,00</td>
+    <td style="text-align: right">0,46</td>
+    <td style="text-align: right">259.500.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.03</td>
+    <td>Tambahan Penghasilan berdasarkan Pertimbangan Objektif Lainnya ASN</td>
+    <td style="text-align: right">11.724.044.088</td>
+    <td style="text-align: right">127.170.000,00</td>
+    <td style="text-align: right">1,08</td>
+    <td style="text-align: right">173.110.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.03.01</td>
+    <td>Belanja Insentif bagi ASN atas Pemungutan Pajak Daerah</td>
+    <td style="text-align: right">2.851.920.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.03.02</td>
+    <td>Belanja bagi ASN atas Insentif Pemungutan Retribusi Daerah</td>
+    <td style="text-align: right">1.331.254.088</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.03.06</td>
+    <td>Belanja Jasa Pelayanan Kesehatan bagi ASN</td>
+    <td style="text-align: right">9.500.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.03.07</td>
+    <td>Belanja Honorarium</td>
+    <td style="text-align: right">6.974.570.000</td>
+    <td style="text-align: right">127.170.000,00</td>
+    <td style="text-align: right">1,82</td>
+    <td style="text-align: right">173.110.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.03.08</td>
+    <td>Belanja Jasa Pengelolaan BMD</td>
+    <td style="text-align: right">556.800.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04</td>
+    <td>Belanja Gaji dan Tunjangan DPRD</td>
+    <td style="text-align: right">43.230.660.936</td>
+    <td style="text-align: right">2.162.545.244,00</td>
+    <td style="text-align: right">5,00</td>
+    <td style="text-align: right">2.162.545.244,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.01</td>
+    <td>Belanja Uang Representasi DPRD</td>
+    <td style="text-align: right">2.015.370.000</td>
+    <td style="text-align: right">95.970.000,00</td>
+    <td style="text-align: right">4,76</td>
+    <td style="text-align: right">95.970.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.02</td>
+    <td>Belanja Tunjangan Keluarga DPRD</td>
+    <td style="text-align: right">282.151.800</td>
+    <td style="text-align: right">8.051.400,00</td>
+    <td style="text-align: right">2,85</td>
+    <td style="text-align: right">8.051.400,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.03</td>
+    <td>Belanja Tunjangan Beras DPRD</td>
+    <td style="text-align: right">312.854.400</td>
+    <td style="text-align: right">11.442.360,00</td>
+    <td style="text-align: right">3,66</td>
+    <td style="text-align: right">11.442.360,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.04</td>
+    <td>Belanja Uang Paket DPRD</td>
+    <td style="text-align: right">172.746.000</td>
+    <td style="text-align: right">9.597.000,00</td>
+    <td style="text-align: right">5,56</td>
+    <td style="text-align: right">9.597.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.05</td>
+    <td>Belanja Tunjangan Jabatan DPRD</td>
+    <td style="text-align: right">2.922.286.500</td>
+    <td style="text-align: right">139.156.500,00</td>
+    <td style="text-align: right">4,76</td>
+    <td style="text-align: right">139.156.500,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.06</td>
+    <td>Belanja Tunjangan Alat Kelengkapan DPRD</td>
+    <td style="text-align: right">297.618.300</td>
+    <td style="text-align: right">13.763.400,00</td>
+    <td style="text-align: right">4,62</td>
+    <td style="text-align: right">13.763.400,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.07</td>
+    <td>Belanja Tunjangan Alat Kelengkapan Lainnya DPRD</td>
+    <td style="text-align: right">56.454.300</td>
+    <td style="text-align: right">2.040.150,00</td>
+    <td style="text-align: right">3,61</td>
+    <td style="text-align: right">2.040.150,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.08</td>
+    <td>Belanja Tunjangan Komunikasi Intensif Pimpinan dan Anggota DPRD</td>
+    <td style="text-align: right">11.340.000.000</td>
+    <td style="text-align: right">630.000.000,00</td>
+    <td style="text-align: right">5,56</td>
+    <td style="text-align: right">630.000.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.09</td>
+    <td>Belanja Tunjangan Reses DPRD</td>
+    <td style="text-align: right">1.890.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.10</td>
+    <td>Belanja Pembebanan PPh kepada Pimpinan dan Anggota DPRD</td>
+    <td style="text-align: right">1.028.850.750</td>
+    <td style="text-align: right">42.003.122,00</td>
+    <td style="text-align: right">4,08</td>
+    <td style="text-align: right">42.003.122,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.12</td>
+    <td>Belanja Tunjangan Kesejahteraan Pimpinan dan Anggota DPRD</td>
+    <td style="text-align: right">9.222.923.886</td>
+    <td style="text-align: right">497.721.312,00</td>
+    <td style="text-align: right">5,40</td>
+    <td style="text-align: right">497.721.312,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.13</td>
+    <td>Belanja Tunjangan Transportasi DPRD</td>
+    <td style="text-align: right">12.830.400.000</td>
+    <td style="text-align: right">712.800.000,00</td>
+    <td style="text-align: right">5,56</td>
+    <td style="text-align: right">712.800.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.04.14</td>
+    <td>Belanja Uang Jasa Pengabdian DPRD</td>
+    <td style="text-align: right">859.005.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05</td>
+    <td>Belanja Gaji dan Tunjangan KDH/WKDH</td>
+    <td style="text-align: right">961.654.000</td>
+    <td style="text-align: right">18.845.304,00</td>
+    <td style="text-align: right">1,96</td>
+    <td style="text-align: right">18.845.304,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05.01</td>
+    <td>Belanja Gaji Pokok KDH/WKDH</td>
+    <td style="text-align: right">56.413.000</td>
+    <td style="text-align: right">6.300.000,00</td>
+    <td style="text-align: right">11,17</td>
+    <td style="text-align: right">6.300.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05.02</td>
+    <td>Belanja Tunjangan Keluarga KDH/WKDH</td>
+    <td style="text-align: right">3.024.000</td>
+    <td style="text-align: right">630.000,00</td>
+    <td style="text-align: right">20,83</td>
+    <td style="text-align: right">630.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05.03</td>
+    <td>Belanja Tunjangan Jabatan KDH/WKDH</td>
+    <td style="text-align: right">98.280.000</td>
+    <td style="text-align: right">11.340.000,00</td>
+    <td style="text-align: right">11,54</td>
+    <td style="text-align: right">11.340.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05.04</td>
+    <td>Belanja Tunjangan Beras KDH/WKDH</td>
+    <td style="text-align: right">4.055.520</td>
+    <td style="text-align: right">434.520,00</td>
+    <td style="text-align: right">10,71</td>
+    <td style="text-align: right">434.520,00</td>
+  </tr>
+  <tr>
+    <td>Kode Rekening</td>
+    <td>URAIAN</td>
+    <td>ANGGARAN 2024</td>
+    <td>REALISASI 2024</td>
+    <td style="text-align: right">% 2024</td>
+    <td>REALISASI 2023</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05.05</td>
+    <td>Belanja Tunjangan PPh/Tunjangan Khusus KDH/WKDH</td>
+    <td style="text-align: right">739.240</td>
+    <td style="text-align: right">140.604,00</td>
+    <td style="text-align: right">19,02</td>
+    <td style="text-align: right">140.604,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05.06</td>
+    <td>Belanja Pembulatan Gaji KDH/WKDH</td>
+    <td style="text-align: right">2.240</td>
+    <td style="text-align: right">180,00</td>
+    <td style="text-align: right">8,04</td>
+    <td style="text-align: right">180,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05.10</td>
+    <td>Belanja Insentif bagi KDH/WKDH atas Pemungutan Pajak Daerah</td>
+    <td style="text-align: right">528.990.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.05.11</td>
+    <td>
+      Belanja Insentif bagi KDH/WKDH atas Pemungutan Retribusi Daerah bagi
+      KDH/WKDH
+    </td>
+    <td style="text-align: right">270.150.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.06</td>
+    <td>Belanja Penerimaan Lainnya Pimpinan DPRD serta KDH/WKDH</td>
+    <td style="text-align: right">954.800.000</td>
+    <td style="text-align: right">37.800.000,00</td>
+    <td style="text-align: right">3,96</td>
+    <td style="text-align: right">37.800.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.06.01</td>
+    <td>Belanja Dana Operasional Pimpinan DPRD</td>
+    <td style="text-align: right">604.800.000</td>
+    <td style="text-align: right">37.800.000,00</td>
+    <td style="text-align: right">6,25</td>
+    <td style="text-align: right">37.800.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.06.02</td>
+    <td>Belanja Dana Operasional KDH/WKDH</td>
+    <td style="text-align: right">350.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.99</td>
+    <td>Belanja Pegawai BLUD</td>
+    <td style="text-align: right">16.020.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.01.99.99</td>
+    <td>Belanja Pegawai BLUD</td>
+    <td style="text-align: right">16.020.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02</td>
+    <td>Belanja Barang dan Jasa</td>
+    <td style="text-align: right">393.500.992.249</td>
+    <td style="text-align: right">11.986.776.772,00</td>
+    <td style="text-align: right">3,05</td>
+    <td style="text-align: right">17.316.212.776,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.01</td>
+    <td>Belanja Barang</td>
+    <td style="text-align: right">81.960.537.255</td>
+    <td style="text-align: right">1.286.041.325,00</td>
+    <td style="text-align: right">1,57</td>
+    <td style="text-align: right">1.681.372.350,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.01.01</td>
+    <td>Belanja Barang Pakai Habis</td>
+    <td style="text-align: right">81.960.537.255</td>
+    <td style="text-align: right">1.286.041.325,00</td>
+    <td style="text-align: right">1,57</td>
+    <td style="text-align: right">1.681.372.350,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02</td>
+    <td>Belanja Jasa</td>
+    <td style="text-align: right">163.788.404.324</td>
+    <td style="text-align: right">8.106.079.661,00</td>
+    <td style="text-align: right">4,95</td>
+    <td style="text-align: right">12.398.024.359,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.01</td>
+    <td>Belanja Jasa Kantor</td>
+    <td style="text-align: right">115.006.891.150</td>
+    <td style="text-align: right">3.949.837.653,00</td>
+    <td style="text-align: right">3,43</td>
+    <td style="text-align: right">7.897.314.351,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.02</td>
+    <td>Belanja Iuran Jaminan/Asuransi</td>
+    <td style="text-align: right">18.002.190.320</td>
+    <td style="text-align: right">3.568.370.208,00</td>
+    <td style="text-align: right">19,82</td>
+    <td style="text-align: right">3.857.246.208,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.04</td>
+    <td>Belanja Sewa Peralatan dan Mesin</td>
+    <td style="text-align: right">10.697.040.000</td>
+    <td style="text-align: right">260.304.300,00</td>
+    <td style="text-align: right">2,43</td>
+    <td style="text-align: right">315.896.300,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.05</td>
+    <td>Belanja Sewa Gedung dan Bangunan</td>
+    <td style="text-align: right">1.236.159.854</td>
+    <td style="text-align: right">2.317.500,00</td>
+    <td style="text-align: right">0,19</td>
+    <td style="text-align: right">2.317.500,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.08</td>
+    <td>Belanja Jasa Konsultansi Konstruksi</td>
+    <td style="text-align: right">7.790.609.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.09</td>
+    <td>Belanja Jasa Konsultansi Non Konstruksi</td>
+    <td style="text-align: right">699.811.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.12</td>
+    <td>
+      Belanja Kursus/Pelatihan, Sosialisasi, Bimbingan Teknis serta Pendidikan
+      dan Pelatihan
+    </td>
+    <td style="text-align: right">8.813.638.000</td>
+    <td style="text-align: right">325.250.000,00</td>
+    <td style="text-align: right">3,69</td>
+    <td style="text-align: right">325.250.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.13</td>
+    <td>
+      Belanja Jasa Insentif bagi Pegawai Non ASN atas Pemungutan Pajak Daerah
+    </td>
+    <td style="text-align: right">1.111.065.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.14</td>
+    <td>
+      Belanja Jasa Insentif bagi Pegawai Non ASN atas Pemungutan Retribusi
+      Daerah
+    </td>
+    <td style="text-align: right">340.200.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.02.15</td>
+    <td>Belanja Sewa Aset Tidak Berwujud</td>
+    <td style="text-align: right">90.800.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.03</td>
+    <td>Belanja Pemeliharaan</td>
+    <td style="text-align: right">18.427.649.945</td>
+    <td style="text-align: right">452.372.651,00</td>
+    <td style="text-align: right">2,45</td>
+    <td style="text-align: right">611.679.276,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.03.01</td>
+    <td>Belanja Pemeliharaan Tanah</td>
+    <td style="text-align: right">12.200.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.03.02</td>
+    <td>Belanja Pemeliharaan Peralatan dan Mesin</td>
+    <td style="text-align: right">12.488.671.083</td>
+    <td style="text-align: right">452.372.651,00</td>
+    <td style="text-align: right">3,62</td>
+    <td style="text-align: right">611.679.276,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.03.03</td>
+    <td>Belanja Pemeliharaan Gedung dan Bangunan</td>
+    <td style="text-align: right">5.726.765.410</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.03.04</td>
+    <td>Belanja Pemeliharaan Jalan, Jaringan, dan Irigasi</td>
+    <td style="text-align: right">200.013.452</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.04</td>
+    <td>Belanja Perjalanan Dinas</td>
+    <td style="text-align: right">85.623.144.168</td>
+    <td style="text-align: right">2.076.586.135,00</td>
+    <td style="text-align: right">2,43</td>
+    <td style="text-align: right">2.486.789.791,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.04.01</td>
+    <td>Belanja Perjalanan Dinas Dalam Negeri</td>
+    <td style="text-align: right">85.573.640.168</td>
+    <td style="text-align: right">2.076.586.135,00</td>
+    <td style="text-align: right">2,43</td>
+    <td style="text-align: right">2.486.789.791,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.04.02</td>
+    <td>Belanja Perjalanan Dinas Luar Negeri</td>
+    <td style="text-align: right">49.504.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.05</td>
+    <td>
+      Belanja Uang dan/atau Jasa untuk Diberikan kepada Pihak Ketiga/Pihak
+      Lain/Masyarakat
+    </td>
+    <td style="text-align: right">10.617.040.000</td>
+    <td style="text-align: right">65.697.000,00</td>
+    <td style="text-align: right">0,62</td>
+    <td style="text-align: right">138.347.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.05.01</td>
+    <td>
+      Belanja Uang yang Diberikan kepada Pihak Ketiga/Pihak Lain/Masyarakat
+    </td>
+    <td style="text-align: right">8.862.240.000</td>
+    <td style="text-align: right">65.697.000,00</td>
+    <td style="text-align: right">0,74</td>
+    <td style="text-align: right">138.347.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.05.02</td>
+    <td>
+      Belanja Jasa yang Diberikan kepada Pihak Ketiga/Pihak Lain/Masyarakat
+    </td>
+    <td style="text-align: right">1.754.800.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.88</td>
+    <td>Belanja Barang dan Jasa BOS</td>
+    <td style="text-align: right">14.004.216.557</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.88.88</td>
+    <td>Belanja Barang dan Jasa BOS</td>
+    <td style="text-align: right">14.004.216.557</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.99</td>
+    <td>Belanja Barang dan Jasa BLUD</td>
+    <td style="text-align: right">19.080.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.02.99.99</td>
+    <td>Belanja Barang dan Jasa BLUD</td>
+    <td style="text-align: right">19.080.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05</td>
+    <td>Belanja Hibah</td>
+    <td style="text-align: right">75.683.125.000</td>
+    <td style="text-align: right">1.500.000.000,00</td>
+    <td style="text-align: right">1,98</td>
+    <td style="text-align: right">1.500.000.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.01</td>
+    <td>Belanja Hibah kepada Pemerintah Pusat</td>
+    <td style="text-align: right">27.520.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.01.01</td>
+    <td>Belanja Hibah Uang kepada Pemerintah Pusat</td>
+    <td style="text-align: right">26.220.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.01.02</td>
+    <td>Belanja Hibah Barang kepada Pemerintah Pusat</td>
+    <td style="text-align: right">1.300.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.05</td>
+    <td>
+      Belanja Hibah kepada Badan, Lembaga, Organisasi Kemasyarakatan yang
+      Berbadan Hukum Indonesia
+    </td>
+    <td style="text-align: right">24.755.000.000</td>
+    <td style="text-align: right">1.500.000.000,00</td>
+    <td style="text-align: right">6,06</td>
+    <td style="text-align: right">1.500.000.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.05.01</td>
+    <td>
+      Belanja Hibah kepada Badan dan Lembaga yang Bersifat Nirlaba, Sukarela dan
+      Sosial yang Dibentuk Berdasarkan<br />Peraturan Perundang-Undangan
+    </td>
+    <td style="text-align: right">2.355.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.05.02</td>
+    <td>
+      Belanja Hibah kepada Badan dan Lembaga Nirlaba, Sukarela dan Sosial yang
+      Telah Memiliki Surat Keterangan<br />Terdaftar
+    </td>
+    <td style="text-align: right">17.000.000.000</td>
+    <td style="text-align: right">1.500.000.000,00</td>
+    <td style="text-align: right">8,82</td>
+    <td style="text-align: right">1.500.000.000,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.05.03</td>
+    <td>
+      Belanja Hibah kepada Badan dan Lembaga Nirlaba, Sukarela Bersifat Sosial
+      Kemasyarakatan
+    </td>
+    <td style="text-align: right">5.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.05.06</td>
+    <td>
+      Belanja Hibah kepada Organisasi Kemasyarakatan yang Berbadan Hukum
+      Indonesia
+    </td>
+    <td style="text-align: right">400.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.06</td>
+    <td>Belanja Hibah Dana BOS</td>
+    <td style="text-align: right">21.986.600.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.06.02</td>
+    <td>Belanja Hibah Uang Dana BOS yang Diterima oleh Satdikdas Swasta</td>
+    <td style="text-align: right">21.986.600.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.07</td>
+    <td>Belanja Hibah Bantuan Keuangan kepada Partai Politik</td>
+    <td style="text-align: right">1.421.525.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.05.07.01</td>
+    <td>Belanja Hibah Bantuan Keuangan kepada Partai Politik</td>
+    <td style="text-align: right">1.421.525.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.06</td>
+    <td>Belanja Bantuan Sosial</td>
+    <td style="text-align: right">6.880.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.06.04</td>
+    <td>
+      Belanja Bantuan Sosial kepada Lembaga Non Pemerintahan (Bidang Pendidikan,
+      Keagamaan dan Bidang Lainnya)
+    </td>
+    <td style="text-align: right">6.880.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.1.06.04.01</td>
+    <td>
+      Belanja Bantuan Sosial Uang yang direncanakan kepada Lembaga Non
+      Pemerintahan (Bidang Pendidikan,<br />Keagamaan dan Bidang Lainnya)
+    </td>
+    <td style="text-align: right">6.880.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH BELANJA OPERASI</td>
+    <td style="text-align: right">1.129.536.219.707</td>
+    <td style="text-align: right">76.219.089.172,00</td>
+    <td style="text-align: right">6,75</td>
+    <td style="text-align: right">86.936.062.326,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2</td>
+    <td>BELANJA MODAL</td>
+    <td style="text-align: right">129.441.182.729</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+    <td style="text-align: right">2,08</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.01</td>
+    <td>Belanja Modal Tanah</td>
+    <td style="text-align: right">16.232.071.917</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+    <td style="text-align: right">16,61</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.01.01</td>
+    <td>Belanja Modal Tanah</td>
+    <td style="text-align: right">16.232.071.917</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+    <td style="text-align: right">16,61</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.01.01.01</td>
+    <td>Belanja Modal Tanah Persil</td>
+    <td style="text-align: right">16.232.071.917</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+    <td style="text-align: right">16,61</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02</td>
+    <td>Belanja Modal Peralatan dan Mesin</td>
+    <td style="text-align: right">31.248.295.434</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.01</td>
+    <td>Belanja Modal Alat Besar</td>
+    <td style="text-align: right">1.600.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.01.01</td>
+    <td>Belanja Modal Alat Besar Darat</td>
+    <td style="text-align: right">1.600.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.02</td>
+    <td>Belanja Modal Alat Angkutan</td>
+    <td style="text-align: right">624.091.736</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.02.01</td>
+    <td>Belanja Modal Alat Angkutan Darat Bermotor</td>
+    <td style="text-align: right">624.091.736</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.04</td>
+    <td>Belanja Modal Alat Pertanian</td>
+    <td style="text-align: right">1.205.677.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.04.01</td>
+    <td>Belanja Modal Alat Pengolahan</td>
+    <td style="text-align: right">1.205.677.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.05</td>
+    <td>Belanja Modal Alat Kantor dan Rumah Tangga</td>
+    <td style="text-align: right">8.349.080.798</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.05.01</td>
+    <td>Belanja Modal Alat Kantor</td>
+    <td style="text-align: right">5.341.666.324</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.05.02</td>
+    <td>Belanja Modal Alat Rumah Tangga</td>
+    <td style="text-align: right">3.007.414.474</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.06</td>
+    <td>Belanja Modal Alat Studio, Komunikasi, dan Pemancar</td>
+    <td style="text-align: right">209.656.784</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.06.01</td>
+    <td>Belanja Modal Alat Studio</td>
+    <td style="text-align: right">209.656.784</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.07</td>
+    <td>Belanja Modal Alat Kedokteran dan Kesehatan</td>
+    <td style="text-align: right">5.119.649.910</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.07.02</td>
+    <td>Belanja Modal Alat Kesehatan Umum</td>
+    <td style="text-align: right">5.119.649.910</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.08</td>
+    <td>Belanja Modal Alat Laboratorium</td>
+    <td style="text-align: right">3.208.298.655</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td>Kode Rekening</td>
+    <td>URAIAN</td>
+    <td>ANGGARAN 2024</td>
+    <td>REALISASI 2024</td>
+    <td style="text-align: right">% 2024</td>
+    <td>REALISASI 2023</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.08.01</td>
+    <td>Belanja Modal Unit Alat Laboratorium</td>
+    <td style="text-align: right">2.387.025</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.08.03</td>
+    <td>Belanja Modal Alat Peraga Praktek Sekolah</td>
+    <td style="text-align: right">3.205.911.630</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.10</td>
+    <td>Belanja Modal Komputer</td>
+    <td style="text-align: right">4.170.315.344</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.10.01</td>
+    <td>Belanja Modal Komputer Unit</td>
+    <td style="text-align: right">2.246.079.205</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.10.02</td>
+    <td>Belanja Modal Peralatan Komputer</td>
+    <td style="text-align: right">1.924.236.139</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.11</td>
+    <td>Belanja Modal Alat Eksplorasi</td>
+    <td style="text-align: right">20.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.11.02</td>
+    <td>Belanja Modal Alat Eksplorasi Geofisika</td>
+    <td style="text-align: right">20.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.18</td>
+    <td>Belanja Modal Rambu-Rambu</td>
+    <td style="text-align: right">47.006.080</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.18.01</td>
+    <td>Belanja Modal Rambu-Rambu Lalu Lintas Darat</td>
+    <td style="text-align: right">47.006.080</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.88</td>
+    <td>Belanja Modal Peralatan dan Mesin BOS</td>
+    <td style="text-align: right">5.794.519.127</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.88.88</td>
+    <td>Belanja Modal Peralatan dan Mesin BOS</td>
+    <td style="text-align: right">5.794.519.127</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.99</td>
+    <td>Belanja Modal Peralatan dan Mesin BLUD</td>
+    <td style="text-align: right">900.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.02.99.99</td>
+    <td>Belanja Modal Peralatan dan Mesin BLUD</td>
+    <td style="text-align: right">900.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.03</td>
+    <td>Belanja Modal Gedung dan Bangunan</td>
+    <td style="text-align: right">20.363.121.580</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.03.01</td>
+    <td>Belanja Modal Bangunan Gedung</td>
+    <td style="text-align: right">20.319.121.580</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.03.01.01</td>
+    <td>Belanja Modal Bangunan Gedung Tempat Kerja</td>
+    <td style="text-align: right">19.357.427.909</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.03.01.02</td>
+    <td>Belanja Modal Bangunan Gedung Tempat Tinggal</td>
+    <td style="text-align: right">961.693.671</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.03.02</td>
+    <td>Belanja Modal Monumen</td>
+    <td style="text-align: right">44.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.03.02.01</td>
+    <td>Belanja Modal Candi/Tugu Peringatan/Prasasti</td>
+    <td style="text-align: right">44.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.04</td>
+    <td>Belanja Modal Jalan, Jaringan, dan Irigasi</td>
+    <td style="text-align: right">58.792.329.482</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.04.01</td>
+    <td>Belanja Modal Jalan dan Jembatan</td>
+    <td style="text-align: right">38.892.329.482</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.04.01.01</td>
+    <td>Belanja Modal Jalan</td>
+    <td style="text-align: right">38.772.329.482</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.04.01.02</td>
+    <td>Belanja Modal Jembatan</td>
+    <td style="text-align: right">120.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.04.02</td>
+    <td>Belanja Modal Bangunan Air</td>
+    <td style="text-align: right">19.900.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.04.02.01</td>
+    <td>Belanja Modal Bangunan Air Irigasi</td>
+    <td style="text-align: right">14.800.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.04.02.04</td>
+    <td>
+      Belanja Modal Bangunan Pengaman Sungai/Pantai dan Penanggulangan Bencana
+      Alam
+    </td>
+    <td style="text-align: right">5.100.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.05</td>
+    <td>Belanja Modal Aset Tetap Lainnya</td>
+    <td style="text-align: right">2.805.364.316</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.05.01</td>
+    <td>Belanja Modal Bahan Perpustakaan</td>
+    <td style="text-align: right">44.500.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.05.01.01</td>
+    <td>Belanja Modal Bahan Perpustakaan Tercetak</td>
+    <td style="text-align: right">44.500.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.05.02</td>
+    <td>Belanja Modal Barang Bercorak Kesenian/Kebudayaan/Olahraga</td>
+    <td style="text-align: right">181.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.05.02.01</td>
+    <td>Belanja Modal Barang Bercorak Kesenian</td>
+    <td style="text-align: right">56.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.05.02.02</td>
+    <td>Belanja Modal Alat Bercorak Kebudayaan</td>
+    <td style="text-align: right">125.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.05.88</td>
+    <td>Belanja Modal Aset Tetap Lainnya BOS</td>
+    <td style="text-align: right">2.579.864.316</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.2.05.88.88</td>
+    <td>Belanja Modal Aset Tetap Lainnya BOS</td>
+    <td style="text-align: right">2.579.864.316</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH BELANJA MODAL</td>
+    <td style="text-align: right">129.441.182.729</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+    <td style="text-align: right">2,08</td>
+    <td style="text-align: right">2.696.024.591,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.3</td>
+    <td>BELANJA TIDAK TERDUGA</td>
+    <td style="text-align: right">9.783.103.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.3.01</td>
+    <td>Belanja Tidak Terduga</td>
+    <td style="text-align: right">9.783.103.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.3.01.01</td>
+    <td>Belanja Tidak Terduga</td>
+    <td style="text-align: right">9.783.103.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">5.3.01.01.01</td>
+    <td>Belanja Tidak Terduga</td>
+    <td style="text-align: right">9.783.103.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH BELANJA TAK TERDUGA</td>
+    <td style="text-align: right">9.783.103.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH BELANJA</td>
+    <td style="text-align: right">1.268.760.505.436</td>
+    <td style="text-align: right">78.915.113.763,00</td>
+    <td style="text-align: right">6,22</td>
+    <td style="text-align: right">89.632.086.917,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>SURPLUS/DEFISIT</td>
+    <td style="text-align: right">(240.216.004.227)</td>
+    <td style="text-align: right">21.742.609.138,89</td>
+    <td style="text-align: right">(9,05)</td>
+    <td style="text-align: right">11.054.508.984,89</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6</td>
+    <td>PEMBIAYAAN DAERAH</td>
+    <td style="text-align: right">55.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6.1</td>
+    <td>PENERIMAAN PEMBIAYAAN</td>
+    <td style="text-align: right">65.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6.1.01</td>
+    <td>Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya</td>
+    <td style="text-align: right">65.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6.1.01.07</td>
+    <td>
+      Sisa Dana Akibat Tidak Tercapainya Capaian Target Kinerja dan Sisa Dana
+      Pengeluaran Pembiayaan
+    </td>
+    <td style="text-align: right">65.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6.1.01.07.01</td>
+    <td>Sisa Dana Akibat Tidak Tercapainya Capaian Target Kinerja</td>
+    <td style="text-align: right">65.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH PENERIMAAN PEMBIAYAAN</td>
+    <td style="text-align: right">65.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6.2</td>
+    <td>PENGELUARAN PEMBIAYAAN</td>
+    <td style="text-align: right">10.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6.2.02</td>
+    <td>Penyertaan Modal Daerah</td>
+    <td style="text-align: right">10.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6.2.02.02</td>
+    <td>Penyertaan Modal Daerah pada Badan Usaha Milik Daerah (BUMD)</td>
+    <td style="text-align: right">10.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">6.2.02.02.01</td>
+    <td>Penyertaan Modal Daerah pada BUMD</td>
+    <td style="text-align: right">10.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JUMLAH PENGELUARAN PEMBIAYAAN</td>
+    <td style="text-align: right">10.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>PEMBIAYAAN NETTO</td>
+    <td style="text-align: right">55.000.000.000</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+    <td style="text-align: right">0,00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>SISA LEBIH PEMBIAYAAN ANGGARAN</td>
+    <td style="text-align: right">(185.216.004.227)</td>
+    <td style="text-align: right">21.742.609.138,89</td>
+    <td style="text-align: right">(11,74)</td>
+    <td style="text-align: right">11.054.508.984,89</td>
+  </tr>
+  
+                   </tbody>
+                  </table>
                 </div>
               </div>
             </div>
