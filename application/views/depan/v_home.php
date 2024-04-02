@@ -1687,6 +1687,19 @@
                           ><i class="fas fa-exclamation-circle"></i> Opini Publik</a
                         >
                       </li>
+
+                      <li class="has-dropdown">
+    <span>
+        <a href="#" >Mitra Pemko</a>
+        <i class="idrop fas fa-caret-down"></i>
+    </span>
+    <ul>
+        <li><a href="https://kejari-pematangsiantar.kejaksaan.go.id/" target="_blank">Kejaksaan Negeri Pematangsiantar</a></li>
+    </ul>
+</li>
+
+                     
+
                     </ul>
                   </div>
                 </div>
@@ -2245,20 +2258,21 @@
                       </div>
                     </a>
                   </div>
-                  <div class="element" data-containt="TRANSPARANSI KEUANGAN">
+                  <div class="element" data-containt="LAYANAN KEJAKSAAN NEGERI">
                     <a
-                      href="<?php echo site_url('transparansi');?>"
+                      href="https://kejari-pematangsiantar.kejaksaan.go.id/#layananpublik"
+                      target="_blank"
                       class="thumboverlay"
                     >
                       <div class="thumboverlay__inner">
                         <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/assets/img/transparansi keuangan.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/layanan_kejaksaan.png'); ?>"
                           alt="img"
                         />
                         </div>
                         <h3 class="thumboverlay__title">
-                          Transparansi Keuangan
+                          Layanan Kejaksaan Negeri
                         </h3>
                       </div>
                     </a>

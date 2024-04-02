@@ -1654,6 +1654,16 @@
                           ><i class="fas fa-exclamation-circle"></i> Opini Publik</a
                         >
                       </li>
+
+                      <li class="has-dropdown">
+    <span>
+        <a href="#" >Mitra Pemko</a>
+        <i class="idrop fas fa-caret-down"></i>
+    </span>
+    <ul>
+        <li><a href="https://kejari-pematangsiantar.kejaksaan.go.id/" target="_blank">Kejaksaan Negeri Pematangsiantar</a></li>
+    </ul>
+</li>
                     </ul>
                   </div>
                 </div>
