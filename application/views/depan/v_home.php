@@ -2198,7 +2198,7 @@
                     </a>
                   </div>
                   <div class="element" data-containt="PELAYANAN INFORMASI PUBLIK">
-  <a href="https://ppid.pematangsiantar.go.id/" class="thumboverlay" target="_blank">
+  <a href="http://ppid.pematangsiantar.go.id/" class="thumboverlay" target="_blank">
     <div class="thumboverlay__inner">
       <div class="thumboverlay__img">
         <img src="<?php echo base_url('theme/depan/assets/img/pelayanan informasi publik.png'); ?>" alt="img" />
