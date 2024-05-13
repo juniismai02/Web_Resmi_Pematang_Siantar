@@ -1531,7 +1531,7 @@
               <div class="menu__wrap">
                 <div class="menu__left">
                   <div class="menu__utama">
-                    <ul>
+                  <ul>
                       <li class="active">
                         <span
                           ><a class="smuroll" href="<?php echo site_url('');?>"
@@ -1553,10 +1553,36 @@
                           <i class="idrop fas fa-caret-down"></i
                         ></span>
                         <ul>
+                          
                           <li><a href="<?php echo site_url('anggaran');?>">Dokumen Anggaran</a></li>
                           <li>
                             <a href="<?php echo site_url('perencanaan');?>"
                               >Dokumen Perencanaan</a
+                            >
+                          </li>
+                          <li>
+                            <a href="<?php echo site_url('pendapatan_daerah');?>"
+                              >Pendapatan Daerah</a
+                            >
+                          </li>
+                          <li>
+                            <a href="<?php echo site_url('lra_kota');?>"
+                              >LRA Kota Pematangsiantar 2023 per SKPD</a
+                            >
+                          </li>
+                          <li>
+                            <a href="<?php echo site_url('rak_skpd');?>"
+                              >RAK SKPD 2023 PAPBD</a
+                            >
+                          </li>
+                          <li>
+                            <a href="<?php echo site_url('rekap_dppa');?>"
+                              >Rekap DPPA 2023</a
+                            >
+                          </li>
+                          <li>
+                            <a href="<?php echo site_url('rka_2023');?>"
+                              >RKA 2023</a
                             >
                           </li>
                           <li><a href="<?php echo site_url('foto');?>">Foto Wali Kota dan Forkopimda</a></li>
@@ -1614,6 +1640,9 @@
         <li><a href="https://kejari-pematangsiantar.kejaksaan.go.id/" target="_blank">Kejaksaan Negeri Pematangsiantar</a></li>
     </ul>
 </li>
+
+                     
+
                     </ul>
                   </div>
                 </div>
