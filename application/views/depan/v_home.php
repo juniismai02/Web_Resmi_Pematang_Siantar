@@ -1637,6 +1637,7 @@
                         ></span>
                         <ul>
                           
+                          <li><a href="<?php echo site_url('video');?>">Video</a></li>
                           <li><a href="<?php echo site_url('anggaran');?>">Dokumen Anggaran</a></li>
                           <li>
                             <a href="<?php echo site_url('perencanaan');?>"

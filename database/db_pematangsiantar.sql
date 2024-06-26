@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 25, 2024 at 04:33 PM
+-- Generation Time: Jun 26, 2024 at 06:23 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -703,7 +703,8 @@ INSERT INTO `tbl_pengunjung` (`pengunjung_id`, `pengunjung_tanggal`, `pengunjung
 (1136, '2024-06-20 02:14:50', '::1', 'Chrome'),
 (1137, '2024-06-22 09:11:14', '::1', 'Chrome'),
 (1138, '2024-06-24 03:05:00', '::1', 'Chrome'),
-(1139, '2024-06-25 07:27:21', '::1', 'Chrome');
+(1139, '2024-06-25 07:27:21', '::1', 'Chrome'),
+(1140, '2024-06-26 03:19:28', '::1', 'Chrome');
 
 -- --------------------------------------------------------
 
@@ -1617,7 +1618,7 @@ ALTER TABLE `tbl_album`
 -- AUTO_INCREMENT for table `tbl_files`
 --
 ALTER TABLE `tbl_files`
-  MODIFY `file_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
+  MODIFY `file_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=174;
 
 --
 -- AUTO_INCREMENT for table `tbl_galeri`
@@ -1677,7 +1678,7 @@ ALTER TABLE `tbl_pengumuman`
 -- AUTO_INCREMENT for table `tbl_pengunjung`
 --
 ALTER TABLE `tbl_pengunjung`
-  MODIFY `pengunjung_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1140;
+  MODIFY `pengunjung_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1141;
 
 --
 -- AUTO_INCREMENT for table `tbl_siswa`

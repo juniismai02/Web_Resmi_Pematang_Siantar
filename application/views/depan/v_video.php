@@ -6,20 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Website Resmi Kota Pematangsiantar - Transparansi Kota Pematangsiantar
+      Website Resmi Kota Pematangsiantar - Video Kota Pematangsiantar
+
     </title>
     <meta
       name="title"
-      content="Website Resmi Kota Pematangsiantar - Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Video Kota Pematangsiantar
+"
     />
     <meta
       name="description"
       itemprop="description"
-      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Video Kota Pematangsiantar
+"
     />
     <meta
       name="keywords"
-      content="Pematangsiantar, kota Pematangsiantar, pemerintah kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
+      content="pematangsiantar, Kota Pematangsiantar, pemerintah Kota Pematangsiantar, berita dan topik, informasi, sosialisasi, agenda, direktori kota, fitur"
     />
 
     <!-- Favicon Icon -->
@@ -28,11 +31,12 @@
     <!-- Meta -->
     <meta
       itemprop="name"
-      content="Website Resmi Kota Pematangsiantar - Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Video Kota Pematangsiantar
+"
     />
-    <meta itemprop="image" content="assets/images/sharePematangsiantar.png" />
+    <meta itemprop="image" content="assets/images/sharepematangsiantar.png" />
     <meta itemprop="articleSection" content="city-directory.html" />
-    <meta itemprop="thumbnailUrl" content="assets/images/sharePematangsiantar.png" />
+    <meta itemprop="thumbnailUrl" content="assets/images/sharepematangsiantar.png" />
     <meta
       name="google-site-verification"
       content="dl7_dxHbryDGPD1ZJpaNztEcbAEV7K8fVzc5wD1Malo"
@@ -51,14 +55,16 @@
     <meta property="og:site_name" content="index.html" />
     <meta
       property="og:title"
-      content="Website Resmi Kota Pematangsiantar - Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Video Kota Pematangsiantar
+"
     />
     <meta property="og:url" content="city-directory.html" />
     <meta
       property="og:description"
-      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Video Kota Pematangsiantar
+"
     />
-    <meta property="og:image" content="assets/images/sharePematangsiantar.png" />
+    <meta property="og:image" content="assets/images/sharepematangsiantar.png" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="315" />
 
@@ -68,31 +74,33 @@
       content="summary_large_image"
       data-dynamic="true"
     />
-    <meta name="twitter:site" content="@humasPematangsiantar_" />
-    <meta name="twitter:creator" content="@humasPematangsiantar_" />
+    <meta name="twitter:site" content="@humaspematangsiantar_" />
+    <meta name="twitter:creator" content="@humaspematangsiantar_" />
     <meta
       name="twitter:title"
-      content="Website Resmi Kota Pematangsiantar - Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Video Kota Pematangsiantar
+"
       data-dynamic="true"
     />
     <meta
       name="twitter:description"
-      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Direktori Kota Informasi Dinas Terkait"
+      content="Website Resmi Kota Pematangsiantar - Menyajikan Seputar Video Kota Pematangsiantar
+"
       data-dynamic="true"
     />
     <meta
       name="twitter:image"
-      content="https://www.Pematangsiantar.go.id/assets/images/sharePematangsiantar.png"
+      content="https://www.pematangsiantar.go.id/assets/images/sharepematangsiantar.png"
       data-dynamic="true"
     />
     <meta
       name="twitter:url"
-      content="https://www.Pematangsiantar.go.id/city-directory"
+      content="https://www.pematangsiantar.go.id/city-directory"
       data-dynamic="true"
     />
     <meta
       name="twitter:domain"
-      content="https://www.Pematangsiantar.go.id"
+      content="https://www.pematangsiantar.go.id"
       data-dynamic="true"
     />
 
@@ -1512,64 +1520,6 @@
       }
     </script>
 
-<style>
-    /* CSS untuk mengatur ukuran dan posisi iframe */
-    /* CSS untuk mengatur ukuran dan posisi iframe */
-iframe {
-  width: 100%;
-  height: 600px;
-  border: none;
-}
-
-/* CSS untuk mengatur tampilan judul */
-h1 {
-  text-align: center;
-  font-size: 36px;
-  margin-top: 50px;
-  color: #333;
-}
-
-/* CSS untuk mengatur tampilan deskripsi */
-h4 {
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 50px;
-  color: #555;
-}
-
-/* CSS untuk mengatur tampilan tombol */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 18px;
-  margin-bottom: 50px;
-  transition: background-color 0.3s ease;
-
-  /* Efek hover pada tombol */
-  &:hover {
-    background-color: #0056b3;
-    color: #fff;
-  }
-}
-
-
-/* CSS untuk mengatur tampilan container */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 50px;
-  text-align: center;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  background-color: #fff;
-  border-radius: 5px;
-}
-
-  </style>
-
     <!-- END OF DISABILITAS -->
   </head>
 
@@ -1765,7 +1715,7 @@ h4 {
                 </div>
               </div>
             </div>
-            <form action="https://www.Pematangsiantar.go.id/search" method="get">
+            <form action="https://www.pematangsiantar.go.id/search" method="get">
               <div class="search__form-outer">
                 <div class="search__form">
                   <input type="text" name="key" />
@@ -1781,21 +1731,41 @@ h4 {
           <div class="sectionrow">
             <div class="dinasterkait">
               <div class="xsection__header">
-                <h1 class="xsection__title">Laporan Transparansi Keuangan Kota Pematangsiantar</h1>
+                <h1 class="xsection__title">Video Kota Pematangsiantar</h1>
               </div>
               <div class="dinasterkait__body">
                 <div class="zentable-outer">
-                 <!-- Content -->
-                 <div class="pdf-container">
-  <iframe src="https://drive.google.com/file/d/1oibaszpGz4gSPMZq_ZttY8QfztbfxNPF/preview" frameborder="0"></iframe>
-</div>
+                  <table class="zentable cityd-table" id="myTable">
+                    <thead>
+                      <tr>
+                        <td>No</td>
+                        <td>Nama File</td>
+                        <!-- <td>Tanggal Upload</td> -->
+                        <td>Alamat Link/Unduh</td>
+                      </tr>
+                    </thead>
+                   <tbody>
+                   
+                          <tr>
+                              <td>1</td>
+                              <td>VIDEO INDONESIA RAYA</td>
+                             
+                              <td style="text-align:center;">
+                                  <a href="https://drive.google.com/uc?export=download&id=13g-hndQaVRjH_oPhTeE-tChpZ2EX5sos
+" class="btn btn-info">
+                                      <i class="fa fa-download" aria-hidden="true" style="color: #253B7B; font-size: 24px;"></i>
+                                  </a>
+                              </td>
+                          </tr>
+                    
+                   </tbody>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <footer class="bg-blue">
         <div class="wrapper">
           <div class="footer">
@@ -1874,6 +1844,7 @@ h4 {
     </a>
     <!-- ============================= end-back-to-top ============================= -->
   </body>
+    
   <!-- js_plugins -->
   <script src="<?php echo base_url().'theme/depan/assets/js/jquery.min.js'?>"></script>
   <script src="<?php echo base_url().'theme/depan/assets/js/datatable.js'?>"></script>
