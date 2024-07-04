@@ -2748,6 +2748,16 @@ endforeach;
   <script src="<?php echo base_url().'theme/depan/assets/js/jquery.min.js'?>"></script>
   <script src="<?php echo base_url().'theme/depan/assets/js/datatable.js'?>"></script>
   <script src="<?php echo base_url().'theme/depan/assets/plugins/slick/js/slick.min.js'?>"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RL2W8YJ6D9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RL2W8YJ6D9');
+</script>
   <!-- js_main-->
   <script src="<?php echo base_url().'theme/depan/assets/js/main.js'?>"></script>
   <script src="<?php echo base_url().'theme/depan/assets/js/custom.js'?>"></script>
