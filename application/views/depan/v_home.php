@@ -2443,19 +2443,20 @@ endforeach;
           <section class="slick-govideo-slider">
   <?php
   // Menggunakan link Google Drive yang baru
-  $googleDriveLink = "https://drive.google.com/file/d/1NxnG_iKTGeI0QOYF1quqTWlESSjy1y04/view?google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D6f968269005e9551:TM%3D1706851946:C%3Dr:IP%3D180.251.215.68-:S%3DHzp3QxvyP_XSpkIuQBPDN8w%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DFri,+02-Feb-2024+08:32:26+GMT";
+  $googleDriveLink = "https://drive.google.com/file/d/1X937ihejvJJYHl_yqru1Z0_Kn9FlTrLE/view?usp=sharing";
 
   // Memasukkan ID file dari link Google Drive yang baru
-  $fileID = "1NxnG_iKTGeI0QOYF1quqTWlESSjy1y04";
+  $fileID = "1X937ihejvJJYHl_yqru1Z0_Kn9FlTrLE";
 
   // Menggunakan iframe untuk menampilkan PDF dari Google Drive
   ?>
   <div class="newsslider__row">
     <div class="newsslider__img">
-      <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://drive.google.com/uc?id=<?php echo $fileID; ?>" frameborder="0" width="100%" height="500px"></iframe>
+      <iframe src="https://drive.google.com/file/d/<?php echo $fileID; ?>/preview" frameborder="0" width="100%" height="500px"></iframe>
     </div>
   </div>
 </section>
+
 
 
           </div>
