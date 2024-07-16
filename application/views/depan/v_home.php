@@ -2487,7 +2487,7 @@ endforeach;
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/nSMBsOc5r2g"
+                    src="https://www.youtube.com/embed/LG_fPYBFaF4"
                     title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2499,7 +2499,7 @@ endforeach;
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/VS6IDdiYCWs"
+                    src="https://www.youtube.com/embed/5x1dFz6kQrE"
                     title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
