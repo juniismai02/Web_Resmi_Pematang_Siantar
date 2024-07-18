@@ -1836,6 +1836,8 @@
     <script>
       // Data contoh
       const data = [
+		  { NamaFile: 'Perwa No 19 Tentang RKPD Kota Pematangsiantar Tahun 2024.', TanggalUpload: '11 November 2022', AlamatLink: 'https://drive.google.com/file/d/1IIATiN0POVGBHjIHJ5IZES1ordXckb0x/view' },
+		  { NamaFile: ' Lakip Pemko 2023 Lengkap TTD.', TanggalUpload: '11 November 2022', AlamatLink: 'https://drive.google.com/file/d/1mgiqh7DYi2ilvWoIHh8psmMmikMYfZIJ/view' },
 		  { NamaFile: 'Pengisian Link Kuesioner Penjaringan Isu Strategis RPJDP Kota Pematangsiantar Tahun 2025 - 2045.', TanggalUpload: '5 Oktober 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/10/DOC-20231009-WA0012.pdf' },
           { NamaFile: 'RKPD Kota Pematangsiantar Tahun 2021', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/08/RKPD-Kota-Pematang-Siantar-Tahun-2021.pdf' },
           { NamaFile: 'P RKPD Kota Pematangsiantar Tahun 2021', TanggalUpload: '2 Agustus 2021', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/08/P-RKPD-Kota-Pematangsiantar-Tahun-2021.pdf' },
