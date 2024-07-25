@@ -185,7 +185,7 @@
     }
 
     .toolbar-disabilitas .open-toolbar {
-        background: #4054b2;
+        background: #129C4E;
 
     }
 
