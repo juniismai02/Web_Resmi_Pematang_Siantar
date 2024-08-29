@@ -269,7 +269,7 @@
       }
 
       .toolbar-disabilitas .open-toolbar {
-        background: #129C4E;
+        background: #084A83;
       }
 
       .toolbar-disabilitas .groupcontenttoolbar {
@@ -1736,18 +1736,19 @@
               </div>
               <div class="dinasterkait__body">
                 <div class="zentable-outer">
-                  <table class="zentable cityd-table" id="myTable">
-                    <thead>
-                      <tr>
-                        <td>Nama File</td>
-                        <td>Tanggal Upload</td>
-                        <td>Alamat Link/Unduh</td>
-                      </tr>
-                    </thead>
-                   <tbody>
-                   
-                   </tbody>
-                  </table>
+                <table class="zentable cityd-table" id="myTable" >
+    <thead>
+        <tr>
+            <td>Nama File</td>
+            <td>Tanggal Upload</td>
+            <td>Alamat Link/Unduh</td>
+        </tr>
+    </thead>
+    <tbody>
+       
+    </tbody>
+</table>
+
                 </div>
               </div>
             </div>
@@ -1850,7 +1851,7 @@
           { NamaFile: 'RPJMD Pematangsiantar 2022-2027', TanggalUpload: '11 November 2022', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/RPJMD-Kota-Pematang-Siantar-Tahun-2022-2027.pdf' },
           { NamaFile: 'RKPD Kota Pematangsiantar Tahun 2023', TanggalUpload: '11 Juli 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2022/09/Peraturan-Wali-Kota-Pematang-Siantar-Nomor-12-Tahun-2022-Tentang-Rencana-Kerja-Pemerintah-Daerah-Kota-Pematang-Siantar-Tahun-2023-dikompresi.pdf' },
           { NamaFile: 'RKPD Kota Pematangsiantar 2024', TanggalUpload: '14 Juli 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERWA-NO-19-Tahun-2023-TTG-RKPD-KOTA-PS-TAHUN-2024.pdf' },
-		  { NamaFile: 'Perubahan RKPD Kota Pematangsiantar Tahun 2023', TanggalUpload: '28 Agustus 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERKADA-NO-28-TENTANG-P-RKPD-KOTA-PEMATANG-SIANTAR-TAHUN-2023.pdf' },
+		  { NamaFile: 'Perubahan RKPD Kota Pematangsiantar Tahun 2023', TanggalUpload: '28 Agustus 2023', AlamatLink: 'https://pematangsiantar.go.id/download/get_file/173' },
 		  { NamaFile: 'Lakip Bappeda kota Pematangsiantar', TanggalUpload: '15 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Lakip-Coaching-cliniq.pdf' },
 		  { NamaFile: 'Perjanjian Kinerja Bappeda kota Pematangsiantar', TanggalUpload: '15 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/PERJANJIAN-KINERJA-MASING-MASING-JABATAN.pdf' },
 		  { NamaFile: 'Rencana Strategis Bappeda kota Pematangsiantar Tahun 2022-2027', TanggalUpload: '21 September 2023', AlamatLink: 'https://bappeda.pematangsiantar.go.id/wp-content/uploads/2023/09/Rencana-Strategis.pdf' },

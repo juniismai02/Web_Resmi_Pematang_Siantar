@@ -261,7 +261,7 @@
       }
 
       .toolbar-disabilitas .open-toolbar {
-        background: #129C4E;
+        background: #084A83;
       }
 
       .toolbar-disabilitas .groupcontenttoolbar {

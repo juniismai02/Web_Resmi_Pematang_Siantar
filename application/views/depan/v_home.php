@@ -96,6 +96,49 @@
     <!-- DISABILITAS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <style>
+      .d-only {
+  display: none;
+}
+
+.m-only {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .d-only {
+    display: block;
+  }
+
+  .m-only {
+    display: none;
+  }
+}
+
+    </style>
+    <script>
+      window.addEventListener('resize', function() {
+  var dOnlyElements = document.querySelectorAll('.d-only');
+  var mOnlyElements = document.querySelectorAll('.m-only');
+  
+  if (window.innerWidth >= 768) {
+    dOnlyElements.forEach(function(el) {
+      el.style.display = 'block';
+    });
+    mOnlyElements.forEach(function(el) {
+      el.style.display = 'none';
+    });
+  } else {
+    dOnlyElements.forEach(function(el) {
+      el.style.display = 'none';
+    });
+    mOnlyElements.forEach(function(el) {
+      el.style.display = 'block';
+    });
+  }
+});
+
+    </script>
+    <style>
       .btn-container {
         margin-bottom: 10px;
         text-align: center;
@@ -234,7 +277,7 @@
       }
 
       .toolbar-disabilitas .open-toolbar {
-        background: #129C4E;
+        background: #084A83;
       }
 
       .toolbar-disabilitas .groupcontenttoolbar {
@@ -1503,7 +1546,11 @@
       <div class="slick-home">
         <?php $counter = 0; ?>
         <?php foreach ($all_galeri->result() as $galeri): ?>
-          <?php if ($galeri->album_nama == 'Header Beranda' && $counter < 10): ?>
+          <?php 
+            $isDesktop = strpos($_SERVER['HTTP_USER_AGENT'], 'Mobile') === false;
+            $category = $isDesktop ? 'Header Beranda' : 'Header Beranda Mobile';
+          ?>
+          <?php if ($galeri->album_nama == $category && $counter < 10): ?>
             <div class="slickwrap">
               <div class="homeimg">
                 <img
@@ -1538,6 +1585,7 @@
     </div>
   </div>
 </div>
+
 
 
 
@@ -2166,7 +2214,7 @@
                       <div class="thumboverlay__inner">
                       <div class="thumboverlay__img">
                         <img
-                          src="<?php echo base_url('theme/depan/assets/img/PEMERINTAH KOTA Pematang Siantar.png'); ?>"
+                          src="<?php echo base_url('theme/depan/assets/img/pemerintah.png'); ?>"
                           alt="img"
                         />
                       </div>
@@ -2472,170 +2520,169 @@ endforeach;
       <!-- Video -->
       <div class="bg-yellow bg-color" id="pesanpemerintah">
       <div class="wrapper">
-        <div class="mainwrap">
-          <div class="sectionrow">
-            <div class="bagidua">
-              <div class="bagidua__col">
-                <div class="newstopic" id="beritatopic">
-                  <div class="xsection__header">
-                    <h2 class="xsection__title">Kegiatan Wali Kota Pematangsiantar</h2>
-                  </div>
-                  <div class="newsslider">
-                  <section class="slick-news-slider">
-                     <!-- Video 3 -->
-                  <div class="govideo-body">
+  <div class="mainwrap">
+    <div class="sectionrow">
+      <div class="bagidua">
+        <div class="bagidua__col">
+          <div class="newstopic" id="beritatopic">
+            <div class="xsection__header">
+              <h2 class="xsection__title">Kegiatan Wali Kota Pematangsiantar</h2>
+            </div>
+            <div class="newsslider">
+              <section class="slick-news-slider">
+                <!-- Video 1 -->
+                <div class="govideo-body">
                   <iframe
                     width="500"
                     height="280"
-                    src="https://www.youtube.com/embed/LG_fPYBFaF4"
+                    src="https://www.youtube.com/embed/FB9GVyjV2S8"
                     title="Kegiatan Wali Kota Pematangsiantar"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                   ></iframe>
-                  </div>
-                     <!-- Video 4 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/5x1dFz6kQrE"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                  <!-- Video 5 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/jn2MaTjozJU"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                    <!-- Video 6 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/6jPO8qlKVQA"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                  <!-- Video 7 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/lyNA8rurFOI"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                  <!-- Video 8 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/idoLldntsG8"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                    <!-- Video 9 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/omhXtayGVRQ"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-
-
-                    <!-- Video 10 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/U0ZvqxaOXFk"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                    
-                  <!-- Video 1 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/Rru3ySPzs-Q"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                  <!-- Video 2 -->
-                  <div class="govideo-body">
-                  <iframe
-                    width="500"
-                    height="280"
-                    src="https://www.youtube.com/embed/bTevsZHV7iM"
-                    title="Kegiatan Wali Kota Pematangsiantar"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                  </div>
-                 
-                 
-                  
-                  
-                  
-               </section>
-
-                  </div>
                 </div>
-              </div>
-
-              <div class="bagidua__col">
-                <div class="kolominfo" id="kolominfo">
-                  <div class="xsection__header">
-                    <h2 class="xsection__title">GPR Kominfo</h2>
-                  </div>
-                  <div class="newsslider">
-                  <section class="slick-news-slider">
-                  <div id="gpr-kominfo-widget-container" style="margin:auto" ></div>
-                  </section>
-                  </div>
+                <!-- Video 2 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/HW2iuZ4M-Ek"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
-              </div>
+                <!-- Video 3 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/z3mA16zJpks"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!-- Video 4 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/rJ85S3y_PN4"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!-- Video 5 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/JEhUGRh25eE"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!-- Video 6 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/5tYZxvOUJb4"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!-- Video 7 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/ltLkkelQ9vs"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!-- Video 8 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/DjLu0MCfjiQ"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!-- Video 9 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/vnz0ALh5bEg"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!-- Video 10 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/bR8tWEPDACw"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!-- Video 11 -->
+                <div class="govideo-body">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/4F3KHhYaRZE"
+                    title="Kegiatan Wali Kota Pematangsiantar"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </section>
             </div>
           </div>
-          <!-- sectionrow-->
-
-          <!-- sectionrow-->
         </div>
-        <!-- mainwrap-->
+        <div class="bagidua__col">
+          <div class="kolominfo" id="kolominfo">
+            <div class="xsection__header">
+              <h2 class="xsection__title">GPR Kominfo</h2>
+            </div>
+            <div class="newsslider">
+              <section class="slick-news-slider">
+                <div id="gpr-kominfo-widget-container" style="margin:auto"></div>
+              </section>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+</div>
+
       <!-- wrapper -->
       </div>
 

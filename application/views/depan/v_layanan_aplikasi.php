@@ -261,7 +261,7 @@
       }
 
       .toolbar-disabilitas .open-toolbar {
-        background: #129C4E;
+        background: #084A83;
       }
 
       .toolbar-disabilitas .groupcontenttoolbar {
@@ -1796,6 +1796,52 @@
                             ><span class="nowrap"
                               ><i class="fas fa-globe"></i>
                               https://siantarman.pematangsiantar.go.id/</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+						<tr>
+                        <td>
+                          <a
+                            href="https://sisada.pematangsiantar.go.id/"
+                            >Sisada</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="https://sisada.pematangsiantar.go.id/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              https://sisada.pematangsiantar.go.id</span
+                            ></a
+                          >
+                        </td>
+                        <td class="cityd-info">
+                          <a
+                            href="#"
+                            ><i class="fas fa-info-circle"></i
+                          ></a>
+                        </td>
+                      </tr>
+						<tr>
+                        <td>
+                          <a
+                            href="http://sikemas.pematangsiantar.go.id/sikemas/"
+                            >SiKeMas</a
+                          >
+                          </td>
+                          <td class="cityd-emailweb">
+                          
+                          <a href="http://sikemas.pematangsiantar.go.id/sikemas/" target="_blank"
+                            ><span class="nowrap"
+                              ><i class="fas fa-globe"></i>
+                              http://sikemas.pematangsiantar.go.id/sikemas</span
                             ></a
                           >
                         </td>
